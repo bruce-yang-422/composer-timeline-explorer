@@ -1,5 +1,11 @@
 {
   "symphony": "交響曲 Symphony",
+  "violin_concerto": "小提琴協奏曲 Violin Concerto",
+  "piano_concerto": "鋼琴協奏曲 Piano Concerto",
   "piano_sonata": "鋼琴奏鳴曲 Piano Sonata",
+  "bagatelle": "鋼琴小品 Bagatelle",
+  "variation_set": "變奏曲 Variations",
+  "opera": "歌劇 Opera",
+  "sacred_vocal": "宗教聲樂 Sacred Vocal",
   "string_quartet": "弦樂四重奏 String Quartet"
 }

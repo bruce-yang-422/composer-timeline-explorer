@@ -1,29 +1,186 @@
 [
   {
+    "id": "symphony-no-3-eroica",
+    "composerId": "beethoven",
+    "title": "《降 E 大調第三號交響曲「英雄」》 Symphony No. 3 in E-flat major, Op. 55 \"Eroica\"",
+    "year": 1804,
+    "age": 34,
+    "type": "symphony",
+    "period": "middle",
+    "summary": "標誌中期英雄風格的重要轉捩點，以更宏大的篇幅、衝突張力與英雄敘事打破古典交響曲慣例。"
+  },
+  {
     "id": "symphony-no-5",
     "composerId": "beethoven",
     "title": "《c 小調第五號交響曲》 Symphony No. 5 in C minor, Op. 67",
     "year": 1808,
+    "age": 38,
     "type": "symphony",
     "period": "middle",
     "summary": "貝多芬中期的重要代表作，常被視為理解其戲劇性語彙與命運感動機的入門作品。"
+  },
+  {
+    "id": "symphony-no-6-pastoral",
+    "composerId": "beethoven",
+    "title": "《F 大調第六號交響曲「田園」》 Symphony No. 6 in F major, Op. 68 \"Pastoral\"",
+    "year": 1808,
+    "age": 38,
+    "type": "symphony",
+    "period": "middle",
+    "summary": "以自然景象與田園感受為主題的五樂章交響曲，是早期標題音樂的重要代表。"
+  },
+  {
+    "id": "symphony-no-9-choral",
+    "composerId": "beethoven",
+    "title": "《d 小調第九號交響曲「合唱」》 Symphony No. 9 in D minor, Op. 125 \"Choral\"",
+    "year": 1824,
+    "age": 54,
+    "type": "symphony",
+    "period": "late",
+    "summary": "首度將人聲合唱正式納入交響曲終樂章，體現貝多芬晚期對人類團結與精神昇華的追求。"
+  },
+  {
+    "id": "piano-concerto-no-5-emperor",
+    "composerId": "beethoven",
+    "title": "《降 E 大調第五號鋼琴協奏曲「皇帝」》 Piano Concerto No. 5 in E-flat major, Op. 73 \"Emperor\"",
+    "year": 1809,
+    "age": 39,
+    "type": "piano_concerto",
+    "period": "middle",
+    "summary": "規模宏大、氣勢雄渾的鋼琴協奏曲，展現鋼琴與樂團幾乎對等的戲劇張力。"
+  },
+  {
+    "id": "violin-concerto-op-61",
+    "composerId": "beethoven",
+    "title": "《D 大調小提琴協奏曲，作品 61》 Violin Concerto in D major, Op. 61",
+    "year": 1806,
+    "age": 36,
+    "type": "violin_concerto",
+    "period": "middle",
+    "summary": "貝多芬唯一的小提琴協奏曲，旋律優美、結構嚴謹，現今被公認為小提琴曲目中的核心經典之一。",
+    "performers": "Hilary Hahn, violin; Leonard Slatkin, conductor",
+    "media": {
+      "youtubeId": "0Cg_0jepxow",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0Cg_0jepxow",
+      "sourceTitle": "BEETHOVEN Concerto for Violin and Orchestra - Hilary Hahn, violin; Leonard Slatkin, conductor",
+      "embedUrl": "https://www.youtube.com/embed/0Cg_0jepxow",
+      "embeddable": false,
+      "embedNote": "此影片目前不允許外部網站嵌入播放，需前往 YouTube 觀看。"
+    },
+    "recommendedEmbed": {
+      "provider": "youtube",
+      "usage": "external_link_only",
+      "html": "<a href=\"https://www.youtube.com/watch?v=0Cg_0jepxow\" target=\"_blank\" rel=\"noreferrer\">在 YouTube 上觀看</a>"
+    }
+  },
+  {
+    "id": "piano-sonata-no-8-pathetique",
+    "composerId": "beethoven",
+    "title": "《c 小調第八號鋼琴奏鳴曲「悲愴」》 Piano Sonata No. 8 in C minor, Op. 13 \"Pathétique\"",
+    "year": 1799,
+    "age": 29,
+    "type": "piano_sonata",
+    "period": "early",
+    "summary": "早期代表作之一，以莊嚴引子、戲劇張力與著名的慢板樂章深受喜愛。"
   },
   {
     "id": "piano-sonata-no-14",
     "composerId": "beethoven",
     "title": "《升 c 小調第十四號鋼琴奏鳴曲「月光」》 Piano Sonata No. 14 in C-sharp minor, Op. 27 No. 2",
     "year": 1801,
+    "age": 31,
     "type": "piano_sonata",
     "period": "early",
     "summary": "這首廣為人知的鋼琴奏鳴曲兼具抒情性與結構實驗性，展現貝多芬早期風格的擴張。"
+  },
+  {
+    "id": "piano-sonata-no-21-waldstein",
+    "composerId": "beethoven",
+    "title": "《C 大調第二十一號鋼琴奏鳴曲「華德斯坦」》 Piano Sonata No. 21 in C major, Op. 53 \"Waldstein\"",
+    "year": 1804,
+    "age": 34,
+    "type": "piano_sonata",
+    "period": "middle",
+    "summary": "技巧艱難、色彩燦爛的中期鋼琴作品，展現擴張後的奏鳴曲規模與現代鋼琴語法。"
+  },
+  {
+    "id": "piano-sonata-no-23-appassionata",
+    "composerId": "beethoven",
+    "title": "《f 小調第二十三號鋼琴奏鳴曲「熱情」》 Piano Sonata No. 23 in F minor, Op. 57 \"Appassionata\"",
+    "year": 1805,
+    "age": 35,
+    "type": "piano_sonata",
+    "period": "middle",
+    "summary": "中期鋼琴奏鳴曲的高峰之作，以強烈和聲對比與爆發性的推進感著稱。"
+  },
+  {
+    "id": "piano-sonata-no-29-hammerklavier",
+    "composerId": "beethoven",
+    "title": "《降 B 大調第二十九號鋼琴奏鳴曲「漢馬克拉維」》 Piano Sonata No. 29 in B-flat major, Op. 106 \"Hammerklavier\"",
+    "year": 1818,
+    "age": 48,
+    "type": "piano_sonata",
+    "period": "late",
+    "summary": "晚期規模最龐大、技術最艱鉅的鋼琴奏鳴曲之一，終樂章賦格極具挑戰。"
+  },
+  {
+    "id": "fur-elise",
+    "composerId": "beethoven",
+    "title": "《給愛麗絲》 Bagatelle in A minor, WoO 59 \"Für Elise\"",
+    "year": 1810,
+    "age": 40,
+    "type": "bagatelle",
+    "period": "late",
+    "summary": "貝多芬最廣為流傳的鋼琴小品之一，以簡潔旋律與高度辨識度成為大眾古典音樂入門名曲。"
+  },
+  {
+    "id": "diabelli-variations",
+    "composerId": "beethoven",
+    "title": "《迪亞貝利變奏曲》 Diabelli Variations, Op. 120",
+    "year": 1823,
+    "age": 53,
+    "type": "variation_set",
+    "period": "late",
+    "summary": "以迪亞貝利圓舞曲主題寫成的三十三段變奏，展現晚期貝多芬驚人的結構與想像力。"
+  },
+  {
+    "id": "fidelio",
+    "composerId": "beethoven",
+    "title": "《費德里歐》 Fidelio, Op. 72",
+    "year": 1814,
+    "age": 44,
+    "type": "opera",
+    "period": "middle",
+    "summary": "貝多芬唯一完成的歌劇，以自由、忠誠與正義為核心主題，歷經多次修訂才成定本。"
+  },
+  {
+    "id": "missa-solemnis",
+    "composerId": "beethoven",
+    "title": "《D 大調莊嚴彌撒》 Missa solemnis in D major, Op. 123",
+    "year": 1823,
+    "age": 53,
+    "type": "sacred_vocal",
+    "period": "late",
+    "summary": "晚期大型宗教聲樂作品，融合精神性、對位技巧與宏大結構，是貝多芬高度自我要求的結晶。"
   },
   {
     "id": "string-quartet-op-131",
     "composerId": "beethoven",
     "title": "《升 c 小調第十四號弦樂四重奏》 String Quartet No. 14 in C-sharp minor, Op. 131",
     "year": 1826,
+    "age": 56,
     "type": "string_quartet",
     "period": "late",
-    "summary": "晚期室內樂代表作之一，展現高度結構企圖與深層情感張力。"
+    "summary": "晚期室內樂代表作之一，七個樂章不間斷連接，展現高度結構企圖與深層情感張力。"
+  },
+  {
+    "id": "grosse-fuge-op-133",
+    "composerId": "beethoven",
+    "title": "《大賦格》 Große Fuge, Op. 133",
+    "year": 1826,
+    "age": 56,
+    "type": "string_quartet",
+    "period": "late",
+    "summary": "原為第十三號弦樂四重奏終樂章，因其前衛複雜而獨立出版，後世常視為現代主義先聲。"
   }
 ]

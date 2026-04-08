@@ -1,11 +1,19 @@
 [
   {
-    "id": "napoleonic-wars",
-    "start": 1803,
-    "end": 1815,
+    "id": "enlightenment-bonn",
+    "start": 1770,
+    "end": 1792,
     "type": "historical",
-    "title": "拿破崙戰爭 Napoleonic Wars",
-    "summary": "歐洲政治秩序的劇烈動盪，改變了贊助制度、公共文化與藝術活動的條件。"
+    "title": "啟蒙思想與波昂知識圈 Enlightenment in Bonn",
+    "summary": "貝多芬成長於受啟蒙運動影響的波昂文化圈，早年自由主義與理性精神對其世界觀形成深刻影響。"
+  },
+  {
+    "id": "french-revolution",
+    "start": 1789,
+    "end": 1799,
+    "type": "historical",
+    "title": "法國大革命 French Revolution",
+    "summary": "自由、平等與公民理念震動整個歐洲，也成為貝多芬英雄主義與政治想像的重要思想背景。"
   },
   {
     "id": "viennese-public-concert-culture",
@@ -16,11 +24,43 @@
     "summary": "音樂逐漸從宮廷圈層走向更廣泛的公共空間，聽眾結構與期待也隨之改變。"
   },
   {
+    "id": "patronage-to-freelance-transition",
+    "start": 1792,
+    "end": 1810,
+    "type": "cultural",
+    "title": "從宮廷贊助到自由藝術家 Patronage to Freelance Transition",
+    "summary": "貝多芬所處年代正見證音樂家職業模式轉型，他成為最早以自由作曲家姿態立足的重要人物之一。"
+  },
+  {
+    "id": "napoleonic-wars",
+    "start": 1803,
+    "end": 1815,
+    "type": "historical",
+    "title": "拿破崙戰爭 Napoleonic Wars",
+    "summary": "歐洲政治秩序的劇烈動盪，改變了贊助制度、公共文化與藝術活動的條件。"
+  },
+  {
     "id": "classical-to-romantic-transition",
     "start": 1800,
     "end": 1830,
     "type": "musical_trend",
     "title": "古典到浪漫的轉型 Classical to Romantic transition",
     "summary": "曲式擴張、表現力提高與和聲語言拓展，逐步重塑了作曲的方向。"
+  },
+  {
+    "id": "congress-of-vienna-restoration",
+    "start": 1814,
+    "end": 1815,
+    "type": "historical",
+    "title": "維也納會議與復辟時代 Congress of Vienna and Restoration",
+    "summary": "拿破崙戰敗後歐洲進入保守秩序重建階段，政治與文化環境轉趨緊縮，也構成貝多芬晚期處境的一部分。"
+  },
+  {
+    "id": "late-style-modernism-precursor",
+    "start": 1815,
+    "end": 1827,
+    "type": "musical_trend",
+    "title": "晚期風格與現代性先聲 Late Style as a Prelude to Modernism",
+    "summary": "晚期作品在對位、形式與不協和語言上的高度實驗，使其在後世常被視為現代主義音樂的前驅。"
   }
 ]

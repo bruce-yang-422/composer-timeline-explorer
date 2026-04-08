@@ -1,23 +1,128 @@
 [
   {
+    "id": "birth-bonn",
+    "composerId": "beethoven",
+    "year": 1770,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於波昂 Born in Bonn",
+    "summary": "1770 年 12 月受洗於波昂的音樂家庭，日後成為西方音樂史最具影響力的作曲家之一。"
+  },
+  {
+    "id": "first-vienna-visit",
+    "composerId": "beethoven",
+    "year": 1787,
+    "age": 17,
+    "type": "career",
+    "title": "首次前往維也納 First Vienna Visit",
+    "summary": "年輕的貝多芬短暫前往維也納，傳說曾為莫札特演奏，但相關細節仍有文獻爭議。"
+  },
+  {
+    "id": "move-to-vienna",
+    "composerId": "beethoven",
+    "year": 1792,
+    "age": 22,
+    "type": "career",
+    "title": "移居維也納 Move to Vienna",
+    "summary": "在華德斯坦伯爵支持下正式遷居維也納，展開作曲家與鋼琴家的成熟職業生涯。"
+  },
+  {
+    "id": "opus-1-publication",
+    "composerId": "beethoven",
+    "year": 1795,
+    "age": 25,
+    "type": "career",
+    "title": "作品 1 發表 Op. 1 Publication",
+    "summary": "《三首鋼琴三重奏》出版，象徵他以成熟作曲家身分正式進入維也納音樂圈。"
+  },
+  {
+    "id": "hearing-loss-begins",
+    "composerId": "beethoven",
+    "year": 1798,
+    "age": 28,
+    "type": "health",
+    "title": "聽力衰退開始 Hearing Loss Begins",
+    "summary": "約自 1798 年起開始察覺聽力異常，這個變化逐步改變其社交生活與創作處境。"
+  },
+  {
     "id": "heiligenstadt-testament",
     "composerId": "beethoven",
     "year": 1802,
+    "age": 32,
     "type": "personal",
-    "title": "《海利根施塔特遺書》 Heiligenstadt Testament"
+    "title": "《海利根施塔特遺書》 Heiligenstadt Testament",
+    "summary": "在面對失聰危機時寫下的關鍵文獻，表達絕望與繼續為藝術而活的決心。"
   },
   {
-    "id": "vienna-period",
+    "id": "eroica-turning-point",
     "composerId": "beethoven",
-    "year": 1792,
-    "type": "career",
-    "title": "移居維也納 Move to Vienna"
+    "year": 1804,
+    "age": 34,
+    "type": "creative_shift",
+    "title": "《英雄》象徵中期轉向 Eroica Turning Point",
+    "summary": "《第三號交響曲「英雄」》標誌他進入規模更大、情感更強烈的英雄時期。"
   },
   {
-    "id": "late-style",
+    "id": "lifetime-annuity",
+    "composerId": "beethoven",
+    "year": 1809,
+    "age": 39,
+    "type": "career",
+    "title": "獲得終身年金 Lifetime Annuity",
+    "summary": "魯道夫大公等貴族提供終身年金，使他得以維持較高程度的創作自由並留在維也納。"
+  },
+  {
+    "id": "immortal-beloved-letter",
+    "composerId": "beethoven",
+    "year": 1812,
+    "age": 42,
+    "type": "personal",
+    "title": "寫下「永遠的愛人」信件 Immortal Beloved Letter",
+    "summary": "1812 年未寄出的情書成為音樂史最著名的私人文獻之一，其收信者至今仍具爭議。"
+  },
+  {
+    "id": "karl-custody-struggle",
+    "composerId": "beethoven",
+    "year": 1815,
+    "age": 45,
+    "type": "family",
+    "title": "姪子監護權訴訟 Karl Custody Struggle",
+    "summary": "弟弟過世後，貝多芬與弟媳展開漫長訴訟以爭取姪子卡爾的監護權，嚴重消耗身心。"
+  },
+  {
+    "id": "late-style-deepens",
     "composerId": "beethoven",
     "year": 1818,
+    "age": 48,
     "type": "creative_shift",
-    "title": "晚期實驗風格加深 Late-period experimentation intensifies"
+    "title": "晚期風格深化 Late Style Deepens",
+    "summary": "創作逐步轉向高度內省、對位技法與形式實驗，開啟晚期風格的核心面貌。"
+  },
+  {
+    "id": "conversation-books",
+    "composerId": "beethoven",
+    "year": 1818,
+    "age": 48,
+    "type": "health",
+    "title": "大量使用談話簿 Conversation Books",
+    "summary": "晚年幾近全聾後，與外界溝通常依賴談話簿，成為研究其晚年生活的重要史料。"
+  },
+  {
+    "id": "ninth-symphony-premiere",
+    "composerId": "beethoven",
+    "year": 1824,
+    "age": 54,
+    "type": "career",
+    "title": "《第九號交響曲》首演 Ninth Symphony Premiere",
+    "summary": "1824 年於維也納首演，象徵晚期創作成就的巔峰，也是音樂史上的里程碑事件。"
+  },
+  {
+    "id": "death-vienna",
+    "composerId": "beethoven",
+    "year": 1827,
+    "age": 56,
+    "type": "personal",
+    "title": "逝世於維也納 Death in Vienna",
+    "summary": "1827 年 3 月逝世於維也納，葬禮吸引大量民眾參與，反映其在當時已具高度公共聲望。"
   }
 ]

@@ -28,7 +28,17 @@ export async function bootstrapApp() {
     (composer) => composer.id === appConfig.defaultComposerId
   ) ?? composers[0];
 
-  setState({ selectedComposerId: currentComposer?.id ?? null });
+  const composerWorks = works.filter(
+    (work) => work.composerId === currentComposer?.id
+  );
+
+  const defaultSelectedWork =
+    composerWorks.find((work) => work.media?.youtubeId) ?? composerWorks[0] ?? null;
+
+  setState({
+    selectedComposerId: currentComposer?.id ?? null,
+    selectedWorkId: defaultSelectedWork?.id ?? null
+  });
 
   const model = {
     composers,
@@ -42,9 +52,13 @@ export async function bootstrapApp() {
     state
   };
 
-  renderControlBar(model);
-  renderTimelineView(model);
-  renderVisualizationView(model);
-  renderPreviewPanel(model);
-  renderContextPanel(model);
+  const renderApp = () => {
+    renderControlBar(model);
+    renderTimelineView(model, renderApp);
+    renderVisualizationView(model);
+    renderPreviewPanel(model);
+    renderContextPanel(model);
+  };
+
+  renderApp();
 }

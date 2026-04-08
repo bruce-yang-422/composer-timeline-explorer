@@ -5,17 +5,17 @@ export function renderContextPanel(model) {
   if (!root) return;
 
   const contextCards = model.contexts
-    .slice(0, 3)
+    .slice(0, 6)
     .map(
       (item) => `
-        <article class="card timeline-item timeline-item--context">
-          <p class="card__meta">${item.start}-${item.end} · ${item.type}</p>
-          <h3>${item.title}</h3>
-          <p>${item.summary}</p>
+        <article class="context-card grid gap-2">
+          <p class="data-card-meta">${item.start}-${item.end} · ${item.type}</p>
+          <h3 class="font-display text-xl tracking-[0.02em]">${item.title}</h3>
+          <p class="text-sm leading-7 text-muted">${item.summary}</p>
         </article>
       `
     )
     .join("");
 
-  setHtml(root, `<div class="stack">${contextCards}</div>`);
+  setHtml(root, `<div class="grid gap-4 lg:grid-cols-2">${contextCards}</div>`);
 }
