@@ -1,11 +1,11 @@
-# Composer Timeline Explorer
-# 音樂家時間軸探索
+# Timeline of Music
+# 音樂中的時間軸探索
 
 An interactive static website for exploring composers through time by connecting biography, works, and historical context.  
 這是一個以「時間」為核心的互動式靜態網站，透過整合作曲家生平、作品與歷史背景，幫助使用者在脈絡中理解音樂。
 
-Live Site: [composer-timeline-explorer](https://bruce-yang-422.github.io/composer-timeline-explorer/)  
-網站網址：[composer-timeline-explorer](https://bruce-yang-422.github.io/composer-timeline-explorer/)
+Live Site: [Timeline of Music](https://bruce-yang-422.github.io/composer-timeline-explorer/)  
+網站網址：[Timeline of Music](https://bruce-yang-422.github.io/composer-timeline-explorer/)
 
 ## Overview
 ## 專案簡介

@@ -3,11 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>時間中的音樂 Music in Time</title>
+    <title>Timeline of Music | Composer Timeline Explorer</title>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Bruce Yang">
+    <meta name="theme-color" content="#f8f3ea">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://bruce-yang-422.github.io/composer-timeline-explorer/">
     <meta
       name="description"
-      content="以時間軸連結音樂、作曲家生平與歷史脈絡的互動式網站。"
+      content="以時間軸探索音樂史，串連作曲家生平、代表作品與時代背景的互動式古典音樂網站。"
     >
+    <meta
+      name="keywords"
+      content="Timeline of Music, Composer Timeline Explorer, 古典音樂, 作曲家, 音樂時間軸, Beethoven, 貝多芬, music history, composer timeline"
+    >
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Timeline of Music">
+    <meta property="og:title" content="Timeline of Music | Composer Timeline Explorer">
+    <meta
+      property="og:description"
+      content="以時間軸探索音樂史，串連作曲家生平、代表作品與時代背景的互動式古典音樂網站。"
+    >
+    <meta property="og:url" content="https://bruce-yang-422.github.io/composer-timeline-explorer/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Timeline of Music | Composer Timeline Explorer">
+    <meta
+      name="twitter:description"
+      content="以時間軸探索音樂史，串連作曲家生平、代表作品與時代背景的互動式古典音樂網站。"
+    >
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Timeline of Music",
+        "alternateName": "Composer Timeline Explorer",
+        "url": "https://bruce-yang-422.github.io/composer-timeline-explorer/",
+        "inLanguage": "zh-Hant",
+        "description": "以時間軸探索音樂史，串連作曲家生平、代表作品與時代背景的互動式古典音樂網站。",
+        "author": {
+          "@type": "Person",
+          "name": "Bruce Yang"
+        }
+      }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       :root {
@@ -16,11 +58,12 @@
         --color-border: #DDE2EB;
         --color-ink: #111827;
         --color-muted: #6B7280;
-        --color-accent: #B91C1C;
-        --color-accent-light: #FEF2F2;
+        --color-accent: #2F2A24;
+        --color-accent-light: #F1ECE3;
         --color-timeline: #1D4ED8;
         --color-context: #B45309;
-        --font-display: Georgia, "Times New Roman", serif;
+        --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+        --font-display-news: "UnifrakturCook", "Times New Roman", serif;
         --font-body: "Segoe UI", "Noto Sans TC", sans-serif;
       }
 
@@ -46,35 +89,64 @@
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        border: 1px solid var(--color-border);
-        border-radius: 0.75rem;
-        background: var(--color-surface);
-        padding: 1.5rem;
+        border: 1px solid #b9b1a5;
+        border-radius: 0.25rem;
+        background:
+          linear-gradient(180deg, rgba(91, 78, 62, 0.05), rgba(91, 78, 62, 0.02)),
+          linear-gradient(135deg, #f8f3ea 0%, #fffdf8 100%);
+        box-shadow: 0 8px 18px rgba(36, 28, 21, 0.06);
+        padding: 1.75rem;
       }
 
       .hero-eyebrow {
         margin-bottom: 0.5rem;
         color: var(--color-accent);
-        font-size: 0.75rem;
-        font-weight: 700;
-        letter-spacing: 0.18em;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.24em;
         text-transform: uppercase;
       }
 
       .hero-title {
-        font-family: var(--font-display);
-        font-size: clamp(2rem, 5vw, 3.25rem);
+        font-family: var(--font-display-news);
+        max-width: none;
+        font-size: clamp(2.3rem, 5vw, 4rem);
         font-weight: 700;
-        letter-spacing: -0.01em;
+        letter-spacing: 0.01em;
+        color: var(--color-ink);
+        line-height: 1.02;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+      }
+
+      .hero-divider {
+        width: min(100%, 42rem);
+        height: 2px;
+        margin-top: 0.85rem;
+        background: linear-gradient(90deg, rgba(47, 42, 36, 0.95), rgba(47, 42, 36, 0.15));
+      }
+
+      .hero-title-secondary {
+        margin-top: 0.7rem;
+        color: var(--color-muted);
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+      }
+
+      .hero-title-secondary strong {
+        font-family: var(--font-display);
+        font-size: 1.05rem;
+        letter-spacing: 0.12em;
         color: var(--color-ink);
       }
 
       .hero-subtitle {
         max-width: 42rem;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         color: var(--color-muted);
-        font-size: 0.9rem;
-        line-height: 1.75;
+        font-size: 0.92rem;
+        line-height: 1.85;
       }
 
       .panel-card {
@@ -300,7 +372,9 @@
       <header class="hero-block" data-region="control-bar">
         <div>
           <p class="hero-eyebrow">時間中的音樂 Music in Time</p>
-          <h1 class="hero-title">音樂家時間軸探索</h1>
+          <h1 class="hero-title">Timeline of Music</h1>
+          <div class="hero-divider" aria-hidden="true"></div>
+          <p class="hero-title-secondary"><strong>Composer Timeline Explorer</strong></p>
           <p class="hero-subtitle">用時間作為閱讀軸線，串連音樂家的生平、作品與時代背景，讓古典音樂不只可聽，也更容易被理解。</p>
         </div>
         <div id="control-bar" class="w-full md:w-auto"></div>
