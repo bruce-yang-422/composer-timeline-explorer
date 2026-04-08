@@ -13,11 +13,14 @@ Live Site: [composer-timeline-explorer](https://bruce-yang-422.github.io/compose
 This project focuses on timeline-based music learning and exploration.  
 本專案以時間軸為主體，結合音樂史、作品資料與互動介面設計。
 
-The current implementation uses plain HTML, CSS, and JavaScript.  
-目前以前端靜態架構為主，使用 HTML、CSS 與 JavaScript 開發。
+The current implementation uses a static frontend architecture with HTML, Vanilla JavaScript, Tailwind utility classes, and JSON-based content.  
+目前專案採靜態前端架構，使用 HTML、Vanilla JavaScript、Tailwind utility class 與 JSON 資料內容。
 
 The site is designed for a Traditional Chinese interface, while composer names, work titles, and specialist terms are presented in Traditional Chinese together with the original wording when appropriate.  
 網站介面以繁體中文為主，作曲家、作品名稱與專有名詞採「繁中 + 原文」呈現。
+
+The current prototype already includes a first Beethoven data set with works, life events, historical context, age metadata, and media fallback handling.  
+目前原型已包含第一批 Beethoven 資料，涵蓋作品、生平記事、時代背景、年齡欄位與媒體 fallback 顯示邏輯。
 
 ## Goals
 ## 專案目標
@@ -41,25 +44,29 @@ music_in_time/
 ├── .gitignore
 ├── assets/
 │   ├── css/
-│   ├── images/
 │   └── js/
+│       ├── components/
+│       ├── core/
+│       └── utils/
 ├── data/
 │   ├── content/
 │   └── mappings/
 └── docs/
-    └── planning/
+    ├── planning/
+    ├── beethoven_comprehensive_guide.md
+    └── introduction_to_beethoven_google.md
 ```
 
 - `index.html`  
   Main site entry point.  
   網站主入口頁面。
 
-- `assets/`  
-  Frontend assets, including styles, scripts, and images.  
-  前端資源資料夾，包含樣式、腳本與圖片。
+- `assets/js/`  
+  Frontend logic for state, rendering, and UI components.  
+  前端邏輯層，包含狀態管理、畫面渲染與元件模組。
 
 - `data/content/`  
-  Core project content such as composers, works, events, and contexts.  
+  Core content such as composers, works, events, and contexts.  
   核心內容資料，例如音樂家、作品、事件與背景資訊。
 
 - `data/mappings/`  
@@ -70,20 +77,27 @@ music_in_time/
   Planning, design, and development documents.  
   規劃、設計與開發相關文件。
 
+- `docs/beethoven_comprehensive_guide.md` and `docs/introduction_to_beethoven_google.md`  
+  Reference documents currently used to enrich Beethoven content.  
+  目前用於整理 Beethoven 內容的參考文件。
+
 ## Current Stack
 ## 目前技術組成
 
-- HTML for document structure.  
-  使用 HTML 建立文件結構。
-
-- CSS for layout, components, and visual language.  
-  使用 CSS 管理版面、元件與視覺樣式。
+- HTML for structure.  
+  使用 HTML 建立結構。
 
 - Vanilla JavaScript for state, rendering, and modular frontend logic.  
   使用原生 JavaScript 處理狀態、渲染與模組化邏輯。
 
-- JSON files for structured content and configuration-like mappings.  
+- Tailwind utility classes plus standard CSS component styling.  
+  使用 Tailwind utility class 搭配標準 CSS 元件樣式。
+
+- JSON files for structured content and mappings.  
   使用 JSON 作為結構化內容與映射設定來源。
+
+- GitHub Pages as the deployment target.  
+  以 GitHub Pages 作為部署目標。
 
 ## Language Rules
 ## 語言規範
@@ -106,8 +120,11 @@ This project currently loads JSON from the client side.
 Use a local server during development instead of opening `index.html` directly from the filesystem.  
 開發時請使用本機伺服器，不要直接雙擊 `index.html` 開啟，否則瀏覽器可能阻擋資料載入。
 
-The current project skeleton is intentionally lightweight and is ready for future integration with visualization libraries such as D3.  
-目前骨架刻意保持輕量，後續可再接入 D3 等視覺化函式庫。
+The current implementation includes media fallback handling for YouTube videos that cannot be embedded.  
+目前已實作 YouTube 影片無法嵌入時的 fallback 顯示邏輯。
+
+The current prototype has not yet completed full filter, search, composer switching, or timeline visualization behavior.  
+目前原型尚未完成完整的篩選、搜尋、作曲家切換與主時間視覺化功能。
 
 ## Documents
 ## 文件位置
@@ -125,5 +142,11 @@ The current project skeleton is intentionally lightweight and is ready for futur
 - Core frontend scaffolding is in place.  
   前端基礎骨架已建立。
 
-- Initial content and mappings are prepared for further UI implementation.  
-  初步內容資料與映射檔已準備，可繼續往 UI 與互動功能開發。
+- Beethoven content has been expanded across composer, works, events, and contexts.  
+  Beethoven 的作曲家、作品、記事與背景資料已擴充完成。
+
+- Work and event data now include age metadata for timeline interpretation.  
+  作品與記事資料已加入年齡欄位，可支援時間軸閱讀。
+
+- The current UI is a working prototype, not the final visualization system.  
+  目前 UI 屬於可運作原型，尚非最終版資料視覺化系統。
