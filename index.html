@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>時間中的音樂 Music in Time</title>
+    <meta
+      name="description"
+      content="以時間軸連結音樂、作曲家生平與歷史脈絡的互動式網站。"
+    >
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="top-bar" data-region="control-bar">
+        <div>
+          <p class="eyebrow">時間中的音樂 Music in Time</p>
+          <h1>音樂家時間軸探索</h1>
+        </div>
+        <div class="top-bar__actions" id="control-bar"></div>
+      </header>
+
+      <main class="main-grid">
+        <aside class="panel panel--timeline" aria-labelledby="timeline-heading">
+          <div class="panel__header">
+            <h2 id="timeline-heading">時間軸</h2>
+            <p>在同一條時間軸上整合生平、作品與時代背景。</p>
+          </div>
+          <section id="timeline-view" class="panel__body"></section>
+        </aside>
+
+        <section class="panel panel--visualization" aria-labelledby="visualization-heading">
+          <div class="panel__header">
+            <h2 id="visualization-heading">主視覺區</h2>
+            <p>呈現作品類型與創作時期的分布關係。</p>
+          </div>
+          <section id="visualization-view" class="panel__body"></section>
+        </section>
+
+        <aside class="panel panel--preview" aria-labelledby="preview-heading">
+          <div class="panel__header">
+            <h2 id="preview-heading">內容預覽</h2>
+            <p>顯示焦點內容、媒體與關聯說明。</p>
+          </div>
+          <section id="preview-panel" class="panel__body"></section>
+        </aside>
+      </main>
+
+      <section class="panel panel--context" aria-labelledby="context-heading">
+        <div class="panel__header">
+          <h2 id="context-heading">時代背景層</h2>
+          <p>補充歷史事件、文化氛圍與音樂發展趨勢。</p>
+        </div>
+        <section id="context-panel" class="panel__body"></section>
+      </section>
+    </div>
+
+    <script type="module" src="./assets/js/app.js"></script>
+  </body>
+</html>

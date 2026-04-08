@@ -1,0 +1,26 @@
+[
+  {
+    "id": "napoleonic-wars",
+    "start": 1803,
+    "end": 1815,
+    "type": "historical",
+    "title": "拿破崙戰爭 Napoleonic Wars",
+    "summary": "歐洲政治秩序的劇烈動盪，改變了贊助制度、公共文化與藝術活動的條件。"
+  },
+  {
+    "id": "viennese-public-concert-culture",
+    "start": 1790,
+    "end": 1820,
+    "type": "cultural",
+    "title": "維也納公共音樂會文化的成長 Growth of public concert culture in Vienna",
+    "summary": "音樂逐漸從宮廷圈層走向更廣泛的公共空間，聽眾結構與期待也隨之改變。"
+  },
+  {
+    "id": "classical-to-romantic-transition",
+    "start": 1800,
+    "end": 1830,
+    "type": "musical_trend",
+    "title": "古典到浪漫的轉型 Classical to Romantic transition",
+    "summary": "曲式擴張、表現力提高與和聲語言拓展，逐步重塑了作曲的方向。"
+  }
+]

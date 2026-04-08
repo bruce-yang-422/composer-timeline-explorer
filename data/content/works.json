@@ -1,0 +1,29 @@
+[
+  {
+    "id": "symphony-no-5",
+    "composerId": "beethoven",
+    "title": "《c 小調第五號交響曲》 Symphony No. 5 in C minor, Op. 67",
+    "year": 1808,
+    "type": "symphony",
+    "period": "middle",
+    "summary": "貝多芬中期的重要代表作，常被視為理解其戲劇性語彙與命運感動機的入門作品。"
+  },
+  {
+    "id": "piano-sonata-no-14",
+    "composerId": "beethoven",
+    "title": "《升 c 小調第十四號鋼琴奏鳴曲「月光」》 Piano Sonata No. 14 in C-sharp minor, Op. 27 No. 2",
+    "year": 1801,
+    "type": "piano_sonata",
+    "period": "early",
+    "summary": "這首廣為人知的鋼琴奏鳴曲兼具抒情性與結構實驗性，展現貝多芬早期風格的擴張。"
+  },
+  {
+    "id": "string-quartet-op-131",
+    "composerId": "beethoven",
+    "title": "《升 c 小調第十四號弦樂四重奏》 String Quartet No. 14 in C-sharp minor, Op. 131",
+    "year": 1826,
+    "type": "string_quartet",
+    "period": "late",
+    "summary": "晚期室內樂代表作之一，展現高度結構企圖與深層情感張力。"
+  }
+]
