@@ -3,6 +3,7 @@ import { setState, state } from "./state.js";
 import { loadJson } from "../utils/fetch-json.js";
 import { renderControlBar } from "../components/control-bar.js";
 import { renderTimelineView } from "../components/timeline-view.js";
+import { renderGanttView } from "../components/gantt-view.js";
 import { renderVisualizationView } from "../components/visualization-view.js";
 import { renderPreviewPanel } from "../components/preview-panel.js";
 import { renderContextPanel } from "../components/context-panel.js";
@@ -54,9 +55,10 @@ export async function bootstrapApp() {
 
   const renderApp = () => {
     renderControlBar(model);
+    renderGanttView(model, renderApp);
     renderTimelineView(model, renderApp);
-    renderVisualizationView(model);
     renderPreviewPanel(model);
+    renderVisualizationView(model);
     renderContextPanel(model);
   };
 

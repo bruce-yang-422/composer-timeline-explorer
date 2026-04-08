@@ -1,28 +1,68 @@
 import { setHtml } from "../utils/dom.js";
 
+const PERIOD_LABELS = { early: "早期", middle: "中期", late: "晚期" };
+
+const PERIOD_DESCRIPTIONS = {
+  early: "早期（約 1770–1799）貝多芬在波昂與維也納奠定技術基礎，深受海頓、莫扎特影響，已展現個人風格雛形。",
+  middle: "英雄期（約 1800–1815）聽力惡化後反而爆發更宏大的創作能量，戲劇性、動機發展與英雄敘事達到高峰。",
+  late:  "晚期（約 1816–1827）幾近全聾的他轉向更內省、複雜的語法，弦樂四重奏與奏鳴曲探索前所未有的精神深度。",
+};
+
 export function renderVisualizationView(model) {
-  const root = document.querySelector("#visualization-view");
+  const root = document.querySelector("#guide-panel");
   if (!root) return;
 
-  const typePills = Object.values(model.mappings.workTypeLabels)
-    .map((label) => `<span class="chip">${label}</span>`)
-    .join("");
+  const selectedWork = model.works.find(w => w.id === model.state.selectedWorkId)
+    ?? model.works.find(w => w.composerId === model.state.selectedComposerId);
 
-  setHtml(
-    root,
-    `
-      <div class="grid gap-4">
-        <div class="note-box">
-          這裡預留給主要視覺化圖表，例如 D3 甘特圖、群組條圖或 Canvas 型渲染。現階段先用 Tailwind 元件骨架維持資訊節奏與版面層次。
-        </div>
-        <div class="grid gap-3 rounded-[1.5rem] border border-stone-900/10 bg-stone-50/70 p-4">
-          <div>
-            <p class="text-sm font-semibold text-muted">目前已建立的作品分類</p>
-            <p class="mt-1 text-sm leading-6 text-muted">後續可依這些類型做時間分布、數量統計與時期比較。</p>
-          </div>
-          <div class="flex flex-wrap gap-2">${typePills}</div>
-        </div>
+  if (!selectedWork) {
+    setHtml(root, `<p class="note-box">請先在時間軸點選一首作品。</p>`);
+    return;
+  }
+
+  const period      = selectedWork.period;
+  const periodLabel = PERIOD_LABELS[period] ?? period;
+  const periodDesc  = PERIOD_DESCRIPTIONS[period] ?? "";
+
+  // Same-period works (excluding selected)
+  const relatedWorks = model.works
+    .filter(w => w.composerId === model.state.selectedComposerId && w.period === period && w.id !== selectedWork.id)
+    .slice(0, 4);
+
+  const relatedItems = relatedWorks.length
+    ? relatedWorks.map(w => `
+        <li style="font-size:0.8rem;line-height:1.55;color:var(--color-muted);padding:0.5rem 0;border-bottom:1px solid var(--color-border)">
+          <span style="font-size:0.75rem;font-weight:600;color:var(--color-accent)">${w.year}</span>
+          &nbsp;${w.title}
+        </li>
+      `).join("")
+    : `<li style="font-size:0.8rem;color:var(--color-muted)">同時期無其他作品。</li>`;
+
+  setHtml(root, `
+    <div style="display:flex;flex-direction:column;gap:1rem">
+
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
+        <p class="data-card-meta">作品時期</p>
+        <p style="font-size:1rem;font-weight:700;color:var(--color-ink)">${periodLabel}</p>
+        <p style="font-size:0.8rem;line-height:1.65;color:var(--color-muted)">${periodDesc}</p>
       </div>
-    `
-  );
+
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
+        <p class="data-card-meta">作品資訊</p>
+        <p style="font-size:0.8rem;line-height:1.6;color:var(--color-muted)">
+          創作年份：${selectedWork.year}<br>
+          ${selectedWork.age ? `作曲年齡：${selectedWork.age} 歲<br>` : ""}
+          類型：${model.mappings.workTypeLabels[selectedWork.type] ?? selectedWork.type}
+        </p>
+      </div>
+
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
+        <p class="data-card-meta">同時期其他作品</p>
+        <ul style="list-style:none;padding:0;margin:0">
+          ${relatedItems}
+        </ul>
+      </div>
+
+    </div>
+  `);
 }
