@@ -1,3 +1,4 @@
+import { setState } from "../core/state.js";
 import { setHtml } from "../utils/dom.js";
 
 const PERIOD_LABELS = { early: "早期", middle: "中期", late: "晚期" };
@@ -8,7 +9,7 @@ const PERIOD_DESCRIPTIONS = {
   late:  "晚期（約 1816–1827）幾近全聾的他轉向更內省、複雜的語法，弦樂四重奏與奏鳴曲探索前所未有的精神深度。",
 };
 
-export function renderVisualizationView(model) {
+export function renderVisualizationView(model, rerender) {
   const root = document.querySelector("#guide-panel");
   if (!root) return;
 
@@ -31,9 +32,14 @@ export function renderVisualizationView(model) {
 
   const relatedItems = relatedWorks.length
     ? relatedWorks.map(w => `
-        <li style="font-size:0.8rem;line-height:1.55;color:var(--color-muted);padding:0.5rem 0;border-bottom:1px solid var(--color-border)">
-          <span style="font-size:0.75rem;font-weight:600;color:var(--color-accent)">${w.year}</span>
-          &nbsp;${w.title}
+        <li>
+          <button
+            data-work-id="${w.id}"
+            style="width:100%;text-align:left;padding:0.5rem 0;border:0;background:transparent;cursor:pointer;border-bottom:1px solid var(--color-border);display:flex;gap:0.5rem;align-items:baseline"
+          >
+            <span style="font-size:0.75rem;font-weight:600;color:var(--color-accent);flex-shrink:0">${w.year}</span>
+            <span style="font-size:0.8rem;line-height:1.55;color:var(--color-muted)">${w.title}</span>
+          </button>
         </li>
       `).join("")
     : `<li style="font-size:0.8rem;color:var(--color-muted)">同時期無其他作品。</li>`;
@@ -65,4 +71,11 @@ export function renderVisualizationView(model) {
 
     </div>
   `);
+
+  root.querySelectorAll("[data-work-id]").forEach(el => {
+    el.addEventListener("click", () => {
+      setState({ selectedWorkId: el.dataset.workId });
+      rerender();
+    });
+  });
 }

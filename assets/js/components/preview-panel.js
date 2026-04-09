@@ -17,32 +17,38 @@ export function renderPreviewPanel(model) {
   const periodLabel = periodMap[selectedWork.period] ?? selectedWork.period;
 
   // --- Media block ---
-  let mediaBlock = `<p class="note-box">此作品尚未加入影片來源。</p>`;
+  let mediaBlock = "";
 
   if (selectedWork.media?.youtubeId && selectedWork.media.embeddable !== false) {
     mediaBlock = `
-      <div style="display:flex;flex-direction:column;gap:0.5rem">
-        <div class="video-frame">
-          <iframe
-            src="${selectedWork.media.embedUrl}"
-            title="${selectedWork.media.sourceTitle}"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+        <p class="data-card-meta">影音</p>
+        <div style="display:flex;flex-direction:column;gap:0.5rem">
+          <div class="video-frame">
+            <iframe
+              src="${selectedWork.media.embedUrl}"
+              title="${selectedWork.media.sourceTitle}"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          ${selectedWork.media.sourceTitle ? `<p class="data-card-meta">${selectedWork.media.sourceTitle}</p>` : ""}
+          ${selectedWork.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${selectedWork.performers}</p>` : ""}
+          <p style="font-size:0.8rem"><a href="${selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a></p>
         </div>
-        ${selectedWork.media.sourceTitle ? `<p class="data-card-meta">${selectedWork.media.sourceTitle}</p>` : ""}
-        ${selectedWork.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${selectedWork.performers}</p>` : ""}
-        <p style="font-size:0.8rem"><a href="${selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a></p>
       </div>
     `;
   } else if (selectedWork.media?.youtubeUrl) {
     mediaBlock = `
-      <div class="note-box" style="display:flex;flex-direction:column;gap:0.5rem">
-        <p class="data-card-meta">此影片需前往 YouTube 原站觀看</p>
-        ${selectedWork.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${selectedWork.performers}</p>` : ""}
-        <a class="button-link" href="${selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a>
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+        <p class="data-card-meta">影音</p>
+        <div class="note-box" style="display:flex;flex-direction:column;gap:0.5rem">
+          <p class="data-card-meta">此影片需前往 YouTube 原站觀看</p>
+          ${selectedWork.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${selectedWork.performers}</p>` : ""}
+          <a class="button-link" href="${selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a>
+        </div>
       </div>
     `;
   }
@@ -66,6 +72,8 @@ export function renderPreviewPanel(model) {
   setHtml(root, `
     <article style="display:flex;flex-direction:column;gap:1rem">
 
+      ${mediaBlock}
+
       <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
         <p class="data-card-meta">${selectedWork.year}${selectedWork.age ? ` · ${selectedWork.age} 歲` : ""} · ${typeLabel} · ${periodLabel}</p>
         <h3 style="font-family:var(--font-display);font-size:1.0625rem;line-height:1.45;color:var(--color-ink)">${selectedWork.title}</h3>
@@ -74,11 +82,6 @@ export function renderPreviewPanel(model) {
 
       ${guideBlock}
       ${analysisBlock}
-
-      <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
-        <p class="data-card-meta">影音</p>
-        ${mediaBlock}
-      </div>
 
     </article>
   `);

@@ -5,6 +5,8 @@ export const state = {
   selectedContextId: null,
   selectedType: "all",
   selectedPeriod: "all",
+  selectedEra: "all",
+  hideEvents: false,
   searchTerm: "",
   timeRange: null
 };

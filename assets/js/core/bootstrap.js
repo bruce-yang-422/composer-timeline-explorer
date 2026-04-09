@@ -54,11 +54,11 @@ export async function bootstrapApp() {
   };
 
   const renderApp = () => {
-    renderControlBar(model);
+    renderControlBar(model, renderApp);
     renderGanttView(model, renderApp);
     renderTimelineView(model, renderApp);
     renderPreviewPanel(model);
-    renderVisualizationView(model);
+    renderVisualizationView(model, renderApp);
     renderContextPanel(model);
   };
 

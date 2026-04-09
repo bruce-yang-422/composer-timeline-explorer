@@ -53,15 +53,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       :root {
-        --color-bg: #F4F6F9;
-        --color-surface: #FFFFFF;
-        --color-border: #DDE2EB;
-        --color-ink: #111827;
-        --color-muted: #6B7280;
-        --color-accent: #2F2A24;
-        --color-accent-light: #F1ECE3;
-        --color-timeline: #1D4ED8;
-        --color-context: #B45309;
+        /* ── Classical × Modern Palette ─────────────────────────────────── */
+        --color-bg:           #E8E0D2;   /* warm parchment */
+        --color-surface:      #FEFCF7;   /* ivory cream */
+        --color-surface-alt:  #F7F2EA;   /* slightly warmer panel tint */
+        --color-border:       #C8BDB0;   /* warm stone */
+        --color-border-light: #DDD5C8;   /* lighter divider */
+        --color-ink:          #1E1810;   /* deep warm near-black */
+        --color-muted:        #7C7065;   /* warm taupe */
+        --color-accent:       #6B2A2A;   /* deep claret / burgundy */
+        --color-accent-light: #F8EDEC;   /* pale blush */
+        --color-timeline:     #1C3D60;   /* prussian navy */
+        --color-context:      #7A4618;   /* burnt sienna */
         --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
         --font-display-news: "UnifrakturCook", "Times New Roman", serif;
         --font-body: "Segoe UI", "Noto Sans TC", sans-serif;
@@ -85,154 +88,162 @@
         padding: 1.5rem 1rem;
       }
 
+      /* ── Hero ──────────────────────────────────────────────────────────── */
       .hero-block {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
-        border: 1px solid #b9b1a5;
-        border-radius: 0.25rem;
+        gap: 0.625rem;
+        border: 1px solid #B8AC9C;
+        border-radius: 0.375rem;
         background:
-          linear-gradient(180deg, rgba(91, 78, 62, 0.05), rgba(91, 78, 62, 0.02)),
-          linear-gradient(135deg, #f8f3ea 0%, #fffdf8 100%);
-        box-shadow: 0 8px 18px rgba(36, 28, 21, 0.06);
-        padding: 1.75rem;
+          linear-gradient(180deg, rgba(80, 55, 30, 0.07) 0%, rgba(80, 55, 30, 0.02) 100%),
+          linear-gradient(135deg, #EDE3CF 0%, #F8F3E8 60%, #FDFAF3 100%);
+        box-shadow:
+          0 2px 8px rgba(30, 20, 8, 0.08),
+          0 8px 24px rgba(30, 20, 8, 0.05);
+        padding: 1rem 1.5rem;
       }
 
       .hero-eyebrow {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
         color: var(--color-accent);
-        font-size: 0.7rem;
+        font-size: 0.67rem;
         font-weight: 600;
-        letter-spacing: 0.24em;
+        letter-spacing: 0.26em;
         text-transform: uppercase;
+        opacity: 0.8;
       }
 
       .hero-title {
         font-family: var(--font-display-news);
         max-width: none;
-        font-size: clamp(2.3rem, 5vw, 4rem);
+        font-size: clamp(1.6rem, 3.5vw, 2.6rem);
         font-weight: 700;
         letter-spacing: 0.01em;
         color: var(--color-ink);
-        line-height: 1.02;
-        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+        line-height: 1.05;
+        text-shadow: 0 1px 2px rgba(255, 248, 235, 0.6);
       }
 
       .hero-divider {
-        width: min(100%, 42rem);
-        height: 2px;
-        margin-top: 0.85rem;
-        background: linear-gradient(90deg, rgba(47, 42, 36, 0.95), rgba(47, 42, 36, 0.15));
+        width: min(100%, 32rem);
+        height: 1px;
+        margin-top: 0.5rem;
+        background: linear-gradient(90deg, rgba(107, 42, 42, 0.7), rgba(107, 42, 42, 0.08));
       }
 
       .hero-title-secondary {
-        margin-top: 0.7rem;
+        margin-top: 0.35rem;
         color: var(--color-muted);
-        font-size: 0.8rem;
+        font-size: 0.72rem;
         font-weight: 600;
-        letter-spacing: 0.28em;
+        letter-spacing: 0.22em;
         text-transform: uppercase;
       }
 
       .hero-title-secondary strong {
         font-family: var(--font-display);
-        font-size: 1.05rem;
-        letter-spacing: 0.12em;
+        font-size: 0.9rem;
+        letter-spacing: 0.1em;
         color: var(--color-ink);
       }
 
       .hero-subtitle {
-        max-width: 42rem;
-        margin-top: 1rem;
-        color: var(--color-muted);
-        font-size: 0.92rem;
-        line-height: 1.85;
+        display: none;
       }
 
+      /* ── Panels ────────────────────────────────────────────────────────── */
       .panel-card {
-        border: 1px solid var(--color-border);
+        border: 1px solid var(--color-border-light);
         border-radius: 0.75rem;
         background: var(--color-surface);
+        box-shadow: 0 1px 3px rgba(30, 20, 8, 0.06), 0 4px 12px rgba(30, 20, 8, 0.04);
       }
 
       .panel-header {
-        padding: 1.25rem 1.25rem 0;
-        border-bottom: 1px solid var(--color-border);
-        padding-bottom: 1rem;
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid var(--color-border-light);
+        background: var(--color-surface-alt);
+        border-radius: 0.75rem 0.75rem 0 0;
       }
 
       .panel-title {
-        font-size: 0.875rem;
-        font-weight: 600;
-        letter-spacing: 0.05em;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
         text-transform: uppercase;
         color: var(--color-muted);
       }
 
       .panel-description {
-        margin-top: 0.25rem;
+        margin-top: 0.2rem;
         color: var(--color-muted);
-        font-size: 0.8rem;
-        line-height: 1.6;
+        font-size: 0.78rem;
+        line-height: 1.5;
+        opacity: 0.85;
       }
 
       .panel-body {
         padding: 1rem;
       }
 
+      /* ── Cards ─────────────────────────────────────────────────────────── */
       .data-card {
         padding: 0.875rem 1rem;
-        border: 1px solid var(--color-border);
+        border: 1px solid var(--color-border-light);
         border-radius: 0.5rem;
-        background: #FAFBFC;
+        background: var(--color-surface-alt);
       }
 
       .data-card-meta {
         color: var(--color-muted);
-        font-size: 0.8rem;
-        font-weight: 500;
-        letter-spacing: 0.02em;
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
       }
 
       .timeline-button {
         display: grid;
         width: 100%;
-        gap: 0.5rem;
-        padding: 0.875rem 1rem;
+        gap: 0.375rem;
+        padding: 0.75rem 0.875rem;
         text-align: left;
-        border: 1px solid var(--color-border);
-        border-left: 3px solid var(--color-accent);
-        border-radius: 0.5rem;
+        border: 1px solid var(--color-border-light);
+        border-left: 2.5px solid var(--color-accent);
+        border-radius: 0.375rem;
         background: var(--color-surface);
-        transition: background 0.1s ease;
+        transition: background 0.12s ease, box-shadow 0.12s ease;
         cursor: pointer;
       }
 
       .timeline-button:hover {
-        background: #FAFBFC;
+        background: var(--color-surface-alt);
+        box-shadow: 0 1px 4px rgba(30, 20, 8, 0.07);
       }
 
       .timeline-button.is-active {
         border-left-color: var(--color-accent);
         background: var(--color-accent-light);
+        box-shadow: 0 1px 4px rgba(107, 42, 42, 0.1);
       }
 
       .timeline-event {
-        padding: 0.875rem 1rem;
-        border: 1px solid var(--color-border);
-        border-left: 3px solid var(--color-timeline);
-        border-radius: 0.5rem;
-        background: #F8FAFF;
+        padding: 0.75rem 0.875rem;
+        border: 1px solid var(--color-border-light);
+        border-left: 2.5px solid var(--color-timeline);
+        border-radius: 0.375rem;
+        background: #EEF3FA;
       }
 
       .context-card {
         padding: 0.875rem 1rem;
-        border: 1px solid var(--color-border);
-        border-left: 3px solid var(--color-context);
-        border-radius: 0.5rem;
-        background: #FFFBF5;
+        border: 1px solid var(--color-border-light);
+        border-left: 2.5px solid var(--color-context);
+        border-radius: 0.375rem;
+        background: #FBF5EC;
       }
 
+      /* ── Form controls ─────────────────────────────────────────────────── */
       .field-group {
         display: grid;
         gap: 0.375rem;
@@ -240,9 +251,9 @@
 
       .field-label {
         color: var(--color-muted);
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.04em;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
         text-transform: uppercase;
       }
 
@@ -260,27 +271,28 @@
 
       .field-control:focus {
         border-color: var(--color-accent);
-        box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.1);
+        box-shadow: 0 0 0 2.5px rgba(107, 42, 42, 0.12);
       }
 
+      /* ── Chips & tags ──────────────────────────────────────────────────── */
       .chip {
         display: inline-flex;
         align-items: center;
         border-radius: 0.25rem;
         background: var(--color-accent-light);
-        border: 1px solid rgba(185, 28, 28, 0.15);
-        padding: 0.2rem 0.6rem;
+        border: 1px solid rgba(107, 42, 42, 0.2);
+        padding: 0.18rem 0.55rem;
         color: var(--color-accent);
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.02em;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
       }
 
       .note-box {
         padding: 0.875rem 1rem;
-        border: 1px solid var(--color-border);
+        border: 1px solid var(--color-border-light);
         border-radius: 0.5rem;
-        background: #F8F9FB;
+        background: var(--color-surface-alt);
         color: var(--color-muted);
         font-size: 0.8rem;
         line-height: 1.7;
@@ -291,7 +303,7 @@
         width: 100%;
         overflow: hidden;
         border-radius: 0.5rem;
-        background: #000;
+        background: #0A0806;
         aspect-ratio: 16 / 9;
       }
 
@@ -305,26 +317,27 @@
         display: inline-flex;
         align-items: center;
         padding: 0.25rem 0.625rem;
-        border: 1px solid var(--color-border);
+        border: 1px solid var(--color-border-light);
         border-radius: 0.25rem;
         background: var(--color-surface);
         color: var(--color-muted);
-        font-size: 0.75rem;
+        font-size: 0.72rem;
         font-weight: 500;
         cursor: pointer;
-        transition: background 0.1s ease, border-color 0.1s ease, color 0.1s ease;
+        transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
       }
 
       .filter-chip:hover {
-        background: #F4F6F9;
-        border-color: #C4C9D4;
+        background: var(--color-surface-alt);
+        border-color: var(--color-border);
+        color: var(--color-ink);
       }
 
       .filter-chip.is-on {
         background: var(--color-accent-light);
-        border-color: rgba(185, 28, 28, 0.25);
+        border-color: rgba(107, 42, 42, 0.3);
         color: var(--color-accent);
-        font-weight: 600;
+        font-weight: 700;
       }
 
       .button-link {
@@ -335,15 +348,17 @@
         padding: 0.5rem 1rem;
         border-radius: 0.375rem;
         background: var(--color-accent);
-        color: #fff;
+        color: #FDF8F3;
         text-decoration: none;
         font-size: 0.875rem;
         font-weight: 600;
-        transition: background 0.15s ease;
+        letter-spacing: 0.02em;
+        transition: background 0.15s ease, box-shadow 0.15s ease;
       }
 
       .button-link:hover {
-        background: #991B1B;
+        background: #511E1E;
+        box-shadow: 0 2px 8px rgba(107, 42, 42, 0.25);
       }
 
       @media (min-width: 768px) {
@@ -358,7 +373,7 @@
         }
 
         .panel-header {
-          padding: 1.25rem 1.5rem 1rem;
+          padding: 1rem 1.5rem;
         }
 
         .panel-body {
@@ -394,7 +409,8 @@
             <h2 id="timeline-heading" class="panel-title">時間軸</h2>
             <p class="panel-description">生平記事與作品清單。</p>
           </div>
-          <section id="timeline-view" class="panel-body" style="max-height:640px;overflow-y:auto"></section>
+          <div id="timeline-filters" style="padding:0.5rem 1rem;border-bottom:1px solid var(--color-border);background:var(--color-surface)"></div>
+          <section id="timeline-view" class="panel-body" style="height:calc(100vh - 280px);overflow-y:auto"></section>
         </aside>
 
         <section class="panel-card" aria-labelledby="preview-heading">

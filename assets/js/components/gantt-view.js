@@ -2,21 +2,29 @@ import { setState } from "../core/state.js";
 import { setHtml } from "../utils/dom.js";
 
 const TYPE_COLORS = {
-  symphony:        "#1D4ED8",
-  piano_concerto:  "#7C3AED",
-  violin_concerto: "#B91C1C",
-  piano_sonata:    "#059669",
-  string_quartet:  "#D97706",
-  bagatelle:       "#0891B2",
-  variation_set:   "#6366F1",
-  opera:           "#BE185D",
-  sacred_vocal:    "#92400E",
+  symphony:        "#1C3D60",  // prussian navy
+  piano_concerto:  "#5B2A82",  // deep violet
+  violin_concerto: "#8B1A1A",  // deep crimson
+  piano_sonata:    "#1A5C3A",  // deep forest
+  string_quartet:  "#8B5C18",  // warm amber/gold
+  bagatelle:       "#1A5A5A",  // deep teal
+  variation_set:   "#482878",  // deep indigo
+  opera:           "#8B1848",  // deep rose
+  sacred_vocal:    "#5C3A18",  // warm sienna
 };
 
 const PERIOD_BANDS = [
-  { label: "早期", end: 1799,  fill: "#EFF6FF", border: "#BFDBFE", text: "#3B82F6" },
-  { label: "中期", end: 1815,  fill: "#FFF7ED", border: "#FED7AA", text: "#EA580C" },
-  { label: "晚期", end: Infinity, fill: "#F5F3FF", border: "#DDD6FE", text: "#7C3AED" },
+  { label: "早期", end: 1799,  fill: "#EEF3FA", border: "#B4CDE6", text: "#1C3D60" },
+  { label: "中期", end: 1815,  fill: "#FDF5E8", border: "#F0D09A", text: "#8B5C18" },
+  { label: "晚期", end: Infinity, fill: "#F3EEF9", border: "#C8B4E8", text: "#5B2A82" },
+];
+
+const MUSIC_HISTORY_BANDS = [
+  { label: "文藝復興", start: 1400, end: 1600,     fill: "rgba(120,92,40,0.11)",  text: "#7A5C28" },
+  { label: "巴洛克",   start: 1600, end: 1750,     fill: "rgba(120,55,25,0.11)",  text: "#884020" },
+  { label: "古典",     start: 1750, end: 1820,     fill: "rgba(28,61,96,0.11)",   text: "#1C3D60" },
+  { label: "浪漫",     start: 1820, end: 1900,     fill: "rgba(139,24,72,0.11)",  text: "#8B1848" },
+  { label: "現代",     start: 1900, end: Infinity, fill: "rgba(26,92,58,0.11)",   text: "#1A5C3A" },
 ];
 
 export function renderGanttView(model, rerender) {
@@ -35,9 +43,11 @@ export function renderGanttView(model, rerender) {
   const endYear   = composer.death;
   const span      = endYear - startYear;
 
+  const MHBH = 22;  // height of the music history band strip at the top
+
   const W   = 900;
-  const H   = 140;
-  const PL  = 10, PR = 10, PT = 26, PB = 44;
+  const H   = 140 + MHBH;
+  const PL  = 10, PR = 10, PT = 26 + MHBH, PB = 44;
   const cW  = W - PL - PR;
   const cH  = H - PT - PB;
   const midY = PT + cH / 2;
@@ -45,7 +55,32 @@ export function renderGanttView(model, rerender) {
   const xOf  = year => PL + ((year - startYear) / span) * cW;
   const ageOf = year => year - startYear;
 
-  // Period background bands
+  // ── Music history background band (top strip, separate layer) ──────────────
+  const musicBands = MUSIC_HISTORY_BANDS.map(p => {
+    const bStart = Math.max(p.start, startYear);
+    const bEnd   = Math.min(p.end === Infinity ? endYear : p.end, endYear);
+    if (bStart >= bEnd) return "";
+    const x1  = xOf(bStart);
+    const x2  = xOf(bEnd);
+    const bW  = x2 - x1;
+    const mx  = (x1 + x2) / 2;
+    const labelEl = bW > 32
+      ? `<text x="${mx}" y="${MHBH - 5}" text-anchor="middle" font-size="9" fill="${p.text}" font-weight="600" font-family="Segoe UI,sans-serif">${p.label}</text>`
+      : "";
+    const dividerEl = bEnd < endYear
+      ? `<line x1="${x2}" y1="1" x2="${x2}" y2="${MHBH - 1}" stroke="${p.text}" stroke-width="0.5" opacity="0.35"/>`
+      : "";
+    return `
+      <rect x="${x1}" y="1" width="${bW}" height="${MHBH - 1}" fill="${p.fill}"/>
+      ${labelEl}
+      ${dividerEl}
+    `;
+  }).join("");
+
+  // Thin separator between music history band and composer period band
+  const bandSeparator = `<line x1="${PL}" y1="${MHBH}" x2="${W - PR}" y2="${MHBH}" stroke="#C4C9D4" stroke-width="0.75" opacity="0.7"/>`;
+
+  // ── Composer life period background bands ────────────────────────────────
   let bandStart = startYear;
   const bands = PERIOD_BANDS.map(p => {
     const bandEnd = Math.min(p.end, endYear);
@@ -62,7 +97,7 @@ export function renderGanttView(model, rerender) {
   }).join("");
 
   // Baseline
-  const baseline = `<line x1="${PL}" y1="${midY}" x2="${W - PR}" y2="${midY}" stroke="#D1D5DB" stroke-width="1.5"/>`;
+  const baseline = `<line x1="${PL}" y1="${midY}" x2="${W - PR}" y2="${midY}" stroke="#C0B4A4" stroke-width="1.5"/>`;
 
   // Year + age ticks
   const axisY    = PT + cH;       // baseline for tick stems
@@ -73,24 +108,24 @@ export function renderGanttView(model, rerender) {
 
   // Birth tick (year + 0歲)
   let ticks = `
-    <text x="${xOf(startYear)}" y="${yearLblY}" text-anchor="middle" font-size="10" fill="#9CA3AF">${startYear}</text>
-    <text x="${xOf(startYear)}" y="${ageLblY}"  text-anchor="middle" font-size="9.5" fill="#C4B9D0">0歲</text>
+    <text x="${xOf(startYear)}" y="${yearLblY}" text-anchor="middle" font-size="10" fill="#9E9487">${startYear}</text>
+    <text x="${xOf(startYear)}" y="${ageLblY}"  text-anchor="middle" font-size="9.5" fill="#BEB2A4">0歲</text>
   `;
 
   for (let y = firstTick; y <= endYear; y += 10) {
     const x   = xOf(y);
     const age = ageOf(y);
     ticks += `
-      <line x1="${x}" y1="${axisY}" x2="${x}" y2="${axisY + 5}" stroke="#D1D5DB" stroke-width="1"/>
-      <text x="${x}" y="${yearLblY}" text-anchor="middle" font-size="10"   fill="#9CA3AF">${y}</text>
-      <text x="${x}" y="${ageLblY}"  text-anchor="middle" font-size="9.5" fill="#C4B9D0">${age}歲</text>
+      <line x1="${x}" y1="${axisY}" x2="${x}" y2="${axisY + 5}" stroke="#C0B4A4" stroke-width="1"/>
+      <text x="${x}" y="${yearLblY}" text-anchor="middle" font-size="10"   fill="#9E9487">${y}</text>
+      <text x="${x}" y="${ageLblY}"  text-anchor="middle" font-size="9.5" fill="#BEB2A4">${age}歲</text>
     `;
   }
 
   // Death tick
   ticks += `
-    <text x="${xOf(endYear)}" y="${yearLblY}" text-anchor="middle" font-size="10" fill="#9CA3AF">${endYear}</text>
-    <text x="${xOf(endYear)}" y="${ageLblY}"  text-anchor="middle" font-size="9.5" fill="#C4B9D0">${ageOf(endYear)}歲</text>
+    <text x="${xOf(endYear)}" y="${yearLblY}" text-anchor="middle" font-size="10" fill="#9E9487">${endYear}</text>
+    <text x="${xOf(endYear)}" y="${ageLblY}"  text-anchor="middle" font-size="9.5" fill="#BEB2A4">${ageOf(endYear)}歲</text>
   `;
 
   // Work markers
@@ -127,6 +162,8 @@ export function renderGanttView(model, rerender) {
   setHtml(root, `
     <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem">${legend}</div>
     <svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+      ${musicBands}
+      ${bandSeparator}
       ${bands}
       ${baseline}
       ${ticks}
