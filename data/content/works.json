@@ -8,8 +8,19 @@
     "type": "symphony",
     "period": "middle",
     "summary": "標誌中期英雄風格的重要轉捩點，以更宏大的篇幅、衝突張力與英雄敘事打破古典交響曲慣例。",
+    "sources": [
+      {
+        "label": "Britannica Eroica Symphony",
+        "url": "https://www.britannica.com/topic/Eroica-Symphony"
+      },
+      {
+        "label": "Britannica Symphony: Beethoven",
+        "url": "https://www.britannica.com/art/symphony-music/Beethoven"
+      }
+    ],
     "listening_guide": "這首交響曲原本題獻給拿破崙，因其加冕稱帝後貝多芬憤而撤回，改題「為紀念一位偉人而作」。整部作品可視為對英雄主義、奮鬥與犧牲的音樂表達——第二樂章是一首葬禮進行曲，第四樂章則在輝煌中收尾。",
-    "analysis": "第一樂章的奏鳴曲式發展部長度異常龐大，主題動機經歷分裂、重組與調性衝突，在當時屬前所未有的規模。終樂章以早期芭蕾音樂《普羅米修斯的創造物》中的主題為基礎，透過複雜對位達到宏偉高潮，體現動機有機發展的中期核心特質。"
+    "analysis": "第一樂章的奏鳴曲式發展部長度異常龐大，主題動機經歷分裂、重組與調性衝突，在當時屬前所未有的規模。終樂章以早期芭蕾音樂《普羅米修斯的創造物》中的主題為基礎，透過複雜對位達到宏偉高潮，體現動機有機發展的中期核心特質。",
+    "scholarly_analysis": "Leonard Ratner 在其《古典音樂》（1980）中以「英雄」敘事作為典型「topic」（音樂修辭類型）分析本曲，指出葬禮進行曲（marcia funebre）對應法國大革命公共儀式的哀悼傳統。Charles Rosen 於《古典風格》（1971）則強調發展部中 E 小調的「錯位再現」（displaced recapitulation）是貝多芬對奏鳴曲形式的根本性改寫。Scott Burnham 在《貝多芬英雄》（1995）提出，Eroica 確立了「英雄敘事」作為西方音樂正典的核心模式，深刻影響後世對交響曲意義的詮釋框架。動機 x（兩個下行音）的變形發展亦被申克（Schenker）學派視為深層結構線條的表面折射。"
   },
   {
     "id": "symphony-no-5",
@@ -20,8 +31,19 @@
     "type": "symphony",
     "period": "middle",
     "summary": "貝多芬中期的重要代表作，常被視為理解其戲劇性語彙與命運感動機的入門作品。",
+    "sources": [
+      {
+        "label": "Britannica Symphony No. 5",
+        "url": "https://www.britannica.com/topic/Symphony-No-5-in-C-Minor-Op-67"
+      },
+      {
+        "label": "Britannica Symphony: Beethoven",
+        "url": "https://www.britannica.com/art/symphony-music/Beethoven"
+      }
+    ],
     "listening_guide": "以「短—短—短—長」四音動機開場，可能是古典音樂中最著名的開頭。全曲描繪從黑暗走向光明的歷程：從 C 小調的緊繃與掙扎，最終以 C 大調的勝利收尾。聆聽時留意這個四音動機如何在四個樂章中不斷變形出現。",
-    "analysis": "此動機不只貫穿第一樂章，更以不同變形滲透全曲，實現高度的主題統一性（thematic unity）。第四樂章首次加入長號、短笛與低音管，大幅擴展了管弦樂的音色光譜，為浪漫時期管弦樂法奠定先例。"
+    "analysis": "此動機不只貫穿第一樂章，更以不同變形滲透全曲，實現高度的主題統一性（thematic unity）。第四樂章首次加入長號、短笛與低音管，大幅擴展了管弦樂的音色光譜，為浪漫時期管弦樂法奠定先例。",
+    "scholarly_analysis": "E.T.A. 霍夫曼 1810 年的評論首度確立本曲的「命運」詮釋框架，但此框架在二十世紀受到質疑。Mark Evan Bonds 指出，「命運敲門」的說法源自貝多芬秘書辛德勒（Schindler）的不可靠記述，學界普遍存疑。申克分析師 Felix Salzer 在《音樂中的結構聽覺》（1952）中論證四音動機作為全曲統一的「前景音型」（foreground figure），而深層背景線條（Urlinie）則是一個下行的三音進行。第三、四樂章的直接銜接（attacca）被 Carl Dahlhaus 視為「進行曲式過渡」手法的創新，突破了交響曲套曲的邊界概念。"
   },
   {
     "id": "symphony-no-6-pastoral",
@@ -32,8 +54,19 @@
     "type": "symphony",
     "period": "middle",
     "summary": "以自然景象與田園感受為主題的五樂章交響曲，是早期標題音樂的重要代表。",
+    "sources": [
+      {
+        "label": "Britannica Symphony No. 6",
+        "url": "https://www.britannica.com/topic/Symphony-No-6-in-F-Major"
+      },
+      {
+        "label": "Britannica Symphony: Beethoven",
+        "url": "https://www.britannica.com/art/symphony-music/Beethoven"
+      }
+    ],
     "listening_guide": "貝多芬罕見地為每個樂章加上標題，如「到達田園時的感受」、「溪邊小景」、「暴風雨」等。五個樂章描繪鄉間漫步到雷雨後放晴的完整敘事，是古典音樂中最早的標題音樂之一。",
-    "analysis": "與第五號交響曲同年完成，兩者形成強烈對比——一部戲劇緊張，一部抒情自然。貝多芬自述此曲是「情感的表達，而非圖像的描繪」，可見他有意在標題性與純音樂性之間保持張力。"
+    "analysis": "與第五號交響曲同年完成，兩者形成強烈對比——一部戲劇緊張，一部抒情自然。貝多芬自述此曲是「情感的表達，而非圖像的描繪」，可見他有意在標題性與純音樂性之間保持張力。",
+    "scholarly_analysis": "Mark Evan Bonds 在《音樂作為思想》（2006）中分析本曲在「絕對音樂」與「標題音樂」論爭中的特殊位置：貝多芬的自我說明「情感的表達而非音像的描繪」預示了後來漢斯利克（Hanslick）對純音樂自律性的捍衛立場。Nicholas Mathew 則指出，本曲五樂章結構中的暴風雨樂章（第四樂章）屬於十八世紀「表現崇高」（the sublime）的音樂修辭傳統。溪邊小景中黃鸝、鶴鶉、杜鵑的模仿音型，在 Ratner 的 topic 理論中被歸類為「pastorale」次類型，其固定低音（pedal point）與 6/8 拍型均有明確的風格標記功能。"
   },
   {
     "id": "symphony-no-9-choral",
@@ -44,8 +77,19 @@
     "type": "symphony",
     "period": "late",
     "summary": "首度將人聲合唱正式納入交響曲終樂章，體現貝多芬晚期對人類團結與精神昇華的追求。",
+    "sources": [
+      {
+        "label": "Britannica Symphony No. 9",
+        "url": "https://www.britannica.com/topic/Symphony-No-9-in-D-Minor"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ],
     "listening_guide": "在幾乎完全失聰的狀態下完成。末樂章加入獨唱與合唱，歌詞採自席勒的《歡樂頌》，歌頌人類的團結與博愛。首演時貝多芬站在台上，聽不見掌聲，獨唱者轉身引導他面向觀眾的那一幕成為歷史上最動人的場景之一。",
-    "analysis": "末樂章以低音弦樂宣敘調逐一「回顧並否定」前三個樂章的主題，最終引出《歡樂頌》旋律——此結構設計在交響曲史上幾乎無先例。樂章融合土耳其進行曲風格（alla marcia）與雙重賦格（double fugue），調性從 D 小調到 D 大調體現貝多芬一貫的「通過艱辛走向光明」敘事。"
+    "analysis": "末樂章以低音弦樂宣敘調逐一「回顧並否定」前三個樂章的主題，最終引出《歡樂頌》旋律——此結構設計在交響曲史上幾乎無先例。樂章融合土耳其進行曲風格（alla marcia）與雙重賦格（double fugue），調性從 D 小調到 D 大調體現貝多芬一貫的「通過艱辛走向光明」敘事。",
+    "scholarly_analysis": "Nicholas Cook 在《貝多芬：第九號交響曲》（1993）中以「文化批評」視角解讀此曲，論證《歡樂頌》旋律在終樂章中被刻意「延遲」與「去神秘化」的過程是一種音樂論辯結構。Susan McClary 的後結構主義讀法（1987）則備受爭議地將第一樂章發展部詮釋為「暴力的男性修辭」。Joseph Kerman 在《沉思貝多芬》（1967）指出終樂章在形式上的根本矛盾：聲樂引入破壞了交響曲的器樂邏輯，但卻在意義層面達到「超越形式的正當性」。此曲亦是 Carl Dahlhaus 建立「音樂作品自律性」（autonomy of the musical work）論述的核心案例之一。"
   },
   {
     "id": "piano-concerto-no-5-emperor",
@@ -56,8 +100,19 @@
     "type": "piano_concerto",
     "period": "middle",
     "summary": "規模宏大、氣勢雄渾的鋼琴協奏曲，展現鋼琴與樂團幾乎對等的戲劇張力。",
+    "sources": [
+      {
+        "label": "Britannica Emperor Concerto",
+        "url": "https://www.britannica.com/topic/Emperor-Concerto"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ],
     "listening_guide": "貝多芬最後一首鋼琴協奏曲，創作於 1809 年拿破崙砲轟維也納的動盪時期。開頭即以鋼琴獨奏展開，打破了協奏曲必須先由樂團陳述主題的傳統慣例。「皇帝」的暱稱並非貝多芬本人所取，而是後世對其宏偉氣勢的形容。",
-    "analysis": "第二樂章以抒情的 B 大調寫成，與第三樂章幾乎不間斷地銜接——這種樂章間的直接連結在協奏曲中極為罕見。整部作品的鋼琴寫法要求全新的演奏技巧，預示了浪漫時期炫技協奏曲（bravura concerto）的走向。"
+    "analysis": "第二樂章以抒情的 B 大調寫成，與第三樂章幾乎不間斷地銜接——這種樂章間的直接連結在協奏曲中極為罕見。整部作品的鋼琴寫法要求全新的演奏技巧，預示了浪漫時期炫技協奏曲（bravura concerto）的走向。",
+    "scholarly_analysis": "Leon Plantinga 在《貝多芬的協奏曲》（1999）中詳細分析本曲對「協奏曲交響化」的推進：貝多芬以鋼琴開場的即興式引子（mm. 1–18）顛覆了古典協奏曲雙重呈示部（double exposition）的規範，獨奏鋼琴從附屬角色躍升為與樂團對等的主體。第三樂章終止式前，貝多芬在樂譜上明確標示「不作裝飾奏」（Non si fa una cadenza），強制取消表演者即興發揮的慣例，此舉被視為作曲家對演奏詮釋權威的主動收回，是音樂作品概念史上的重要事件（Lydia Goehr，《想像的博物館》，1992）。"
   },
   {
     "id": "violin-concerto-op-61",
@@ -68,8 +123,19 @@
     "type": "violin_concerto",
     "period": "middle",
     "summary": "貝多芬唯一的小提琴協奏曲，旋律優美、結構嚴謹，現今被公認為小提琴曲目中的核心經典之一。",
+    "sources": [
+      {
+        "label": "Britannica Violin Concerto in D Major, Op. 61",
+        "url": "https://www.britannica.com/topic/Violin-Concerto-in-D-Major-Op-61"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ],
     "listening_guide": "首演時反應平淡，直到 1844 年約阿希姆（Joseph Joachim）在門德爾頌指揮下重新詮釋後才獲廣泛認可。第一樂章以定音鼓的五個輕擊開場，這個低調的動機貫穿全曲，成為作品獨特的標誌。",
     "analysis": "第一樂章規模龐大，是貝多芬所有協奏曲中最長的單一樂章。小提琴聲部的寫法以流暢的歌唱性為主，避開炫技性的誇示，追求的是旋律線條與管弦樂之間的有機對話，而非獨奏與樂團的競奏對立。",
+    "scholarly_analysis": "Robin Stowell 在《貝多芬：小提琴協奏曲》（1998）中指出，本曲在十九世紀的正典化過程與 Joseph Joachim 的演奏風格深度綁定：Joachim 強調貝多芬式的「嚴肅性」而非帕格尼尼式的炫技，建立了本曲「高尚、克制」的詮釋傳統，此傳統一直延續至二十世紀。第一樂章異常龐大的呈示部（mm. 1–138）被申克分析師 Carl Schachter 視為「延遲的緊張解除」（prolonged tension）的典型。五連音定音鼓動機在調性不穩定的瞬間反覆出現，功能上類似一種「裂縫標記」（fissure marker），顛覆了古典協奏曲對開場宏偉性的慣性期待。",
     "performers": "Hilary Hahn, violin; Leonard Slatkin, conductor",
     "media": {
       "youtubeId": "0Cg_0jepxow",
@@ -88,8 +154,19 @@
     "type": "piano_sonata",
     "period": "early",
     "summary": "早期代表作之一，以莊嚴引子、戲劇張力與著名的慢板樂章深受喜愛。",
+    "sources": [
+      {
+        "label": "Britannica Pathétique Sonata",
+        "url": "https://www.britannica.com/topic/Pathetique-Sonata"
+      },
+      {
+        "label": "Britannica Beethoven Piano Sonatas",
+        "url": "https://www.britannica.com/topic/Beethoven-Piano-Sonatas"
+      }
+    ],
     "listening_guide": "「悲愴」是貝多芬親自取的標題，三個樂章各有性格：第一樂章以莊嚴引子與激烈的快板交替，第二樂章是廣為人知的抒情慢板，第三樂章回歸緊繃的情緒但以更內斂的方式呈現。",
-    "analysis": "此曲在形式上已超越海頓與莫札特奏鳴曲的典型規模，引子素材在快板中反覆出現的做法（cyclical return）在當時相當前衛。儘管仍屬早期，已充分展現貝多芬對戲劇性對比的掌控。"
+    "analysis": "此曲在形式上已超越海頓與莫札特奏鳴曲的典型規模，引子素材在快板中反覆出現的做法（cyclical return）在當時相當前衛。儘管仍屬早期，已充分展現貝多芬對戲劇性對比的掌控。",
+    "scholarly_analysis": "Charles Rosen 在《古典風格》（1971）中分析本曲引子（Grave）在快板中的三次回歸，指出此結構不同於海頓式的「慢速引子一次性功能」，而是將引子素材提升為全曲的「結構評論者」（structural commentator）。Janet Schmalfeldt 在《論表演奏鳴曲式》（1995）則以「過程式形式」（formal process）框架解讀，論證第一樂章的快板呈示部因引子的干預而持續處於「被詮釋的不穩定狀態」。此曲在 c 小調的選擇亦被 Ratner 連結至貝多芬的「悲劇 topic」（tragic topic）傳統，與第五號交響曲和《命運》奏鳴曲共享相同的修辭情境。"
   },
   {
     "id": "piano-sonata-no-14",
@@ -100,8 +177,19 @@
     "type": "piano_sonata",
     "period": "early",
     "summary": "這首廣為人知的鋼琴奏鳴曲兼具抒情性與結構實驗性，展現貝多芬早期風格的擴張。",
+    "sources": [
+      {
+        "label": "Britannica Moonlight Sonata",
+        "url": "https://www.britannica.com/topic/Moonlight-Sonata"
+      },
+      {
+        "label": "Britannica Beethoven Piano Sonatas",
+        "url": "https://www.britannica.com/topic/Beethoven-Piano-Sonatas"
+      }
+    ],
     "listening_guide": "「月光」之名並非貝多芬所取，而是詩人雷爾施塔布（Ludwig Rellstab）在其死後所命名。第一樂章以三連音的分解和弦烘托出獨特的夜間氛圍，第三樂章則像暴風雨般爆發——兩者的強烈對比讓整首曲子成為最容易記憶的奏鳴曲之一。",
-    "analysis": "貝多芬為此曲副標題「幻想曲風奏鳴曲」（quasi una fantasia），暗示他有意打破傳統奏鳴曲首樂章的形式規範。終樂章以激烈的奏鳴曲式取代慢板收尾，在結構重心上與傳統相反，是早期風格擴張的重要例證。"
+    "analysis": "貝多芬為此曲副標題「幻想曲風奏鳴曲」（quasi una fantasia），暗示他有意打破傳統奏鳴曲首樂章的形式規範。終樂章以激烈的奏鳴曲式取代慢板收尾，在結構重心上與傳統相反，是早期風格擴張的重要例證。",
+    "scholarly_analysis": "William Newman 在《貝多芬鋼琴奏鳴曲》（1988）中強調「quasi una fantasia」副標題的形式意涵：傳統奏鳴曲的重心在快板第一樂章，本曲將其反置，使三連音 Adagio 取代奏鳴曲式的核心位置，形成「反轉奏鳴曲」（reversed sonata）。申克在《五首鋼琴奏鳴曲分析》（1913）中論證第一樂章的三連音伴奏型是一個被「拉長」的中聲部線條，其深層和聲進行仍遵循嚴格的調性語法，批駁了「第一樂章缺乏結構」的誤解。Charles Rosen 則指出，第三樂章中 c♯ 小調的反覆確認（尤其是大量減七和弦）是貝多芬在製造「調性確立的延遲正當化」，也因此使整首曲子的調性重心在最後才得到完整解決。"
   },
   {
     "id": "piano-sonata-no-21-waldstein",
@@ -112,8 +200,19 @@
     "type": "piano_sonata",
     "period": "middle",
     "summary": "技巧艱難、色彩燦爛的中期鋼琴作品，展現擴張後的奏鳴曲規模與現代鋼琴語法。",
+    "sources": [
+      {
+        "label": "Britannica Waldstein Sonata",
+        "url": "https://www.britannica.com/topic/Waldstein-Sonata"
+      },
+      {
+        "label": "Britannica Beethoven Piano Sonatas",
+        "url": "https://www.britannica.com/topic/Beethoven-Piano-Sonatas"
+      }
+    ],
     "listening_guide": "題獻給贊助人華德斯坦伯爵。第一樂章以快速的三連音震音在極弱音（pp）中開場，製造出神秘而充滿能量的效果。終樂章是一首迴旋奏鳴曲，高音區旋律輕盈如羽，與低音的和聲支撐形成鮮明的立體感。",
-    "analysis": "此曲對鋼琴技術的要求超越了當時的主流水準，尤其是終樂章大量的顫音（trill）與廣域音域跨越。貝多芬在此充分利用當時新型鋼琴擴展的音域，被視為現代鋼琴奏鳴曲寫法的先驅之作。"
+    "analysis": "此曲對鋼琴技術的要求超越了當時的主流水準，尤其是終樂章大量的顫音（trill）與廣域音域跨越。貝多芬在此充分利用當時新型鋼琴擴展的音域，被視為現代鋼琴奏鳴曲寫法的先驅之作。",
+    "scholarly_analysis": "Tilman Skowroneck 在《貝多芬的鋼琴》（2010）中詳細考證本曲創作期間貝多芬所使用的樂器（可能是 Érard 或 Walter 製鋼琴），論證終樂章顫音段落的音響效果依賴當時鋼琴特定的琴槌發音特性，現代鋼琴無法完整復現。Lewis Lockwood 在《貝多芬：音樂與人生》（2003）指出，第一樂章中 C 大調主音三和弦以震音而非明確旋律呈現的開場方式，在同時代作品中幾乎無先例，是貝多芬「去主題化」（de-thematization）策略的早期展現。Carl Dahlhaus 則以本曲終樂章的「靜觀式宏大」（contemplative grandeur）反駁了「中期 = 英雄戲劇」的簡化論述。"
   },
   {
     "id": "piano-sonata-no-23-appassionata",
@@ -124,8 +223,19 @@
     "type": "piano_sonata",
     "period": "middle",
     "summary": "中期鋼琴奏鳴曲的高峰之作，以強烈和聲對比與爆發性的推進感著稱。",
+    "sources": [
+      {
+        "label": "Britannica Beethoven Piano Sonatas",
+        "url": "https://www.britannica.com/topic/Beethoven-Piano-Sonatas"
+      },
+      {
+        "label": "Britannica Sonata Form: Development",
+        "url": "https://www.britannica.com/art/sonata-form/Development"
+      }
+    ],
     "listening_guide": "「熱情」是出版後才加上的暱稱，貝多芬本人未曾採用。據說他曾自述這是他最偉大的鋼琴奏鳴曲（直到《漢馬克拉維》完成前）。全曲充滿爆發性的能量，三個樂章幾乎不間斷地推進，第二樂章短暫的沉靜使隨後的第三樂章爆發更具衝擊力。",
-    "analysis": "貝多芬在此曲大量使用拿坡里六和弦（Neapolitan sixth）與減七和弦，創造出不安定的和聲張力。終樂章以 Presto 速度的奏鳴曲式寫成，在結構上幾乎沒有喘息空間，被認為是中期英雄風格在鋼琴上最濃縮的展現。"
+    "analysis": "貝多芬在此曲大量使用拿坡里六和弦（Neapolitan sixth）與減七和弦，創造出不安定的和聲張力。終樂章以 Presto 速度的奏鳴曲式寫成，在結構上幾乎沒有喘息空間，被認為是中期英雄風格在鋼琴上最濃縮的展現。",
+    "scholarly_analysis": "申克在《鋼琴奏鳴曲分析》中論證本曲第一樂章的深層線條（Urlinie）為一個從 ♭Ⅱ 下行至主音的長程和聲弧線，拿坡里六和弦的頻繁使用正是此深層弧線的表面折射。Charles Rosen 指出，第一樂章呈示部副主題以 A♭ 大調（而非 f 小調的關係大調 A♭ = III）呈現，是貝多芬刻意製造「調性色彩置換」的手法，使整個呈示部保持持續的調性張力而非傳統的對比穩定。Maynard Solomon 在《貝多芬》傳記（1977）中結合心理傳記角度，論證此曲創作期間貝多芬的情感危機（與約瑟芬·布倫斯維克的關係破裂）在音樂語彙的激烈程度中留下痕跡，但此詮釋路線在方法論上備受學界保留。"
   },
   {
     "id": "piano-sonata-no-29-hammerklavier",
@@ -136,8 +246,19 @@
     "type": "piano_sonata",
     "period": "late",
     "summary": "晚期規模最龐大、技術最艱鉅的鋼琴奏鳴曲之一，終樂章賦格極具挑戰。",
+    "sources": [
+      {
+        "label": "Britannica Piano Sonata in B-flat Major (Hammerklavier)",
+        "url": "https://www.britannica.com/topic/Piano-Sonata-in-B-flat-Major"
+      },
+      {
+        "label": "Britannica Beethoven Piano Sonatas",
+        "url": "https://www.britannica.com/topic/Beethoven-Piano-Sonatas"
+      }
+    ],
     "listening_guide": "「漢馬克拉維」是德語「鋼琴」的意思（Hammerklavier），貝多芬有意以此強調其德意志民族身份。此曲演奏時間超過四十分鐘，遠超當時奏鳴曲的慣常規模。終樂章是一首三聲部賦格，複雜程度讓同時代鋼琴家幾乎無法演奏。",
-    "analysis": "作品融合了對位法（counterpoint）與奏鳴曲式的衝突，終樂章賦格更引入逆行（inversion）、增大（augmentation）等複雜技法，反映貝多芬晚期對巴赫對位傳統的深入研究。此曲被視為鋼琴文獻中難度與深度並峙的頂峰之一。"
+    "analysis": "作品融合了對位法（counterpoint）與奏鳴曲式的衝突，終樂章賦格更引入逆行（inversion）、增大（augmentation）等複雜技法，反映貝多芬晚期對巴赫對位傳統的深入研究。此曲被視為鋼琴文獻中難度與深度並峙的頂峰之一。",
+    "scholarly_analysis": "Heinrich Schenker 於 1913 年發表的詳細分析被視為申克分析方法成熟期的代表作，他論證終樂章賦格雖表面極度不協和，深層仍受 B♭ 大調的調性引力控制，是「對位法在調性框架內的極限測試」。William Kinderman 在《貝多芬》（1995）中指出，第三樂章 Adagio sostenuto 是貝多芬所有作品中篇幅最長的慢板樂章，其「無限延遲的終止式」（infinitely deferred cadence）策略在晚期風格中具有典範地位。Joseph Kerman 認為終樂章賦格的引子（Largo）是音樂史上最奇特的「調性探索序曲」之一，以近乎隨機的轉調過程（經過 B 小調、降 G 大調等遠關係調）達到一種「有目的的迷失」效果。"
   },
   {
     "id": "fur-elise",
@@ -148,8 +269,19 @@
     "type": "bagatelle",
     "period": "late",
     "summary": "貝多芬最廣為流傳的鋼琴小品之一，以簡潔旋律與高度辨識度成為大眾古典音樂入門名曲。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn Für Elise Sketches",
+        "url": "https://www.beethoven.de/en/media/view/5010945952710656/scan/0"
+      },
+      {
+        "label": "Beethoven-Haus Bonn Bagatelle WoO 59",
+        "url": "https://www.beethoven.de/de/work/view/5327609864912896/Bagatelle%2Bf%C3%BCr%2BKlavier%2B%28a-Moll%29%2BWoO%2B59"
+      }
+    ],
     "listening_guide": "在台灣，幾乎每個人都聽過這首曲子——它就是垃圾車的音樂。但完整版遠不只開頭那段主題：中段有兩次截然不同的情緒轉折，分別帶入更複雜的和聲色彩，再回到主題，形成迴旋曲結構（rondo）。原稿在貝多芬去世後才被發現，於 1867 年出版。",
-    "analysis": "「Elise」的真實身分至今仍有爭議，學界主要有特蕾澤·馬爾法蒂（Therese Malfatti）與伊麗莎白·羅克爾（Elisabeth Röckel）兩種說法，最新研究傾向前者。此曲以 WoO（不帶作品編號）收錄，可見原本並無出版計畫，屬私人性質的小品。"
+    "analysis": "「Elise」的真實身分至今仍有爭議，學界主要有特蕾澤·馬爾法蒂（Therese Malfatti）與伊麗莎白·羅克爾（Elisabeth Röckel）兩種說法，最新研究傾向前者。此曲以 WoO（不帶作品編號）收錄，可見原本並無出版計畫，屬私人性質的小品。",
+    "scholarly_analysis": "Luca Chiantore 在 2010 年的研究中重新鑑定手稿筆跡，提出「Elise」實為「Therese」（即特蕾澤·馬爾法蒂）的誤讀，此說已獲多數貝多芬學者接受，但最終結論仍待更多手稿證據。Barry Cooper 在《貝多芬》（2000）中指出，此曲三段體迴旋曲結構（A–B–A–C–A）中的 B 段（F 大調）與 C 段（a 小調關係調的變奏）在和聲複雜度上遠超一般認知，特別是 C 段連續的減七和弦進行顯示貝多芬並無意寫作「簡單的教學曲」。此曲的接受史本身也是重要的音樂社會學課題：它在全球普及文化中的地位（包括台灣垃圾車音樂）遠超其在學術脈絡中的重要性，構成「正典邊緣作品的民主化傳播」的典型案例。"
   },
   {
     "id": "diabelli-variations",
@@ -160,8 +292,19 @@
     "type": "variation_set",
     "period": "late",
     "summary": "以迪亞貝利圓舞曲主題寫成的三十三段變奏，展現晚期貝多芬驚人的結構與想像力。",
+    "sources": [
+      {
+        "label": "Britannica Diabelli Variations",
+        "url": "https://www.britannica.com/topic/Diabelli-Variations-Op-120"
+      },
+      {
+        "label": "Britannica Musical Variation",
+        "url": "https://www.britannica.com/art/musical-variation"
+      }
+    ],
     "listening_guide": "出版商迪亞貝利（Anton Diabelli）邀請維也納作曲家各寫一段變奏，貝多芬一人便寫了三十三段。主題本身平凡，但貝多芬將其轉化為幽默、輝煌、沉思、哀傷等各種性格，最後一段是一首莊嚴的小步舞曲，以截然不同的寧靜收尾。",
-    "analysis": "被視為鋼琴變奏曲的頂峰，與巴赫的《哥德堡變奏曲》並列音樂史上最重要的變奏曲作品。貝多芬不只是裝飾性地「變化」主題，而是對其進行徹底的結構重新詮釋，每段變奏幾乎都是一首獨立的小品。"
+    "analysis": "被視為鋼琴變奏曲的頂峰，與巴赫的《哥德堡變奏曲》並列音樂史上最重要的變奏曲作品。貝多芬不只是裝飾性地「變化」主題，而是對其進行徹底的結構重新詮釋，每段變奏幾乎都是一首獨立的小品。",
+    "scholarly_analysis": "William Kinderman 在《貝多芬的迪亞貝利變奏曲》（1987）中論證三十三段變奏構成一個「隱性敘事弧線」：從嘲諷主題的陳腐（第1–10段）、深入探索其結構潛能（第11–25段），到最後以莊嚴小步舞曲（Minuet, Var. 33）超越主題本身。Alfred Brendel 在《音樂思考》（1977）中以演奏者視角提出，本曲是以「幽默」（Humor in the Viennese Classical sense）作為深層統一原則，此幽默不是喜劇性的表面效果，而是對音樂慣例的持續「距離化」（distanciation）。申克派學者 Carl Schachter 則分析了主題本身看似簡單的和聲語法如何蘊含可供無限延伸的深層結構潛力，解釋了貝多芬何以能從如此「平庸」的素材中提煉出如此複雜的變奏群。"
   },
   {
     "id": "fidelio",
@@ -172,8 +315,19 @@
     "type": "opera",
     "period": "middle",
     "summary": "貝多芬唯一完成的歌劇，以自由、忠誠與正義為核心主題，歷經多次修訂才成定本。",
+    "sources": [
+      {
+        "label": "Britannica Fidelio",
+        "url": "https://www.britannica.com/topic/Fidelio"
+      },
+      {
+        "label": "Beethoven-Haus Bonn Fidelio op. 72",
+        "url": "https://www.beethoven.de/en/work/view/ag9iZWV0aG92ZW4tdml1cjNyEQsSBHdvcmsYgICAnPmr7QgM/%26quot%3BFidelio%26quot%3B%2C%2Bopera%2Bin%2Btwo%2B%26%23040%3Boriginally%2Bthree%26%23041%3B%2Bacts%2C%2Bincluding%2B%26quot%3BLeonore%26quot%3B-Overtures%2Bnos.%2B2-3%2Bop.%2B72"
+      }
+    ],
     "listening_guide": "貝多芬為此劇寫了四首序曲（三首《里歐諾雷》序曲加上最終版《費德里歐》序曲），足見他對這部作品的反覆糾結。故事描寫妻子易裝為男性獄卒以拯救被囚丈夫，主題與法國大革命的自由精神高度呼應。",
-    "analysis": "此劇原名《里歐諾雷》，歷經 1805、1806、1814 三個版本的修訂。在歌劇語法上較缺乏義大利式的流暢感，但在表現人類意志與道德精神方面，被認為是貝多芬最直接的思想宣言，也是德語歌劇（Singspiel）傳統中的重要里程碑。"
+    "analysis": "此劇原名《里歐諾雷》，歷經 1805、1806、1814 三個版本的修訂。在歌劇語法上較缺乏義大利式的流暢感，但在表現人類意志與道德精神方面，被認為是貝多芬最直接的思想宣言，也是德語歌劇（Singspiel）傳統中的重要里程碑。",
+    "scholarly_analysis": "Paul Robinson 在《歌劇與觀念》（1985）中將本劇定位為「救援歌劇」（rescue opera）類型的高峰，指出其政治寓意在拿破崙戰爭時期具有直接的歷史語境，但貝多芬刻意將「拯救者」從國家官員改為妻子個人，使政治解放被轉化為私人倫理勝利。Michael Tusa 在對 1805 至 1814 年三個版本的比較研究中，詳細追蹤了貝多芬如何在戲劇性與音樂自律性之間持續調整——例如女主角 Leonore 的詠嘆調「Abscheulicher」在各版本中的調性中心與動機寫法均有顯著差異。Joseph Kerman 在其歌劇研究中坦率指出，此劇在戲劇語法上不如德國後繼者（如韋伯、瓦格納）流暢，但其「非戲劇性的宏大道德誠實」恰好是其獨特貢獻。"
   },
   {
     "id": "missa-solemnis",
@@ -184,8 +338,19 @@
     "type": "sacred_vocal",
     "period": "late",
     "summary": "晚期大型宗教聲樂作品，融合精神性、對位技巧與宏大結構，是貝多芬高度自我要求的結晶。",
+    "sources": [
+      {
+        "label": "Britannica Missa Solemnis",
+        "url": "https://www.britannica.com/topic/Missa-Solemnis"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ],
     "listening_guide": "貝多芬自認這是他最偉大的作品。以傳統彌撒文（Kyrie, Gloria, Credo, Sanctus, Agnus Dei）為架構，但其規模與深度遠超過一般禮拜用途，更接近音樂會作品。Agnus Dei 樂章中遠處傳來的軍號聲是一段令人難忘的設計，象徵戰爭的威脅對和平的侵擾。",
-    "analysis": "此曲要求極高的演唱技術，合唱聲部常被評為幾乎超越人聲極限。貝多芬在此大量運用對位法，尤其是 Credo 與 Gloria 中的賦格段落，展現他晚期對巴赫傳統的深度鑽研。"
+    "analysis": "此曲要求極高的演唱技術，合唱聲部常被評為幾乎超越人聲極限。貝多芬在此大量運用對位法，尤其是 Credo 與 Gloria 中的賦格段落，展現他晚期對巴赫傳統的深度鑽研。",
+    "scholarly_analysis": "Joseph Kerman 在《沉思貝多芬》（1967）中論證本曲超越了傳統彌撒的禮拜功能，成為「一個人面對信仰問題的個人精神格鬥記錄」，並指出貝多芬對各段落拉丁文的親筆翻譯草稿顯示他以異常個人化的方式理解每個文本字詞。Warren Kirkendale 在《貝多芬莊嚴彌撒中的修辭》（1979）中以文藝復興修辭學（ars rhetorica）分析本曲結構，論證 Credo 的賦格寫法遵循了古典「論辯發展」（dispositio）的修辭模式。Agnus Dei 中的軍樂插段被 Scott Burnham 詮釋為貝多芬在和平祈禱中強行引入「外部世界的暴力現實」，是一種「崇高的不協調」（sublime incongruity），打破了傳統彌撒的超然性格。"
   },
   {
     "id": "string-quartet-op-131",
@@ -196,8 +361,19 @@
     "type": "string_quartet",
     "period": "late",
     "summary": "晚期室內樂代表作之一，七個樂章不間斷連接，展現高度結構企圖與深層情感張力。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn Quartet op. 131",
+        "url": "https://www.beethoven.de/en/work/view/ag9iZWV0aG92ZW4tdml1cjNyEQsSBHdvcmsYgICAnMT92goM/Quartet%2Bfor%2B2%2Bviolins%2C%2Bviola%2Band%2Bvioloncello%2B%26%23040%3BC-sharp%2Bminor%26%23041%3B%2Bop.%2B131"
+      },
+      {
+        "label": "Beethoven-Haus Bonn Sketches op. 131",
+        "url": "https://www.beethoven.de/en/media/view/5970142945083392/Ludwig%2Bvan%2BBeethoven%2C%2BSkizzenblatt%2Bzum%2BStreichquartett%2Bop.%2B131%2C%2BPartiturskizze%2C%2BAutograph?fromArchive=6046122829152256"
+      }
+    ],
     "listening_guide": "七個樂章連續演奏不中斷，從第一樂章的緩慢賦格到最後的激烈終曲，情感歷程極為豐富。舒伯特在貝多芬去世前幾天聽過此曲，據說說道：「在這之後，我們還能寫什麼？」貝多芬本人稱它是他「最完整的作品」。",
-    "analysis": "第一樂章的賦格以升 C 小調寫成，調性選擇本身已暗示遠離常規。七樂章的結構打破了奏鳴曲套曲的傳統框架，更接近一種「流動的內心旅程」。此曲被認為是晚期四重奏中結構最為精密、也最深刻的一首。"
+    "analysis": "第一樂章的賦格以升 C 小調寫成，調性選擇本身已暗示遠離常規。七樂章的結構打破了奏鳴曲套曲的傳統框架，更接近一種「流動的內心旅程」。此曲被認為是晚期四重奏中結構最為精密、也最深刻的一首。",
+    "scholarly_analysis": "Joseph Kerman 在《貝多芬弦樂四重奏》（1967）中將本曲的七樂章結構描述為「不對稱的弧線」（asymmetrical arch），其中 C♯ 小調的賦格（第一樂章）與 D♭ 大調的慢板（第四樂章，即 C♯ 大調的異名同音調）構成「遠距離的調性鏡像」。Robert Winter 在手稿研究中發現，七樂章的連接並非最初的設計，而是貝多芬在修訂過程中逐步確立的，顯示其結構邏輯在創作過程中持續演化。Daniel Chua 在《絕對音樂與其他虛構》（1999）中以本曲為例論證「晚期風格」（late style）不能簡單等同於「精神超越」：第七樂章的粗暴與混亂打破了任何圓滿解決的期待，是貝多芬刻意拒絕「昇華敘事」的姿態。"
   },
   {
     "id": "grosse-fuge-op-133",
@@ -208,7 +384,18 @@
     "type": "string_quartet",
     "period": "late",
     "summary": "原為第十三號弦樂四重奏終樂章，因其前衛複雜而獨立出版，後世常視為現代主義先聲。",
+    "sources": [
+      {
+        "label": "Britannica Great Fugue",
+        "url": "https://www.britannica.com/topic/Great-Fugue"
+      },
+      {
+        "label": "Beethoven-Haus Bonn Große Fuge op. 133",
+        "url": "https://www.beethoven.de/de/work/view/4922660014260224/Gro%C3%9Fe%2BFuge%2Bf%C3%BCr%2Bzwei%2BViolinen%2C%2BViola%2Bund%2BVioloncello%2B%26%23040%3BB-Dur%26%23041%3B%2Bop.%2B133"
+      }
+    ],
     "listening_guide": "此曲在 1826 年首演時讓觀眾完全摸不著頭緒，出版商甚至建議貝多芬換一個更平易近人的終樂章。今天，它被視為十九世紀最前衛的音樂作品之一，其不協和音密度與對位複雜度直到二十世紀才被充分理解與欣賞。",
-    "analysis": "整首賦格以一個簡短的「序言」引出兩個彼此衝突的主題，隨後在極端張力下交替發展。大量的不協和二度音程與劇烈的強弱對比，令同時代聽眾深感不安。巴爾托克（Bartók）與史特拉汶斯基（Stravinsky）均高度推崇此曲，視其為現代主義音樂語言的預言。"
+    "analysis": "整首賦格以一個簡短的「序言」引出兩個彼此衝突的主題，隨後在極端張力下交替發展。大量的不協和二度音程與劇烈的強弱對比，令同時代聽眾深感不安。巴爾托克（Bartók）與史特拉汶斯基（Stravinsky）均高度推崇此曲，視其為現代主義音樂語言的預言。",
+    "scholarly_analysis": "Martin Cooper 在《貝多芬：最後十年》（1970）中詳述此曲從第十三號四重奏終樂章被「切除」的出版史：出版商 Artaria 以「太艱澀難懂」為由說服貝多芬另寫替代終樂章（Op. 135 finale），並將大賦格獨立出版為 Op. 133。Leo Treitler 在《音樂與歷史敘事》（1989）中論證此曲的接受史本身揭示了「音樂現代主義正典建構」的機制：二十世紀先鋒派（尤其是史特拉汶斯基）對此曲的追認，是一種「逆向的歷史合法性製造」。Ryan Minor 則從「賦格作為論辯模式」角度分析，指出大賦格的兩個主題（一個跳躍型、一個平滑型）並非互補而是真正衝突，全曲是一場未解決的辯證對抗，而非傳統賦格的和解綜合。"
   }
 ]

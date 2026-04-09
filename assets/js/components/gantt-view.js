@@ -173,7 +173,7 @@ export function renderGanttView(model, rerender) {
 
   root.querySelectorAll("[data-work-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedWorkId: el.dataset.workId });
+      setState({ selectedWorkId: el.dataset.workId, selectedProfileId: null, selectedEventId: null });
       rerender();
     });
   });

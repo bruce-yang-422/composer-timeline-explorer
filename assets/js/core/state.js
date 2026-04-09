@@ -1,5 +1,6 @@
 export const state = {
   selectedComposerId: null,
+  selectedProfileId: null,
   selectedWorkId: null,
   selectedEventId: null,
   selectedContextId: null,

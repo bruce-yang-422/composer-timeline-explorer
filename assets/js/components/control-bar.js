@@ -52,23 +52,19 @@ export function renderControlBar(model, rerender) {
     const available = composersForEra(model.composers, newEra);
     const stillValid = available.find(c => c.id === model.state.selectedComposerId);
     const nextComposer = stillValid ?? available[0] ?? null;
-    const composerWorks = nextComposer
-      ? model.works.filter(w => w.composerId === nextComposer.id)
-      : [];
-    const defaultWork = composerWorks.find(w => w.media?.youtubeId) ?? composerWorks[0] ?? null;
     setState({
       selectedEra: newEra,
       selectedComposerId: nextComposer?.id ?? null,
-      selectedWorkId: defaultWork?.id ?? null,
+      selectedWorkId: null,
+      selectedProfileId: nextComposer?.id ?? null,
+      selectedEventId: null,
     });
     rerender();
   });
 
   root.querySelector("#composer-select").addEventListener("change", e => {
     const newId = e.target.value;
-    const composerWorks = model.works.filter(w => w.composerId === newId);
-    const defaultWork = composerWorks.find(w => w.media?.youtubeId) ?? composerWorks[0] ?? null;
-    setState({ selectedComposerId: newId, selectedWorkId: defaultWork?.id ?? null });
+    setState({ selectedComposerId: newId, selectedWorkId: null, selectedProfileId: newId, selectedEventId: null });
     rerender();
   });
 }

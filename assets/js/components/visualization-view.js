@@ -13,6 +13,11 @@ export function renderVisualizationView(model, rerender) {
   const root = document.querySelector("#guide-panel");
   if (!root) return;
 
+  if (model.state.selectedProfileId) {
+    setHtml(root, `<p class="note-box">個人資料模式下沒有音樂說明與導聆資料。</p>`);
+    return;
+  }
+
   const selectedWork = model.works.find(w => w.id === model.state.selectedWorkId)
     ?? model.works.find(w => w.composerId === model.state.selectedComposerId);
 
@@ -44,6 +49,16 @@ export function renderVisualizationView(model, rerender) {
       `).join("")
     : `<li style="font-size:0.8rem;color:var(--color-muted)">同時期無其他作品。</li>`;
 
+  const scholarlyBlock = selectedWork.scholarly_analysis ? `
+    <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+      <p class="data-card-meta" style="display:flex;align-items:center;gap:0.4rem">
+        <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--color-accent)"></span>
+        學術解析
+      </p>
+      <p style="font-size:0.8rem;line-height:1.8;color:var(--color-ink);font-family:var(--font-display);letter-spacing:0.01em">${selectedWork.scholarly_analysis}</p>
+    </div>
+  ` : "";
+
   setHtml(root, `
     <div style="display:flex;flex-direction:column;gap:1rem">
 
@@ -62,6 +77,8 @@ export function renderVisualizationView(model, rerender) {
         </p>
       </div>
 
+      ${scholarlyBlock}
+
       <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
         <p class="data-card-meta">同時期其他作品</p>
         <ul style="list-style:none;padding:0;margin:0">
@@ -74,7 +91,7 @@ export function renderVisualizationView(model, rerender) {
 
   root.querySelectorAll("[data-work-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedWorkId: el.dataset.workId });
+      setState({ selectedWorkId: el.dataset.workId, selectedProfileId: null, selectedEventId: null });
       rerender();
     });
   });

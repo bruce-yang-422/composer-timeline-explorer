@@ -29,16 +29,11 @@ export async function bootstrapApp() {
     (composer) => composer.id === appConfig.defaultComposerId
   ) ?? composers[0];
 
-  const composerWorks = works.filter(
-    (work) => work.composerId === currentComposer?.id
-  );
-
-  const defaultSelectedWork =
-    composerWorks.find((work) => work.media?.youtubeId) ?? composerWorks[0] ?? null;
-
   setState({
     selectedComposerId: currentComposer?.id ?? null,
-    selectedWorkId: defaultSelectedWork?.id ?? null
+    selectedProfileId: currentComposer?.id ?? null,
+    selectedWorkId: null,
+    selectedEventId: null
   });
 
   const model = {

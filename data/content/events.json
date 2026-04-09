@@ -6,7 +6,18 @@
     "age": 0,
     "type": "personal",
     "title": "出生於波昂 Born in Bonn",
-    "summary": "1770 年 12 月受洗於波昂的音樂家庭，日後成為西方音樂史最具影響力的作曲家之一。"
+    "timelineTitle": "出生於波昂",
+    "summary": "1770 年 12 月 17 日受洗於波昂，出身選侯宮廷音樂家庭；祖父與父親都在宮廷音樂體系任職，讓他自幼即置身職業音樂環境。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn",
+        "url": "https://www.beethoven.de/en/beethoven"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "first-vienna-visit",
@@ -15,7 +26,18 @@
     "age": 17,
     "type": "career",
     "title": "首次前往維也納 First Vienna Visit",
-    "summary": "年輕的貝多芬短暫前往維也納，傳說曾為莫札特演奏，但相關細節仍有文獻爭議。"
+    "timelineTitle": "首次前往維也納",
+    "summary": "1786 年底啟程、1787 年初在維也納停留數週，原意是向莫札特學習；兩人是否正式會面未有確證，而他返程途中便得知母親病危。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn",
+        "url": "https://www.beethoven.de/en/beethoven"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "move-to-vienna",
@@ -24,7 +46,18 @@
     "age": 22,
     "type": "career",
     "title": "移居維也納 Move to Vienna",
-    "summary": "在華德斯坦伯爵支持下正式遷居維也納，展開作曲家與鋼琴家的成熟職業生涯。"
+    "timelineTitle": "移居維也納",
+    "summary": "1792 年 11 月前往維也納向海頓學習，之後又受教於阿爾布雷希茨貝格與薩列里；1794 年波昂宮廷解體後，這趟留學遂成永久遷居。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn",
+        "url": "https://www.beethoven.de/en/beethoven"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "opus-1-publication",
@@ -33,7 +66,18 @@
     "age": 25,
     "type": "career",
     "title": "作品 1 發表 Op. 1 Publication",
-    "summary": "《三首鋼琴三重奏》出版，象徵他以成熟作曲家身分正式進入維也納音樂圈。"
+    "timelineTitle": "作品 1 發表",
+    "summary": "1795 年 3 月 29 日首度在維也納公開演出，同年 7 月《三首鋼琴三重奏》Op. 1 以預購形式發行，標誌他正式以鋼琴家兼作曲家身分打入維也納樂壇。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      },
+      {
+        "label": "Beethoven-Haus Bonn",
+        "url": "https://www.beethoven.de/en/beethoven"
+      }
+    ]
   },
   {
     "id": "hearing-loss-begins",
@@ -42,7 +86,14 @@
     "age": 28,
     "type": "health",
     "title": "聽力衰退開始 Hearing Loss Begins",
-    "summary": "約自 1798 年起開始察覺聽力異常，這個變化逐步改變其社交生活與創作處境。"
+    "timelineTitle": "聽力衰退開始",
+    "summary": "在 1800 年前後已出現耳鳴與聽覺受損徵兆；他後來自述遠處聽不見高音與歌者聲音，這場危機逐步改變其演出、社交與創作處境。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "heiligenstadt-testament",
@@ -51,7 +102,18 @@
     "age": 32,
     "type": "personal",
     "title": "《海利根施塔特遺書》 Heiligenstadt Testament",
-    "summary": "在面對失聰危機時寫下的關鍵文獻，表達絕望與繼續為藝術而活的決心。"
+    "timelineTitle": "《海利根施塔特遺書》",
+    "summary": "1802 年在當時仍是維也納郊外村落的海利根施塔特寫下這份文獻，原擬寫給兩位兄弟；其中既坦露失聰造成的痛苦，也表達繼續為藝術而活的決意。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn",
+        "url": "https://www.beethoven.de/en/museum/ausstellung/220-jahre-heiligenstadt-testament"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "eroica-turning-point",
@@ -60,7 +122,18 @@
     "age": 34,
     "type": "creative_shift",
     "title": "《英雄》象徵中期轉向 Eroica Turning Point",
-    "summary": "《第三號交響曲「英雄」》標誌他進入規模更大、情感更強烈的英雄時期。"
+    "timelineTitle": "《英雄》象徵中期轉向",
+    "summary": "《第三號交響曲「英雄」》象徵創作語言全面擴張；拿破崙稱帝後，貝多芬放棄原擬的「波拿巴」題名。作品在規模與戲劇性上遠超當時交響曲慣例，常被視為中期風格的關鍵轉折。",
+    "sources": [
+      {
+        "label": "Britannica Eroica Symphony",
+        "url": "https://www.britannica.com/topic/Eroica-Symphony"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "lifetime-annuity",
@@ -69,7 +142,18 @@
     "age": 39,
     "type": "career",
     "title": "獲得終身年金 Lifetime Annuity",
-    "summary": "魯道夫大公等貴族提供終身年金，使他得以維持較高程度的創作自由並留在維也納。"
+    "timelineTitle": "獲得終身年金",
+    "summary": "1809 年為阻止他赴卡塞爾任職，魯道夫大公、金斯基與洛布科維茨簽下年金協議，承諾每年 4000 florins，使他得以留在維也納並維持較高創作自主。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn Annuität",
+        "url": "https://www.beethoven.de/en/media/view/6610781911121920/Rentenvertrag%2Bzwischen%2BErzherzog%2BRudolph%2C%2BF%C3%BCrst%2BFerdinand%2BKinsky%2C%2BF%C3%BCrst%2BFranz%2BJoseph%2BLobkowitz%2Bund%2BLudwig%2Bvan%2BBeethoven%2C%2BWien%2C%2B1.%2BM%C3%A4rz%2B1809%2C%2BAbschrift"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "immortal-beloved-letter",
@@ -78,7 +162,18 @@
     "age": 42,
     "type": "personal",
     "title": "寫下「永遠的愛人」信件 Immortal Beloved Letter",
-    "summary": "1812 年未寄出的情書成為音樂史最著名的私人文獻之一，其收信者至今仍具爭議。"
+    "timelineTitle": "寫下「永遠的愛人」信件",
+    "summary": "1812 年 7 月在波希米亞的特普利采寫下著名未寄情書，內容濃烈而私密；收信者身分至今仍未確定，因此成為其生平中最著名也最難解的私人文獻之一。",
+    "sources": [
+      {
+        "label": "Library of Congress",
+        "url": "https://www.loc.gov/item/2021668115/"
+      },
+      {
+        "label": "Beethoven-Haus Bonn",
+        "url": "https://www.beethoven.de/en/beethoven/the-immortal-beloved-letter/the-letter-in-the-original"
+      }
+    ]
   },
   {
     "id": "karl-custody-struggle",
@@ -87,7 +182,18 @@
     "age": 45,
     "type": "family",
     "title": "姪子監護權訴訟 Karl Custody Struggle",
-    "summary": "弟弟過世後，貝多芬與弟媳展開漫長訴訟以爭取姪子卡爾的監護權，嚴重消耗身心。"
+    "timelineTitle": "姪子監護權訴訟",
+    "summary": "1815 年弟弟卡斯帕爾・卡爾去世後，貝多芬接手姪子卡爾的監護，並與其母約翰娜展開多年訴訟；這場家庭與法律糾紛一路延續到 1820 年前後，嚴重消耗其心力。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn Karl van Beethoven",
+        "url": "https://www.beethoven.de/en/media/view/5228762870317056/Karl%2Bvan%2BBeethoven%2B%26%23040%3B1806-1858%26%23041%3B%2C%2Bder%2BNeffe%2Bdes%2BKomponisten%2B-%2BAnonyme%2BDaguerreotypie%2C%2BWien%2C%2Bwohl%2Baus%2Bden%2B1840er%2BJahren?fromArchive=4886601146564608"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "late-style-deepens",
@@ -96,7 +202,14 @@
     "age": 48,
     "type": "creative_shift",
     "title": "晚期風格深化 Late Style Deepens",
-    "summary": "創作逐步轉向高度內省、對位技法與形式實驗，開啟晚期風格的核心面貌。"
+    "timelineTitle": "晚期風格深化",
+    "summary": "到 1818 年前後，晚期風格已明顯成形；依據一般分期，1814 年後的作品在和聲、質地與形式上更自由，而《漢馬克拉維》等作品正體現這種擴張與內省。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "conversation-books",
@@ -105,7 +218,14 @@
     "age": 48,
     "type": "health",
     "title": "大量使用談話簿 Conversation Books",
-    "summary": "晚年幾近全聾後，與外界溝通常依賴談話簿，成為研究其晚年生活的重要史料。"
+    "timelineTitle": "大量使用談話簿",
+    "summary": "自 1818 年起，因耳聾惡化，訪客多需把話寫在談話簿上與他交流；這批材料後來成為研究其晚年生活、工作與人際往來的重要史料。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "ninth-symphony-premiere",
@@ -114,7 +234,14 @@
     "age": 54,
     "type": "career",
     "title": "《第九號交響曲》首演 Ninth Symphony Premiere",
-    "summary": "1824 年於維也納首演，象徵晚期創作成就的巔峰，也是音樂史上的里程碑事件。"
+    "timelineTitle": "《第九號交響曲》首演",
+    "summary": "1824 年 5 月 7 日《第九號交響曲》於維也納首演，成為首部將合唱與獨唱正式納入交響曲終樂章的里程碑；首演後他隨即展開最後幾首弦樂四重奏的創作。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   },
   {
     "id": "death-vienna",
@@ -123,6 +250,17 @@
     "age": 56,
     "type": "personal",
     "title": "逝世於維也納 Death in Vienna",
-    "summary": "1827 年 3 月逝世於維也納，葬禮吸引大量民眾參與，反映其在當時已具高度公共聲望。"
+    "timelineTitle": "逝世於維也納",
+    "summary": "1827 年 3 月 26 日卒於維也納 Schwarzspanierhaus；葬禮當天靈柩停放時已聚集大批群眾，送葬隊伍在擁擠人潮中前往教堂，顯示他已是具公共象徵意義的文化人物。",
+    "sources": [
+      {
+        "label": "Beethoven-Haus Bonn Death and Bequest",
+        "url": "https://www.beethoven.de/en/archive/view/node/5657669511675904/Beethoven%26%2339%3Bs%2Bdeath%2Band%2Bbequest"
+      },
+      {
+        "label": "Britannica Biography",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven"
+      }
+    ]
   }
 ]

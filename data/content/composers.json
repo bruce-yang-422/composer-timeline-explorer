@@ -23,6 +23,13 @@
       "弦樂四重奏 String Quartet",
       "古典到浪漫 Classical to Romantic"
     ],
+    "portrait": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/960px-Beethoven.jpg",
+      "alt": "Ludwig van Beethoven portrait by Joseph Karl Stieler (1820)",
+      "caption": "Joseph Karl Stieler 於 1820 年所繪貝多芬肖像。",
+      "credit": "Wikimedia Commons / Joseph Karl Stieler",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+    },
     "summary": "貝多芬是連結古典時期與浪漫時期的關鍵作曲家，作品以強烈戲劇性、動機發展、結構創新與高度精神性著稱。",
     "intro": "他在聽力持續惡化、晚年幾近全聾的情況下，仍創作出交響曲、奏鳴曲、協奏曲與晚期弦樂四重奏等西方音樂史上的核心經典。",
     "sourceDocs": [
