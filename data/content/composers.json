@@ -1,41 +1,27 @@
 [
   {
-    "id": "beethoven",
-    "name": "貝多芬 Ludwig van Beethoven",
-    "slug": "ludwig-van-beethoven",
-    "fullName": "路德維希・范・貝多芬 Ludwig van Beethoven",
-    "birth": 1770,
-    "death": 1827,
-    "ageAtDeath": 56,
-    "deathAgeLabel": "享年 56 歲",
-    "birthPlace": "波昂 Bonn",
-    "primaryLocation": "維也納 Vienna",
-    "nationality": "德國 German",
-    "era": "古典晚期至浪漫早期 Late Classical to Early Romantic",
-    "periods": [
-      "early",
-      "middle",
-      "late"
-    ],
+    "id": "site-intro",
+    "name": "網站導覽 Site Intro",
+    "slug": "site-intro",
+    "fullName": "Timeline of Music 網站導覽",
+    "birth": null,
+    "death": null,
+    "ageAtDeath": null,
+    "deathAgeLabel": "",
+    "birthPlace": "",
+    "primaryLocation": "",
+    "nationality": "",
+    "era": "互動式古典音樂時間軸網站",
+    "periods": [],
     "tags": [
-      "交響曲革新者 Symphony Innovator",
-      "鋼琴奏鳴曲 Piano Sonata",
-      "弦樂四重奏 String Quartet",
-      "古典到浪漫 Classical to Romantic"
+      "作曲家生平 Composer Timeline",
+      "作品導聆 Listening Guide",
+      "時代背景 Historical Context",
+      "音樂史入口 Music History"
     ],
-    "portrait": {
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/960px-Beethoven.jpg",
-      "alt": "Ludwig van Beethoven portrait by Joseph Karl Stieler (1820)",
-      "caption": "Joseph Karl Stieler 於 1820 年所繪貝多芬肖像。",
-      "credit": "Wikimedia Commons / Joseph Karl Stieler",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
-    },
-    "summary": "貝多芬是連結古典時期與浪漫時期的關鍵作曲家，作品以強烈戲劇性、動機發展、結構創新與高度精神性著稱。",
-    "intro": "他在聽力持續惡化、晚年幾近全聾的情況下，仍創作出交響曲、奏鳴曲、協奏曲與晚期弦樂四重奏等西方音樂史上的核心經典。",
-    "sourceDocs": [
-      "docs/introduction_to_beethoven_google.md",
-      "docs/beethoven_comprehensive_guide.md"
-    ]
+    "summary": "這個網站用時間軸方式串連作曲家生平、代表作品、聆聽導引與時代背景，幫你從一位作曲家一路讀到整個音樂史的文化脈絡。",
+    "intro": "從右上角選擇作曲家後，你可以依序查看個人資料、生平記事、作品分布、作品分析、影音與背景層；也可以直接點時間軸上的節點快速切換預覽。",
+    "sourceDocs": []
   },
   {
     "id": "vivaldi",
@@ -87,6 +73,70 @@
     ],
     "summary": "莫札特是古典時期最核心的作曲家之一，作品以旋律、平衡感、戲劇表現與驚人的多樣性著稱。",
     "intro": "他自幼以神童之姿活躍於歐洲宮廷與城市音樂生活，成年後在維也納寫下歌劇、交響曲、協奏曲與室內樂的經典範本。",
+    "sourceDocs": []
+  },
+  {
+    "id": "beethoven",
+    "name": "貝多芬 Ludwig van Beethoven",
+    "slug": "ludwig-van-beethoven",
+    "fullName": "路德維希・范・貝多芬 Ludwig van Beethoven",
+    "birth": 1770,
+    "death": 1827,
+    "ageAtDeath": 56,
+    "deathAgeLabel": "享年 56 歲",
+    "birthPlace": "波昂 Bonn",
+    "primaryLocation": "維也納 Vienna",
+    "nationality": "德國 German",
+    "era": "古典晚期至浪漫早期 Late Classical to Early Romantic",
+    "periods": [
+      "early",
+      "middle",
+      "late"
+    ],
+    "tags": [
+      "交響曲革新者 Symphony Innovator",
+      "鋼琴奏鳴曲 Piano Sonata",
+      "弦樂四重奏 String Quartet",
+      "古典到浪漫 Classical to Romantic"
+    ],
+    "portrait": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/960px-Beethoven.jpg",
+      "alt": "Ludwig van Beethoven portrait by Joseph Karl Stieler (1820)",
+      "caption": "Joseph Karl Stieler 於 1820 年所繪貝多芬肖像。",
+      "credit": "Wikimedia Commons / Joseph Karl Stieler",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+    },
+    "summary": "貝多芬是連結古典時期與浪漫時期的關鍵作曲家，作品以強烈戲劇性、動機發展、結構創新與高度精神性著稱。",
+    "intro": "他在聽力持續惡化、晚年幾近全聾的情況下，仍創作出交響曲、奏鳴曲、協奏曲與晚期弦樂四重奏等西方音樂史上的核心經典。",
+    "sourceDocs": [
+      "docs/introduction_to_beethoven_google.md",
+      "docs/beethoven_comprehensive_guide.md"
+    ]
+  },
+  {
+    "id": "paganini",
+    "name": "帕格尼尼 Niccolò Paganini",
+    "slug": "niccolo-paganini",
+    "fullName": "尼可羅・帕格尼尼 Niccolò Paganini",
+    "birth": 1782,
+    "death": 1840,
+    "ageAtDeath": 57,
+    "deathAgeLabel": "享年 57 歲",
+    "birthPlace": "熱那亞 Genoa",
+    "primaryLocation": "義大利與歐洲巡演 Italy and Europe",
+    "nationality": "義大利 Italian",
+    "era": "浪漫時期 Romantic",
+    "periods": [
+      "romantic"
+    ],
+    "tags": [
+      "小提琴 Violin",
+      "炫技 Virtuosity",
+      "隨想曲 Caprice",
+      "協奏曲 Concerto"
+    ],
+    "summary": "帕格尼尼是十九世紀最具傳奇色彩的小提琴家與作曲家，以驚人的炫技、舞台魅力與新式演奏語彙震撼整個歐洲。",
+    "intro": "他的《二十四首隨想曲》與小提琴協奏曲不僅重塑了小提琴演奏的技術極限，也深刻影響了浪漫時期的明星演奏家文化。",
     "sourceDocs": []
   },
   {
@@ -142,29 +192,30 @@
     "sourceDocs": []
   },
   {
-    "id": "paganini",
-    "name": "帕格尼尼 Niccolò Paganini",
-    "slug": "niccolo-paganini",
-    "fullName": "尼可羅・帕格尼尼 Niccolò Paganini",
-    "birth": 1782,
-    "death": 1840,
-    "ageAtDeath": 57,
-    "deathAgeLabel": "享年 57 歲",
-    "birthPlace": "熱那亞 Genoa",
-    "primaryLocation": "義大利與歐洲巡演 Italy and Europe",
+    "id": "puccini",
+    "name": "普契尼 Giacomo Puccini",
+    "slug": "giacomo-puccini",
+    "fullName": "賈科莫・普契尼 Giacomo Puccini",
+    "birth": 1858,
+    "death": 1924,
+    "ageAtDeath": 65,
+    "deathAgeLabel": "享年 65 歲",
+    "birthPlace": "盧卡 Lucca",
+    "primaryLocation": "義大利 Italy",
     "nationality": "義大利 Italian",
-    "era": "浪漫時期 Romantic",
+    "era": "晚期浪漫至現代早期 Late Romantic to Early Modern",
     "periods": [
-      "romantic"
+      "romantic",
+      "modern"
     ],
     "tags": [
-      "小提琴 Violin",
-      "炫技 Virtuosity",
-      "隨想曲 Caprice",
-      "協奏曲 Concerto"
+      "歌劇 Opera",
+      "義大利歌劇 Italian Opera",
+      "威爾第後繼者 Post-Verdi",
+      "舞台戲劇性 Dramatic Theatre"
     ],
-    "summary": "帕格尼尼是十九世紀最具傳奇色彩的小提琴家與作曲家，以驚人的炫技、舞台魅力與新式演奏語彙震撼整個歐洲。",
-    "intro": "他的《二十四首隨想曲》與小提琴協奏曲不僅重塑了小提琴演奏的技術極限，也深刻影響了浪漫時期的明星演奏家文化。",
+    "summary": "普契尼是十九世紀末至二十世紀初最重要的歌劇作曲家之一，以強烈劇場感、旋律魅力與成熟的舞台敘事著稱。",
+    "intro": "《波希米亞人》《托斯卡》《蝴蝶夫人》與《杜蘭朵》使他成為威爾第之後最具代表性的義大利歌劇作曲家之一。",
     "sourceDocs": []
   },
   {
@@ -192,33 +243,6 @@
     ],
     "summary": "拉赫曼尼諾夫是晚期浪漫語言的重要代表人物，作品以寬廣旋律、濃厚和聲與鋼琴性的壯麗質感著稱。",
     "intro": "他同時是作曲家、鋼琴家與指揮家，流亡後在美國以演奏家身分廣受歡迎，其鋼琴協奏曲與前奏曲至今仍是核心曲目。",
-    "sourceDocs": []
-  },
-  {
-    "id": "puccini",
-    "name": "普契尼 Giacomo Puccini",
-    "slug": "giacomo-puccini",
-    "fullName": "賈科莫・普契尼 Giacomo Puccini",
-    "birth": 1858,
-    "death": 1924,
-    "ageAtDeath": 65,
-    "deathAgeLabel": "享年 65 歲",
-    "birthPlace": "盧卡 Lucca",
-    "primaryLocation": "義大利 Italy",
-    "nationality": "義大利 Italian",
-    "era": "晚期浪漫至現代早期 Late Romantic to Early Modern",
-    "periods": [
-      "romantic",
-      "modern"
-    ],
-    "tags": [
-      "歌劇 Opera",
-      "義大利歌劇 Italian Opera",
-      "威爾第後繼者 Post-Verdi",
-      "舞台戲劇性 Dramatic Theatre"
-    ],
-    "summary": "普契尼是十九世紀末至二十世紀初最重要的歌劇作曲家之一，以強烈劇場感、旋律魅力與成熟的舞台敘事著稱。",
-    "intro": "《波希米亞人》《托斯卡》《蝴蝶夫人》與《杜蘭朵》使他成為威爾第之後最具代表性的義大利歌劇作曲家之一。",
     "sourceDocs": []
   }
 ]

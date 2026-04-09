@@ -13,11 +13,69 @@ const TYPE_COLORS = {
   sacred_vocal:    "#5C3A18",  // warm sienna
 };
 
-const PERIOD_BANDS = [
-  { label: "早期", end: 1799,  fill: "#EEF3FA", border: "#B4CDE6", text: "#1C3D60" },
-  { label: "中期", end: 1815,  fill: "#FDF5E8", border: "#F0D09A", text: "#8B5C18" },
-  { label: "晚期", end: Infinity, fill: "#F3EEF9", border: "#C8B4E8", text: "#5B2A82" },
-];
+const PERIOD_LABELS = { early: "早期", middle: "中期", late: "晚期" };
+const PERIOD_STYLES = {
+  early:  { fill: "#EEF3FA", border: "#B4CDE6", text: "#1C3D60" },
+  middle: { fill: "#FDF5E8", border: "#F0D09A", text: "#8B5C18" },
+  late:   { fill: "#F3EEF9", border: "#C8B4E8", text: "#5B2A82" },
+  life:   { fill: "#F5F1EC", border: "#D8CFC4", text: "#6C5A45" },
+};
+
+function getComposerPeriodBands(composer, works, startYear, endYear) {
+  if (composer?.id === "beethoven") {
+    return [
+      { label: "早期", start: startYear, end: Math.min(1799, endYear), ...PERIOD_STYLES.early },
+      { label: "中期", start: 1800, end: Math.min(1815, endYear), ...PERIOD_STYLES.middle },
+      { label: "晚期", start: 1816, end: endYear, ...PERIOD_STYLES.late },
+    ].filter(b => b.end > b.start);
+  }
+
+  const orderedKeys = ["early", "middle", "late"];
+  const ranges = orderedKeys
+    .map(key => {
+      const years = works.filter(w => w.period === key).map(w => w.year);
+      if (!years.length) return null;
+      return {
+        key,
+        min: Math.min(...years),
+        max: Math.max(...years),
+      };
+    })
+    .filter(Boolean);
+
+  if (!ranges.length) {
+    return [
+      {
+        label: "創作生涯",
+        start: startYear,
+        end: endYear,
+        ...PERIOD_STYLES.life,
+      },
+    ];
+  }
+
+  const bands = [];
+  let currentStart = startYear;
+
+  ranges.forEach((range, index) => {
+    const next = ranges[index + 1];
+    const currentStyle = PERIOD_STYLES[range.key] ?? PERIOD_STYLES.life;
+    const end = next
+      ? (range.max + next.min) / 2
+      : endYear;
+
+    bands.push({
+      label: PERIOD_LABELS[range.key] ?? range.key,
+      start: currentStart,
+      end,
+      ...currentStyle,
+    });
+
+    currentStart = end;
+  });
+
+  return bands.filter(b => b.end > b.start);
+}
 
 const MUSIC_HISTORY_BANDS = [
   { label: "文藝復興", start: 1400, end: 1600,     fill: "rgba(120,92,40,0.11)",  text: "#7A5C28" },
@@ -32,6 +90,16 @@ export function renderGanttView(model, rerender) {
   if (!root) return;
 
   const composer = model.composers.find(c => c.id === model.state.selectedComposerId);
+  if (composer?.id === "site-intro") {
+    setHtml(root, `
+      <div class="note-box" style="display:flex;flex-direction:column;gap:0.5rem">
+        <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">選擇作曲家後，這裡會顯示他的創作生涯分布、作品節點，以及作品落在早期／中期／晚期的位置。</p>
+        <p style="font-size:0.8rem;line-height:1.7;color:var(--color-muted)">上層色帶對應音樂史時期，下層色帶對應該作曲家的創作階段。</p>
+      </div>
+    `);
+    return;
+  }
+
   const works = model.works.filter(w => w.composerId === model.state.selectedComposerId);
 
   if (!composer || !works.length) {
@@ -42,6 +110,7 @@ export function renderGanttView(model, rerender) {
   const startYear = composer.birth;
   const endYear   = composer.death;
   const span      = endYear - startYear;
+  const composerPeriodBands = getComposerPeriodBands(composer, works, startYear, endYear);
 
   const MHBH = 22;  // height of the music history band strip at the top
 
@@ -81,19 +150,15 @@ export function renderGanttView(model, rerender) {
   const bandSeparator = `<line x1="${PL}" y1="${MHBH}" x2="${W - PR}" y2="${MHBH}" stroke="#C4C9D4" stroke-width="0.75" opacity="0.7"/>`;
 
   // ── Composer life period background bands ────────────────────────────────
-  let bandStart = startYear;
-  const bands = PERIOD_BANDS.map(p => {
-    const bandEnd = Math.min(p.end, endYear);
-    const x1 = xOf(bandStart);
-    const x2 = xOf(bandEnd);
+  const bands = composerPeriodBands.map((p, index) => {
+    const x1 = xOf(p.start);
+    const x2 = xOf(p.end);
     const mx = (x1 + x2) / 2;
-    const el = `
+    return `
       <rect x="${x1}" y="${PT}" width="${x2 - x1}" height="${cH}" fill="${p.fill}" />
       <text x="${mx}" y="${PT + 13}" text-anchor="middle" font-size="11" fill="${p.text}" font-weight="600">${p.label}</text>
-      ${bandEnd < endYear ? `<line x1="${x2}" y1="${PT}" x2="${x2}" y2="${PT + cH}" stroke="${p.border}" stroke-width="1" stroke-dasharray="4 3"/>` : ""}
+      ${index < composerPeriodBands.length - 1 ? `<line x1="${x2}" y1="${PT}" x2="${x2}" y2="${PT + cH}" stroke="${p.border}" stroke-width="1" stroke-dasharray="4 3"/>` : ""}
     `;
-    bandStart = bandEnd + 1;
-    return el;
   }).join("");
 
   // Baseline

@@ -3,6 +3,7 @@
     "id": "enlightenment-bonn",
     "start": 1770,
     "end": 1792,
+    "scope": "external_context",
     "type": "historical",
     "title": "啟蒙思想與波昂知識圈 Enlightenment in Bonn",
     "summary": "貝多芬成長於受啟蒙運動影響的波昂文化圈，早年自由主義與理性精神對其世界觀形成深刻影響。"
@@ -11,14 +12,25 @@
     "id": "french-revolution",
     "start": 1789,
     "end": 1799,
+    "scope": "external_context",
     "type": "historical",
     "title": "法國大革命 French Revolution",
     "summary": "自由、平等與公民理念震動整個歐洲，也成為貝多芬英雄主義與政治想像的重要思想背景。"
   },
   {
+    "id": "industrial-revolution-and-urban-modernity",
+    "start": 1780,
+    "end": 1850,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "工業革命與都市現代性 Industrial Revolution and Urban Modernity",
+    "summary": "工業化、城市擴張與社會階層重組改變了歐洲人的生活節奏，也重塑了藝術對自然、個人與異化經驗的想像。"
+  },
+  {
     "id": "viennese-public-concert-culture",
     "start": 1790,
     "end": 1820,
+    "scope": "music_internal",
     "type": "cultural",
     "title": "維也納公共音樂會文化的成長 Growth of public concert culture in Vienna",
     "summary": "音樂逐漸從宮廷圈層走向更廣泛的公共空間，聽眾結構與期待也隨之改變。"
@@ -27,40 +39,117 @@
     "id": "patronage-to-freelance-transition",
     "start": 1792,
     "end": 1810,
+    "scope": "music_internal",
     "type": "cultural",
     "title": "從宮廷贊助到自由藝術家 Patronage to Freelance Transition",
     "summary": "貝多芬所處年代正見證音樂家職業模式轉型，他成為最早以自由作曲家姿態立足的重要人物之一。"
   },
   {
-    "id": "napoleonic-wars",
-    "start": 1803,
-    "end": 1815,
-    "type": "historical",
-    "title": "拿破崙戰爭 Napoleonic Wars",
-    "summary": "歐洲政治秩序的劇烈動盪，改變了贊助制度、公共文化與藝術活動的條件。"
-  },
-  {
     "id": "classical-to-romantic-transition",
     "start": 1800,
     "end": 1830,
+    "scope": "music_internal",
     "type": "musical_trend",
     "title": "古典到浪漫的轉型 Classical to Romantic transition",
     "summary": "曲式擴張、表現力提高與和聲語言拓展，逐步重塑了作曲的方向。"
   },
   {
+    "id": "napoleonic-wars",
+    "start": 1803,
+    "end": 1815,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "拿破崙戰爭 Napoleonic Wars",
+    "summary": "歐洲政治秩序的劇烈動盪，改變了贊助制度、公共文化與藝術活動的條件。"
+  },
+  {
     "id": "congress-of-vienna-restoration",
     "start": 1814,
     "end": 1815,
+    "scope": "external_context",
     "type": "historical",
     "title": "維也納會議與復辟時代 Congress of Vienna and Restoration",
     "summary": "拿破崙戰敗後歐洲進入保守秩序重建階段，政治與文化環境轉趨緊縮，也構成貝多芬晚期處境的一部分。"
   },
   {
+    "id": "restoration-censorship-and-police-order",
+    "start": 1815,
+    "end": 1848,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "復辟時代的審查與警察秩序 Restoration Censorship and Police Order",
+    "summary": "維也納會議後的保守政權加強了審查、監控與公共言論控制，藝術家因此更常透過沙龍、隱喻與民族敘事來表達政治情感。"
+  },
+  {
     "id": "late-style-modernism-precursor",
     "start": 1815,
     "end": 1827,
+    "scope": "music_internal",
     "type": "musical_trend",
     "title": "晚期風格與現代性先聲 Late Style as a Prelude to Modernism",
     "summary": "晚期作品在對位、形式與不協和語言上的高度實驗，使其在後世常被視為現代主義音樂的前驅。"
+  },
+  {
+    "id": "salon-culture-and-piano-virtuosity",
+    "start": 1815,
+    "end": 1850,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "沙龍文化與鋼琴炫技 Salon Culture and Piano Virtuosity",
+    "summary": "巴黎與歐洲主要城市的沙龍文化推動了鋼琴音樂、名家演出與私人藝術圈的成長，作曲家與演奏家之間的明星化現象日益明顯。"
+  },
+  {
+    "id": "romantic-miniatures-and-art-song",
+    "start": 1815,
+    "end": 1850,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "藝術歌曲與鋼琴小品的興起 Rise of Lied and Character Piece",
+    "summary": "除了大型交響與歌劇，浪漫時期也高度發展藝術歌曲與鋼琴特性小品，讓私密、片刻性與內在獨白成為核心表現形式。"
+  },
+  {
+    "id": "nationalism-and-folk-revival",
+    "start": 1815,
+    "end": 1890,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "民族主義與民間文化復興 Nationalism and Folk Revival",
+    "summary": "十九世紀的民族意識高漲，使民歌、地方舞曲、神話與本土傳說成為藝術創作的重要資源，也為後來的民族樂派鋪路。"
+  },
+  {
+    "id": "chromaticism-and-expanded-tonality",
+    "start": 1820,
+    "end": 1900,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "半音化與調性擴張 Chromaticism and Expanded Tonality",
+    "summary": "作曲家愈來愈頻繁使用遠關係轉調、變化和弦與延遲解決，讓調性系統變得更模糊、更具渴望感與心理張力。"
+  },
+  {
+    "id": "revolutions-and-political-romanticism",
+    "start": 1830,
+    "end": 1848,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "1830 與 1848 革命浪潮 Revolutions and Political Romanticism",
+    "summary": "七月革命與 1848 年革命浪潮使浪漫主義不只是一種審美風格，也與自由、民族獨立與政治理想的劇烈衝突緊密相連。"
+  },
+  {
+    "id": "july-revolution-and-public-imagination",
+    "start": 1830,
+    "end": 1831,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "1830 七月革命與公共想像力 July Revolution and Public Imagination",
+    "summary": "1830 年巴黎七月革命起於查理十世限制新聞出版與選舉權的敕令，報人、印刷工與城市群眾在「三榮日」迅速動員並建立街壘，最終推翻波旁王朝，由路易-菲利普建立七月王朝。大量報刊、傳單與政治宣言的流通，使革命被即時轉化為公共敘事；街壘、三色旗與群眾形象也透過視覺再現凝聚成可辨識的象徵體系，塑造出跨階層共享的「人民」想像，並持續影響十九世紀歐洲的自由主義與民族主義運動。"
+  },
+  {
+    "id": "neo-romanticism-and-grand-orchestral-scale",
+    "start": 1850,
+    "end": 1890,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "新浪漫主義與大型配器 Neo-Romanticism and Grand Orchestral Scale",
+    "summary": "十九世紀下半葉的浪漫主義並未消失，而是在更龐大的樂團編制、更複雜的和聲與更濃厚的敘事企圖中持續擴張。"
   }
 ]

@@ -15,6 +15,32 @@ export function renderPreviewPanel(model) {
   if (model.state.selectedProfileId) {
     const composer = model.composers.find(c => c.id === model.state.selectedProfileId);
     if (composer) {
+      if (composer.id === "site-intro") {
+        const tags = Array.isArray(composer.tags) && composer.tags.length
+          ? `<div style="display:flex;flex-wrap:wrap;gap:0.375rem">${composer.tags.map(tag => `<span class="chip">${tag}</span>`).join("")}</div>`
+          : "";
+
+        setHtml(root, `
+          <article style="display:flex;flex-direction:column;gap:1rem">
+            <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+              <p class="data-card-meta">網站導覽</p>
+              <h3 style="font-family:var(--font-display);font-size:1.125rem;line-height:1.4;color:var(--color-ink)">${composer.fullName}</h3>
+              <p style="font-size:0.875rem;line-height:1.8;color:var(--color-muted)">${composer.summary}</p>
+              <p style="font-size:0.875rem;line-height:1.8;color:var(--color-ink)">${composer.intro}</p>
+              ${tags}
+            </div>
+
+            <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
+              <p class="data-card-meta">如何開始</p>
+              <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">1. 從右上角下拉選單選擇一位作曲家。</p>
+              <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">2. 先看個人資料與生平記事，再點時間軸上的作品節點。</p>
+              <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">3. 中央可看影音、導聆、分析與延伸補充，下方可對照時代背景。</p>
+            </div>
+          </article>
+        `);
+        return;
+      }
+
       const tags = Array.isArray(composer.tags) && composer.tags.length
         ? `<div style="display:flex;flex-wrap:wrap;gap:0.375rem">${composer.tags.map(tag => `<span class="chip">${tag}</span>`).join("")}</div>`
         : "";
@@ -142,6 +168,14 @@ export function renderPreviewPanel(model) {
     </div>
   ` : "";
 
+  // --- Cultural note block ---
+  const culturalNoteBlock = selectedWork.cultural_note ? `
+    <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
+      <p class="data-card-meta">延伸補充</p>
+      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">${selectedWork.cultural_note}</p>
+    </div>
+  ` : "";
+
   setHtml(root, `
     <article style="display:flex;flex-direction:column;gap:1rem">
 
@@ -155,6 +189,7 @@ export function renderPreviewPanel(model) {
 
       ${guideBlock}
       ${analysisBlock}
+      ${culturalNoteBlock}
 
     </article>
   `);

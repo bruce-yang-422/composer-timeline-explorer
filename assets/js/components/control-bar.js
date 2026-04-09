@@ -9,12 +9,17 @@ const ERA_DEFS = [
   { key: "romantic",    label: "浪漫",      start: 1820, end: 1900 },
   { key: "modern",      label: "現代",      start: 1900, end: 2100 },
 ];
+const SITE_INTRO_ID = "site-intro";
 
 function composersForEra(composers, eraKey) {
-  if (eraKey === "all") return composers;
+  const intro = composers.find(c => c.id === SITE_INTRO_ID);
+  const actualComposers = composers.filter(c => c.id !== SITE_INTRO_ID);
+
+  if (eraKey === "all") return intro ? [intro, ...actualComposers] : actualComposers;
   const era = ERA_DEFS.find(e => e.key === eraKey);
-  if (!era) return composers;
-  return composers.filter(c => c.birth < era.end && (c.death ?? 2100) > era.start);
+  if (!era) return intro ? [intro, ...actualComposers] : actualComposers;
+  const filtered = actualComposers.filter(c => c.birth < era.end && (c.death ?? 2100) > era.start);
+  return intro ? [intro, ...filtered] : filtered;
 }
 
 export function renderControlBar(model, rerender) {

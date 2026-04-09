@@ -7,5 +7,5 @@ export const appConfig = {
     periodColors: "./data/mappings/period_colors.json",
     workTypeLabels: "./data/mappings/work_type_labels.json"
   },
-  defaultComposerId: "beethoven"
+  defaultComposerId: "site-intro"
 };

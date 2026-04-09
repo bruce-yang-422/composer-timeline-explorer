@@ -31,6 +31,7 @@ export function renderTimelineView(model, rerender) {
   const { selectedComposerId, selectedProfileId, selectedWorkId, selectedEventId, selectedType, selectedPeriod, hideEvents } = model.state;
 
   const composer = model.composers.find(c => c.id === selectedComposerId);
+  const isSiteIntro = selectedComposerId === "site-intro";
   const allWorks = model.works.filter(w => w.composerId === selectedComposerId);
   const events   = hideEvents ? [] : model.events.filter(e => e.composerId === selectedComposerId);
   const profileItem = hideEvents || !composer ? null : {
@@ -43,6 +44,39 @@ export function renderTimelineView(model, rerender) {
     timelineTitle: "個人資料",
     _kind: "profile"
   };
+
+  if (isSiteIntro) {
+    const featuredComposers = model.composers
+      .filter(c => c.id !== "site-intro")
+      .slice(0, 6);
+
+    if (filters) {
+      setHtml(filters, `
+        <div style="display:flex;flex-wrap:wrap;gap:0.375rem;align-items:center">
+          <span class="data-card-meta" style="margin-right:0.25rem">快速開始</span>
+          ${featuredComposers.map(c => `<button class="filter-chip" data-intro-composer="${c.id}">${c.name}</button>`).join("")}
+        </div>
+      `);
+    }
+
+    setHtml(root, `
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+        <p class="data-card-meta">探索方式</p>
+        <h3 style="font-family:var(--font-display);font-size:1rem;line-height:1.45;color:var(--color-ink)">從一位作曲家進入整體音樂史</h3>
+        <p style="font-size:0.875rem;line-height:1.75;color:var(--color-muted)">選擇作曲家後，左側會出現生平記事，右側會出現代表作品；點任一節點，就能切換中央預覽與右側背景層。</p>
+      </div>
+    `);
+
+    const filterRoot = filters ?? root;
+    filterRoot.querySelectorAll("[data-intro-composer]").forEach(el => {
+      el.addEventListener("click", () => {
+        const newId = el.dataset.introComposer;
+        setState({ selectedComposerId: newId, selectedWorkId: null, selectedProfileId: newId, selectedEventId: null });
+        rerender();
+      });
+    });
+    return;
+  }
 
   // Derive available types
   const allTypes = [...new Set(allWorks.map(w => w.type))];
