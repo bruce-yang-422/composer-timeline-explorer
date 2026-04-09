@@ -45,6 +45,26 @@ export function renderContextPanel(model) {
       ? model.contexts.filter(c => c.start <= refYear && c.end >= refYear)
       : model.contexts.slice(0, 6);
 
+  const sortedRelevant = [...relevant].sort((a, b) => {
+    if (isLifetimeMode) {
+      if (a.start !== b.start) return a.start - b.start;
+      return a.end - b.end;
+    }
+
+    const aSpan = a.end - a.start;
+    const bSpan = b.end - b.start;
+    if (aSpan !== bSpan) return aSpan - bSpan;
+
+    const aMidpoint = (a.start + a.end) / 2;
+    const bMidpoint = (b.start + b.end) / 2;
+    const aDistance = Math.abs(aMidpoint - refYear);
+    const bDistance = Math.abs(bMidpoint - refYear);
+    if (aDistance !== bDistance) return aDistance - bDistance;
+
+    if (a.start !== b.start) return a.start - b.start;
+    return a.end - b.end;
+  });
+
   const label = isLifetimeMode
     ? `顯示 ${selectedComposer?.name ?? "此作曲家"} 生涯相關的時代背景`
     : selectedEvent
@@ -53,8 +73,8 @@ export function renderContextPanel(model) {
         ? `顯示 ${selectedWork.year} 年前後的時代背景`
         : "全部背景";
 
-  const cards = relevant.length
-      ? relevant.map(item => `
+  const cards = sortedRelevant.length
+      ? sortedRelevant.map(item => `
         <article class="context-card grid gap-1">
           <p class="data-card-meta">${item.start}–${item.end} · ${SCOPE_LABELS[item.scope] ?? item.scope ?? "背景"} · ${TYPE_LABELS[item.type] ?? item.type}</p>
           <h3 class="font-display" style="font-size:0.9375rem;line-height:1.4">${item.title}</h3>

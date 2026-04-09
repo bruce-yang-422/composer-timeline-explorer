@@ -1,5 +1,5 @@
 import { appConfig } from "./config.js";
-import { setState, state } from "./state.js";
+import { loadPersistedState, setState, state } from "./state.js";
 import { loadJson } from "../utils/fetch-json.js";
 import { renderControlBar } from "../components/control-bar.js";
 import { renderTimelineView } from "../components/timeline-view.js";
@@ -25,15 +25,33 @@ export async function bootstrapApp() {
     loadJson(appConfig.dataPaths.workTypeLabels)
   ]);
 
+  const persisted = loadPersistedState();
   const currentComposer = composers.find(
+    (composer) => composer.id === persisted?.selectedComposerId
+  ) ?? composers.find(
     (composer) => composer.id === appConfig.defaultComposerId
   ) ?? composers[0];
 
+  const validSelectedWork = works.find(
+    (work) => work.id === persisted?.selectedWorkId && work.composerId === currentComposer?.id
+  ) ?? null;
+  const validSelectedEvent = events.find(
+    (event) => event.id === persisted?.selectedEventId && event.composerId === currentComposer?.id
+  ) ?? null;
+  const showProfile = !validSelectedWork && !validSelectedEvent;
+
   setState({
+    selectedEra: persisted?.selectedEra ?? "all",
+    selectedType: persisted?.selectedType ?? "all",
+    selectedPeriod: persisted?.selectedPeriod ?? "all",
+    hideEvents: persisted?.hideEvents ?? false,
+    searchTerm: persisted?.searchTerm ?? "",
+    timeRange: persisted?.timeRange ?? null,
     selectedComposerId: currentComposer?.id ?? null,
-    selectedProfileId: currentComposer?.id ?? null,
-    selectedWorkId: null,
-    selectedEventId: null
+    selectedProfileId: showProfile ? (currentComposer?.id ?? null) : null,
+    selectedWorkId: validSelectedWork?.id ?? null,
+    selectedEventId: validSelectedEvent?.id ?? null,
+    selectedContextId: persisted?.selectedContextId ?? null
   });
 
   const model = {
