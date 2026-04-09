@@ -36,5 +36,189 @@
       "docs/introduction_to_beethoven_google.md",
       "docs/beethoven_comprehensive_guide.md"
     ]
+  },
+  {
+    "id": "vivaldi",
+    "name": "維瓦第 Antonio Vivaldi",
+    "slug": "antonio-vivaldi",
+    "fullName": "安東尼奧・維瓦第 Antonio Vivaldi",
+    "birth": 1678,
+    "death": 1741,
+    "ageAtDeath": 63,
+    "deathAgeLabel": "享年 63 歲",
+    "birthPlace": "威尼斯 Venice",
+    "primaryLocation": "威尼斯 Venice",
+    "nationality": "義大利 Italian",
+    "era": "巴洛克時期 Baroque",
+    "periods": [
+      "baroque"
+    ],
+    "tags": [
+      "協奏曲 Concertos",
+      "巴洛克 Baroque",
+      "小提琴 Violin",
+      "《四季》 The Four Seasons"
+    ],
+    "summary": "維瓦第是巴洛克時期最具代表性的義大利作曲家之一，以大量協奏曲、鮮明節奏與色彩化器樂寫作聞名。",
+    "intro": "他長年活躍於威尼斯，既是神父，也是小提琴家與教師；《四季》使他成為最廣為人知的巴洛克作曲家之一。",
+    "sourceDocs": []
+  },
+  {
+    "id": "mozart",
+    "name": "莫札特 Wolfgang Amadeus Mozart",
+    "slug": "wolfgang-amadeus-mozart",
+    "fullName": "沃夫岡・阿瑪迪斯・莫札特 Wolfgang Amadeus Mozart",
+    "birth": 1756,
+    "death": 1791,
+    "ageAtDeath": 35,
+    "deathAgeLabel": "享年 35 歲",
+    "birthPlace": "薩爾茨堡 Salzburg",
+    "primaryLocation": "維也納 Vienna",
+    "nationality": "奧地利 Austrian",
+    "era": "古典時期 Classical",
+    "periods": [
+      "classical"
+    ],
+    "tags": [
+      "歌劇 Opera",
+      "交響曲 Symphony",
+      "鋼琴協奏曲 Piano Concerto",
+      "古典時期 Classical"
+    ],
+    "summary": "莫札特是古典時期最核心的作曲家之一，作品以旋律、平衡感、戲劇表現與驚人的多樣性著稱。",
+    "intro": "他自幼以神童之姿活躍於歐洲宮廷與城市音樂生活，成年後在維也納寫下歌劇、交響曲、協奏曲與室內樂的經典範本。",
+    "sourceDocs": []
+  },
+  {
+    "id": "chopin",
+    "name": "蕭邦 Frédéric Chopin",
+    "slug": "frederic-chopin",
+    "fullName": "弗雷德里克・蕭邦 Frédéric Chopin",
+    "birth": 1810,
+    "death": 1849,
+    "ageAtDeath": 39,
+    "deathAgeLabel": "享年 39 歲",
+    "birthPlace": "熱拉佐瓦沃拉 Żelazowa Wola",
+    "primaryLocation": "巴黎 Paris",
+    "nationality": "波蘭 Polish",
+    "era": "浪漫時期 Romantic",
+    "periods": [
+      "romantic"
+    ],
+    "tags": [
+      "鋼琴 Piano",
+      "夜曲 Nocturne",
+      "練習曲 Étude",
+      "波蘭 Romantic Poland"
+    ],
+    "summary": "蕭邦是浪漫時期最重要的鋼琴作曲家之一，作品以細膩歌唱性、和聲色彩與高度個人化的鋼琴語言聞名。",
+    "intro": "他大半生定居巴黎，幾乎將全部創作重心投注於鋼琴，將波蘭舞曲、夜曲、敘事曲與練習曲提升為高度藝術形式。",
+    "sourceDocs": []
+  },
+  {
+    "id": "tchaikovsky",
+    "name": "柴可夫斯基 Pyotr Ilyich Tchaikovsky",
+    "slug": "pyotr-ilyich-tchaikovsky",
+    "fullName": "彼得・伊里奇・柴可夫斯基 Pyotr Ilyich Tchaikovsky",
+    "birth": 1840,
+    "death": 1893,
+    "ageAtDeath": 53,
+    "deathAgeLabel": "享年 53 歲",
+    "birthPlace": "沃特金斯克 Votkinsk",
+    "primaryLocation": "莫斯科 Moscow / 聖彼得堡 Saint Petersburg",
+    "nationality": "俄國 Russian",
+    "era": "浪漫時期 Romantic",
+    "periods": [
+      "romantic"
+    ],
+    "tags": [
+      "交響曲 Symphony",
+      "芭蕾 Ballet",
+      "協奏曲 Concerto",
+      "俄羅斯浪漫主義 Russian Romanticism"
+    ],
+    "summary": "柴可夫斯基是十九世紀最具國際影響力的俄國作曲家之一，作品以濃烈旋律性、戲劇張力與管弦色彩著稱。",
+    "intro": "他在交響曲、芭蕾、歌劇與協奏曲等領域都留下代表作，《天鵝湖》《胡桃鉗》與第一號鋼琴協奏曲尤其深植大眾文化。",
+    "sourceDocs": []
+  },
+  {
+    "id": "paganini",
+    "name": "帕格尼尼 Niccolò Paganini",
+    "slug": "niccolo-paganini",
+    "fullName": "尼可羅・帕格尼尼 Niccolò Paganini",
+    "birth": 1782,
+    "death": 1840,
+    "ageAtDeath": 57,
+    "deathAgeLabel": "享年 57 歲",
+    "birthPlace": "熱那亞 Genoa",
+    "primaryLocation": "義大利與歐洲巡演 Italy and Europe",
+    "nationality": "義大利 Italian",
+    "era": "浪漫時期 Romantic",
+    "periods": [
+      "romantic"
+    ],
+    "tags": [
+      "小提琴 Violin",
+      "炫技 Virtuosity",
+      "隨想曲 Caprice",
+      "協奏曲 Concerto"
+    ],
+    "summary": "帕格尼尼是十九世紀最具傳奇色彩的小提琴家與作曲家，以驚人的炫技、舞台魅力與新式演奏語彙震撼整個歐洲。",
+    "intro": "他的《二十四首隨想曲》與小提琴協奏曲不僅重塑了小提琴演奏的技術極限，也深刻影響了浪漫時期的明星演奏家文化。",
+    "sourceDocs": []
+  },
+  {
+    "id": "rachmaninoff",
+    "name": "拉赫曼尼諾夫 Sergei Rachmaninoff",
+    "slug": "sergei-rachmaninoff",
+    "fullName": "謝爾蓋・拉赫曼尼諾夫 Sergei Rachmaninoff",
+    "birth": 1873,
+    "death": 1943,
+    "ageAtDeath": 69,
+    "deathAgeLabel": "享年 69 歲",
+    "birthPlace": "謝苗諾沃 Semyonovo",
+    "primaryLocation": "俄羅斯 / 美國 Russia / United States",
+    "nationality": "俄裔 Russian-born",
+    "era": "晚期浪漫至現代早期 Late Romantic to Early Modern",
+    "periods": [
+      "romantic",
+      "modern"
+    ],
+    "tags": [
+      "鋼琴協奏曲 Piano Concerto",
+      "鋼琴 Piano",
+      "交響曲 Symphony",
+      "晚期浪漫 Late Romantic"
+    ],
+    "summary": "拉赫曼尼諾夫是晚期浪漫語言的重要代表人物，作品以寬廣旋律、濃厚和聲與鋼琴性的壯麗質感著稱。",
+    "intro": "他同時是作曲家、鋼琴家與指揮家，流亡後在美國以演奏家身分廣受歡迎，其鋼琴協奏曲與前奏曲至今仍是核心曲目。",
+    "sourceDocs": []
+  },
+  {
+    "id": "puccini",
+    "name": "普契尼 Giacomo Puccini",
+    "slug": "giacomo-puccini",
+    "fullName": "賈科莫・普契尼 Giacomo Puccini",
+    "birth": 1858,
+    "death": 1924,
+    "ageAtDeath": 65,
+    "deathAgeLabel": "享年 65 歲",
+    "birthPlace": "盧卡 Lucca",
+    "primaryLocation": "義大利 Italy",
+    "nationality": "義大利 Italian",
+    "era": "晚期浪漫至現代早期 Late Romantic to Early Modern",
+    "periods": [
+      "romantic",
+      "modern"
+    ],
+    "tags": [
+      "歌劇 Opera",
+      "義大利歌劇 Italian Opera",
+      "威爾第後繼者 Post-Verdi",
+      "舞台戲劇性 Dramatic Theatre"
+    ],
+    "summary": "普契尼是十九世紀末至二十世紀初最重要的歌劇作曲家之一，以強烈劇場感、旋律魅力與成熟的舞台敘事著稱。",
+    "intro": "《波希米亞人》《托斯卡》《蝴蝶夫人》與《杜蘭朵》使他成為威爾第之後最具代表性的義大利歌劇作曲家之一。",
+    "sourceDocs": []
   }
 ]

@@ -2,6 +2,7 @@ import { setState } from "../core/state.js";
 import { setHtml } from "../utils/dom.js";
 
 const ERA_DEFS = [
+  { key: "medieval",    label: "中世紀",    start: 500,  end: 1400 },
   { key: "renaissance", label: "文藝復興",  start: 1400, end: 1600 },
   { key: "baroque",     label: "巴洛克",    start: 1600, end: 1750 },
   { key: "classical",   label: "古典",      start: 1750, end: 1820 },
