@@ -418,5 +418,245 @@
         "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
       }
     ]
+  },
+  {
+    "id": "birth-votkinsk",
+    "composerId": "tchaikovsky",
+    "year": 1840,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於沃特金斯克 Born in Votkinsk",
+    "timelineTitle": "出生於沃特金斯克",
+    "summary": "1840 年 5 月 7 日，柴可夫斯基出生於俄羅斯沃特金斯克的中產階級家庭；他自幼即展現出對音樂的高度敏感與天賦。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "enters-saint-petersburg-conservatory",
+    "composerId": "tchaikovsky",
+    "year": 1862,
+    "age": 22,
+    "type": "career",
+    "title": "進入聖彼得堡音樂學院 Enters Saint Petersburg Conservatory",
+    "timelineTitle": "進入聖彼得堡音樂學院",
+    "summary": "在俄羅斯第一所專業音樂學府成立後，柴可夫斯基於 1862 年進入聖彼得堡音樂學院接受正式西式音樂教育，人生方向因此徹底改變。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "graduates-and-moscow-appointment",
+    "composerId": "tchaikovsky",
+    "year": 1866,
+    "age": 26,
+    "type": "career",
+    "title": "畢業並受聘莫斯科音樂學院 Graduates and Joins Moscow Conservatory",
+    "timelineTitle": "受聘莫斯科音樂學院",
+    "summary": "1865 年自聖彼得堡音樂學院畢業後，柴可夫斯基於 1866 年受聘為新成立的莫斯科音樂學院講師，正式展開職業音樂家與教育者生涯。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "marriage-and-breakdown-1877",
+    "composerId": "tchaikovsky",
+    "year": 1877,
+    "age": 37,
+    "type": "personal",
+    "title": "災難性的婚姻與精神崩潰 Marriage and Breakdown",
+    "timelineTitle": "婚姻與精神崩潰",
+    "summary": "1877 年，柴可夫斯基與安東尼娜・米柳科娃結婚，但婚姻在極短時間內即引發嚴重精神崩潰；這段經歷成為其人生與創作中的重大創傷轉折。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "von-meck-patronage-begins",
+    "composerId": "tchaikovsky",
+    "year": 1877,
+    "age": 37,
+    "type": "career",
+    "title": "與梅克夫人的贊助關係展開 Patronage from Nadezhda von Meck",
+    "timelineTitle": "梅克夫人開始資助",
+    "summary": "從 1877 年起，娜傑日達・馮・梅克夫人透過長期通信、情感支持與穩定津貼，讓柴可夫斯基得以辭去教職並更專注於創作。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "swan-lake-premiere-1877",
+    "composerId": "tchaikovsky",
+    "year": 1877,
+    "age": 37,
+    "type": "career",
+    "title": "《天鵝湖》首演 Swan Lake Premiere",
+    "timelineTitle": "《天鵝湖》首演",
+    "summary": "《天鵝湖》於 1877 年首演時遭遇惡評，舞者與樂評都對其節奏與音響提出質疑；但其音樂本身仍深受觀眾喜愛，為後來的重新編舞成功奠定基礎。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "carnegie-hall-opening-1891",
+    "composerId": "tchaikovsky",
+    "year": 1891,
+    "age": 51,
+    "type": "career",
+    "title": "受邀指揮卡內基音樂廳開幕季 Carnegie Hall Opening Invitation",
+    "timelineTitle": "卡內基音樂廳開幕季",
+    "summary": "1891 年，柴可夫斯基受邀赴紐約為卡內基音樂廳開幕季擔任指揮，成為他國際聲譽達到高峰的重要象徵。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "pathetique-premiere-1893",
+    "composerId": "tchaikovsky",
+    "year": 1893,
+    "age": 53,
+    "type": "career",
+    "title": "《第六號交響曲「悲愴」》首演 Pathétique Premiere",
+    "timelineTitle": "《悲愴》首演",
+    "summary": "1893 年 10 月 28 日，柴可夫斯基親自指揮《第六號交響曲「悲愴」》首演；這部作品被他視為最真誠、傾注整個靈魂的創作。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "death-saint-petersburg-1893",
+    "composerId": "tchaikovsky",
+    "year": 1893,
+    "age": 53,
+    "type": "personal",
+    "title": "逝世於聖彼得堡 Death in Saint Petersburg",
+    "timelineTitle": "逝世於聖彼得堡",
+    "summary": "1893 年 11 月 6 日，柴可夫斯基在《悲愴》首演九天後去世；其死因長期存在霍亂感染與自殺傳聞等爭議，但來源文中指出當代多數學者傾向接受霍亂致死的自然死亡說法。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/柴可夫斯基音樂解析與地位.md"
+      }
+    ]
+  },
+  {
+    "id": "first-symphony-disaster-1897",
+    "composerId": "rachmaninoff",
+    "year": 1897,
+    "age": 24,
+    "type": "career",
+    "title": "《第一交響曲》首演失敗 First Symphony Disaster",
+    "timelineTitle": "《第一交響曲》首演失敗",
+    "summary": "1897 年，《第一交響曲》在聖彼得堡首演後遭遇毀滅性打擊；文件指出，指揮表現不力與聖彼得堡、莫斯科樂派的審美隔閡，共同造成這場災難性結果。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "depression-and-writers-block",
+    "composerId": "rachmaninoff",
+    "year": 1897,
+    "age": 24,
+    "type": "health",
+    "title": "陷入抑鬱與創作停滯 Depression and Writer's Block",
+    "timelineTitle": "抑鬱與創作停滯",
+    "summary": "在《第一交響曲》失敗後，拉赫曼尼諾夫陷入長達約三年的重度抑鬱與創作癱瘓，幾乎失去動筆能力，只能依靠指揮與鋼琴演出維生。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "nikolai-dahl-treatment-1900",
+    "composerId": "rachmaninoff",
+    "year": 1900,
+    "age": 27,
+    "type": "health",
+    "title": "接受達爾醫生治療 Begins Treatment with Dr. Nikolai Dahl",
+    "timelineTitle": "接受達爾治療",
+    "summary": "1900 年初，在親友建議下，拉赫曼尼諾夫開始接受神經學家尼古拉・達爾的治療；文件指出，心理分析與催眠暗示成為他恢復創作意志的重要契機。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-no-2-composition-1900",
+    "composerId": "rachmaninoff",
+    "year": 1900,
+    "age": 27,
+    "type": "creative_shift",
+    "title": "完成第二、三樂章 Writes Much of Concerto No. 2",
+    "timelineTitle": "完成協奏曲後半",
+    "summary": "文件記載，拉赫曼尼諾夫於 1900 年夏天在義大利旅行期間完成《第二鋼琴協奏曲》的第二與第三樂章，創造力開始明顯回流。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-no-2-completed-1901",
+    "composerId": "rachmaninoff",
+    "year": 1901,
+    "age": 28,
+    "type": "career",
+    "title": "《第二鋼琴協奏曲》完成並問世 Concerto No. 2 Completed",
+    "timelineTitle": "《第二鋼琴協奏曲》完成",
+    "summary": "1901 年春，拉赫曼尼諾夫完成《第二鋼琴協奏曲》第一樂章；文件並指出此曲自 1901 年首演以來聲望從未衰減，成為其藝術生涯重生的關鍵里程碑。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-dedicated-to-dahl",
+    "composerId": "rachmaninoff",
+    "year": 1901,
+    "age": 28,
+    "type": "personal",
+    "title": "題獻達爾醫生 Dedicates the Concerto to Dr. Dahl",
+    "timelineTitle": "題獻達爾醫生",
+    "summary": "《第二鋼琴協奏曲》最終題獻給尼古拉・達爾醫生，以紀念其在心理與創作復原上的關鍵幫助。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
   }
 ]

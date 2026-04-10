@@ -151,5 +151,95 @@
     "type": "musical_trend",
     "title": "新浪漫主義與大型配器 Neo-Romanticism and Grand Orchestral Scale",
     "summary": "十九世紀下半葉的浪漫主義並未消失，而是在更龐大的樂團編制、更複雜的和聲與更濃厚的敘事企圖中持續擴張。"
+  },
+  {
+    "id": "russian-conservatory-professionalization",
+    "start": 1862,
+    "end": 1866,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "俄羅斯專業音樂教育的建立 Rise of Professional Conservatory Training in Russia",
+    "summary": "聖彼得堡音樂學院與莫斯科音樂學院相繼成立，讓原本缺乏公共音樂教育系統的俄羅斯，開始建立以西式理論與作曲訓練為核心的專業音樂體制。"
+  },
+  {
+    "id": "russian-academicism-and-nationalism",
+    "start": 1860,
+    "end": 1890,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "學院派訓練與民族主義樂派的拉鋸 Academic Training and Russian Nationalism",
+    "summary": "十九世紀後半的俄羅斯音樂界，一方面強調西方音樂學院體系與大型曲式訓練，另一方面則有「強力集團」主張脫離西歐傳統、直接從本土文化與民間素材出發。"
+  },
+  {
+    "id": "russian-static-aesthetic-versus-sonata-form",
+    "start": 1860,
+    "end": 1893,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "俄羅斯靜態美學與奏鳴曲式的衝突 Russian Stasis and Sonata Form",
+    "summary": "德奧傳統的奏鳴曲式強調動機發展、推進與辯證，俄羅斯文化與民間音樂則更傾向重複、場景拼貼與靜態展開；這種差異構成柴可夫斯基創作交響作品時的重要結構背景。"
+  },
+  {
+    "id": "sexuality-taboo-in-imperial-russia",
+    "start": 1860,
+    "end": 1893,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "帝俄社會中的性傾向禁忌 Sexuality Taboo in Imperial Russia",
+    "summary": "在保守的俄羅斯帝國社會裡，同性戀被視為嚴重禁忌，可能帶來社會排斥、法律風險與名譽毀滅；這種長期壓力也是理解柴可夫斯基心理狀態與音樂悲劇性的文化背景之一。"
+  },
+  {
+    "id": "patronage-and-artistic-independence-in-late-imperial-russia",
+    "start": 1877,
+    "end": 1890,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "贊助與創作自主 Patronage and Artistic Independence",
+    "summary": "在晚期帝俄的音樂生活中，私人贊助仍深刻影響作曲家的工作條件；穩定的經濟支持能使作曲家脫離教職與行政壓力，將時間集中於大型作品創作。"
+  },
+  {
+    "id": "international-recognition-of-russian-music",
+    "start": 1891,
+    "end": 1893,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "俄羅斯音樂的國際聲望擴張 International Recognition of Russian Music",
+    "summary": "到十九世紀末，俄羅斯作曲家已不再只是本土現象，而開始進入歐美主要音樂機構與公共文化視野；柴可夫斯基受邀赴紐約卡內基音樂廳開幕季指揮，即是此一轉變的重要象徵。"
+  },
+  {
+    "id": "late-russian-romanticism-at-the-turn-of-the-century",
+    "start": 1890,
+    "end": 1910,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "世紀之交的俄羅斯晚期浪漫主義 Late Russian Romanticism at the Turn of the Century",
+    "summary": "在十九世紀末至二十世紀初的變革期，部分作曲家已轉向更激進的新語彙，但拉赫曼尼諾夫仍將俄羅斯晚期浪漫主義的抒情性、調性重心與宏大情感敘事推向高峰。"
+  },
+  {
+    "id": "russian-orthodox-bell-symbolism",
+    "start": 1890,
+    "end": 1910,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "俄羅斯東正教鐘聲象徵 Russian Orthodox Bell Symbolism",
+    "summary": "在俄羅斯東正教傳統中，鐘聲常被理解為神性與命運的象徵；拉赫曼尼諾夫《第二鋼琴協奏曲》開頭厚重的鋼琴和弦，便被視為鐘聲意象在器樂中的轉化。"
+  },
+  {
+    "id": "modernism-versus-late-romantic-tonality",
+    "start": 1900,
+    "end": 1930,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "現代主義與晚期浪漫調性的並存 Modernism versus Late Romantic Tonality",
+    "summary": "當荀白克探索十二音列、史特拉汶斯基顛覆節奏時，拉赫曼尼諾夫常被部分激進派視為保守派；但其作品的生命力恰來自他對調性、情感與抒情性的深度堅持。"
+  },
+  {
+    "id": "psychology-and-medical-intervention-in-creative-recovery",
+    "start": 1897,
+    "end": 1901,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "心理治療與創作復原 Psychology and Creative Recovery",
+    "summary": "十九世紀末的藝術家心理危機已開始與現代醫學和心理暗示治療相交會；拉赫曼尼諾夫在《第一交響曲》失敗後接受尼古拉・達爾的治療，成為創作復原與心理救贖的重要案例。"
   }
 ]
