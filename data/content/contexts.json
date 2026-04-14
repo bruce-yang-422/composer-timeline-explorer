@@ -322,5 +322,50 @@
     "type": "cultural",
     "title": "末日經動機與悲劇性淨化 Dies Irae and Catharsis",
     "summary": "《末日經》動機在拉赫曼尼諾夫的多部作品中反覆出現，從交響曲、合唱交響曲到晚期管弦作品都不斷回到死亡與救贖的對話，最後常以壯闊的終章達成悲劇性的淨化。"
+  },
+  {
+    "id": "puccini-post-risorgimento-social-crisis",
+    "start": 1861,
+    "end": 1900,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "後復興運動時期的義大利社會危機 Post-Risorgimento Italian Social Crisis",
+    "summary": "統一後的義大利面臨南北差距、稅負、工業化與階級衝突等問題，公共舞台逐漸從民族英雄敘事轉向更貼近市民生活、幻滅感與個人悲劇的現代題材。"
+  },
+  {
+    "id": "puccini-scapigliatura-verismo",
+    "start": 1860,
+    "end": 1904,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "亂髮派與真實主義歌劇 Scapigliatura and Verismo Opera",
+    "summary": "普契尼早年受米蘭亂髮派影響，後又在真實主義歌劇潮流中建立自己的聲音；他將市井現實與心理陰影昇華為精緻而可歌唱的戲劇音樂。"
+  },
+  {
+    "id": "puccini-opera-market-and-ricordi",
+    "start": 1880,
+    "end": 1924,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "李科迪體系與歌劇市場化 Puccini, Ricordi, and the Opera Market",
+    "summary": "普契尼的成功離不開李科迪所代表的近代歌劇出版與宣傳機制；在高度競爭的市場中，作品必須快速抓住聽眾，這也塑造了他緊湊、無縫且具高辨識度的戲劇語法。"
+  },
+  {
+    "id": "puccini-cinematic-opera-and-early-film",
+    "start": 1900,
+    "end": 1918,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "電影敘事與普契尼的舞台感 Cinematic Opera and Early Film",
+    "summary": "早期電影的剪接、視角切換與空間壓縮，影響了普契尼後期對舞台節奏、幕後聲響與場景轉換的處理，使其歌劇呈現出明顯的電影化敘事感。"
+  },
+  {
+    "id": "puccini-late-modernist-experiment",
+    "start": 1905,
+    "end": 1924,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "普契尼的晚期現代性實驗 Puccini's Late Modernist Experiment",
+    "summary": "從《西部女郎》到《杜蘭朵》，普契尼持續吸收全音階、雙調性、不協和踏板音與龐大打擊樂編制，將義大利抒情傳統推向更具現代感的邊界。"
   }
 ]

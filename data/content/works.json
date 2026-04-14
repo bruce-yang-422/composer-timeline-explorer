@@ -943,9 +943,185 @@
     }
   },
   {
-    "id": "symphony-no-2-little-russian",
-    "composerId": "tchaikovsky",
-    "title": "《第二號交響曲「小俄羅斯」》 Symphony No. 2 \"Little Russian\"",
+    "id": "capriccio-sinfonico",
+    "composerId": "puccini",
+    "title": "《交響隨想曲》 Capriccio sinfonico",
+    "year": 1883,
+    "age": 25,
+    "type": "orchestral",
+    "period": "early",
+    "summary": "普契尼的畢業作品之一，已可看出他把義大利旋律感、管弦構思與學院訓練結合的早期能力。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "le-villi",
+    "composerId": "puccini",
+    "title": "《群妖傳》 Le Villi",
+    "year": 1884,
+    "age": 26,
+    "type": "opera",
+    "period": "early",
+    "summary": "普契尼的首部單幕歌劇，標誌他從教會音樂與學院訓練轉向世俗歌劇舞台，並因此引來李科迪的注意。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "edgar",
+    "composerId": "puccini",
+    "title": "《埃德加》 Edgar",
+    "year": 1889,
+    "age": 31,
+    "type": "opera",
+    "period": "early",
+    "summary": "普契尼的第二部歌劇，雖然劇本與舞台效果未獲一致成功，但已展現他吸收法國與義大利戲劇語彙的企圖。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "manon-lescaut",
+    "composerId": "puccini",
+    "title": "《瑪儂・雷斯考》 Manon Lescaut",
+    "year": 1893,
+    "age": 35,
+    "type": "opera",
+    "period": "middle",
+    "summary": "使普契尼正式躋身一線作曲家的突破作品，也確立了他在威爾第之後的義大利抒情悲劇地位。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "la-boheme",
+    "composerId": "puccini",
+    "title": "《波希米亞人》 La bohème",
+    "year": 1896,
+    "age": 38,
+    "type": "opera",
+    "period": "middle",
+    "summary": "以都會波希米亞生活與年輕人的情感創傷為核心，是普契尼最受歡迎、也最能代表其微觀悲劇美學的作品之一。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "tosca",
+    "composerId": "puccini",
+    "title": "《托斯卡》 Tosca",
+    "year": 1900,
+    "age": 42,
+    "type": "opera",
+    "period": "middle",
+    "summary": "以極端戲劇衝突、刑求場面與高密度心理張力聞名，是普契尼把真實主義推向危機狀態的重要代表。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "madama-butterfly",
+    "composerId": "puccini",
+    "title": "《蝴蝶夫人》 Madama Butterfly",
+    "year": 1904,
+    "age": 46,
+    "type": "opera",
+    "period": "middle",
+    "summary": "曾在米蘭首演遭遇慘烈失敗，後經修訂於布雷西亞大獲成功，成為普契尼國際聲望進一步鞏固的關鍵作品。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "la-fanciulla-del-west",
+    "composerId": "puccini",
+    "title": "《西部女郎》 La fanciulla del West",
+    "year": 1910,
+    "age": 52,
+    "type": "opera",
+    "period": "middle",
+    "summary": "在紐約大都會歌劇院首演的作品，結合印象派和聲、史特勞斯式管弦思維與美國西部題材，是普契尼現代性實驗的里程碑。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "la-rondine",
+    "composerId": "puccini",
+    "title": "《燕子》 La rondine",
+    "year": 1917,
+    "age": 59,
+    "type": "opera",
+    "period": "middle",
+    "summary": "一部帶有輕歌劇與通俗戲劇色彩的作品，反映普契尼在第一次世界大戰前後對新體裁與新市場的持續探索。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "il-trittico",
+    "composerId": "puccini",
+    "title": "《三部曲》 Il trittico",
+    "year": 1918,
+    "age": 60,
+    "type": "opera",
+    "period": "middle",
+    "summary": "由《外套》《修女安潔麗卡》與《強尼・史基基》構成的三聯作，展現普契尼對極端不同戲劇體裁的成熟掌握。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "turandot",
+    "composerId": "puccini",
+    "title": "《杜蘭朵》 Turandot",
+    "year": 1924,
+    "age": 66,
+    "type": "opera",
+    "period": "late",
+    "summary": "普契尼晚期的未竟巨作，匯聚雙調性、不協和踏板音與龐大打擊樂編制，也象徵義大利浪漫歌劇在現代主義邊界上的最後一搏。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/普契尼音樂與時代深度研究.md"
+      }
+    ]
+  },
+  {
+   "id": "symphony-no-2-little-russian",
+   "composerId": "tchaikovsky",
+   "title": "《第二號交響曲「小俄羅斯」》 Symphony No. 2 \"Little Russian\"",
     "year": 1872,
     "age": 32,
     "type": "symphony",
