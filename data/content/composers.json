@@ -49,6 +49,12 @@
       "威尼斯 Venice",
       "標題音樂 Program Music"
     ],
+    "portrait": {
+      "imageUrl": "https://www.bildarchivaustria.at/Preview/1209593.jpg",
+      "alt": "Portrait of Antonio Vivaldi by François Morellon la Cave",
+      "caption": "弗朗索瓦・莫雷隆・德・拉卡夫繪製的安東尼奧・維瓦第肖像，公有領域。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vivaldi_La_Cave.jpg"
+    },
     "summary": "韋瓦第是巴洛克時期最具代表性的義大利作曲家之一，以協奏曲形式的標準化、《四季》、威尼斯的商業劇場語境與鮮明的小提琴寫作著稱。",
     "intro": "他長年服務威尼斯慈悲醫院與歌劇市場，身兼神父、小提琴家、教師與劇院經理；從《和諧的靈感》到《四季》與《榮耀頌》，他把器樂協奏、標題音樂與戲劇性推向歐洲核心。",
     "sourceDocs": [
