@@ -1,0 +1,158 @@
+[
+  {
+    "id": "birth-zelazowa-wola",
+    "composerId": "chopin",
+    "year": 1810,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於熱拉佐瓦沃拉 Born in Zelazowa Wola",
+    "timelineTitle": "出生於熱拉佐瓦沃拉",
+    "summary": "1810 年 3 月 1 日，蕭邦出生於華沙近郊的熱拉佐瓦沃拉；這位日後被稱為「鋼琴詩人」的作曲家，從一開始就與波蘭的地理與文化記憶緊密相連。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "first-polonaise-publication",
+    "composerId": "chopin",
+    "year": 1817,
+    "age": 7,
+    "type": "career",
+    "title": "首部作品出版 First Published Polonaise",
+    "timelineTitle": "首部作品出版",
+    "summary": "七歲時，蕭邦寫下並出版了《G 小調波蘭舞曲》，顯示他不只是一位鋼琴神童，也很早就開始以波蘭舞曲語彙建立個人創作身份。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "warsaw-conservatory",
+    "composerId": "chopin",
+    "year": 1826,
+    "age": 16,
+    "type": "career",
+    "title": "進入華沙音樂學院 Enters Warsaw Conservatory",
+    "timelineTitle": "進入華沙音樂學院",
+    "summary": "1826 年，蕭邦進入華沙音樂學院，師從 Joseph Elsner，系統學習曲式與和聲；這段訓練讓他日後即使在最自由抒情的鋼琴寫作中，依然保有極精密的結構感。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "central-europe-tour",
+    "composerId": "chopin",
+    "year": 1829,
+    "age": 19,
+    "type": "career",
+    "title": "展開中歐巡演 Begins Central European Tour",
+    "timelineTitle": "展開中歐巡演",
+    "summary": "1829 年起，蕭邦開始前往維也納與中歐各地演出，逐步從華沙的新秀走向國際舞台；巡演經驗也讓他更清楚自己將以鋼琴家與作曲家的雙重身分立足歐洲。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "november-uprising-exile-turn",
+    "composerId": "chopin",
+    "year": 1830,
+    "age": 20,
+    "type": "creative_shift",
+    "title": "十一月起義與流亡轉折 November Uprising and Exile",
+    "timelineTitle": "十一月起義與流亡轉折",
+    "summary": "1830 年十一月起義爆發時，蕭邦已在國外；翌年得知華沙淪陷的消息後，他的創作氣質從早期的明亮華麗轉向更深沉、戲劇化且帶有民族情感的語言，成為生涯的關鍵轉折。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      },
+      {
+        "label": "Frederic Chopin in Paris",
+        "url": "https://pages.cs.wisc.edu/~minhrua/writings/chopin-in-paris.pdf"
+      }
+    ]
+  },
+  {
+    "id": "settles-in-paris",
+    "composerId": "chopin",
+    "year": 1831,
+    "age": 21,
+    "type": "career",
+    "title": "定居巴黎 Settles in Paris",
+    "timelineTitle": "定居巴黎",
+    "summary": "1831 年秋，蕭邦抵達巴黎並定居下來；他很快融入當地沙龍文化，同時也成為流亡波蘭社群的重要文化象徵，巴黎因此成為他最關鍵的創作與教學基地。",
+    "sources": [
+      {
+        "label": "Frederic Chopin in Paris",
+        "url": "https://pages.cs.wisc.edu/~minhrua/writings/chopin-in-paris.pdf"
+      },
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "majorca-and-preludes",
+    "composerId": "chopin",
+    "year": 1838,
+    "age": 28,
+    "type": "creative_shift",
+    "title": "馬約卡之冬與《前奏曲》 Majorca and the Preludes",
+    "timelineTitle": "馬約卡之冬與《前奏曲》",
+    "summary": "1838 年，蕭邦與喬治・桑前往馬約卡島療養，並在病痛、潮濕氣候與孤立感中完成《24 首前奏曲》Op. 28；這部作品把各調性與各種情緒濃縮成一組浪漫主義微型宇宙。",
+    "sources": [
+      {
+        "label": "Culture.pl Chopin's 24 Preludes",
+        "url": "https://culture.pl/en/article/breaking-down-chopins-24-preludes"
+      },
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "last-public-concert-london",
+    "composerId": "chopin",
+    "year": 1848,
+    "age": 38,
+    "type": "career",
+    "title": "倫敦最後公開演出 Final Public Concert in London",
+    "timelineTitle": "倫敦最後公開演出",
+    "summary": "1848 年 11 月 16 日，蕭邦在倫敦舉行最後一次公開演出，並為波蘭難民募款；這場音樂會既是晚年舞台生涯的句點，也再次顯示他與波蘭民族命運之間的深層連結。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  },
+  {
+    "id": "death-paris",
+    "composerId": "chopin",
+    "year": 1849,
+    "age": 39,
+    "type": "personal",
+    "title": "逝世於巴黎 Death in Paris",
+    "timelineTitle": "逝世於巴黎",
+    "summary": "1849 年 10 月 17 日，蕭邦病逝於巴黎，安葬於拉雪茲神父公墓；依其遺願，心臟則送回華沙聖十字教堂，成為他一生流亡與故土情結最具象徵性的終章。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ]
+  }
+]

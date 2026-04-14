@@ -1,0 +1,210 @@
+[
+  {
+    "id": "first-symphony-disaster-1897",
+    "composerId": "rachmaninoff",
+    "year": 1897,
+    "age": 24,
+    "type": "career",
+    "title": "《第一交響曲》首演失敗 First Symphony Disaster",
+    "timelineTitle": "《第一交響曲》首演失敗",
+    "summary": "1897 年，《第一交響曲》在聖彼得堡首演後遭遇毀滅性打擊；文件指出，指揮表現不力與聖彼得堡、莫斯科樂派的審美隔閡，共同造成這場災難性結果。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "depression-and-writers-block",
+    "composerId": "rachmaninoff",
+    "year": 1897,
+    "age": 24,
+    "type": "health",
+    "title": "陷入抑鬱與創作停滯 Depression and Writer's Block",
+    "timelineTitle": "抑鬱與創作停滯",
+    "summary": "在《第一交響曲》失敗後，拉赫曼尼諾夫陷入長達約三年的重度抑鬱與創作癱瘓，幾乎失去動筆能力，只能依靠指揮與鋼琴演出維生。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "nikolai-dahl-treatment-1900",
+    "composerId": "rachmaninoff",
+    "year": 1900,
+    "age": 27,
+    "type": "health",
+    "title": "接受達爾醫生治療 Begins Treatment with Dr. Nikolai Dahl",
+    "timelineTitle": "接受達爾治療",
+    "summary": "1900 年初，在親友建議下，拉赫曼尼諾夫開始接受神經學家尼古拉・達爾的治療；文件指出，心理分析與催眠暗示成為他恢復創作意志的重要契機。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-no-2-composition-1900",
+    "composerId": "rachmaninoff",
+    "year": 1900,
+    "age": 27,
+    "type": "creative_shift",
+    "title": "完成第二、三樂章 Writes Much of Concerto No. 2",
+    "timelineTitle": "完成協奏曲後半",
+    "summary": "文件記載，拉赫曼尼諾夫於 1900 年夏天在義大利旅行期間完成《第二鋼琴協奏曲》的第二與第三樂章，創造力開始明顯回流。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-no-2-completed-1901",
+    "composerId": "rachmaninoff",
+    "year": 1901,
+    "age": 28,
+    "type": "career",
+    "title": "《第二鋼琴協奏曲》完成並問世 Concerto No. 2 Completed",
+    "timelineTitle": "《第二鋼琴協奏曲》完成",
+    "summary": "1901 年春，拉赫曼尼諾夫完成《第二鋼琴協奏曲》第一樂章；文件並指出此曲自 1901 年首演以來聲望從未衰減，成為其藝術生涯重生的關鍵里程碑。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-no-2-premiere-1901",
+    "composerId": "rachmaninoff",
+    "year": 1901,
+    "age": 28,
+    "type": "career",
+    "title": "《第二鋼琴協奏曲》首演 Concerto No. 2 Premiere",
+    "timelineTitle": "《第二鋼琴協奏曲》首演",
+    "summary": "1901 年，《第二鋼琴協奏曲》首演問世；文件將它視為拉赫曼尼諾夫從創作癱瘓與抑鬱中重返舞台的決定性時刻，也使這部作品成為晚期浪漫主義最具持久生命力的鋼琴協奏曲之一。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-dedicated-to-dahl",
+    "composerId": "rachmaninoff",
+    "year": 1901,
+    "age": 28,
+    "type": "personal",
+    "title": "題獻達爾醫生 Dedicates the Concerto to Dr. Dahl",
+    "timelineTitle": "題獻達爾醫生",
+    "summary": "《第二鋼琴協奏曲》最終題獻給尼古拉・達爾醫生，以紀念其在心理與創作復原上的關鍵幫助。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "prelude-op3-no2-breakthrough-1892",
+    "composerId": "rachmaninoff",
+    "year": 1892,
+    "age": 19,
+    "type": "career",
+    "title": "《升C小調前奏曲》一舉成名 Prelude Breakthrough",
+    "timelineTitle": "《升C小調前奏曲》成名",
+    "summary": "1892 年的《升C小調前奏曲》迅速讓年輕的拉赫曼尼諾夫進入公眾視野，也奠定了他之後以鐘聲式和聲與濃烈抒情聞名的早期形象。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "move-to-dresden-1906",
+    "composerId": "rachmaninoff",
+    "year": 1906,
+    "age": 33,
+    "type": "career",
+    "title": "移居德勒斯登專注作曲 Moves to Dresden",
+    "timelineTitle": "移居德勒斯登",
+    "summary": "1906 年移居德勒斯登後，他得以脫離莫斯科的行政與演出壓力，進一步完成《第二號交響曲》、《鐘》與《徹夜禱》等成熟時期的重要作品。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "the-bells-premiere-1913",
+    "composerId": "rachmaninoff",
+    "year": 1913,
+    "age": 40,
+    "type": "career",
+    "title": "《鐘》完成並成為象徵主義代表 The Bells",
+    "timelineTitle": "《鐘》",
+    "summary": "《鐘》將愛倫・坡詩作、巴爾蒙特譯本與拉赫曼尼諾夫的鐘聲語彙結合在一起，成為他白銀時代審美最鮮明的代表之一。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "all-night-vigil-premiere-1915",
+    "composerId": "rachmaninoff",
+    "year": 1915,
+    "age": 42,
+    "type": "career",
+    "title": "《徹夜禱》首演 All-Night Vigil Premiere",
+    "timelineTitle": "《徹夜禱》首演",
+    "summary": "1915 年首演的《徹夜禱》把東正教聖詠與模仿式寫作推到極致，顯示他在帝俄末期對宗教聲響的深層回應。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "piano-concerto-no-4-premiere-1927",
+    "composerId": "rachmaninoff",
+    "year": 1927,
+    "age": 54,
+    "type": "career",
+    "title": "《第四號鋼琴協奏曲》首演失利 Fourth Concerto Premiere",
+    "timelineTitle": "《第四號鋼琴協奏曲》首演",
+    "summary": "《第四號鋼琴協奏曲》在流亡時期首演反應不佳，後續又經多次修訂，反映他在現代主義壓力與自我期待之間的拉扯。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "symphonic-dances-premiere-1940",
+    "composerId": "rachmaninoff",
+    "year": 1940,
+    "age": 67,
+    "type": "career",
+    "title": "《交響舞曲》問世 Symphonic Dances Premiere",
+    "timelineTitle": "《交響舞曲》",
+    "summary": "1940 年的《交響舞曲》作為他生前最後一部大型管弦樂作品，將流亡、回憶與死亡凝視收束成晚期總結。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
+      }
+    ]
+  }
+]

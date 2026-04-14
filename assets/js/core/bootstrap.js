@@ -11,19 +11,23 @@ import { renderContextPanel } from "../components/context-panel.js";
 export async function bootstrapApp() {
   const [
     composers,
-    works,
-    events,
     contexts,
     periodColors,
-    workTypeLabels
+    workTypeLabels,
+    ...composerData
   ] = await Promise.all([
     loadJson(appConfig.dataPaths.composers),
-    loadJson(appConfig.dataPaths.works),
-    loadJson(appConfig.dataPaths.events),
     loadJson(appConfig.dataPaths.contexts),
     loadJson(appConfig.dataPaths.periodColors),
-    loadJson(appConfig.dataPaths.workTypeLabels)
+    loadJson(appConfig.dataPaths.workTypeLabels),
+    ...appConfig.composerDataIds.flatMap(id => [
+      loadJson(`${appConfig.dataPaths.worksDir}/${id}.json`),
+      loadJson(`${appConfig.dataPaths.eventsDir}/${id}.json`)
+    ])
   ]);
+
+  const works = composerData.filter((_, i) => i % 2 === 0).flat();
+  const events = composerData.filter((_, i) => i % 2 === 1).flat();
 
   const persisted = loadPersistedState();
   const currentComposer = composers.find(

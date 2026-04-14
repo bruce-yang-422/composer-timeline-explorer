@@ -1,0 +1,146 @@
+[
+  {
+    "id": "birth-votkinsk",
+    "composerId": "tchaikovsky",
+    "year": 1840,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於沃特金斯克 Born in Votkinsk",
+    "timelineTitle": "出生於沃特金斯克",
+    "summary": "1840 年 5 月 7 日，柴可夫斯基出生於俄羅斯沃特金斯克的中產階級家庭；他自幼即展現出對音樂的高度敏感與天賦。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "enters-saint-petersburg-conservatory",
+    "composerId": "tchaikovsky",
+    "year": 1862,
+    "age": 22,
+    "type": "career",
+    "title": "進入聖彼得堡音樂學院 Enters Saint Petersburg Conservatory",
+    "timelineTitle": "進入聖彼得堡音樂學院",
+    "summary": "在俄羅斯第一所專業音樂學府成立後，柴可夫斯基於 1862 年進入聖彼得堡音樂學院接受正式西式音樂教育，人生方向因此徹底改變。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "graduates-and-moscow-appointment",
+    "composerId": "tchaikovsky",
+    "year": 1866,
+    "age": 26,
+    "type": "career",
+    "title": "畢業並受聘莫斯科音樂學院 Graduates and Joins Moscow Conservatory",
+    "timelineTitle": "受聘莫斯科音樂學院",
+    "summary": "1865 年自聖彼得堡音樂學院畢業後，柴可夫斯基於 1866 年受聘為新成立的莫斯科音樂學院講師，正式展開職業音樂家與教育者生涯。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "marriage-and-breakdown-1877",
+    "composerId": "tchaikovsky",
+    "year": 1877,
+    "age": 37,
+    "type": "personal",
+    "title": "災難性的婚姻與精神崩潰 Marriage and Breakdown",
+    "timelineTitle": "婚姻與精神崩潰",
+    "summary": "1877 年，柴可夫斯基與安東尼娜・米柳科娃結婚，但婚姻在極短時間內即引發嚴重精神崩潰；這段經歷成為其人生與創作中的重大創傷轉折。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "von-meck-patronage-begins",
+    "composerId": "tchaikovsky",
+    "year": 1877,
+    "age": 37,
+    "type": "career",
+    "title": "與梅克夫人的贊助關係展開 Patronage from Nadezhda von Meck",
+    "timelineTitle": "梅克夫人開始資助",
+    "summary": "從 1877 年起，娜傑日達・馮・梅克夫人透過長期通信、情感支持與穩定津貼，讓柴可夫斯基得以辭去教職並更專注於創作。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "swan-lake-premiere-1877",
+    "composerId": "tchaikovsky",
+    "year": 1877,
+    "age": 37,
+    "type": "career",
+    "title": "《天鵝湖》首演 Swan Lake Premiere",
+    "timelineTitle": "《天鵝湖》首演",
+    "summary": "《天鵝湖》於 1877 年首演時遭遇惡評，舞者與樂評都對其節奏與音響提出質疑；但其音樂本身仍深受觀眾喜愛，為後來的重新編舞成功奠定基礎。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "carnegie-hall-opening-1891",
+    "composerId": "tchaikovsky",
+    "year": 1891,
+    "age": 51,
+    "type": "career",
+    "title": "受邀指揮卡內基音樂廳開幕季 Carnegie Hall Opening Invitation",
+    "timelineTitle": "卡內基音樂廳開幕季",
+    "summary": "1891 年，柴可夫斯基受邀赴紐約為卡內基音樂廳開幕季擔任指揮，成為他國際聲譽達到高峰的重要象徵。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "pathetique-premiere-1893",
+    "composerId": "tchaikovsky",
+    "year": 1893,
+    "age": 53,
+    "type": "career",
+    "title": "《第六號交響曲「悲愴」》首演 Pathétique Premiere",
+    "timelineTitle": "《悲愴》首演",
+    "summary": "1893 年 10 月 28 日，柴可夫斯基親自指揮《第六號交響曲「悲愴」》首演；這部作品被他視為最真誠、傾注整個靈魂的創作。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  },
+  {
+    "id": "death-saint-petersburg-1893",
+    "composerId": "tchaikovsky",
+    "year": 1893,
+    "age": 53,
+    "type": "personal",
+    "title": "逝世於聖彼得堡 Death in Saint Petersburg",
+    "timelineTitle": "逝世於聖彼得堡",
+    "summary": "1893 年 11 月 6 日，柴可夫斯基在《悲愴》首演九天後去世；其死因長期存在霍亂感染與自殺傳聞等爭議，但來源文中指出當代多數學者傾向接受霍亂致死的自然死亡說法。",
+    "sources": [
+      {
+        "label": "柴可夫斯基音樂解析與地位",
+        "url": "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md"
+      }
+    ]
+  }
+]

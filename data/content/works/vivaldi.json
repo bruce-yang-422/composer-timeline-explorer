@@ -1,0 +1,110 @@
+[
+  {
+    "id": "l-estro-armonico-op-3",
+    "composerId": "vivaldi",
+    "title": "《和諧的靈感》 L'estro armonico, Op. 3",
+    "year": 1711,
+    "age": 33,
+    "type": "violin_concerto",
+    "period": "early",
+    "summary": "這套十二首協奏曲在阿姆斯特丹出版後震動歐洲樂壇，確立了韋瓦第作為協奏曲革新者與炫技小提琴寫作大師的聲譽。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      },
+      {
+        "label": "Vivaldi Four Seasons analysis",
+        "url": "docs/Vivaldi/vivaldi_four_seasons_historical_context_musical_imagery_and_aesthetic_value_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "可特別留意全體與獨奏之間的輪替，以及短小動機如何在不同調性區塊中反覆回歸。",
+    "analysis": "Op. 3 把獨奏協奏曲的語法推向高度標準化，也為巴赫後來大量改編提供了直接素材。",
+    "cultural_note": "《和諧的靈感》是維瓦第打進全歐洲音樂市場的第一張名片。它由阿姆斯特丹的羅傑出版商刊行後，迅速在德國、法國與英國的貴族與業餘音樂圈傳播，年輕的巴赫更親自將其中多首改編為鍵盤協奏曲，這是巴赫鍵盤協奏曲形式成形的直接觸媒。今天，這套作品是研究巴洛克「協奏曲出版商業化」最常被引用的個案，也是說明維瓦第如何把威尼斯音樂語彙輸出至全歐洲的核心證據。",
+    "scholarly_analysis": "這部作品常被視為韋瓦第國際聲望真正成形的出版物，因其在結構清晰度與器樂炫技之間取得了極高平衡。"
+  },
+  {
+    "id": "ottone-in-villa",
+    "composerId": "vivaldi",
+    "title": "《奧托內在別墅》 Ottone in villa",
+    "year": 1713,
+    "age": 35,
+    "type": "opera",
+    "period": "early",
+    "summary": "韋瓦第的首部歌劇作品，標誌他正式進入威尼斯競爭激烈的商業歌劇世界。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ],
+    "listening_guide": "歌劇中的詠嘆調與器樂推進感，已可聽見他將歌唱性與節奏驅動融合的早期樣貌。",
+    "analysis": "這部歌劇不只是舞台首秀，也反映他作為作曲家與劇院經理雙重角色的轉換。",
+    "cultural_note": "《奧托內在別墅》作為維瓦第的歌劇處女作，在接受史上長期被器樂作品的巨大光環所遮蓋。20 世紀下半葉的「巴洛克歌劇復興運動」讓它重新被搬上舞台，特別是在早期音樂復古演出（historically informed performance）興盛後，它成為重新評估維瓦第作為歌劇作曲家的重要依據。他一生共寫了約 50 部歌劇，但絕大多數長期被認為是「商業製作」而非藝術作品，《奧托內在別墅》的研究重啟也是修正這一偏見的起點之一。",
+    "scholarly_analysis": "Ottone in villa 常被用來說明韋瓦第並非只會寫協奏曲，而是能在歌劇市場中快速建立個人風格。"
+  },
+  {
+    "id": "gloria-in-d-major-rv-589",
+    "composerId": "vivaldi",
+    "title": "《D 大調榮耀頌》 Gloria in D major, RV 589",
+    "year": 1716,
+    "age": 38,
+    "type": "sacred_vocal",
+    "period": "middle",
+    "summary": "為慈悲醫院創作的宗教聲樂名作，以明亮的合唱音響與強烈推進力展現他在聲樂寫作上的成熟。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ],
+    "listening_guide": "開場的光輝和聲與快速節奏對比，很容易聽出器樂協奏曲式的活力被移植到合唱之中。",
+    "analysis": "這部作品體現韋瓦第把戲劇性、節奏能量與宗教文本結合的能力，也反映慈悲醫院演出傳統的高度專業化。",
+    "cultural_note": "《D 大調榮耀頌》是維瓦第宗教音樂中今天最廣泛演出的作品，在世界各地的業餘合唱節、大學合唱團與聖誕音樂會中頻繁出現，受歡迎程度甚至超越同期許多更著名的宗教作品。它在 18 世紀被遺忘後，直到 20 世紀中葉才由義大利音樂學家在都靈的圖書館中重新發現。1939 年由 Alfredo Casella 在維瓦第音樂節上復演，是這部作品重回現代音樂生活的起點，這個復興故事本身也成為巴洛克音樂復興運動的標誌性個案。",
+    "scholarly_analysis": "RV 589 常被視為他宗教音樂中最有辨識度、也最受現代聽眾歡迎的作品之一。"
+  },
+  {
+    "id": "the-four-seasons-op-8",
+    "composerId": "vivaldi",
+    "title": "《四季》 The Four Seasons, Op. 8",
+    "year": 1725,
+    "age": 47,
+    "type": "violin_concerto",
+    "period": "middle",
+    "summary": "《四季》是韋瓦第最具代表性的協奏曲組曲，以四首獨奏小提琴協奏曲、十四行詩與精密的音畫對位，將巴洛克協奏曲、修辭學創思與自然描寫推向極高完成度。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      },
+      {
+        "label": "Vivaldi Four Seasons analysis",
+        "url": "docs/Vivaldi/vivaldi_four_seasons_historical_context_musical_imagery_and_aesthetic_value_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "聽《四季》時可先抓住每首協奏曲的文本線索，再追蹤獨奏小提琴如何以顫音、顫奏、音階、雙音、撥弦與休止把鳥鳴、暴風雨、醉漢搖晃、狩獵與冰雪等場景具象化。",
+    "analysis": "這套作品把 ritornello form 的回歸邏輯與 programmatic writing 結合得近乎教科書等級：全體合奏負責建構季節氛圍與調性地標，獨奏插段則負責描寫細節、強化戲劇節點，讓形式與敘事在同一條時間軸上同步運作。",
+    "cultural_note": "《四季》在 18 世紀就已跨越威尼斯與阿姆斯特丹的出版網絡，進入法國宮廷與公共音樂會文化；到 20 世紀手稿重現與錄音普及後，又被重新塑造成古典音樂中最具辨識度的公共文化圖騰之一。",
+    "scholarly_analysis": "從阿卡迪亞學院的逼真性美學、情感論的調性對應，到崇高美學對雷雨與冰雪的呈現，《四季》其實同時處理了自然、修辭、聲學與市場四個層面。它不只是名曲，而是巴洛克協奏曲如何在嚴格結構內承載敘事想像的範本。"
+  },
+  {
+    "id": "farnace-rv-711",
+    "composerId": "vivaldi",
+    "title": "《法爾納切》 Farnace, RV 711",
+    "year": 1730,
+    "age": 52,
+    "type": "opera",
+    "period": "late",
+    "summary": "韋瓦第成熟期的重要歌劇之一，反映他在威尼斯以外舞台上持續追求戲劇性與聲樂炫技的企圖。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ],
+    "listening_guide": "這部作品可特別留意詠嘆調的高音區張力與弦樂伴奏如何支撐角色情緒。",
+    "analysis": "Farnace 顯示韋瓦第在歌劇領域的成熟語法，也與他後期在布拉格等地的舞台活動相呼應。",
+    "cultural_note": "《法爾納切》在維瓦第在世時就因其宏大的戲劇性與高超的聲樂炫技而受到好評，他也曾多次修訂並在不同城市重演。這部歌劇在 18 世紀後隨著維瓦第整體聲望的消退而沉入圖書館，直到 20 世紀末的早期音樂運動才重新被搬上舞台。今天，它被視為維瓦第歌劇語彙中最能展現他「情感論美學」（Affektenlehre）的範本之一，是研究巴洛克歌劇如何以音樂符號對應特定情緒的重要文獻。",
+    "scholarly_analysis": "在他的歌劇作品中，Farnace 常被視為能兼顧舞台效果與器樂結構感的代表。"
+  }
+]

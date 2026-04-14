@@ -1,0 +1,194 @@
+[
+  {
+    "id": "birth-lucca-1858",
+    "composerId": "puccini",
+    "year": 1858,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於盧卡 Born in Lucca",
+    "timelineTitle": "出生於盧卡",
+    "summary": "1858 年，普契尼出生於義大利盧卡的音樂世家；家族長期擔任教堂樂長與管風琴師，為他的早期音樂聲景奠定基礎。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "aida-revelation-1876",
+    "composerId": "puccini",
+    "year": 1876,
+    "age": 18,
+    "type": "career",
+    "title": "聆聽《阿依達》後決意走向歌劇 Heard Aida and Turned to Opera",
+    "timelineTitle": "聆聽《阿依達》",
+    "summary": "1876 年他前往比薩聆聽威爾第《阿依達》，被戲劇力量深深震撼，並因此決定放棄家族的教會音樂傳統，投入歌劇創作。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "milan-conservatory-1880",
+    "composerId": "puccini",
+    "year": 1880,
+    "age": 22,
+    "type": "career",
+    "title": "進入米蘭音樂院 Enters Milan Conservatory",
+    "timelineTitle": "進入米蘭音樂院",
+    "summary": "1880 年他進入米蘭音樂院，接受正式的作曲與配器訓練，並逐漸與米蘭的前衛藝術圈建立聯繫。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "le-villi-breakthrough-1884",
+    "composerId": "puccini",
+    "year": 1884,
+    "age": 26,
+    "type": "career",
+    "title": "《群妖傳》帶來李科迪注意 Le Villi Breakthrough",
+    "timelineTitle": "《群妖傳》突破",
+    "summary": "1884 年《群妖傳》雖未在比賽中獲勝，卻成功吸引李科迪的目光，成為普契尼與義大利頂級出版機構展開長期合作的起點。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "manon-lescaut-success-1893",
+    "composerId": "puccini",
+    "year": 1893,
+    "age": 35,
+    "type": "career",
+    "title": "《瑪儂・雷斯考》確立地位 Manon Lescaut Success",
+    "timelineTitle": "《瑪儂・雷斯考》成功",
+    "summary": "1893 年《瑪儂・雷斯考》首演成功，讓普契尼正式被視為威爾第之後義大利歌劇的重要繼承者。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "la-boheme-premiere-1896",
+    "composerId": "puccini",
+    "year": 1896,
+    "age": 38,
+    "type": "career",
+    "title": "《波希米亞人》首演 La bohème Premiere",
+    "timelineTitle": "《波希米亞人》首演",
+    "summary": "1896 年《波希米亞人》首演，將都會波希米亞生活與年輕人的情感創傷推向義大利歌劇正典。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "tosca-premiere-1900",
+    "composerId": "puccini",
+    "year": 1900,
+    "age": 42,
+    "type": "career",
+    "title": "《托斯卡》首演 Tosca Premiere",
+    "timelineTitle": "《托斯卡》首演",
+    "summary": "1900 年《托斯卡》首演，透過極端戲劇衝突與高密度心理張力，展現普契尼對真實主義歌劇的高階整合。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "butterfly-premiere-disaster-1904",
+    "composerId": "puccini",
+    "year": 1904,
+    "age": 46,
+    "type": "career",
+    "title": "《蝴蝶夫人》米蘭首演失敗 Butterfly Premiere Disaster",
+    "timelineTitle": "《蝴蝶夫人》首演失敗",
+    "summary": "1904 年《蝴蝶夫人》在斯卡拉首演遭遇慘烈失敗，成為普契尼生涯中最著名的首演挫折之一。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "butterfly-brescia-revision-1904",
+    "composerId": "puccini",
+    "year": 1904,
+    "age": 46,
+    "type": "career",
+    "title": "《蝴蝶夫人》布雷西亞修訂成功 Butterfly Revision Success",
+    "timelineTitle": "《蝴蝶夫人》修訂成功",
+    "summary": "普契尼迅速修訂《蝴蝶夫人》，並在布雷西亞演出中贏得巨大成功，徹底鞏固了作品與自身的國際聲望。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "la-fanciulla-del-west-premiere-1910",
+    "composerId": "puccini",
+    "year": 1910,
+    "age": 52,
+    "type": "career",
+    "title": "《西部女郎》在紐約首演 La fanciulla del West Premiere",
+    "timelineTitle": "《西部女郎》首演",
+    "summary": "1910 年《西部女郎》在紐約大都會歌劇院首演，標誌普契尼對美國題材、電影化敘事與更複雜和聲語法的探索。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "il-trittico-premiere-1918",
+    "composerId": "puccini",
+    "year": 1918,
+    "age": 60,
+    "type": "career",
+    "title": "《三部曲》首演 Il trittico Premiere",
+    "timelineTitle": "《三部曲》首演",
+    "summary": "1918 年《三部曲》首演，展示普契尼能在不同戲劇類型間自由切換，從法國寫實驚悚到宗教救贖與喜劇結構都能駕馭。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  },
+  {
+    "id": "turandot-unfinished-and-death-1924",
+    "composerId": "puccini",
+    "year": 1924,
+    "age": 66,
+    "type": "personal",
+    "title": "未竟的《杜蘭朵》與布魯塞爾逝世 Turandot and Death",
+    "timelineTitle": "《杜蘭朵》與逝世",
+    "summary": "1924 年普契尼因喉癌病逝於布魯塞爾，留下未完成的《杜蘭朵》終局，也為義大利浪漫歌劇時代寫下最後註腳。",
+    "sources": [
+      {
+        "label": "普契尼音樂與時代深度研究",
+        "url": "docs/Puccini/puccini_music_and_era_deep_research.md"
+      }
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "birth-venice-1678",
+    "composerId": "vivaldi",
+    "year": 1678,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於威尼斯 Born in Venice",
+    "timelineTitle": "出生於威尼斯",
+    "summary": "1678 年 3 月 4 日出生於威尼斯，並在地震傳聞與緊急洗禮的背景下開始其人生。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      },
+      {
+        "label": "Vivaldi Four Seasons analysis",
+        "url": "docs/Vivaldi/vivaldi_four_seasons_historical_context_musical_imagery_and_aesthetic_value_deep_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "holy-orders-1703",
+    "composerId": "vivaldi",
+    "year": 1703,
+    "age": 25,
+    "type": "career",
+    "title": "受任神職 Holy Orders",
+    "timelineTitle": "受任神職",
+    "summary": "1703 年正式受命為神父，從此以「紅髮神父」之名進入威尼斯社會與音樂圈。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "pieta-appointment-1703",
+    "composerId": "vivaldi",
+    "year": 1703,
+    "age": 25,
+    "type": "career",
+    "title": "任職慈悲醫院 Pietà Appointment",
+    "timelineTitle": "任職慈悲醫院",
+    "summary": "同年受聘為 Ospedale della Pietà 的小提琴教師，開啟與威尼斯女性音樂學院長期而密切的合作。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "l-estro-armonico-publication-1711",
+    "composerId": "vivaldi",
+    "year": 1711,
+    "age": 33,
+    "type": "career",
+    "title": "《和諧的靈感》出版 L'estro armonico Publication",
+    "timelineTitle": "《和諧的靈感》出版",
+    "summary": "《和諧的靈感》Op. 3 於阿姆斯特丹出版，迅速為韋瓦第建立歐洲性的聲望。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "ottone-in-villa-premiere-1713",
+    "composerId": "vivaldi",
+    "year": 1713,
+    "age": 35,
+    "type": "career",
+    "title": "《奧托內在別墅》首演 Ottone in villa Premiere",
+    "timelineTitle": "《奧托內在別墅》首演",
+    "summary": "首部歌劇《奧托內在別墅》於維琴察首演，標誌他正式跨入商業歌劇領域。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "mantua-court-position-1718",
+    "composerId": "vivaldi",
+    "year": 1718,
+    "age": 40,
+    "type": "career",
+    "title": "曼托瓦宮廷職位 Mantua Court Position",
+    "timelineTitle": "曼托瓦宮廷職位",
+    "summary": "1718 年至 1720 年間擔任曼托瓦宮廷的世俗音樂總監，是他一生中唯一的全職宮廷職位。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "four-seasons-publication-1725",
+    "composerId": "vivaldi",
+    "year": 1725,
+    "age": 47,
+    "type": "career",
+    "title": "《四季》出版 Four Seasons Publication",
+    "timelineTitle": "《四季》出版",
+    "summary": "《和聲與發明的印證》Op. 8 於阿姆斯特丹出版，其中包含《四季》，成為他最具傳播力的代表作。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "ferrara-ban-1737",
+    "composerId": "vivaldi",
+    "year": 1737,
+    "age": 59,
+    "type": "career",
+    "title": "費拉拉禁令 Ferrara Ban",
+    "timelineTitle": "費拉拉禁令",
+    "summary": "因緋聞與教會禁令，韋瓦第被禁止進入費拉拉，歌劇事業也因此遭受重大打擊。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "move-to-vienna-1740-vivaldi",
+    "composerId": "vivaldi",
+    "year": 1740,
+    "age": 62,
+    "type": "career",
+    "title": "前往維也納 Move to Vienna",
+    "timelineTitle": "前往維也納",
+    "summary": "1740 年動身前往維也納，希望尋求查理六世的庇護與新的宮廷職位。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  },
+  {
+    "id": "death-vienna-1741",
+    "composerId": "vivaldi",
+    "year": 1741,
+    "age": 63,
+    "type": "personal",
+    "title": "逝世於維也納 Death in Vienna",
+    "timelineTitle": "逝世於維也納",
+    "summary": "1741 年 7 月 28 日於維也納病逝，並葬於貧民公墓，結束了戲劇化而起伏巨大的一生。",
+    "sources": [
+      {
+        "label": "Vivaldi research doc",
+        "url": "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md"
+      }
+    ]
+  }
+]

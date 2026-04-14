@@ -1,0 +1,446 @@
+[
+  {
+    "id": "nocturne-op-9-no-1",
+    "composerId": "chopin",
+    "title": "《降 B 小調第一號夜曲》 Nocturne in B-flat minor, Op. 9 No. 1",
+    "year": 1832,
+    "age": 22,
+    "type": "nocturne",
+    "period": "early",
+    "summary": "早期夜曲代表作之一，以陰影感較重的抒情線條、自由節奏與細膩踏板色彩展現蕭邦成熟的歌唱性鋼琴語言。",
+    "sources": [
+      {
+        "label": "Henle Nocturnes",
+        "url": "https://www.henle.de/Nocturnes/HN-185"
+      },
+      {
+        "label": "WFMT Chopin Nocturnes Guide",
+        "url": "https://www.wfmt.com/2017/08/22/your-guide-to-chopins-nocturnes/"
+      }
+    ],
+    "listening_guide": "這首夜曲雖屬早期，卻已明顯不是單純沙龍小品。聆聽時可特別注意右手不規則裝飾音群如何漂浮在左手穩定伴奏之上，形成近乎即興的呼吸感；它的美不在筆直推進，而在細微延展與回收之間的彈性。",
+    "analysis": "研究文件指出，本曲在第 3 小節後便大量使用跨越拍點的連音群，要求演奏者以 rubato 與自由分組凸顯動機內部結構，而非機械地對齊拍格。左手的和聲圓滑奏與半踏板控制，則是保持音色透明與暗色調張力的關鍵。",
+    "cultural_note": "蕭邦的夜曲系列是浪漫主義「私密音樂」的代名詞，它們雖多半首演於巴黎沙龍而非大型音樂廳，卻透過 19 世紀的樂譜出版系統廣泛傳播，成為業餘鋼琴家居家彈奏的核心曲目。Op. 9 No. 1 作為系列的開篇，今天最常出現在夜曲全集錄音與蕭邦入門教材中，也是說明他如何在 Field 的體裁基礎上「蕭邦化」的首要例子。",
+    "scholarly_analysis": "依據研究彙編所整理的波蘭國家版與演奏註解，本曲的核心不只是裝飾性旋律，而是如何在節奏彈性、踏板更新與和聲共鳴之間取得平衡。學術與演奏文獻都把它視為蕭邦將 John Field 夜曲轉化為更濃密、更心理化鋼琴詩篇的早期證據。"
+  },
+  {
+    "id": "nocturne-op-9-no-2",
+    "composerId": "chopin",
+    "title": "《降 E 大調第二號夜曲》 Nocturne in E-flat major, Op. 9 No. 2",
+    "year": 1832,
+    "age": 22,
+    "type": "nocturne",
+    "period": "early",
+    "summary": "蕭邦最廣為人知的作品之一，以優雅旋律與每次回歸都更華麗的裝飾變體，成為浪漫夜曲的典型形象。",
+    "sources": [
+      {
+        "label": "Henle Nocturnes",
+        "url": "https://www.henle.de/Nocturnes/HN-185"
+      },
+      {
+        "label": "PianoTV Nocturne Op. 9 No. 2",
+        "url": "https://www.pianotv.net/2016/09/nocturne-op-9-no-2-chopins-famous-piece/"
+      }
+    ],
+    "listening_guide": "這首曲子適合從「主題如何被反覆重新講述」去聽。A 段每次回來都會被加上更繁複的裝飾，像同一句歌詞被不同情緒反覆吟唱；最後的華彩與顫音若處理得自然，會讓全曲像一口氣輕輕收束，而不是炫技地結束。",
+    "analysis": "研究報告將此曲描述為擴展圓舞曲二段體，A-A-B-A-B-A-Coda 的回返方式，使它在高度親切的旋律外觀之下，仍保有精細的結構控制。它的難點不在表面速度，而在如何讓旋律唱出 bel canto 式線條，同時避免左手低音在現代鋼琴上變得過厚。",
+    "cultural_note": "《降 E 大調夜曲》（Op. 9 No. 2）是蕭邦所有作品中知名度最高的一首，也是古典鋼琴文獻中被改編、引用與模仿次數最多的作品之一。它的旋律出現在無數電影、廣告與流行音樂之中，也是許多人學鋼琴時第一首完整彈完的古典名曲。這種極度普及性有時讓它在音樂學界被低估，但它恰恰是研究「沙龍鋼琴曲如何穿越時代成為全球性大眾旋律」的最佳案例。",
+    "scholarly_analysis": "文件整理了多種蕭邦親筆與傳抄的變體版本，顯示此曲並非單一固定文本，而是一首帶有演奏傳統流動性的作品。關於裝飾音起音、顫音進入點與低音配置的討論，也反映出學界如何透過版本研究重建十九世紀鋼琴語法。"
+  },
+  {
+    "id": "nocturne-op-15-no-2",
+    "composerId": "chopin",
+    "title": "《升 F 大調夜曲》 Nocturne in F-sharp major, Op. 15 No. 2",
+    "year": 1836,
+    "age": 26,
+    "type": "nocturne",
+    "period": "middle",
+    "summary": "中期夜曲的代表之一，以優雅的 bel canto 長線條、明顯的段落對比與更戲劇化的中段，展現夜曲從沙龍抒情走向微型戲劇的關鍵轉折。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/chopin_nocturne_style_evolution_and_historical_cultural_context_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "可以把外段當成一段近乎歌劇咏歎的獨白來聽，重點在旋律如何被裝飾卻不失呼吸感；真正的轉折則在中段，音樂突然拉開情緒張力，讓原本安靜的夜色轉為內在戲劇。",
+    "analysis": "這首作品很清楚地顯示蕭邦如何把 Field 式夜曲的安靜輪廓，改寫成更具戲劇性與抒情深度的個人語言。外層的優雅與中段的對比，使夜曲不再只是靜態氛圍，而是具有明確情感推進的微型敘事。",
+    "cultural_note": "Op. 15 No. 2 是蕭邦夜曲中較不廣為人知但在鋼琴學習圈中頗受喜愛的作品，它的升 F 大調在夜曲中相對罕見，賦予音樂一種溫暖而略帶距離感的色調。在眾多夜曲全集錄音中，這首常是鋼琴家展示對「中期轉變」的詮釋立場的地方，不同演奏者對中段情緒衝突程度的處理差異極大，是體驗詮釋多樣性的好材料。",
+    "scholarly_analysis": "研究文件將中期夜曲視為蕭邦風格成熟的核心階段，而 Op. 15 No. 2 正好說明這一點：它保留夜曲的私密性，卻以更明確的對比與更豐富的和聲，將體裁的表現範圍顯著擴張。"
+  },
+  {
+    "id": "nocturne-op-27-no-2",
+    "composerId": "chopin",
+    "title": "《降 D 大調夜曲》 Nocturne in D-flat major, Op. 27 No. 2",
+    "year": 1836,
+    "age": 26,
+    "type": "nocturne",
+    "period": "middle",
+    "summary": "以極其華美的旋律線、遠關係轉調與近乎無重力的和聲色彩著稱，是蕭邦中期夜曲中最具夢境感與調性遊移感的作品之一。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/chopin_nocturne_style_evolution_and_historical_cultural_context_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "這首作品的重點不只在旋律是否優美，而在它如何不斷把你帶離預期的調性中心。聆聽時可留意和聲如何像水面反光一樣不斷偏移，讓整首曲子保有持續懸浮的氣息。",
+    "analysis": "Op. 27 No. 2 是夜曲和聲語言擴張的典型案例。蕭邦透過細膩的半音進行、遠距離轉調與柔性的句法，讓作品在表面上保持抒情，在結構上卻充滿微妙的不穩定與心理漂移。",
+    "cultural_note": "Op. 27 No. 2 在眾多夜曲中以和聲語言的精緻度著稱，被許多鋼琴家視為蕭邦夜曲中「最像德布西之前的德布西」的作品。這種評語反映了它在音樂史上的跨時代影響：其調性遊移的寫法，與後來象徵主義音樂美學之間的聯繫，使它常出現在討論「前印象主義和聲」的學術脈絡中。它也是許多鋼琴學生從中級進入高級程度時最有啟發性的蕭邦夜曲之一。",
+    "scholarly_analysis": "就風格史來看，這首夜曲說明蕭邦已不滿足於單純的旋律美感，而是把和聲本身變成情感與空間感的塑形工具。夜曲在這裡不再只是夜晚的抒情，而是一種對時間、記憶與遙遠感的音樂化處理。"
+  },
+  {
+    "id": "nocturne-op-37-no-1",
+    "composerId": "chopin",
+    "title": "《G 小調夜曲》 Nocturne in G minor, Op. 37 No. 1",
+    "year": 1839,
+    "age": 29,
+    "type": "nocturne",
+    "period": "middle",
+    "summary": "帶有聖詠般氣質與內在莊嚴感的夜曲，顯示蕭邦已能在夜曲體裁中融入更深層的宗教性與複調思維。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/chopin_nocturne_style_evolution_and_historical_cultural_context_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "外層的旋律非常克制，但真正值得注意的是中間段落的和聲厚度與聖詠式的呼吸。這首曲子的美，不是表面的華麗，而是那種像低聲祈禱般的安靜深度。",
+    "analysis": "Op. 37 No. 1 代表夜曲開始吸收更明顯的宗教音樂語彙，讓原本屬於沙龍的體裁具備近似教堂聖詠的莊重。這種寫法也顯示蕭邦晚中期的夜曲已不只是旋律作品，而是聲部關係與音色平衡的精密設計。",
+    "cultural_note": "Op. 37 No. 1 的聖詠式中段常被研究者聯繫到蕭邦在諾昂莊園的生活時期，以及他與喬治·桑關係的轉型。這一時期（1839 年前後）是他健康急遽惡化的開始，而音樂中那種克制而深沉的安靜，常被詮釋為他對生命無常的靜觀姿態。它在夜曲全集錄音中是最常被稱為「必須細聽才能感受」的作品，對初次接觸者來說往往不如 Op. 9 No. 2 易於親近，但對深度聽者則往往是印象最深的夜曲之一。",
+    "scholarly_analysis": "文件所談的晚中期夜曲，特別強調隱性復調與情感克制的成熟。這首作品正是例子之一：它以低調外觀承載高度內在化的抒情，使夜曲從感傷小品邁向更哲思、更安靜的表達層次。"
+  },
+  {
+    "id": "nocturne-op-48-no-1",
+    "composerId": "chopin",
+    "title": "《C 小調夜曲》 Nocturne in C minor, Op. 48 No. 1",
+    "year": 1841,
+    "age": 31,
+    "type": "nocturne",
+    "period": "late",
+    "summary": "晚期夜曲中最具史詩感的作品之一，以莊嚴行進、聖詠式段落與爆發性的終段，將夜曲推向近乎敘事曲與交響化的尺度。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/chopin_nocturne_style_evolution_and_historical_cultural_context_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "這首作品最震撼之處，在於它不是從輕聲細語開始，而像從陰影中踏出一列緩慢隊伍。聆聽時可特別留意中段聖詠式段落如何累積張力，以及最後的爆發如何把整首曲子推到遠遠超過夜曲體裁原本邊界的地方。",
+    "analysis": "Op. 48 No. 1 幾乎把夜曲變成了一種濃縮的悲劇敘事。它不再只是夜色中的抒情，而是將民族記憶、內在悲傷與結構推進合而為一，形成比早期夜曲更宏大的情感架構。",
+    "cultural_note": "《C 小調夜曲》Op. 48 No. 1 常被專業鋼琴家和音樂學者列為蕭邦夜曲中「最偉大的一首」，但這種評價在一般聽眾中並不廣為人知——它的知名度遠不及 Op. 9 No. 2，卻在演奏家群體中具有特別崇高的地位。這種「行內外認知落差」本身就是研究音樂正典形成的有趣案例。它常被詮釋為蕭邦面對波蘭流亡命運時最深沉的情感表達，在波蘭音樂教育中也常作為民族認同的文化符號被引用。",
+    "scholarly_analysis": "這首作品常被視為蕭邦夜曲晚期的樞紐，因為它把微型體裁提升到近似大型敘事音樂的高度。研究文件對晚期夜曲的描述，在這首作品中尤其清楚：夜曲可以承載的不只是情緒，而是整個歷史與心理的重量。"
+  },
+  {
+    "id": "nocturne-op-55-no-2",
+    "composerId": "chopin",
+    "title": "《降 E 大調夜曲》 Nocturne in E-flat major, Op. 55 No. 2",
+    "year": 1844,
+    "age": 34,
+    "type": "nocturne",
+    "period": "late",
+    "summary": "晚期夜曲的典型代表之一，左手與內聲部的獨立性大幅提高，讓對位與隱性復調成為作品不可分割的一部分。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/chopin_nocturne_style_evolution_and_historical_cultural_context_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "聆聽這首曲子時，可以刻意分辨左手不只是伴奏，而是擁有自己的歌唱線條。當兩手的聲部像在彼此對話時，作品的真正深度就會浮現出來。",
+    "analysis": "這首夜曲顯示蕭邦已經徹底超越『旋律加伴奏』的單聲部思維。聲部之間的互動、延遲解決與內聲部歌唱，使樂曲在外表平靜之下，實際上充滿精細的對位網絡。",
+    "cultural_note": "Op. 55 No. 2 是蕭邦晚期最罕見、也最少在音樂會舞台上被單獨演出的夜曲之一，它的對位複雜度使它更適合深度聆聽，而非快速享受。在二十世紀的鋼琴演奏傳統中，阿圖爾·魯賓斯坦（Arthur Rubinstein）對這首曲子的詮釋長期被視為標準，他的錄音把兩個聲部的獨立性表達得極為清晰，對後世鋼琴家的詮釋方向影響深遠。",
+    "scholarly_analysis": "研究文件把晚期夜曲視為巴赫式思維重新進入浪漫抒情語言的結果，而 Op. 55 No. 2 正是這種轉變的明顯證據。它讓夜曲不只是優美，更是一種高度智性化的聲音書寫。"
+  },
+  {
+    "id": "nocturne-op-62-no-1",
+    "composerId": "chopin",
+    "title": "《B 大調夜曲》 Nocturne in B major, Op. 62 No. 1",
+    "year": 1846,
+    "age": 36,
+    "type": "nocturne",
+    "period": "late",
+    "summary": "蕭邦晚期夜曲中最精緻也最內斂的篇章之一，將裝飾音、顫音與聲部層次完全結構化，呈現近乎透明卻高度複雜的聲響世界。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/chopin_nocturne_style_evolution_and_historical_cultural_context_deep_analysis.md"
+      }
+    ],
+    "listening_guide": "這首曲子的美感在於表面幾乎輕盈無重，但每個細節都在持續變形。可特別注意顫音與裝飾音不是附加在旋律外面，而像是旋律本身正在微微呼吸、閃爍與消散。",
+    "analysis": "Op. 62 No. 1 讓夜曲進一步走向『聲音本身即結構』的寫作方式。裝飾音不再只是炫麗的外層，而是構成音樂運動、空間深度與情感曖昧性的核心元素。",
+    "cultural_note": "Op. 62 No. 1 是蕭邦最後一組出版夜曲（Op. 62，1846 年）中的第一首，距離他去世只有三年。這種「晚期光輝」的傳記框架，使許多聽眾和演奏家以一種特別的沉思性去對待這首作品，把它視為一個垂死的天才在回望與超越之間的最後傑作。它在歷史上也是德布西最明確表達欣賞之情的蕭邦作品之一，被視為連接蕭邦晚期語法與印象主義之間的重要鏈結。",
+    "scholarly_analysis": "文件指出，晚期夜曲的關鍵是模糊邊界：旋律、和聲、踏板與音色在這裡互相滲透。這首作品把那種透明而病態的精緻感推到極致，也預示了後來更重視色彩與氛圍的鋼琴寫作。"
+  },
+  {
+    "id": "etude-op-10-no-3",
+    "composerId": "chopin",
+    "title": "《E 大調第三號練習曲》 Etude in E major, Op. 10 No. 3",
+    "year": 1833,
+    "age": 23,
+    "type": "etude",
+    "period": "early",
+    "summary": "常被稱為「離別」的名作，以近乎歌唱曲般的主題、內聲控制與中段戲劇衝突，展現蕭邦將練習曲詩化的能力。",
+    "sources": [
+      {
+        "label": "WFMT Chopin Etudes Guide",
+        "url": "https://www.wfmt.com/2020/02/28/your-guide-to-chopins-etudes/"
+      },
+      {
+        "label": "LA Phil Chopin Etudes",
+        "url": "https://www.laphil.com/musicdb/pieces/1657/etudes-op-10-nos-1-2-3-4-12-and-etudes-op-25-nos-5-6-11"
+      }
+    ],
+    "listening_guide": "外層主題溫柔、幾乎像無詞歌，但真正的張力藏在中段。可留意中段減七和弦與複調雙音如何突然扭轉原本的平靜，等主題回歸時，旋律就不再只是美，而像歷經情緒撕裂後的回望。",
+    "analysis": "研究文件強調，這首作品的技術核心不是炫速，而是聲部層次與 cantabile。右手必須同時照顧主旋律與內聲部和弦，要求演奏者以極細的觸鍵重量差異塑造多層音色，因此它是把「技巧」轉化為「表情控制」的典型案例。",
+    "cultural_note": "《E 大調練習曲》Op. 10 No. 3 因其主題旋律被改填歌詞而廣為大眾所知，其中最著名的版本是「Tristesse」（法語「悲傷」），這個標題雖非蕭邦本人所取，但已成為作品的通俗稱呼。據說蕭邦自己曾說：「在我一生中，我從未再寫出如此美麗的旋律」，這句話雖真實性存疑，卻廣泛流傳，成為推廣此曲的重要文化符號。今天它是鋼琴教學中兼顧技術訓練與音樂深度的最佳入門練習曲之一。",
+    "scholarly_analysis": "彙編資料指出，蕭邦的練習曲在此已徹底超出教學小品的範疇。學術上常把這首曲子視為練習曲體裁被重新定義的關鍵時刻：技術課題仍在，但它被完整包裹進抒情外層、複調思維與浪漫主義敘事情緒之中。"
+  },
+  {
+    "id": "etude-op-10-no-12-revolutionary",
+    "composerId": "chopin",
+    "title": "《c 小調第十二號練習曲「革命」》 Etude in C minor, Op. 10 No. 12 \"Revolutionary\"",
+    "year": 1833,
+    "age": 23,
+    "type": "etude",
+    "period": "early",
+    "summary": "以怒濤般左手音型與進行曲式右手動機聞名，是蕭邦把流亡、憤怒與民族情感壓縮進鋼琴獨奏的代表作。",
+    "sources": [
+      {
+        "label": "WFMT Chopin Etudes Guide",
+        "url": "https://www.wfmt.com/2020/02/28/your-guide-to-chopins-etudes/"
+      },
+      {
+        "label": "LA Phil Chopin Etudes",
+        "url": "https://www.laphil.com/musicdb/pieces/1657/etudes-op-10-nos-1-2-3-4-12-and-etudes-op-25-nos-5-6-11"
+      }
+    ],
+    "listening_guide": "從開頭如雷擊般的和弦開始，左手就幾乎沒有喘息地翻湧向前，右手則像在洪流上高舉一個堅定的宣言。這首曲子適合從整體能量弧線去聽，而不是只聽快；真正震撼之處在於它如何把怒意維持到尾聲。",
+    "analysis": "研究文件直接把它放在十一月起義與華沙陷落的歷史脈絡中理解。它不是後人貼上標題後才顯得愛國，而是其和聲壓迫感、左手無休止運動與右手的反抗姿態，共同構成了一種近乎政治性的音樂修辭。",
+    "cultural_note": "「革命」練習曲是蕭邦最著名的愛國符號之一——它在波蘭獨立運動、二戰抵抗運動以及 1989 年後的波蘭文化復興中，都被反覆援引為民族精神的音樂象徵。在許多電影與戲劇中，它是表達「絕望中的反抗」最常被使用的古典旋律之一。同時，它也是鋼琴技術教學中左手快速琶音與右手主題平衡的核心練習曲，在技術上的挑戰性使它成為衡量鋼琴家左手能力的標準試金石。",
+    "scholarly_analysis": "學界反覆討論此曲如何把練習曲從機械技巧訓練提升為歷史情感的載體。根據研究彙整，這首作品經常被視為蕭邦風格轉黑的象徵節點，說明流亡經驗如何直接重塑他的鋼琴語言與作品表情密度。"
+  },
+  {
+    "id": "ballade-no-1-op-23",
+    "composerId": "chopin",
+    "title": "《g 小調第一號敘事曲》 Ballade No. 1 in G minor, Op. 23",
+    "year": 1835,
+    "age": 25,
+    "type": "ballade",
+    "period": "early",
+    "summary": "蕭邦最具代表性的敘事曲之一，將抒情段落、爆發性推進與悲劇性尾聲整合成近乎文學性的鋼琴敘事。",
+    "sources": [
+      {
+        "label": "Tonic Chord Ballade No. 1 Analysis",
+        "url": "https://tonic-chord.com/chopin-ballade-no-1-in-g-minor-op-23-analysis/"
+      },
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      }
+    ],
+    "listening_guide": "先聽導奏如何像講故事前的沉默，接著主題才突然展開。全曲並不依照固定模板平穩前進，而是在抒情、推進、停頓與爆發之間不斷轉場；尾聲一旦到來，前面所有能量會像被壓縮後瞬間釋放。",
+    "analysis": "研究資料把敘事曲視為蕭邦最重要的形式創新之一。這首作品結合了近似奏鳴曲的發展感與片段式回返的敘事節奏，使音樂聽起來像在講述無法完全言明、卻持續升高張力的故事。",
+    "cultural_note": "《g 小調第一號敘事曲》是電影、電視劇與廣告中引用頻率最高的蕭邦大型作品之一，其最後崩潰式的尾聲更是現代影視語言中表達「命運的無可挽回」最常借用的古典段落。電影《鋼琴師》（Roman Polanski, 2002）中，主角在廢墟中為德國軍官演奏的正是這首曲子，使它具備了超越音樂本身的歷史記憶意義。它也是蕭邦比賽（華沙）中最常被選為必奏曲的作品之一。",
+    "scholarly_analysis": "彙編指出，學界經常將蕭邦敘事曲與波蘭浪漫主義文學，特別是 Mickiewicz 的敘事詩傳統相互參照，但多半避免做一對一情節對應。也因此，這首作品的重要性不只在「有故事」，而在它為純器樂建立了一種不依賴文字、卻能讓聽者感到強烈敘事推進的模型。"
+  },
+  {
+    "id": "etude-op-25-no-11-winter-wind",
+    "composerId": "chopin",
+    "title": "《a 小調第十一號練習曲「冬風」》 Etude in A minor, Op. 25 No. 11 \"Winter Wind\"",
+    "year": 1837,
+    "age": 27,
+    "type": "etude",
+    "period": "middle",
+    "summary": "以狂風般右手半音音群與左手進行曲主題著稱，是蕭邦後期練習曲中體能、控制與戲劇性兼具的高峰。",
+    "sources": [
+      {
+        "label": "LA Phil Chopin Etudes",
+        "url": "https://www.laphil.com/musicdb/pieces/1657/etudes-op-10-nos-1-2-3-4-12-and-etudes-op-25-nos-5-6-11"
+      },
+      {
+        "label": "PianoTV Winter Wind",
+        "url": "https://www.pianotv.net/2016/09/winter-wind-chopin-etude-op-25-no-11-easy-tutorial/"
+      }
+    ],
+    "listening_guide": "短暫而沉著的導奏像暴風前的低壓，真正的主體一開始便幾乎沒有鬆手空間。聆聽時可把焦點放在左手主題是否仍清楚可辨，因為若只剩右手音符風暴，這首曲子的英雄性格就會被削弱。",
+    "analysis": "研究文獻把它描述為對演奏者體力、音型均勻度與聲部平衡的近乎極限考驗。右手密集的半音與下行三連十六分音符形成刺骨風勢，左手則必須在大跨距中維持進行曲式的穩定與方向感，兩者共同構成壓迫性極強的戲劇場景。",
+    "cultural_note": "《冬風》練習曲是蕭邦練習曲中公認的最高難度作品之一，與《革命》練習曲並稱最具戲劇性的練習曲代表。「冬風」的暱稱並非蕭邦所取，但其呼嘯的右手音型確實讓這個比喻極為貼切。在蕭邦國際鋼琴比賽（Chopin Competition）中，它是最能快速展現選手技術能力的選擇之一，也常出現在各大比賽的必彈清單。對一般聽眾而言，它是純技術性練習曲中最能讓人感受到「技術本身即藝術」的案例。",
+    "scholarly_analysis": "彙編特別提到，這首作品的導奏可能是蕭邦後來在友人建議下補入，使整體戲劇弧線更完整。學術上它常被視為練習曲體裁的再一次擴張：技術課題仍然明確，但作品已完全具備獨立音樂會曲目的敘事份量。"
+  },
+  {
+    "id": "prelude-op-28-no-14",
+    "composerId": "chopin",
+    "title": "《降 E 小調第十四號前奏曲》 Prelude in E-flat minor, Op. 28 No. 14",
+    "year": 1839,
+    "age": 29,
+    "type": "prelude",
+    "period": "middle",
+    "summary": "篇幅極短卻張力尖銳，是《24 首前奏曲》中最像瞬間閃現的劇烈剪影之一。",
+    "sources": [
+      {
+        "label": "Culture.pl Chopin's 24 Preludes",
+        "url": "https://culture.pl/en/article/breaking-down-chopins-24-preludes"
+      },
+      {
+        "label": "A Riddle in Chopin's Preludes",
+        "url": "https://online.ucpress.edu/ncm/article/46/3/197/196353/A-Riddle-in-Chopin-s-Preludes-Op-28"
+      }
+    ],
+    "listening_guide": "這首前奏曲要從它的「短」去體會，而不是把它當成未完成的片段。不到一分鐘的篇幅裡，音樂像快速掠過的黑影，幾乎沒有情緒鋪陳，卻能在瞬間建立出不安與推進感。",
+    "analysis": "研究彙編把第 14 首歸入詼諧型前奏曲，強調其緊縮、銳利與節奏驅動。它在整套 Op. 28 中的功能，像是把大型戲劇壓縮成一記短促而有力的斷面，也說明蕭邦如何用最小體積承載最大心理張力。",
+    "cultural_note": "蕭邦的 24 首前奏曲整體而言是 19 世紀最重要的鋼琴套曲之一，被視為他音樂語彙的濃縮展示。Op. 28 No. 14 雖然是其中最短、最少被單獨演出的一首，但它在套曲演奏的完整版本中不可缺少，因為它承擔了結構上的張力節點功能。今天 Op. 28 整套演出是蕭邦比賽和音樂節的重要保留節目，鋼琴家對如何詮釋「微型前奏曲」的選擇，往往是評審判斷音樂成熟度的關鍵依據。",
+    "scholarly_analysis": "前奏曲研究常把 Op. 28 視為一個按五度圈鋪展的整體，而非 24 首彼此孤立的小品。在這樣的框架中，第 14 首的價值不只在單曲效果，更在於它如何作為套曲中的一個高壓節點，打破聽覺慣性並強化整體敘事密度。"
+  },
+  {
+    "id": "prelude-op-28-no-15-raindrop",
+    "composerId": "chopin",
+    "title": "《降 D 大調第十五號前奏曲「雨滴」》 Prelude in D-flat major, Op. 28 No. 15 \"Raindrop\"",
+    "year": 1839,
+    "age": 29,
+    "type": "prelude",
+    "period": "middle",
+    "summary": "全集中最著名也最長的一首，以反覆敲擊的音高、外部雨聲與內在恐懼交錯成封閉而詩性的心理空間。",
+    "sources": [
+      {
+        "label": "Culture.pl Chopin's 24 Preludes",
+        "url": "https://culture.pl/en/article/breaking-down-chopins-24-preludes"
+      },
+      {
+        "label": "A Riddle in Chopin's Preludes",
+        "url": "https://online.ucpress.edu/ncm/article/46/3/197/196353/A-Riddle-in-Chopin-s-Preludes-Op-28"
+      }
+    ],
+    "listening_guide": "最容易抓到的線索，是那個持續反覆出現的降 A 音；進入中段後，它等音轉為升 G，原本平靜的水滴感也轉成壓迫與陰影。外層寧靜、中段陰鬱、最後再度回歸平和的對比，是這首曲子的聆聽核心。",
+    "analysis": "研究文件把它歸入夜曲型前奏曲，指出其迷人之處不只是標題聯想，而在持續音如何塑造封閉空間感。它以最簡單的重複聲響串起表層景象與內在心理，使「雨滴」同時像客觀聲音，也像無法擺脫的內心執念。",
+    "cultural_note": "「雨滴」的暱稱源自一個廣為流傳的傳說：蕭邦在馬優卡島養病期間，喬治·桑外出未歸，他在大雨中等待，感受到雨滴敲打屋頂的聲響，化入了這首前奏曲。這個故事後來被蕭邦本人否認（他反對任何程式性詮釋），但傳說已成為作品接受史的一部分，無法分離。「雨滴」是 Op. 28 中最廣為大眾知曉的一首，也是導聆文章中被引用次數最多的前奏曲，是入門蕭邦的最佳起點之一。",
+    "scholarly_analysis": "前奏曲學術研究常以這首作品說明 Op. 28 的微觀宇宙特性：單曲篇幅不算大，卻具備完整的戲劇空間。彙編所引研究也強調，反覆音的功能不能只視為描寫，而應理解為結構性支點，使全曲的和聲轉向與情緒封閉感被牢牢固定。"
+  },
+  {
+    "id": "prelude-op-28-no-16",
+    "composerId": "chopin",
+    "title": "《降 B 小調第十六號前奏曲》 Prelude in B-flat minor, Op. 28 No. 16",
+    "year": 1839,
+    "age": 29,
+    "type": "prelude",
+    "period": "middle",
+    "summary": "高速、炙熱且近乎爆裂的前奏曲，是 Op. 28 中最具對抗性與技巧壓迫感的作品之一。",
+    "sources": [
+      {
+        "label": "Culture.pl Chopin's 24 Preludes",
+        "url": "https://culture.pl/en/article/breaking-down-chopins-24-preludes"
+      },
+      {
+        "label": "A Riddle in Chopin's Preludes",
+        "url": "https://online.ucpress.edu/ncm/article/46/3/197/196353/A-Riddle-in-Chopin-s-Preludes-Op-28"
+      }
+    ],
+    "listening_guide": "這首作品幾乎沒有讓人安穩落地的時刻。可以注意它如何藉由快速音群、重拍推進與瞬間爆發，把短小篇幅撐成一場高度緊張的追逐；結束時的感覺像是被猛然拋下，而不是被慢慢安置。",
+    "analysis": "研究報告把第 16 首列入具敘事曲性格的前奏曲，強調其爆發性、動態對比與危機感。它證明蕭邦的前奏曲並非只是氛圍片段，而能在極短時間內濃縮完整的戲劇推力與鋼琴技術風暴。",
+    "cultural_note": "Op. 28 No. 16 在整套 24 首前奏曲中以技術難度極高著稱，是演奏家用來展示速度、控制力與爆發力的代表性選曲。在蕭邦比賽的比賽現場，這首曲子常是評判演奏者在高壓下的技術穩定性的試金石。它也是 Op. 28 完整版演出中製造套曲高潮的重要設計，常讓全套演出從「靜態聆聽」轉為「動態震撼」的轉折點。",
+    "scholarly_analysis": "在 Op. 28 的整體研究中，這首常被用來說明蕭邦如何用套曲中的微型形式承載接近大型作品的衝突密度。從類型學角度看，它與敘事曲、練習曲乃至詼諧曲之間形成跨體裁呼應，模糊了傳統前奏曲作為『導入』的邊界。"
+  },
+  {
+    "id": "scherzo-no-2-op-31",
+    "composerId": "chopin",
+    "title": "《降 B 小調第二號詼諧曲》 Scherzo No. 2 in B-flat minor, Op. 31",
+    "year": 1837,
+    "age": 27,
+    "type": "scherzo",
+    "period": "middle",
+    "summary": "以神秘低語般的開頭、明暗大幅轉換與壯麗終結著稱，是蕭邦把詼諧曲擴張為大型戲劇鋼琴曲的代表。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      },
+      {
+        "label": "Piano Library Brown Catalogue",
+        "url": "https://www.pianolibrary.org/composers/chopin/works-by-brown-catalogue/"
+      }
+    ],
+    "listening_guide": "開頭那組像在黑暗裡提出問題的三連音，是全曲最具辨識度的入口。從這之後，音樂會在降 B 小調與降 D 大調的光影之間不斷拉扯；到了中段轉入 A 大調時，長線條旋律與 leggiero 觸感會讓整首曲子突然像打開另一扇門。",
+    "analysis": "研究彙編指出，蕭邦徹底顛覆了古典時期 scherzo 的『玩笑』性格，將它轉為帶有暴怒與戲劇反差的大型單樂章作品。本曲透過等音轉換、長時間延遲解決與極端動態對比，建立出強烈的心理戲劇，而不只是炫技炫響。",
+    "cultural_note": "《第二號詼諧曲》是蕭邦詼諧曲中最廣為大眾熟知的一首，其神秘而充滿戲劇性的開頭三連音是音樂廳觀眾和鋼琴學生最易記住的片段之一。它在音樂電影、廣告與電視劇中也有相當高的出現頻率，常用來表達「懸念」或「內心衝突」的場景。這首作品也是蕭邦國際鋼琴比賽中最受選手青睞的詼諧曲選曲，其技術與詮釋的多重挑戰性使每一次詮釋都能強烈展現演奏家的個人風格。",
+    "scholarly_analysis": "依據報告整理，第二號詼諧曲最受學界關注之處，在於它如何以和聲停留與轉向製造敘事期待。開頭的低語動機、中段的抒情轉明，以及尾聲在輝煌大調中的解放感，共同構成一種近乎歌劇化的場景調度。"
+  },
+  {
+    "id": "scherzo-no-3-op-39",
+    "composerId": "chopin",
+    "title": "《升 c 小調第三號詼諧曲》 Scherzo No. 3 in C-sharp minor, Op. 39",
+    "year": 1839,
+    "age": 29,
+    "type": "scherzo",
+    "period": "middle",
+    "summary": "結合焦躁八度動機、聖詠般第二主題與燦爛大調終結，是蕭邦詼諧曲中結構感最強的一首之一。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      },
+      {
+        "label": "Piano Library Brown Catalogue",
+        "url": "https://www.pianolibrary.org/composers/chopin/works-by-brown-catalogue/"
+      }
+    ],
+    "listening_guide": "一開始的下行八度像直接把人推入緊張狀態，但不久後就會出現極具莊嚴感的和弦式第二主題。這個主題與其間穿插的瀑布般琶音，形成厚重與輕靈同時存在的奇特聲學對比，也是全曲最迷人的部分。",
+    "analysis": "研究文件認為第三號詼諧曲已明顯吸收奏鳴曲式思維，呈示、發展與再現的推進感比第二號更清楚。尤其最後沒有回到純粹悲劇性的升 c 小調，而以皮卡第三度轉成升 C 大調收束，讓整首曲子具有由黑暗衝向光亮的戲劇弧線。",
+    "cultural_note": "《第三號詼諧曲》相較於《第二號》在一般聽眾中稍不廣為人知，但在鋼琴演奏圈中以其極端的技術難度（尤其是雙手快速八度）和宏大的結構設計著稱。它是蕭邦四首詼諧曲中調性色彩最豐富的一首，其從升 C 小調到升 C 大調的「黑暗到光明」弧線被許多演奏家視為最具戲劇滿足感的結尾設計。在蕭邦比賽和音樂學院畢業音樂會中，選擇第三號詼諧曲常是展示技術成熟度的強烈信號。",
+    "scholarly_analysis": "彙編把這首作品視為蕭邦如何在既有標題之下重新定義類型的範例。它既保有 scherzo 的節奏衝勁，又納入聖詠、琶音光澤與大尺度調性佈局，使作品站在鋼琴獨奏、宗教式崇高感與戲劇敘事三者交界處。"
+  },
+  {
+    "id": "ballade-no-4-op-52",
+    "composerId": "chopin",
+    "title": "《f 小調第四號敘事曲》 Ballade No. 4 in F minor, Op. 52",
+    "year": 1842,
+    "age": 32,
+    "type": "ballade",
+    "period": "late",
+    "summary": "常被視為蕭邦鋼琴寫作巔峰之一，以對位、半音和聲與巨大尾聲將敘事曲推向最精密成熟的形態。",
+    "sources": [
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      },
+      {
+        "label": "Piano Library Brown Catalogue",
+        "url": "https://www.pianolibrary.org/composers/chopin/works-by-brown-catalogue/"
+      }
+    ],
+    "listening_guide": "導奏停留在 C 大調，像遠處鐘聲般懸著不落，之後第一主題才慢慢浮現。越往後聽，會越明顯感到這不是單純主題重複，而是每次回返都被改寫、加厚並推向更高壓的結局；尾聲來臨時，整首作品像忽然被拉進無法回頭的深淵。",
+    "analysis": "研究文件把它稱為蕭邦複調寫作與半音和聲運用的最高傑作之一，並指出其結構兼具奏鳴曲與變奏曲特徵。第一主題後來以卡農形式回歸、第二主題則以精緻半音色彩擴張，讓整首曲子既像敘事，又像一場不斷自我變形的結構實驗。",
+    "cultural_note": "《第四號敘事曲》在音樂學家和頂尖鋼琴家眼中常被視為蕭邦所有作品中「最完美的一首」，但在大眾知名度上卻不及《第一號》。這種「學術聲望 vs. 大眾知名度」的落差，在四首敘事曲中最為明顯。它的尾聲是蕭邦鋼琴作品中最令人過目不忘的災難性崩潰之一，在電影《鋼琴師》等影視作品中，它代表的是一種「一切都已結束」的末世感。阿圖爾·魯賓斯坦、瑪塔·阿格里奇（Martha Argerich）等頂尖鋼琴家的錄音詮釋差異極大，是比較詮釋學研究的極佳素材。",
+    "scholarly_analysis": "根據報告中的分析，第四號敘事曲的尾聲長期被視為浪漫鋼琴文獻最難以完整掌握的段落之一：它緊鎖在 F 小調中，以頻繁減七和弦與半音崩落製造近乎宿命式的壓力。也因此，學界常把本曲看作蕭邦晚期最成熟的形式與情感統合。"
+  },
+  {
+    "id": "piano-concerto-no-1-e-minor",
+    "composerId": "chopin",
+    "title": "《e 小調第一號鋼琴協奏曲》 Piano Concerto No. 1 in E minor, Op. 11",
+    "year": 1830,
+    "age": 20,
+    "type": "piano_concerto",
+    "period": "early",
+    "summary": "蕭邦 20 歲時完成並首演的重要早期代表作，結合青春氣息、舞台炫技、歌唱性抒情與告別波蘭前夕的感傷氛圍。",
+    "sources": [
+      {
+        "label": "Wikipedia 蕭邦第一號鋼琴協奏曲",
+        "url": "https://zh.wikipedia.org/wiki/%E8%95%AD%E9%82%A6%E7%AC%AC1%E9%8B%BC%E7%90%B4%E5%8D%94%E5%A5%8F%E6%9B%B2"
+      },
+      {
+        "label": "EBSCO Frédéric Chopin",
+        "url": "https://www.ebsco.com/research-starters/history/frederic-chopin"
+      },
+      {
+        "label": "Piano Library Brown Catalogue",
+        "url": "https://www.pianolibrary.org/composers/chopin/works-by-brown-catalogue/"
+      }
+    ],
+    "listening_guide": "此曲於 1830 年 10 月 11 日在華沙國家劇院首演，由蕭邦親自擔任鋼琴獨奏，屬於他離開波蘭前夕的告別性演出之一。聆聽時可先抓三個重點：第一樂章的華麗青年氣息、第二樂章如無詞情歌般的私密抒情，以及終樂章帶有舞曲感與明亮推進力的收束。",
+    "analysis": "這首作品雖以「第一號」出版，實際寫作次序卻晚於後來被稱為《第二號》的 f 小調協奏曲；它之所以成為「第一號」，主要是因為出版順序較早。背景上，作品題獻給蕭邦敬佩的鋼琴家 Friedrich Kalkbrenner，而其協奏曲語法也常被拿來與 Hummel 的作品相比，反映它一方面承接早期浪漫協奏曲的華麗傳統，另一方面已顯露出蕭邦更私密、更歌唱性的個人風格。",
+    "scholarly_analysis": "從現有研究與傳記材料來看，這首協奏曲的重要性不只在於青年蕭邦的鋼琴技巧展示，而在於它如何站在 Hummel、Moscheles、Kalkbrenner 等早期浪漫協奏曲傳統與蕭邦自身詩性鋼琴語法之間。第二樂章尤其常被聯想到他對康斯坦恰・格拉科夫斯卡的愛慕，顯示這部作品已把公開的協奏曲形式與極個人化的情感投射結合在一起。葛勞伯里與後來的鋼琴史家也常以此曲說明：蕭邦並未把協奏曲當成與樂團對抗的戰場，而更像把樂團化作襯托鋼琴歌唱性的透明空間。 ",
+    "cultural_note": "對不少亞洲觀眾而言，這首作品的重要入口來自《交響情人夢最終樂章》。劇中它被放在主角野田妹邁向國際舞台、克服心理障礙與走向成熟的重要節點，因此這首協奏曲也常被現代聽眾與「成長、突破、告別青澀」的情感經驗連在一起。",
+    "performers": "Olga Scheps, piano; Chamber Orchestra of Polish Radio; Agnieszka Duczmal, conductor",
+    "media": {
+      "youtubeId": "2bFo65szAP0",
+      "youtubeUrl": "https://youtu.be/2bFo65szAP0?si=JObah9CkiaxunO7S",
+      "sourceTitle": "Frédéric Chopin: Piano Concerto No. 1 e-minor (Olga Scheps live)",
+      "embedUrl": "https://www.youtube.com/embed/2bFo65szAP0",
+      "embeddable": true
+    }
+  }
+]
