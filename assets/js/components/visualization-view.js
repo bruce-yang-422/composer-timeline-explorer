@@ -71,7 +71,7 @@ export function renderVisualizationView(model, rerender) {
         <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--color-accent)"></span>
         學術解析
       </p>
-      <p style="font-size:0.8rem;line-height:1.8;color:var(--color-ink);font-family:var(--font-display);letter-spacing:0.01em">${selectedWork.scholarly_analysis}</p>
+      <p style="font-size:0.8rem;line-height:1.8;color:var(--color-ink);font-family:var(--font-display);letter-spacing:0.01em;white-space:pre-line">${selectedWork.scholarly_analysis}</p>
     </div>
   ` : "";
 
@@ -107,7 +107,7 @@ export function renderVisualizationView(model, rerender) {
 
   root.querySelectorAll("[data-work-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedWorkId: el.dataset.workId, selectedProfileId: null, selectedEventId: null });
+      setState({ selectedWorkId: el.dataset.workId, selectedChapterIndex: 0, selectedProfileId: null, selectedEventId: null });
       rerender();
     });
   });

@@ -71,7 +71,7 @@ export function renderTimelineView(model, rerender) {
     filterRoot.querySelectorAll("[data-intro-composer]").forEach(el => {
       el.addEventListener("click", () => {
         const newId = el.dataset.introComposer;
-        setState({ selectedComposerId: newId, selectedWorkId: null, selectedProfileId: newId, selectedEventId: null });
+        setState({ selectedComposerId: newId, selectedWorkId: null, selectedChapterIndex: null, selectedProfileId: newId, selectedEventId: null });
         rerender();
       });
     });
@@ -243,7 +243,7 @@ export function renderTimelineView(model, rerender) {
 
   root.querySelectorAll("[data-profile-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedProfileId: el.dataset.profileId, selectedEventId: null, selectedWorkId: null });
+      setState({ selectedProfileId: el.dataset.profileId, selectedEventId: null, selectedWorkId: null, selectedChapterIndex: null });
       rerender();
     });
   });
@@ -251,7 +251,7 @@ export function renderTimelineView(model, rerender) {
   // Event delegation — works (inside scroll area)
   root.querySelectorAll("[data-work-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedWorkId: el.dataset.workId, selectedEventId: null, selectedProfileId: null });
+      setState({ selectedWorkId: el.dataset.workId, selectedChapterIndex: 0, selectedEventId: null, selectedProfileId: null });
       rerender();
     });
   });
@@ -259,7 +259,7 @@ export function renderTimelineView(model, rerender) {
   // Event delegation — life events (inside scroll area)
   root.querySelectorAll("[data-event-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedEventId: el.dataset.eventId, selectedWorkId: null, selectedProfileId: null });
+      setState({ selectedEventId: el.dataset.eventId, selectedWorkId: null, selectedChapterIndex: null, selectedProfileId: null });
       rerender();
     });
   });

@@ -1,3 +1,4 @@
+import { setState } from "../core/state.js";
 import { setHtml } from "../utils/dom.js";
 
 const EVENT_TYPE_LABELS = {
@@ -8,7 +9,37 @@ const EVENT_TYPE_LABELS = {
   family:         "家庭",
 };
 
-export function renderPreviewPanel(model) {
+function parseTimestampToSeconds(timestamp) {
+  if (typeof timestamp !== "string" || !timestamp.trim()) return null;
+  const parts = timestamp.trim().split(":").map(Number);
+  if (parts.some(Number.isNaN)) return null;
+  if (parts.length === 2) {
+    const [minutes, seconds] = parts;
+    return (minutes * 60) + seconds;
+  }
+  if (parts.length === 3) {
+    const [hours, minutes, seconds] = parts;
+    return (hours * 3600) + (minutes * 60) + seconds;
+  }
+  return null;
+}
+
+function appendQueryParam(url, key, value) {
+  if (!url) return "";
+  return `${url}${url.includes("?") ? "&" : "?"}${key}=${encodeURIComponent(value)}`;
+}
+
+function buildStartUrl(url, seconds) {
+  if (!url) return "";
+  return appendQueryParam(url, "start", seconds);
+}
+
+function buildYoutubeTimeUrl(url, seconds) {
+  if (!url) return "";
+  return appendQueryParam(url, "t", seconds);
+}
+
+export function renderPreviewPanel(model, rerender) {
   const root = document.querySelector("#preview-panel");
   if (!root) return;
 
@@ -114,18 +145,28 @@ export function renderPreviewPanel(model) {
   const typeLabel   = model.mappings.workTypeLabels[selectedWork.type] ?? selectedWork.type;
   const periodMap   = { early: "早期", middle: "中期", late: "晚期" };
   const periodLabel = periodMap[selectedWork.period] ?? selectedWork.period;
+  const chapters = Array.isArray(selectedWork.media?.chapters) ? selectedWork.media.chapters : [];
+  const canEmbedMedia = Boolean(selectedWork.media?.youtubeId && selectedWork.media?.embeddable !== false && selectedWork.media?.embedUrl);
+  const chapterIndex = chapters.length
+    ? Math.min(Math.max(model.state.selectedChapterIndex ?? 0, 0), chapters.length - 1)
+    : null;
+  const activeChapter = chapterIndex === null ? null : chapters[chapterIndex];
+  const activeChapterSeconds = activeChapter ? parseTimestampToSeconds(activeChapter.start) : null;
+  const activeEmbedUrl = activeChapterSeconds !== null
+    ? buildStartUrl(selectedWork.media?.embedUrl, activeChapterSeconds)
+    : selectedWork.media?.embedUrl;
 
   // --- Media block ---
   let mediaBlock = "";
 
-  if (selectedWork.media?.youtubeId && selectedWork.media.embeddable !== false) {
+  if (canEmbedMedia) {
     mediaBlock = `
       <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
         <p class="data-card-meta">影音</p>
         <div style="display:flex;flex-direction:column;gap:0.5rem">
           <div class="video-frame">
             <iframe
-              src="${selectedWork.media.embedUrl}"
+              src="${activeEmbedUrl}"
               title="${selectedWork.media.sourceTitle}"
               loading="lazy"
               referrerpolicy="strict-origin-when-cross-origin"
@@ -152,11 +193,67 @@ export function renderPreviewPanel(model) {
     `;
   }
 
+  const chapterBlock = chapters.length ? `
+    <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+      <p class="data-card-meta">章節導覽</p>
+      <div style="display:flex;flex-direction:column;gap:0.5rem">
+        ${chapters.map((chapter) => {
+          const movements = Array.isArray(chapter.movements) && chapter.movements.length
+            ? `<p style="font-size:0.8rem;line-height:1.65;color:var(--color-muted)">${chapter.movements.join(" · ")}</p>`
+            : "";
+          const isActive = chapterIndex !== null && chapters[chapterIndex] === chapter;
+          const seconds = parseTimestampToSeconds(chapter.start);
+
+          if (canEmbedMedia) {
+            return `
+              <button
+                type="button"
+                data-chapter-index="${chapters.indexOf(chapter)}"
+                style="display:block;width:100%;padding:0.75rem 0.875rem;border:1px solid ${isActive ? "var(--color-accent)" : "var(--color-line)"};border-radius:12px;text-align:left;color:inherit;background:${isActive ? "rgba(95, 70, 40, 0.08)" : "var(--color-paper)"};cursor:pointer"
+              >
+                <div style="display:flex;justify-content:space-between;gap:0.75rem;align-items:baseline">
+                  <p style="font-size:0.875rem;font-weight:600;line-height:1.5;color:var(--color-ink)">${chapter.title}</p>
+                  <p class="data-card-meta" style="white-space:nowrap">${chapter.start}</p>
+                </div>
+                ${movements}
+              </button>
+            `;
+          }
+
+          const fallbackUrl = selectedWork.media?.youtubeUrl
+            ? buildYoutubeTimeUrl(selectedWork.media.youtubeUrl, seconds ?? 0)
+            : "#";
+
+          return `
+            <a
+              href="${fallbackUrl}"
+              target="_blank"
+              rel="noreferrer"
+              style="display:block;padding:0.75rem 0.875rem;border:1px solid var(--color-line);border-radius:12px;text-decoration:none;color:inherit;background:var(--color-paper)"
+            >
+              <div style="display:flex;justify-content:space-between;gap:0.75rem;align-items:baseline">
+                <p style="font-size:0.875rem;font-weight:600;line-height:1.5;color:var(--color-ink)">${chapter.title}</p>
+                <p class="data-card-meta" style="white-space:nowrap">${chapter.start}</p>
+              </div>
+              ${movements}
+            </a>
+          `;
+        }).join("")}
+      </div>
+      ${selectedWork.media?.youtubeUrl ? `
+        <p style="font-size:0.8rem;line-height:1.6;color:var(--color-muted)">
+          若播放器載入或定位異常，請改用
+          <a href="${activeChapterSeconds !== null ? buildYoutubeTimeUrl(selectedWork.media.youtubeUrl, activeChapterSeconds) : selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">YouTube 對應章節</a>
+        </p>
+      ` : ""}
+    </div>
+  ` : "";
+
   // --- Listening guide block ---
   const guideBlock = selectedWork.listening_guide ? `
     <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
       <p class="data-card-meta">聆聽導引</p>
-      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">${selectedWork.listening_guide}</p>
+      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink);white-space:pre-line">${selectedWork.listening_guide}</p>
     </div>
   ` : "";
 
@@ -164,7 +261,7 @@ export function renderPreviewPanel(model) {
   const analysisBlock = selectedWork.analysis ? `
     <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
       <p class="data-card-meta">樂曲分析</p>
-      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">${selectedWork.analysis}</p>
+      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink);white-space:pre-line">${selectedWork.analysis}</p>
     </div>
   ` : "";
 
@@ -172,7 +269,7 @@ export function renderPreviewPanel(model) {
   const culturalNoteBlock = selectedWork.cultural_note ? `
     <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
       <p class="data-card-meta">延伸補充</p>
-      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">${selectedWork.cultural_note}</p>
+      <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink);white-space:pre-line">${selectedWork.cultural_note}</p>
     </div>
   ` : "";
 
@@ -180,6 +277,7 @@ export function renderPreviewPanel(model) {
     <article style="display:flex;flex-direction:column;gap:1rem">
 
       ${mediaBlock}
+      ${chapterBlock}
 
       <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
         <p class="data-card-meta">${selectedWork.year}${selectedWork.age ? ` · ${selectedWork.age} 歲` : ""} · ${typeLabel} · ${periodLabel}</p>
@@ -187,10 +285,19 @@ export function renderPreviewPanel(model) {
         <p style="font-size:0.875rem;line-height:1.75;color:var(--color-muted)">${selectedWork.summary}</p>
       </div>
 
-      ${guideBlock}
-      ${analysisBlock}
-      ${culturalNoteBlock}
+    ${guideBlock}
+    ${analysisBlock}
+    ${culturalNoteBlock}
 
-    </article>
+  </article>
   `);
+
+  if (rerender && chapters.length) {
+    root.querySelectorAll("[data-chapter-index]").forEach((el) => {
+      el.addEventListener("click", () => {
+        setState({ selectedChapterIndex: Number(el.dataset.chapterIndex) });
+        rerender();
+      });
+    });
+  }
 }

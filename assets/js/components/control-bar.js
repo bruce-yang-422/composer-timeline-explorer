@@ -62,6 +62,7 @@ export function renderControlBar(model, rerender) {
       selectedEra: newEra,
       selectedComposerId: nextComposer?.id ?? null,
       selectedWorkId: null,
+      selectedChapterIndex: null,
       selectedProfileId: nextComposer?.id ?? null,
       selectedEventId: null,
     });
@@ -70,7 +71,7 @@ export function renderControlBar(model, rerender) {
 
   root.querySelector("#composer-select").addEventListener("change", e => {
     const newId = e.target.value;
-    setState({ selectedComposerId: newId, selectedWorkId: null, selectedProfileId: newId, selectedEventId: null });
+    setState({ selectedComposerId: newId, selectedWorkId: null, selectedChapterIndex: null, selectedProfileId: newId, selectedEventId: null });
     rerender();
   });
 }

@@ -2,6 +2,7 @@ export const state = {
   selectedComposerId: null,
   selectedProfileId: null,
   selectedWorkId: null,
+  selectedChapterIndex: null,
   selectedEventId: null,
   selectedContextId: null,
   selectedType: "all",

@@ -16,8 +16,8 @@ This project focuses on timeline-based music learning and exploration.
 The current implementation uses a static frontend architecture with HTML, Vanilla JavaScript, CSS, and JSON-based content.  
 目前專案採靜態前端架構，使用 HTML、Vanilla JavaScript、CSS 與 JSON 資料內容。
 
-The current prototype centers on Beethoven and already supports composer profile mode, life events, major works, historical context, age metadata, source metadata, portrait image, and media fallback handling.  
-目前原型以 Beethoven 為主，已支援作曲家個人資料模式、生平記事、代表作品、時代背景、年齡欄位、來源欄位、肖像圖片與媒體 fallback 顯示邏輯。
+The current prototype now supports Beethoven, Chopin, Puccini, Rachmaninoff, Tchaikovsky, and Vivaldi in the content layer, with composer profile mode, life events, major works, historical context, age metadata, source metadata, portrait image, and media fallback handling.  
+目前原型已在內容層納入 Beethoven、Chopin、Puccini、Rachmaninoff、Tchaikovsky 與 Vivaldi，並支援作曲家個人資料模式、生平記事、代表作品、時代背景、年齡欄位、來源欄位、肖像圖片與媒體 fallback 顯示邏輯。
 
 ## Current Status
 ## 目前狀態
@@ -31,14 +31,17 @@ The current prototype centers on Beethoven and already supports composer profile
 - A working homepage prototype with Hero, Timeline, Gantt distribution view, Preview Panel, and Context Layer.  
   已建立可運作首頁原型，包含 Hero、Timeline、Gantt 分布圖、Preview 與 Context Layer。
 
-- Beethoven content expanded across composers, works, events, and contexts.  
-  Beethoven 的作曲家、作品、記事與背景資料已擴充完成。
+- Composer content has been expanded across composers, works, events, and contexts.  
+  作曲家資料已擴充到 composers、works、events 與 contexts 四個層次。
+
+- Works and events are now split by composer for easier maintenance and faster loading.  
+  works 與 events 已依作曲家拆分，方便維護與載入。
 
 - Default entry now opens the selected composer profile instead of a work.  
   目前首頁預設先顯示作曲家個人資料，而不是先顯示作品。
 
-- Beethoven’s nine symphonies are included in `works.json`.  
-  `works.json` 已補齊貝多芬九大交響曲。
+- Beethoven’s nine symphonies are included in the Beethoven work dataset.  
+  貝多芬九大交響曲已收錄在 Beethoven 的作品資料中。
 
 - Source metadata added to works and events for future traceability.  
   `works` 與 `events` 已加入 `sources` 欄位，作為後續追溯與顯示基礎。
@@ -52,8 +55,8 @@ The current prototype centers on Beethoven and already supports composer profile
 - Search is not implemented yet.  
   搜尋功能尚未完成。
 
-- Only Beethoven is fully integrated so far.  
-  目前只有 Beethoven 完整整合。
+- Beethoven is still the most mature composer profile in the UI, while the content layer now also includes Chopin, Puccini, Rachmaninoff, Tchaikovsky, and Vivaldi.  
+  UI 目前仍以 Beethoven 最成熟，但內容層也已納入 Chopin、Puccini、Rachmaninoff、Tchaikovsky 與 Vivaldi。
 
 - Source metadata is stored in JSON but not yet shown in the frontend.  
   `sources` 已進資料層，但前台尚未顯示。
@@ -78,16 +81,34 @@ composer-timeline-explorer/
 ├── data/
 │   ├── content/
 │   │   ├── composers.json
+│   │   ├── contexts.json
 │   │   ├── works.json
 │   │   ├── events.json
-│   │   └── contexts.json
+│   │   ├── works/
+│   │   │   ├── beethoven.json
+│   │   │   ├── chopin.json
+│   │   │   ├── puccini.json
+│   │   │   ├── rachmaninoff.json
+│   │   │   ├── tchaikovsky.json
+│   │   │   └── vivaldi.json
+│   │   └── events/
+│   │       ├── beethoven.json
+│   │       ├── chopin.json
+│   │       ├── puccini.json
+│   │       ├── rachmaninoff.json
+│   │       ├── tchaikovsky.json
+│   │       └── vivaldi.json
 │   └── mappings/
 │       ├── period_colors.json
 │       └── work_type_labels.json
 └── docs/
     ├── planning/
-    ├── beethoven_comprehensive_guide.md
-    └── introduction_to_beethoven_google.md
+    ├── beethoven/
+    ├── chopin/
+    ├── Puccini/
+    ├── Rachmaninoff/
+    ├── Tchaikovsky/
+    └── Vivaldi/
 ```
 
 ## Current Stack
@@ -115,10 +136,16 @@ composer-timeline-explorer/
   作曲家主資料，已包含 `portrait`、`summary`、`intro`、`tags`。
 
 - `events.json`  
-  生平記事資料，已包含 `timelineTitle`、`summary`、`sources`。
+  生平記事索引資料，主資料改由 `data/content/events/<composer>.json` 分檔維護。
 
 - `works.json`  
-  作品資料，已包含 `summary`、`sources`、`listening_guide`、`analysis`、`scholarly_analysis`。
+  作品索引資料，主資料改由 `data/content/works/<composer>.json` 分檔維護。
+
+- `data/content/events/<composer>.json`  
+  依作曲家拆分的生平記事資料，便於擴充與來源追蹤。
+
+- `data/content/works/<composer>.json`  
+  依作曲家拆分的作品資料，便於長篇作品分析與維護。
 
 - `sources`  
   目前只存在資料層，前台尚未顯示。
@@ -143,6 +170,9 @@ Use a local server during development instead of opening `index.html` directly f
 
 The current project is a working prototype, not the final visualization product.  
 目前專案是可運作原型，尚非最終版資料視覺化產品。
+
+The app now loads content from `assets/js/core/config.js` and the split composer data files under `data/content/works/` and `data/content/events/`.  
+應用程式目前會透過 `assets/js/core/config.js` 載入拆分後的作曲家資料檔。
 
 ## Documents
 ## 文件位置

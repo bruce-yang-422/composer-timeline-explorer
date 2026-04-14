@@ -42,6 +42,12 @@ export async function bootstrapApp() {
   const validSelectedEvent = events.find(
     (event) => event.id === persisted?.selectedEventId && event.composerId === currentComposer?.id
   ) ?? null;
+  const persistedChapterIndex = Number.isInteger(persisted?.selectedChapterIndex)
+    ? persisted.selectedChapterIndex
+    : null;
+  const validChapterIndex = validSelectedWork?.media?.chapters?.length
+    ? Math.min(Math.max(persistedChapterIndex ?? 0, 0), validSelectedWork.media.chapters.length - 1)
+    : null;
   const showProfile = !validSelectedWork && !validSelectedEvent;
 
   setState({
@@ -54,6 +60,7 @@ export async function bootstrapApp() {
     selectedComposerId: currentComposer?.id ?? null,
     selectedProfileId: showProfile ? (currentComposer?.id ?? null) : null,
     selectedWorkId: validSelectedWork?.id ?? null,
+    selectedChapterIndex: validChapterIndex,
     selectedEventId: validSelectedEvent?.id ?? null,
     selectedContextId: persisted?.selectedContextId ?? null
   });
@@ -74,7 +81,7 @@ export async function bootstrapApp() {
     renderControlBar(model, renderApp);
     renderGanttView(model, renderApp);
     renderTimelineView(model, renderApp);
-    renderPreviewPanel(model);
+    renderPreviewPanel(model, renderApp);
     renderVisualizationView(model, renderApp);
     renderContextPanel(model);
   };
