@@ -140,7 +140,7 @@
 
 在器樂技術的歷史進程上，他以一己之力推翻了十九世紀初期機械式的敲擊美學。他將義大利人聲的美聲歌唱性、和聲圓滑奏的聲學共鳴、藍色音符的半音階游移、以及無與倫比的彈性速度呼吸，完美地鎔鑄於現代鋼琴鍵盤之中，開創了浪漫主義鋼琴演奏法的新紀元。透過《波蘭國家版》等權威原典版學術文獻的持續發掘與數位人文資料庫的建置，當代研究者與演奏家得以剝開百年來累積的浪漫迷霧，直擊蕭邦音樂文本與初衷的核心。這份報告的詳盡梳理，不僅重申了蕭邦在西方音樂史上的崇高與核心地位，更為當代的音樂學術研究、曲式分析與實際的演奏詮釋，提供了堅實且不可或缺的理論基礎。
 
-#### **引用的著作**
+### **引用的著作**
 
 1. Chopin in Warsaw's Salons \- Polish Music Center, 檢索日期：4月 9, 2026， [https://polishmusic.usc.edu/research/publications/polish-music-journal/vol2/chopin-in-warsaw-salons/](https://polishmusic.usc.edu/research/publications/polish-music-journal/vol2/chopin-in-warsaw-salons/)  
 2. Frédéric Chopin | History | Research Starters \- EBSCO, 檢索日期：4月 9, 2026， [https://www.ebsco.com/research-starters/history/frederic-chopin](https://www.ebsco.com/research-starters/history/frederic-chopin)  
