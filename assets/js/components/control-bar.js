@@ -14,11 +14,15 @@ const SITE_INTRO_ID = "site-intro";
 function composersForEra(composers, eraKey) {
   const intro = composers.find(c => c.id === SITE_INTRO_ID);
   const actualComposers = composers.filter(c => c.id !== SITE_INTRO_ID);
+  const sortedComposers = [...actualComposers].sort((a, b) => {
+    if (a.birth !== b.birth) return a.birth - b.birth;
+    return a.name.localeCompare(b.name);
+  });
 
-  if (eraKey === "all") return intro ? [intro, ...actualComposers] : actualComposers;
+  if (eraKey === "all") return intro ? [intro, ...sortedComposers] : sortedComposers;
   const era = ERA_DEFS.find(e => e.key === eraKey);
-  if (!era) return intro ? [intro, ...actualComposers] : actualComposers;
-  const filtered = actualComposers.filter(c => c.birth < era.end && (c.death ?? 2100) > era.start);
+  if (!era) return intro ? [intro, ...sortedComposers] : sortedComposers;
+  const filtered = sortedComposers.filter(c => c.birth < era.end && (c.death ?? 2100) > era.start);
   return intro ? [intro, ...filtered] : filtered;
 }
 

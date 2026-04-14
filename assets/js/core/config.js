@@ -10,6 +10,7 @@ export const appConfig = {
   composerDataIds: [
     "vivaldi",
     "beethoven",
+    "paganini",
     "brahms",
     "chopin",
     "puccini",

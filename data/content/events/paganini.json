@@ -1,0 +1,146 @@
+[
+  {
+    "id": "birth-genoa",
+    "composerId": "paganini",
+    "year": 1782,
+    "age": 0,
+    "type": "personal",
+    "title": "出生於熱那亞 Born in Genoa",
+    "timelineTitle": "出生於熱那亞",
+    "summary": "1782 年 10 月 27 日，帕格尼尼出生於義大利熱那亞；他很早就從父親那裡接觸曼陀林與小提琴，成長環境也讓他與街頭、港口和民間音樂語彙保持緊密聯繫。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      },
+      {
+        "label": "Atlanta Symphony Orchestra",
+        "url": "https://www.aso.org/composer/detail/niccolo-paganini"
+      }
+    ]
+  },
+  {
+    "id": "first-public-appearance",
+    "composerId": "paganini",
+    "year": 1793,
+    "age": 10,
+    "type": "career",
+    "title": "首次公開演出 First Public Appearance",
+    "timelineTitle": "首次公開演出",
+    "summary": "1793 年他已開始公開演奏，之後在熱那亞、帕爾馬等地持續求學與演出，逐步形成超越當時常規訓練的技巧與舞台氣質。",
+    "sources": [
+      {
+        "label": "Atlanta Symphony Orchestra",
+        "url": "https://www.aso.org/composer/detail/niccolo-paganini"
+      }
+    ]
+  },
+  {
+    "id": "lucca-court-service",
+    "composerId": "paganini",
+    "year": 1805,
+    "age": 22,
+    "type": "career",
+    "title": "盧卡宮廷任職 Court Solo Violinist in Lucca",
+    "timelineTitle": "盧卡宮廷任職",
+    "summary": "1805 至 1808 年間，他在盧卡擔任宮廷首席小提琴家；這段經歷讓他得以把高難度技巧、即興感與個人舞台魅力，磨鍊成後來震撼歐洲的演奏風格。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      }
+    ]
+  },
+  {
+    "id": "caprices-composed",
+    "composerId": "paganini",
+    "year": 1807,
+    "age": 24,
+    "type": "creative_shift",
+    "title": "《24 首隨想曲》完成 24 Caprices Completed",
+    "timelineTitle": "《24 首隨想曲》完成",
+    "summary": "約在 1801 至 1807 年間完成《24 首隨想曲》，把未伴奏小提琴的雙音、泛音、左手撥弦與高把位穿梭推向新標準，也讓他的小提琴技法成為浪漫時代的神話核心。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      },
+      {
+        "label": "Atlanta Symphony Orchestra",
+        "url": "https://www.aso.org/composer/detail/niccolo-paganini"
+      }
+    ]
+  },
+  {
+    "id": "vienna-paris-london-breakthrough",
+    "composerId": "paganini",
+    "year": 1828,
+    "age": 45,
+    "type": "career",
+    "title": "維也納到倫敦大爆紅 Vienna to London Breakthrough",
+    "timelineTitle": "歐洲巡演爆紅",
+    "summary": "1828 年至 1831 年間，他在維也納、巴黎與倫敦的演出引發空前轟動，正式把「小提琴炫技大師」推成整個歐洲最受矚目的明星演奏家之一。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      },
+      {
+        "label": "Atlanta Symphony Orchestra",
+        "url": "https://www.aso.org/composer/detail/niccolo-paganini"
+      }
+    ]
+  },
+  {
+    "id": "england-scotland-tour",
+    "composerId": "paganini",
+    "year": 1832,
+    "age": 49,
+    "type": "career",
+    "title": "英格蘭與蘇格蘭巡演 England and Scotland Tour",
+    "timelineTitle": "英格蘭與蘇格蘭巡演",
+    "summary": "1832 年他前往英格蘭與蘇格蘭巡演，場場門票熱賣，也讓他的名聲與財富達到高點；同時，這種近乎明星偶像式的巡演模式，成為十九世紀音樂表演文化的重要先例。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      }
+    ]
+  },
+  {
+    "id": "paris-casino-failure",
+    "composerId": "paganini",
+    "year": 1838,
+    "age": 55,
+    "type": "career",
+    "title": "巴黎賭場失敗 Paris Casino Failure",
+    "timelineTitle": "巴黎賭場失敗",
+    "summary": "1838 年他嘗試在巴黎經營賭場卻以失敗收場，之後財務與健康狀況都明顯惡化，從巴黎轉往馬賽與尼斯的晚年也因此更顯動盪。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      }
+    ]
+  },
+  {
+    "id": "death-nice",
+    "composerId": "paganini",
+    "year": 1840,
+    "age": 57,
+    "type": "health",
+    "title": "病逝於尼斯 Died in Nice",
+    "timelineTitle": "病逝尼斯",
+    "summary": "1840 年 5 月 27 日，他在尼斯去世，留下的不只是名曲與技巧神話，也包括浪漫時代最鮮明的演奏家傳奇。",
+    "sources": [
+      {
+        "label": "Britannica Biography",
+        "url": "https://kids.britannica.com/students/article/Niccol%C3%B2-Paganini/276245"
+      },
+      {
+        "label": "Atlanta Symphony Orchestra",
+        "url": "https://www.aso.org/composer/detail/niccolo-paganini"
+      }
+    ]
+  }
+]
