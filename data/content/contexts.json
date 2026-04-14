@@ -1,5 +1,59 @@
 [
   {
+    "id": "venetian-republic-carnival-and-commercial-opera",
+    "start": 1700,
+    "end": 1741,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "威尼斯共和國、狂歡節與商業歌劇 Venice, Carnival, and Commercial Opera",
+    "summary": "十八世紀初的威尼斯以長時段狂歡節、密集商業歌劇院與高度市場化的觀演文化聞名，這種環境直接塑造了韋瓦第的劇場經理角色與高效率作曲方式。"
+  },
+  {
+    "id": "ospedali-and-female-musical-education",
+    "start": 1703,
+    "end": 1740,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "大醫院與女性音樂教育 Ospedali and Female Musical Education",
+    "summary": "威尼斯大醫院把慈善收容與專業音樂訓練結合起來，形成全歐洲罕見的女性樂團與合唱傳統，也為韋瓦第提供了實驗協奏曲與聲部配置的理想場域。"
+  },
+  {
+    "id": "ritornello-form-and-concerto-standardization",
+    "start": 1700,
+    "end": 1730,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "利都奈羅形式與協奏曲標準化 Ritornello Form and Concerto Standardization",
+    "summary": "韋瓦第將全體與獨奏的交替、調性回歸與三樂章框架結構化，奠定了十八世紀器樂協奏曲的核心語法。"
+  },
+  {
+    "id": "four-seasons-and-programmatic-music",
+    "start": 1725,
+    "end": 1725,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "《四季》與標題音樂 The Four Seasons and Programmatic Music",
+    "summary": "《四季》把十四行詩、音畫描寫與利都奈羅形式精密結合，成為早期標題音樂最具代表性的典範。"
+  },
+  {
+    "id": "galant-style-and-baroque-transition",
+    "start": 1730,
+    "end": 1750,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "嘉蘭特風格與巴洛克終結 Galant Style and the End of Baroque",
+    "summary": "當音樂審美從嚴密對位轉向清晰主調與旋律優雅時，韋瓦第的巴洛克語彙逐漸顯得過時，也標記出十八世紀風格轉換的節點。"
+  },
+  {
+    "id": "vivaldi-rediscovery-and-early-music-revival",
+    "start": 1926,
+    "end": 1945,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "韋瓦第再發現與古樂復興 Vivaldi Rediscovery and Early Music Revival",
+    "summary": "二十世紀出土的大量手稿與戰後古樂運動，使韋瓦第從近乎被遺忘的巴洛克作曲家，重新成為全球最常被演出的古典作曲家之一。"
+  },
+  {
     "id": "enlightenment-bonn",
     "start": 1770,
     "end": 1792,
