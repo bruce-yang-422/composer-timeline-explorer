@@ -3,6 +3,7 @@ export const state = {
   selectedProfileId: null,
   selectedWorkId: null,
   selectedChapterIndex: null,
+  selectedMediaSourceIndex: null,
   selectedEventId: null,
   selectedContextId: null,
   selectedType: "all",

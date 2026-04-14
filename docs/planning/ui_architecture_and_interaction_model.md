@@ -101,7 +101,7 @@
 
 #### 已完成
 - 顯示歷史、文化與音樂趨勢背景卡片
-- 可讀取 `contexts.json`
+- 可讀取 `contexts/all.json`
 
 #### 尚未完成
 - 根據作品或時間範圍動態篩選
@@ -119,7 +119,7 @@
 ```json
 {
   "selectedComposerId": "beethoven",
-  "selectedWorkId": "violin-concerto-op-61",
+  "selectedWorkId": "beethoven-violin-concerto-op-61",
   "selectedEventId": null,
   "selectedContextId": null,
   "selectedType": "all",

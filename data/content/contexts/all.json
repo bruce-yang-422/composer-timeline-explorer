@@ -144,6 +144,51 @@
     "summary": "晚期作品在對位、形式與不協和語言上的高度實驗，使其在後世常被視為現代主義音樂的前驅。"
   },
   {
+    "id": "brahms-schumann-circle-and-clara-relationship",
+    "start": 1853,
+    "end": 1897,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "舒曼圈與克拉拉關係 Schumann Circle and Clara Relationship",
+    "summary": "1853 年與 Robert、Clara Schumann 的相遇，替 Brahms 打開德語樂壇核心圈層；此後數十年，克拉拉不只是知音，也成為他作品接受史與私人情感世界的重要支點。"
+  },
+  {
+    "id": "war-of-the-romantics-and-absolute-music",
+    "start": 1850,
+    "end": 1865,
+    "scope": "external_context",
+    "type": "historical",
+    "title": "浪漫派之戰與絕對音樂 War of the Romantics and Absolute Music",
+    "summary": "在李斯特與華格納主導的新德意志樂派對峙下，Brahms 所代表的保守陣營把「純器樂」與形式自律推向十九世紀後半最重要的美學戰場。"
+  },
+  {
+    "id": "brahms-historicism-and-early-music-study",
+    "start": 1855,
+    "end": 1897,
+    "scope": "music_internal",
+    "type": "historical",
+    "title": "歷史主義與早期音樂研究 Brahms, Historicism, and Early Music Study",
+    "summary": "Brahms 以編輯、蒐集與研究早期手稿的方式回望巴赫、舒茲與文藝復興複音傳統，並把這些材料轉化為自己的和聲與對位語法。"
+  },
+  {
+    "id": "beethoven-legacy-and-symphony-crisis",
+    "start": 1855,
+    "end": 1876,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "貝多芬遺產與交響曲危機 Beethoven Legacy and the Symphony Crisis",
+    "summary": "貝多芬的九首交響曲在十九世紀被神話化為難以跨越的高峰，Brahms 的第一號交響曲正是在這種歷史壓力與合法性危機中誕生。"
+  },
+  {
+    "id": "developing-variation-and-motivic-economy",
+    "start": 1860,
+    "end": 1897,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "發展性變奏與動機經濟 Developing Variation and Motivic Economy",
+    "summary": "Brahms 常以極小動機作為整首作品的生成核，再透過節奏、配器與和聲的不斷變形推動整體發展，形成高度濃縮而有機的音樂結構。"
+  },
+  {
     "id": "salon-culture-and-piano-virtuosity",
     "start": 1815,
     "end": 1850,

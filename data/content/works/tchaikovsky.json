@@ -1,6 +1,6 @@
 [
   {
-    "id": "symphony-no-2-little-russian",
+    "id": "tchaikovsky-symphony-no-2-little-russian",
     "composerId": "tchaikovsky",
     "title": "《第二號交響曲「小俄羅斯」》 Symphony No. 2 \"Little Russian\"",
     "year": 1872,
@@ -20,7 +20,7 @@
     "scholarly_analysis": "就來源的敘述來看，《小俄羅斯》不只是『用了民歌』而已，而是柴可夫斯基早期解決形式與民族語彙矛盾的重要實驗。它既回應了強力集團重視民俗題材的理想，也顯示他能以學院派技法統攝地方性素材。"
   },
   {
-    "id": "swan-lake",
+    "id": "tchaikovsky-swan-lake",
     "composerId": "tchaikovsky",
     "title": "《天鵝湖》 Swan Lake",
     "year": 1877,
@@ -40,7 +40,7 @@
     "scholarly_analysis": "依據來源，《天鵝湖》的歷史意義不在於首演即成功，而在於它重新定義了芭蕾音樂的藝術標準。首演惡評、後世翻案與馬林斯基版本的定型，共同構成這部作品從『失敗首演』走向『正典核心』的經典案例。"
   },
   {
-    "id": "symphony-no-4",
+    "id": "tchaikovsky-symphony-no-4",
     "composerId": "tchaikovsky",
     "title": "《第四號交響曲》 Symphony No. 4",
     "year": 1878,
@@ -60,7 +60,7 @@
     "scholarly_analysis": "依照來源對其位置的描述，第四號是柴可夫斯基把個人心理創傷、命運觀與民族素材整合起來的重要中期高峰。它也說明他的交響曲並非純粹德奧式發展，而是以旋律、重複與對比建立情緒推進。"
   },
   {
-    "id": "eugene-onegin",
+    "id": "tchaikovsky-eugene-onegin",
     "composerId": "tchaikovsky",
     "title": "《尤金・奧涅金》 Eugene Onegin",
     "year": 1879,
@@ -80,7 +80,7 @@
     "scholarly_analysis": "按照來源的整理，《尤金・奧涅金》在歌劇史上的重要性，不只因其文學改編基礎雄厚，更因它把自傳性心理投射帶進俄語歌劇。作品中的拒絕、悔恨與錯過，不只是劇情，也是作曲家私人危機的音樂化鏡像。"
   },
   {
-    "id": "1812-overture",
+    "id": "tchaikovsky-1812-overture",
     "composerId": "tchaikovsky",
     "title": "《1812 序曲》 1812 Overture",
     "year": 1880,
@@ -100,7 +100,7 @@
     "scholarly_analysis": "這部作品的重要性，依來源並不在於它最能代表柴可夫斯基的內在風格，而在於它展示了十九世紀公共音樂文化如何偏愛壯觀奇觀。作者與大眾評價的分裂，也讓它成為理解柴可夫斯基『名聲與自我認知錯位』的典型案例。"
   },
   {
-    "id": "sleeping-beauty",
+    "id": "tchaikovsky-sleeping-beauty",
     "composerId": "tchaikovsky",
     "title": "《睡美人》 The Sleeping Beauty",
     "year": 1890,
@@ -120,7 +120,7 @@
     "scholarly_analysis": "依來源脈絡，《睡美人》代表的是柴可夫斯基把芭蕾提升為高藝術形式後的成熟成果。它不靠奇觀取勝，而靠結構、氣質與音樂本身的完整性持久影響後世編舞與芭蕾美學。"
   },
   {
-    "id": "nutcracker",
+    "id": "tchaikovsky-nutcracker",
     "composerId": "tchaikovsky",
     "title": "《胡桃鉗》 The Nutcracker",
     "year": 1892,
@@ -140,7 +140,7 @@
     "scholarly_analysis": "就來源而言，《胡桃鉗》的歷史價值不只在受歡迎，而在於它把芭蕾音樂的色彩可能性推到前所未有的地步。新樂器的引入、冷門技巧的運用，以及現實與奇幻的敘事曖昧性，都使它成為晚期柴可夫斯基最具創造力的作品之一。"
   },
   {
-    "id": "symphony-no-6-pathetique",
+    "id": "tchaikovsky-symphony-no-6-pathetique",
     "composerId": "tchaikovsky",
     "title": "《第六號交響曲「悲愴」》 Symphony No. 6 \"Pathétique\"",
     "year": 1893,

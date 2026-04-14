@@ -1,0 +1,263 @@
+[
+  {
+    "id": "brahms-symphony-no-1",
+    "composerId": "brahms",
+    "title": "《C 小調第一號交響曲》 Symphony No. 1 in C minor, Op. 68",
+    "year": 1876,
+    "age": 43,
+    "type": "symphony",
+    "period": "middle",
+    "summary": "歷經二十二年孕育的第一號交響曲，透過從 C 小調走向 C 大調的勝利敘事，回應 Beethoven 的交響曲遺產並確立 Brahms 的交響曲作曲家地位。",
+    "sources": [
+      {
+        "label": "Brahms first symphony research doc",
+        "url": "docs/Brahms/brahms_first_symphony_deep_research.md"
+      },
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Symphony No. 1 in C Minor, Op. 68",
+        "url": "https://www.britannica.com/topic/Symphony-No-1-in-C-Minor-Op-68"
+      },
+      {
+        "label": "Brahms-Institut archival entry",
+        "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_werkekatalog/op_068.html"
+      },
+      {
+        "label": "LA Phil Brahms Symphony No. 1",
+        "url": "https://www.laphil.com/musicdb/pieces/3903/symphony-no-1-in-c-minor-op-68"
+      }
+    ],
+    "media": {
+      "youtubeId": "-B9nERqEmUA",
+      "youtubeUrl": "https://youtu.be/-B9nERqEmUA?si=Z9-TEcyaGU2J44nt",
+      "sourceTitle": "Brahms - Symphony No.1 (Herbert von Karajan, Berliner Philharmoniker, 1987)",
+      "embedUrl": "https://www.youtube.com/embed/-B9nERqEmUA",
+      "embeddable": true,
+      "performers": "Herbert von Karajan · Berliner Philharmoniker",
+      "recorded": "1987",
+      "chapters": [
+        {
+          "start": "00:00",
+          "title": "I. Un poco sostenuto - Allegro"
+        },
+        {
+          "start": "14:19",
+          "title": "II. Andante sostenuto"
+        },
+        {
+          "start": "23:00",
+          "title": "III. Un poco allegretto e grazioso"
+        },
+        {
+          "start": "28:05",
+          "title": "IV. Adagio - Piu andante - Allegro non troppo, ma con brio - Piu allegro"
+        }
+      ],
+      "alternateRecordings": [
+        {
+          "label": "hr-Sinfonieorchester · Andrés Orozco-Estrada",
+          "youtubeId": "51xDbdUFc8o",
+          "youtubeUrl": "https://youtu.be/51xDbdUFc8o?si=meaCZCO_ZIqqhEfB",
+          "sourceTitle": "Brahms: 1. Sinfonie ∙ hr-Sinfonieorchester ∙ Andrés Orozco-Estrada",
+          "embedUrl": "https://www.youtube.com/embed/51xDbdUFc8o",
+          "embeddable": true,
+          "performers": "hr-Sinfonieorchester · Andrés Orozco-Estrada",
+          "recorded": "2021",
+          "chapters": [
+            {
+              "start": "00:00",
+              "title": "I. Un poco sostenuto – Allegro"
+            },
+            {
+              "start": "13:34",
+              "title": "II. Andante sostenuto"
+            },
+            {
+              "start": "23:28",
+              "title": "III. Un poco Allegretto e grazioso"
+            },
+            {
+              "start": "28:30",
+              "title": "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro"
+            }
+          ]
+        }
+      ]
+    },
+    "listening_guide": "第一樂章（Un poco sostenuto – Allegro）\n先把注意力放在序奏的低音脈動與半音階上行：定音鼓的持續敲擊像一個被壓住的心跳，而木管與弦樂的方向相反，讓不安先於主題建立。進入 Allegro 後，序奏素材被壓縮成更具衝突性的主題，聽起來像是長期累積的壓力突然爆發。\n\n第二樂章（Andante sostenuto）\n這一樂章的關鍵不是單純的「美」，而是美中帶著非常克制的陰影。留意雙簧管主題與弦樂伴奏如何彼此照亮，又如何在尾奏中被小提琴與法國號推向近乎宗教般的安靜。\n\n第三樂章（Un poco allegretto e grazioso）\n不要把它當成傳統暴烈的 scherzo 來聽，而要聽它如何以優雅、輕巧與聲部倒影形成一種內斂的運動感。單簧管開頭的樂句與弦樂回應，會讓整個樂章像在室內樂與交響曲之間游移。\n\n第四樂章（Adagio – Più andante – Allegro non troppo, ma con brio）\n這是全曲最明確的救贖段落。先聽低音弦樂與撥弦如何在黑暗裡累積張力，再聽法國號引出那段帶有阿爾卑斯號角氣息的主題；當長號第一次進入時，整首作品才真正打開 C 大調的光。",
+    "analysis": "這首交響曲的核心，不在於它是否「像 Beethoven」，而在於 Brahms 如何把 Beethoven 式的歷史壓力轉化為自己的結構語言。第一與第四樂章都有長慢板序奏，讓外圍框架先建立高度張力，再進入主體的奏鳴曲發展；這種雙重支柱讓全曲形成非常穩固的敘事弧線。\n\n從形式上看，Brahms 最重要的不是外顯的革新，而是把動機發展、配器平衡與調性布局縝密地綁在一起。序奏中的半音階上行、下行木管、持續低音與後來 Allegro 主題之間有高度內在聯繫，這正是 developing variation 的典型運作方式。\n\n宏觀上，C 小調到 C 大調的轉換並不是簡單的勝利口號，而是一種經過長時間壓抑、掙扎與重建後才形成的結構結果。第二樂章提供靜觀，第三樂章提供呼吸空間，第四樂章則把整個作品推向帶有合唱聖詠氣質的終極肯定，因此這首作品雖是純器樂，卻擁有近似精神敘事的重量。",
+    "cultural_note": "《第一號交響曲》首演後不久便被 Hans von Bülow 稱為「貝多芬的第十號交響曲」，這個說法既是讚美，也是把 Brahms 放進 Beethoven 繼承者位置的文化標記。Brahms 本人對這種稱號其實相當抗拒，因為他不希望自己的作品只被當成「延續貝多芬」的附屬品。\n\n這首曲子的首演選在 Karlsruhe，而不是維也納，反映了 Brahms 對評論壓力的戒慎恐懼；直到 1877 年正式出版、並在德語音樂文化中逐漸穩定接受後，它才真正成為 Brahms 交響曲身分的基石。今天它常被視為十九世紀「交響曲合法性危機」的成功回應，也因此是研究德語浪漫派與古典傳統關係時不可繞過的代表作。",
+    "scholarly_analysis": "從音樂學角度看，本曲同時是 historicism 與 absolute music 的交叉案例。Brahms 不是要把 Beethoven 的樣子複製出來，而是透過古典四樂章框架、嚴密的動機工作、以及對對位與和聲連結的高度自覺，重建交響曲在十九世紀後半的合法性。\n\nWalter Frisch 所談的 developing variation，在這首作品中幾乎可視為整體生成原理：微小的動機在不同樂章、不同配器與不同節奏環境中不斷轉化，形成表面分段、深層連續的結構。另一方面，Brahms 對銅管與大管弦的節制運用，也顯示他並非以聲響量取勝，而是把聲部功能與調性推進做成嚴格的結構論述。\n\n若把它放進十九世紀的交響曲史，這首作品的意義不只是「成功寫出第一號交響曲」，而是證明在 Wagner 與 Liszt 的標題音樂時代，純器樂交響曲仍可透過歷史意識與形式密度，獲得新的現代性。"
+  },
+  {
+    "id": "brahms-piano-concerto-no-1-op-15",
+    "composerId": "brahms",
+    "title": "《D 小調第一號鋼琴協奏曲》 Piano Concerto No. 1 in D minor, Op. 15",
+    "year": 1858,
+    "age": 25,
+    "type": "piano_concerto",
+    "period": "early",
+    "summary": "這部作品從雙鋼琴奏鳴曲與交響曲草稿轉化而來，保留了巨大的管弦引子與結構壓力，也讓鋼琴以近乎交響性角色參與，而非單純炫技。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      }
+    ],
+    "listening_guide": "先聽開頭銅管與定音鼓形成的陰影，這不是一般協奏曲常見的華麗序幕，而是具有交響規模的心理鋪陳。進入鋼琴後，留意它如何與樂隊交織成同一股推進力量，而不是站在前台展示技巧。\n\n第二樂章常被視為抒情核心，卻仍保有內在壓力；第三樂章的迴旋氣質與終結段落，則讓整部作品在悲劇性與理性秩序之間取得平衡。",
+    "analysis": "這首協奏曲最重要的意義，在於它把鋼琴協奏曲從「獨奏者對樂團」的比賽，改造成一種更接近交響論述的結構。鋼琴並不只是輸出華麗段落，而是被編織進整體動機發展之中，和聲、節奏與配器都共享同一個戲劇壓力。\n\n作品背後的心理背景也非常關鍵：舒曼事件帶來的情感震盪，使這部作品呈現出一種沉重、甚至帶有葬禮性格的氣質。這種情緒並沒有在表面炫技中消失，而是被 Brahms 以古典形式重新鍛造成堅硬的建築。",
+    "cultural_note": "第一號鋼琴協奏曲曾經讓聽眾困惑，因為它不像同時代流行的炫技協奏曲那樣立刻討好大眾。它的歷史價值，恰恰在於證明 Brahms 願意把高難度的音樂思考放在比「立刻成功」更重要的位置。\n\n今天它常被視為 Brahms 早期風格的關鍵轉折點，也可理解為他日後交響曲寫作的一次預演：如何在極大規模中保持內在紀律。",
+    "scholarly_analysis": "在學術上，Op. 15 是 Brahms 早期交響化鋼琴寫作的典型案例。它的形式史意義在於：協奏曲不再只是獨奏與樂隊的功能分工，而是兩者共享材料、共享推進邏輯的整體。\n\n若從接受史看，這部作品的艱難命運反映了十九世紀德語音樂界對「何謂嚴肅協奏曲」的標準如何重塑。Brahms 以此把協奏曲拉回到大規模器樂論述的層級，並為後來第二號鋼琴協奏曲的成熟樣貌奠定基礎。"
+  },
+  {
+    "id": "brahms-ein-deutsches-requiem-op-45",
+    "composerId": "brahms",
+    "title": "《德文安魂曲》 Ein deutsches Requiem, Op. 45",
+    "year": 1868,
+    "age": 35,
+    "type": "choral_oratorio",
+    "period": "middle",
+    "summary": "這部大型合唱作品以德語聖經文句取代拉丁彌撒文本，把安慰生者而非為亡者祈禱，轉化成一種人文主義的悲痛與救贖敘事。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ],
+    "listening_guide": "聆聽時先注意它如何避免傳統安魂曲常見的恐懼語調，而是以厚實合唱音響與沉著節奏建立安慰感。第二樂章與第六樂章特別能聽出 Brahms 在文本與音樂之間建立的鏡像關係。\n\n不要把它聽成單純宗教作品；更準確地說，它像是一部關於哀傷、記憶與尊嚴的聲音建築。",
+    "analysis": "《德文安魂曲》是 Brahms 將聲樂與合唱寫作推到極高境界的代表。它最重要的不是神學正統性，而是透過德語聖經文本與廣闊對位，建立一種面向活人、面向記憶的安慰倫理。\n\n作品的聲部配置與段落安排顯示他對長線條、對位密度與和聲色彩的高度控制，既有巴赫式的嚴整，也有浪漫時代的人性溫度。這使它成為 Brahms 歷史定位的核心支點之一。",
+    "cultural_note": "《德文安魂曲》在十九世紀德語文化中具有近乎象徵性的地位，因為它讓宗教合唱不再只是教會用途，而成為公共音樂廳中可被廣泛理解的精神作品。\n\n它的成功也讓 Brahms 進一步被視為「嚴肅音樂」核心人物，證明他不只是交響曲作曲家，更是能以合唱形式回應時代情感需求的作曲家。",
+    "scholarly_analysis": "學術上，這部作品常被視為 Brahms 歷史主義與人文主義的交會點。它不追求神學上唯一正解，而是把文本選擇、聲音組織與情感節制整合為一種倫理姿態。\n\n若把它放入十九世紀宗教音樂史，它標示出一種從禮儀作品走向音樂會作品的轉向，也說明 Brahms 如何用古典對位與浪漫和聲重塑大型合唱作品的公共意義。"
+  },
+  {
+    "id": "brahms-haydn-variations-op-56",
+    "composerId": "brahms",
+    "title": "《海頓主題變奏曲》 Variations on a Theme by Haydn, Op. 56",
+    "year": 1873,
+    "age": 40,
+    "type": "variation_set",
+    "period": "middle",
+    "summary": "這組變奏作品以古典主題為起點，展示 Brahms 如何把變奏寫作提升為結構推演與管弦樂配器實驗的場域。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ],
+    "listening_guide": "先聽主題本身的穩定輪廓，再注意每一段變奏如何在不破壞骨架的前提下，改變質地、重心與光澤。終段的帕薩卡利亞式推進，會讓整個作品從室內的精緻推演變成更大的管弦宣告。\n\n這部作品最迷人的地方，在於它讓「變化」本身變成主題。",
+    "analysis": "這首作品把變奏曲從裝飾性技法提升為作曲思維的核心。Brahms 並不是簡單地替主題穿衣換帽，而是讓主題在不同節奏、聲部與配器條件中重新定義自身。\n\n它也可視為 Brahms 與歷史的對話：表面上回到古典，實際上卻在聲響層次、結構連動與大規模建築感上展示了極高現代性。",
+    "cultural_note": "《海頓主題變奏曲》常被視為 Brahms 管弦樂配器能力的試金石。它的成功幫助外界確認，Brahms 不只是能寫鋼琴與室內樂，也具備處理大型管弦論述的能力。\n\n同時，這部作品讓「古典材料可以被現代化」成為十九世紀後半德語音樂的一個重要命題。",
+    "scholarly_analysis": "在學術視角裡，Op. 56 是歷史主義最清楚的實踐之一：不是模仿過去，而是在尊重古典材料的同時，讓它在新的聲響條件下重生。\n\n它也與 Brahms 的 developing variation 思維高度相關。變奏並非附屬格式，而是推動整個作品前進的生成邏輯。"
+  },
+  {
+    "id": "brahms-violin-concerto-op-77",
+    "composerId": "brahms",
+    "title": "《D 大調小提琴協奏曲》 Violin Concerto in D major, Op. 77",
+    "year": 1878,
+    "age": 45,
+    "type": "violin_concerto",
+    "period": "middle",
+    "summary": "題獻給 Joseph Joachim 的小提琴協奏曲，以交響化的篇幅與高密度對話取代外顯炫技，成為十九世紀最重要的小提琴協奏曲之一。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ],
+    "listening_guide": "第一樂章不要只聽獨奏華彩，而要聽獨奏與樂隊如何共享同一個戲劇張力。慢板樂章則像一段被拉長的歌唱，木管與獨奏小提琴彼此接話，形成非常克制的抒情。\n\n終樂章帶有舞蹈與吉普賽風格的火花，但那不是外顯炫技，而是 Brahms 式的深層推進與節奏反彈。",
+    "analysis": "這部協奏曲是 Brahms 對「協奏曲必須是炫技展示」的明確修正。它把小提琴放入交響式結構，讓獨奏者必須和樂隊共享材料、共享方向。\n\n作品的成功也反映他與 Joachim 的長期合作，以及 Brahms 對樂器音色與歌唱性的深刻理解。整體來說，它是中期 Brahms 將形式控制、旋律抒情與節奏動能整合到同一框架的高峰。",
+    "cultural_note": "這首作品迅速成為小提琴曲目核心，因為它既尊重演奏者的技術，也要求演奏者具有結構感與長線敘事能力。\n\n在十九世紀後半，小提琴協奏曲常常被炫技傳統主導；Brahms 以這部作品證明，協奏曲也可以是一部嚴肅的交響論述。",
+    "scholarly_analysis": "學術上，Op. 77 常被視為 Brahms 對協奏曲類型的再定義。它反對把獨奏與樂隊理解成簡單對立，而是讓兩者在同一材料與同一歷史語境中共同生成。\n\n它也顯示出 Brahms 晚中期寫作的成熟特徵：大尺度控制、動機統一與配器透明度的平衡。"
+  },
+  {
+    "id": "brahms-symphony-no-4-op-98",
+    "composerId": "brahms",
+    "title": "《E 小調第四號交響曲》 Symphony No. 4 in E minor, Op. 98",
+    "year": 1885,
+    "age": 52,
+    "type": "symphony",
+    "period": "late",
+    "summary": "Brahms 最後一部交響曲以帕薩卡利亞/夏康形式結束，將古老變奏技法與近乎悲劇性的命運感結合為高度凝縮的終章。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Carnegie Hall Brahms Symphony Cycle",
+        "url": "https://www.carnegiehall.org/Explore/Articles/2023/10/06/Brahms-Symphony-Cycle"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      }
+    ],
+    "listening_guide": "先留意全曲顏色偏暗而收斂，這不是通往勝利的大型交響，而是一次對時間、命運與結構秩序的深層凝視。終樂章的主題變奏一層層堆疊時，會有一種不可逆的推進感。\n\n它的力量來自節制，而不是爆發。",
+    "analysis": "第四號交響曲以驚人的形式控制力收束 Brahms 的交響曲創作。前幾個樂章都在不同層次上延緩或折疊衝突，最後終樂章以古老的變奏形式呈現出無可逃逸的悲劇結構。\n\n這部作品證明 Brahms 的歷史意識不只是向 Beethoven 致敬，而是把整個交響曲傳統的記憶壓縮進一部高度自律的現代作品裡。",
+    "cultural_note": "相較於第一號交響曲的「勝利敘事」，第四號更像一種成熟後的回望。它讓 Brahms 在十九世紀交響曲史中的地位更完整：不是只會回應 Beethoven，而是能把回應本身變成新的語法。",
+    "scholarly_analysis": "這首作品經常被拿來討論 Brahms 的晚期風格與歷史主義。帕薩卡利亞/夏康的終結方式不是懷舊，而是把古老形式變成現代悲劇的容器。\n\n它也可被視為 Brahms 對「如何在不放棄形式嚴謹的前提下表達深層悲劇」所給出的最終答案。"
+  },
+  {
+    "id": "brahms-clarinet-quintet-op-115",
+    "composerId": "brahms",
+    "title": "《B 小調單簧管五重奏》 Clarinet Quintet in B minor, Op. 115",
+    "year": 1891,
+    "age": 58,
+    "type": "clarinet_quintet",
+    "period": "late",
+    "summary": "晚年因 Richard Mühlfeld 的演奏而重燃創作熱情，這首單簧管五重奏以秋日般的內省音色和循環式回憶結構，成為 Brahms 晚期室內樂的高峰。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      },
+      {
+        "label": "Chamber Music Society Johannes Brahms",
+        "url": "https://www.chambermusicsociety.org/about-the-music/composers/johannes-brahms"
+      }
+    ],
+    "listening_guide": "這首作品不是外放型戲劇，而是極度私密的晚年獨白。單簧管旋律像在室內空氣中緩慢展開，弦樂則以柔和陰影托住它的呼吸。\n\n聽第二樂章與終樂章時，可以感受到記憶不斷回頭：每次回返都不是重複，而是更薄、更遠，也更接近消逝。",
+    "analysis": "單簧管五重奏將 Brahms 晚期美學推向一個非常精煉的狀態。動機密度依然很高，但外顯結構已經不再追求宏大，而是追求音色、呼吸與記憶的細緻層次。\n\n它顯示出 Brahms 晚年並非退化，而是把形式壓縮到最內在的層面，讓每一個旋律轉折都帶有回憶與告別的雙重意味。",
+    "cultural_note": "這首作品之所以重要，在於它改變了人們對 Brahms 晚期作品的印象：不再只是厚重或保守，而是充滿脆弱、私密與深度懷舊的聲音世界。\n\n對聽眾而言，它是理解 Brahms 由公共交響敘事走向私人晚年聲音的一把鑰匙。",
+    "scholarly_analysis": "學術上，Op. 115 常被視為 Brahms late style 的典型。它並不透過戲劇張力取勝，而是透過形式回聲、音色平衡與動機回返，呈現一種極度內斂的時間感。\n\n如果說早期的 Brahms 在證明自己能寫出「大形式」，那麼晚年的 Brahms 則在證明：小規模作品也能承載同樣深的歷史重量。"
+  }
+]

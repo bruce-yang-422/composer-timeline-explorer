@@ -26,7 +26,10 @@ export function renderContextPanel(model) {
 
   const selectedComposer = model.composers.find(c => c.id === model.state.selectedComposerId);
   const selectedEvent = model.events.find(e => e.id === model.state.selectedEventId);
-  const selectedWork = model.works.find(w => w.id === model.state.selectedWorkId);
+  const selectedWork = model.works.find(w =>
+    w.id === model.state.selectedWorkId &&
+    w.composerId === model.state.selectedComposerId
+  );
   const isProfileMode = Boolean(model.state.selectedProfileId);
   const isLifetimeMode = Boolean(selectedComposer) && (isProfileMode || (!selectedEvent && !selectedWork));
 

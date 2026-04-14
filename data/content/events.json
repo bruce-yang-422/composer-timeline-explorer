@@ -428,6 +428,78 @@
     ]
   },
   {
+    "id": "schumann-meeting-1853",
+    "composerId": "brahms",
+    "year": 1853,
+    "age": 20,
+    "type": "career",
+    "title": "結識舒曼夫婦 Meet the Schumanns",
+    "timelineTitle": "結識舒曼夫婦",
+    "summary": "1853 年在杜塞道夫結識 Robert 與 Clara Schumann；Robert 旋即在《Neue Bahnen》中熱情推介這位年輕作曲家，讓 Brahms 迅速進入德語音樂圈的核心視野。",
+    "sources": [
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Maturity-and-fame"
+      },
+      {
+        "label": "Brahms-Institut Kurzbiografie",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      },
+      {
+        "label": "Schumann-Portal 1853",
+        "url": "https://www.schumann-portal.de/Amsterdam_1853.html"
+      }
+    ]
+  },
+  {
+    "id": "schumann-circle-1854",
+    "composerId": "brahms",
+    "year": 1854,
+    "age": 21,
+    "type": "personal",
+    "title": "舒曼危機與克拉拉的長期關係 Schumann Crisis and Clara",
+    "timelineTitle": "舒曼危機與克拉拉",
+    "summary": "1854 年 Robert Schumann 病情惡化並被送入療養院後，Brahms 持續協助 Clara 與孩子們；這段互相扶持的關係，後來成為理解 Brahms 私人生活與創作情感的重要線索。",
+    "sources": [
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Maturity-and-fame"
+      },
+      {
+        "label": "Britannica Robert Schumann",
+        "url": "https://www.britannica.com/biography/Robert-Schumann"
+      },
+      {
+        "label": "Britannica Clara Schumann",
+        "url": "https://www.britannica.com/biography/Clara-Schumann"
+      }
+    ]
+  },
+  {
+    "id": "robert-schumann-death-1856",
+    "composerId": "brahms",
+    "year": 1856,
+    "age": 23,
+    "type": "personal",
+    "title": "舒曼逝世後的長期友誼 After Robert Schumann's Death",
+    "timelineTitle": "舒曼逝世後的長期友誼",
+    "summary": "1856 年 Robert Schumann 去世後，Clara 與 Brahms 仍維持長期而深刻的友誼；Clara 不僅持續推介舒曼的音樂，也成為 Brahms 作品最重要的演繹者與精神知音之一。",
+    "sources": [
+      {
+        "label": "Britannica Clara Schumann",
+        "url": "https://www.britannica.com/biography/Clara-Schumann"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Maturity-and-fame"
+      },
+      {
+        "label": "Brahms-Institut Clara Schumann and Brahms",
+        "url": "https://www.brahms-institut.de/index.php?cID=683"
+      }
+    ]
+  },
+  {
     "id": "birth-zelazowa-wola",
     "composerId": "chopin",
     "year": 1810,

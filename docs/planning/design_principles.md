@@ -78,7 +78,7 @@
 
 ### 7. Source Traceability
 資料可以先不在前台全面顯示來源，但資料層應保留可追溯性。  
-因此 `works.json` 與 `events.json` 已加入 `sources`，作為後續註記、校對與擴充基礎。
+因此 `works/*.json` 與 `events/*.json` 已加入 `sources`，而 `contexts/all.json` 則作為後續背景註記、校對與擴充基礎。
 
 ### 8. Graceful Media Fallback
 外部媒體不可控，因此系統設計必須允許：

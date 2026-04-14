@@ -1,6 +1,6 @@
 [
   {
-    "id": "l-estro-armonico-op-3",
+    "id": "vivaldi-l-estro-armonico-op-3",
     "composerId": "vivaldi",
     "title": "《和諧的靈感》 L'estro armonico, Op. 3",
     "year": 1711,
@@ -36,7 +36,7 @@
     "scholarly_analysis": "這部作品常被視為韋瓦第國際聲望真正成形的出版物，因其在結構清晰度與器樂炫技之間取得了極高平衡。"
   },
   {
-    "id": "ottone-in-villa",
+    "id": "vivaldi-ottone-in-villa",
     "composerId": "vivaldi",
     "title": "《奧托內在別墅》 Ottone in villa",
     "year": 1713,
@@ -56,7 +56,7 @@
     "scholarly_analysis": "Ottone in villa 常被用來說明韋瓦第並非只會寫協奏曲，而是能在歌劇市場中快速建立個人風格。"
   },
   {
-    "id": "gloria-in-d-major-rv-589",
+    "id": "vivaldi-gloria-in-d-major-rv-589",
     "composerId": "vivaldi",
     "title": "《D 大調榮耀頌》 Gloria in D major, RV 589",
     "year": 1716,
@@ -76,7 +76,7 @@
     "scholarly_analysis": "RV 589 常被視為他宗教音樂中最有辨識度、也最受現代聽眾歡迎的作品之一。"
   },
   {
-    "id": "the-four-seasons-op-8",
+    "id": "vivaldi-the-four-seasons-op-8",
     "composerId": "vivaldi",
     "title": "《四季》 The Four Seasons, Op. 8",
     "year": 1725,
@@ -146,7 +146,7 @@
     }
   },
   {
-    "id": "farnace-rv-711",
+    "id": "vivaldi-farnace-rv-711",
     "composerId": "vivaldi",
     "title": "《法爾納切》 Farnace, RV 711",
     "year": 1730,

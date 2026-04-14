@@ -31,7 +31,10 @@ export function renderVisualizationView(model, rerender) {
     return;
   }
 
-  const selectedWork = model.works.find(w => w.id === model.state.selectedWorkId)
+  const selectedWork = model.works.find(w =>
+    w.id === model.state.selectedWorkId &&
+    w.composerId === model.state.selectedComposerId
+  )
     ?? model.works.find(w => w.composerId === model.state.selectedComposerId);
   const composer = model.composers.find(c => c.id === model.state.selectedComposerId);
 
@@ -107,7 +110,7 @@ export function renderVisualizationView(model, rerender) {
 
   root.querySelectorAll("[data-work-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedWorkId: el.dataset.workId, selectedChapterIndex: 0, selectedProfileId: null, selectedEventId: null });
+      setState({ selectedWorkId: el.dataset.workId, selectedChapterIndex: 0, selectedMediaSourceIndex: 0, selectedProfileId: null, selectedEventId: null });
       rerender();
     });
   });

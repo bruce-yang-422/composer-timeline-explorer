@@ -1,6 +1,6 @@
 [
   {
-    "id": "capriccio-sinfonico",
+    "id": "puccini-capriccio-sinfonico",
     "composerId": "puccini",
     "title": "《交響隨想曲》 Capriccio sinfonico",
     "year": 1883,
@@ -20,7 +20,7 @@
     "scholarly_analysis": "研究文件指出，《交響隨想曲》展示了龐開利教學法的影響，同時也反映了普契尼對亂髮派（Scapigliatura）藝術圈的接觸。學者 Mosco Carner 在分析普契尼旋律語法時，常以此曲說明他在米蘭學習時如何吸收對位技法與歌劇性織體，並在不自覺中寫出了後來成為《波希米亞人》重要主題的旋律。此曲也展示了他吸收亦師亦友的龐開利如何把情感敘事嵌入器樂結構，奠定了他終身的美學底色。"
   },
   {
-    "id": "le-villi",
+    "id": "puccini-le-villi",
     "composerId": "puccini",
     "title": "《群妖傳》 Le Villi",
     "year": 1884,
@@ -40,7 +40,7 @@
     "scholarly_analysis": "研究文件指出，《群妖傳》雖未完全突破同時期青年學派（Giovane Scuola）的框架，卻已顯示出普契尼有別於馬斯卡尼的細膩與矜持。學者 Julian Budden 分析此劇時指出，幽靈舞段的管弦樂語法預示了他後來對非聲樂性間奏曲（intermezzo）的高度掌握，而這種通過器樂段落承載敘事的能力，正是他成熟語法的早期胚胎。此劇的超自然主題也與當時盛行的亂髮派（Scapigliatura）對死亡與神秘的執著形成呼應。"
   },
   {
-    "id": "edgar",
+    "id": "puccini-edgar",
     "composerId": "puccini",
     "title": "《埃德加》 Edgar",
     "year": 1889,
@@ -60,7 +60,7 @@
     "scholarly_analysis": "依據研究文件，學界對《埃德加》的主流評價是：音樂本身具有足夠的創意，但服務了一個無法支撐四幕歌劇的劇本。學者 Michele Girardi 在《普契尼》傳記中詳細分析了此劇對比才《卡門》的吸收痕跡，特別是蒂格拉娜角色的設定，以及普契尼如何從此劇的失敗中確立了他對「具備強烈戲劇弧線的悲劇性女主角」的偏好，這直接影響了他後來對《瑪儂・雷斯考》劇本的嚴格要求。"
   },
   {
-    "id": "manon-lescaut",
+    "id": "puccini-manon-lescaut",
     "composerId": "puccini",
     "title": "《瑪儂・雷斯考》 Manon Lescaut",
     "year": 1893,
@@ -80,7 +80,7 @@
     "scholarly_analysis": "研究文件指出，《瑪儂・雷斯考》在學術上常被視為普契尼美學的「第一個完整版本」——他不再是各種影響的拼湊，而是發展出了獨特的聲音：管弦樂的戲劇預示功能、人聲與樂團的融合，以及把慾望、死亡與懺悔凝聚在單一角色中的能力。學者 Mosco Carner 認為，此劇第四幕的管弦樂描繪已具備他日後成熟期「以配器承載悲劇宿命」的核心語法，而多位作曲家共同執筆的劇本（包括普契尼本人的修改）也使它成為研究義大利歌劇作者-劇本關係的有趣案例。"
   },
   {
-    "id": "la-boheme",
+    "id": "puccini-la-boheme",
     "composerId": "puccini",
     "title": "《波希米亞人》 La bohème",
     "year": 1896,
@@ -100,7 +100,7 @@
     "scholarly_analysis": "研究文件指出，《波希米亞人》在音樂學界的重要性不只在旋律美感，而在於普契尼如何把「連續性詠嘆」（arioso）做到幾乎不讓觀眾察覺傳統詠嘆調邊界的程度。學者 William Ashbrook 分析此劇時特別指出，彌彌的主題（一個下行的線性旋律）在整部歌劇中以多種配器與和聲色彩反覆出現，構成了類似華格納主導動機（Leitmotif）的情感索引，但比華格納的使用更情感化、更少哲學負擔。普契尼在此成功將世紀末義大利中產階級的「小人物悲劇美學」（piccola gente）推向了國際歌劇語彙的核心。"
   },
   {
-    "id": "tosca",
+    "id": "puccini-tosca",
     "composerId": "puccini",
     "title": "《托斯卡》 Tosca",
     "year": 1900,
@@ -120,7 +120,7 @@
     "scholarly_analysis": "研究文件指出，學界對《托斯卡》存在明顯的評價分歧：一方認為它是真實主義美學的高峰，另一方（如 Joseph Kerman）批評它是「粗劣的小歌劇」。然而當代音樂學（如 Susan McClary 的性別分析）為它找到了更豐富的詮釋空間：史卡皮亞對托斯卡的控制，被讀作晚期父權社會對女性藝術主體性的系統性壓迫，而托斯卡最後的殺人行為則是這種壓迫的必然反撲。學者 Deborah Burton 則從和聲分析角度指出，史卡皮亞的動機旋律以特定的不協和和弦為標誌，形成全劇的負面動機（anti-leitmotif），在每次出現時都強化了不可逃脫的命運感。"
   },
   {
-    "id": "madama-butterfly",
+    "id": "puccini-madama-butterfly",
     "composerId": "puccini",
     "title": "《蝴蝶夫人》 Madama Butterfly",
     "year": 1904,
@@ -140,7 +140,7 @@
     "scholarly_analysis": "研究文件指出，後殖民主義學者（如 Mari Yoshihara）對《蝴蝶夫人》的批評焦點在於它如何再現了「溫順的亞洲女性」刻板印象，這一形象在後來西方流行文化中被多次複製（如《西貢小姐》）。然而歌劇學者 Arthur Groos 也指出，普契尼在某些關鍵時刻讓蝴蝶的音樂超越了這個刻板形象，展現了對她主體性的認可。日本音樂材料（五聲音階、〈櫻花〉〈越後獅子〉的直接引用）的使用，也反映了普契尼對「地方色彩」的嚴謹研究——他曾透過日本女演員獲取真實素材——但這種研究本身仍內嵌於西方帝國主義式的凝視中。"
   },
   {
-    "id": "la-fanciulla-del-west",
+    "id": "puccini-la-fanciulla-del-west",
     "composerId": "puccini",
     "title": "《西部女郎》 La fanciulla del West",
     "year": 1910,
@@ -160,7 +160,7 @@
     "scholarly_analysis": "研究文件指出，《西部女郎》代表了普契尼現代性的高峰，學界如 Helen Greenwald 等人對其和聲語法的分析，顯示他在此已相當程度吸收了德布西的全音音階與史特勞斯的半音厚織體。電影化的敘事節奏（被學者 Alexandra Wilson 分析為「平行剪接」在音樂上的對應）也使它在歌劇電影化研究中佔有重要地位，是早期電影語言影響歌劇敘事結構的最早且最完整的案例之一。"
   },
   {
-    "id": "la-rondine",
+    "id": "puccini-la-rondine",
     "composerId": "puccini",
     "title": "《燕子》 La rondine",
     "year": 1917,
@@ -180,7 +180,7 @@
     "scholarly_analysis": "研究文件指出，《燕子》在學界歷史上一直被視為普契尼的「次要作品」，但近年的再評價（如 Linda Fairtile 的研究）顯示它的多面性值得更多關注。此劇的維也納委託背景，使它成為研究普契尼如何在商業壓力與個人美學之間協商的有趣案例，也展示了第一次世界大戰期間歐洲藝術家的市場適應策略。多個存在的修訂版本（Monte Carlo 版、維也納版、維也納修訂版）之間的差異，也為版本學研究提供了豐富材料。"
   },
   {
-    "id": "il-trittico",
+    "id": "puccini-il-trittico",
     "composerId": "puccini",
     "title": "《三部曲》 Il trittico",
     "year": 1918,
@@ -200,7 +200,7 @@
     "scholarly_analysis": "研究文件指出，《三部曲》在音樂學上常被視為普契尼對當時蓬勃發展的「短幕歌劇」（opera in un atto）文化的回應，同時也是他對「統一晚會」（unified evening）概念的實驗。學者 Jürgen Maehder 分析了《外套》中複雜的半音和聲對位（受德布西影響）與《強尼・史基基》的喜劇短句對比，指出三部作品雖然體裁迥異，底層的動機寫作邏輯卻保有普契尼的一貫性：以管弦樂承載情感潛台詞、以旋律線條索引人物命運。"
   },
   {
-    "id": "turandot",
+    "id": "puccini-turandot",
     "composerId": "puccini",
     "title": "《杜蘭朵》 Turandot",
     "year": 1924,

@@ -1,6 +1,6 @@
 [
   {
-    "id": "symphony-no-1",
+    "id": "beethoven-symphony-no-1",
     "composerId": "beethoven",
     "title": "《C 大調第一號交響曲》 Symphony No. 1 in C major, Op. 21",
     "year": 1800,
@@ -24,7 +24,7 @@
     "scholarly_analysis": "Britannica 的交響曲條目將本曲描述為表面「海頓式」、內在卻已充滿原創性的作品，特別點出第一樂章慢引子對主音的延遲處理，以及第三樂章對後來疾速 scherzo 語法的預示。從形式史角度看，這首作品的重要性不在於徹底破格，而在於它在古典框架內已開始鬆動聽眾對調性、樂器功能與動態戲劇的期待。"
   },
   {
-    "id": "symphony-no-2",
+    "id": "beethoven-symphony-no-2",
     "composerId": "beethoven",
     "title": "《D 大調第二號交響曲》 Symphony No. 2 in D major, Op. 36",
     "year": 1802,
@@ -48,7 +48,7 @@
     "scholarly_analysis": "Britannica 將本曲定位為過渡性作品：仍保留早期交響曲較為鬆散的特徵，但長引子、動態 scherzo 與帶有新主題的巨大 coda，都已把交響曲推向更長程的戲劇敘事。Beethoven-Haus 也指出其寫作歷程曾多次中斷，顯示本曲並非順勢完成的「第二步」，而是伴隨多條創作線交錯而形成的擴張成果。"
   },
   {
-    "id": "symphony-no-3-eroica",
+    "id": "beethoven-symphony-no-3-eroica",
     "composerId": "beethoven",
     "title": "《降 E 大調第三號交響曲「英雄」》 Symphony No. 3 in E-flat major, Op. 55 \"Eroica\"",
     "year": 1804,
@@ -72,7 +72,7 @@
     "scholarly_analysis": "Leonard Ratner 在其《古典音樂》（1980）中以「英雄」敘事作為典型「topic」（音樂修辭類型）分析本曲，指出葬禮進行曲（marcia funebre）對應法國大革命公共儀式的哀悼傳統。Charles Rosen 於《古典風格》（1971）則強調發展部中 E 小調的「錯位再現」（displaced recapitulation）是貝多芬對奏鳴曲形式的根本性改寫。Scott Burnham 在《貝多芬英雄》（1995）提出，Eroica 確立了「英雄敘事」作為西方音樂正典的核心模式，深刻影響後世對交響曲意義的詮釋框架。動機 x（兩個下行音）的變形發展亦被申克（Schenker）學派視為深層結構線條的表面折射。"
   },
   {
-    "id": "symphony-no-4",
+    "id": "beethoven-symphony-no-4",
     "composerId": "beethoven",
     "title": "《降 B 大調第四號交響曲》 Symphony No. 4 in B-flat major, Op. 60",
     "year": 1806,
@@ -96,7 +96,7 @@
     "scholarly_analysis": "Beethoven-Haus 指出第四號長年被《英雄》、《命運》與《田園》夾在中間而顯得失色，但當時評論者已注意到其「清晰、直接」且兼具巧思與能量的特質。從交響曲史角度看，第四號的重要性在於它證明貝多芬中期風格不只會朝英雄宏大發展，也能以更輕巧卻同樣高密度的方式經營張力與結構。"
   },
   {
-    "id": "symphony-no-5",
+    "id": "beethoven-symphony-no-5",
     "composerId": "beethoven",
     "title": "《c 小調第五號交響曲》 Symphony No. 5 in C minor, Op. 67",
     "year": 1808,
@@ -120,7 +120,7 @@
     "cultural_note": "本曲開頭的四音動機在第二次世界大戰期間常被聯想到「V for Victory」，因其節奏恰與字母 V 的摩斯密碼相同，使這段旋律在音樂史之外也進入更廣泛的公共文化記憶。"
   },
   {
-    "id": "symphony-no-6-pastoral",
+    "id": "beethoven-symphony-no-6-pastoral",
     "composerId": "beethoven",
     "title": "《F 大調第六號交響曲「田園」》 Symphony No. 6 in F major, Op. 68 \"Pastoral\"",
     "year": 1808,
@@ -144,7 +144,7 @@
     "scholarly_analysis": "Mark Evan Bonds 在《音樂作為思想》（2006）中分析本曲在「絕對音樂」與「標題音樂」論爭中的特殊位置：貝多芬的自我說明「情感的表達而非音像的描繪」預示了後來漢斯利克（Hanslick）對純音樂自律性的捍衛立場。Nicholas Mathew 則指出，本曲五樂章結構中的暴風雨樂章（第四樂章）屬於十八世紀「表現崇高」（the sublime）的音樂修辭傳統。溪邊小景中黃鸝、鶴鶉、杜鵑的模仿音型，在 Ratner 的 topic 理論中被歸類為「pastorale」次類型，其固定低音（pedal point）與 6/8 拍型均有明確的風格標記功能。"
   },
   {
-    "id": "symphony-no-7",
+    "id": "beethoven-symphony-no-7",
     "composerId": "beethoven",
     "title": "《A 大調第七號交響曲》 Symphony No. 7 in A major, Op. 92",
     "year": 1812,
@@ -168,7 +168,7 @@
     "scholarly_analysis": "Britannica 引述華格納將此曲稱為「舞蹈的神化」，雖然這類說法帶有浪漫派誇飾色彩，但確實抓住了本曲節奏主導全局的特性。Beethoven-Haus 也指出它在 1813 年慈善音樂會首演時正逢貝多芬公共聲望高峰，因此第七號的成功既屬音樂本身，也和其歷史時機密切相關。"
   },
   {
-    "id": "symphony-no-8",
+    "id": "beethoven-symphony-no-8",
     "composerId": "beethoven",
     "title": "《F 大調第八號交響曲》 Symphony No. 8 in F major, Op. 93",
     "year": 1812,
@@ -192,7 +192,7 @@
     "scholarly_analysis": "Beethoven-Haus 顯示第七與第八幾乎前後腳完成，並指出第八原先甚至曾朝另一部鋼琴協奏曲方向發想。若把第七與第八並看，便能更清楚理解貝多芬在 1811–1813 年間並非只朝單一路徑前進，而是在節奏狂熱、古典反諷與形式壓縮之間同時實驗。"
   },
   {
-    "id": "symphony-no-9-choral",
+    "id": "beethoven-symphony-no-9-choral",
     "composerId": "beethoven",
     "title": "《d 小調第九號交響曲「合唱」》 Symphony No. 9 in D minor, Op. 125 \"Choral\"",
     "year": 1824,
@@ -216,7 +216,7 @@
     "cultural_note": "末樂章《歡樂頌》旋律在現代公共文化中有極高辨識度，後來也被用作「歐洲頌歌」的基礎旋律，因此許多人是先在公共儀式、影視或大型活動中聽見這段音樂，再回頭認識整部交響曲。"
   },
   {
-    "id": "piano-concerto-no-5-emperor",
+    "id": "beethoven-piano-concerto-no-5-emperor",
     "composerId": "beethoven",
     "title": "《降 E 大調第五號鋼琴協奏曲「皇帝」》 Piano Concerto No. 5 in E-flat major, Op. 73 \"Emperor\"",
     "year": 1809,
@@ -240,7 +240,7 @@
     "scholarly_analysis": "Leon Plantinga 在《貝多芬的協奏曲》（1999）中詳細分析本曲對「協奏曲交響化」的推進：貝多芬以鋼琴開場的即興式引子（mm. 1–18）顛覆了古典協奏曲雙重呈示部（double exposition）的規範，獨奏鋼琴從附屬角色躍升為與樂團對等的主體。第三樂章終止式前，貝多芬在樂譜上明確標示「不作裝飾奏」（Non si fa una cadenza），強制取消表演者即興發揮的慣例，此舉被視為作曲家對演奏詮釋權威的主動收回，是音樂作品概念史上的重要事件（Lydia Goehr，《想像的博物館》，1992）。"
   },
   {
-    "id": "violin-concerto-op-61",
+    "id": "beethoven-violin-concerto-op-61",
     "composerId": "beethoven",
     "title": "《D 大調小提琴協奏曲，作品 61》 Violin Concerto in D major, Op. 61",
     "year": 1806,
@@ -272,7 +272,7 @@
     }
   },
   {
-    "id": "piano-sonata-no-8-pathetique",
+    "id": "beethoven-piano-sonata-no-8-pathetique",
     "composerId": "beethoven",
     "title": "《c 小調第八號鋼琴奏鳴曲「悲愴」》 Piano Sonata No. 8 in C minor, Op. 13 \"Pathétique\"",
     "year": 1799,
@@ -296,7 +296,7 @@
     "scholarly_analysis": "Charles Rosen 在《古典風格》（1971）中分析本曲引子（Grave）在快板中的三次回歸，指出此結構不同於海頓式的「慢速引子一次性功能」，而是將引子素材提升為全曲的「結構評論者」（structural commentator）。Janet Schmalfeldt 在《論表演奏鳴曲式》（1995）則以「過程式形式」（formal process）框架解讀，論證第一樂章的快板呈示部因引子的干預而持續處於「被詮釋的不穩定狀態」。此曲在 c 小調的選擇亦被 Ratner 連結至貝多芬的「悲劇 topic」（tragic topic）傳統，與第五號交響曲和《命運》奏鳴曲共享相同的修辭情境。"
   },
   {
-    "id": "piano-sonata-no-14",
+    "id": "beethoven-piano-sonata-no-14",
     "composerId": "beethoven",
     "title": "《升 c 小調第十四號鋼琴奏鳴曲「月光」》 Piano Sonata No. 14 in C-sharp minor, Op. 27 No. 2",
     "year": 1801,
@@ -320,7 +320,7 @@
     "scholarly_analysis": "William Newman 在《貝多芬鋼琴奏鳴曲》（1988）中強調「quasi una fantasia」副標題的形式意涵：傳統奏鳴曲的重心在快板第一樂章，本曲將其反置，使三連音 Adagio 取代奏鳴曲式的核心位置，形成「反轉奏鳴曲」（reversed sonata）。申克在《五首鋼琴奏鳴曲分析》（1913）中論證第一樂章的三連音伴奏型是一個被「拉長」的中聲部線條，其深層和聲進行仍遵循嚴格的調性語法，批駁了「第一樂章缺乏結構」的誤解。Charles Rosen 則指出，第三樂章中 c♯ 小調的反覆確認（尤其是大量減七和弦）是貝多芬在製造「調性確立的延遲正當化」，也因此使整首曲子的調性重心在最後才得到完整解決。"
   },
   {
-    "id": "piano-sonata-no-21-waldstein",
+    "id": "beethoven-piano-sonata-no-21-waldstein",
     "composerId": "beethoven",
     "title": "《C 大調第二十一號鋼琴奏鳴曲「華德斯坦」》 Piano Sonata No. 21 in C major, Op. 53 \"Waldstein\"",
     "year": 1804,
@@ -344,7 +344,7 @@
     "scholarly_analysis": "Tilman Skowroneck 在《貝多芬的鋼琴》（2010）中詳細考證本曲創作期間貝多芬所使用的樂器（可能是 Érard 或 Walter 製鋼琴），論證終樂章顫音段落的音響效果依賴當時鋼琴特定的琴槌發音特性，現代鋼琴無法完整復現。Lewis Lockwood 在《貝多芬：音樂與人生》（2003）指出，第一樂章中 C 大調主音三和弦以震音而非明確旋律呈現的開場方式，在同時代作品中幾乎無先例，是貝多芬「去主題化」（de-thematization）策略的早期展現。Carl Dahlhaus 則以本曲終樂章的「靜觀式宏大」（contemplative grandeur）反駁了「中期 = 英雄戲劇」的簡化論述。"
   },
   {
-    "id": "piano-sonata-no-23-appassionata",
+    "id": "beethoven-piano-sonata-no-23-appassionata",
     "composerId": "beethoven",
     "title": "《f 小調第二十三號鋼琴奏鳴曲「熱情」》 Piano Sonata No. 23 in F minor, Op. 57 \"Appassionata\"",
     "year": 1805,
@@ -368,7 +368,7 @@
     "scholarly_analysis": "申克在《鋼琴奏鳴曲分析》中論證本曲第一樂章的深層線條（Urlinie）為一個從 ♭Ⅱ 下行至主音的長程和聲弧線，拿坡里六和弦的頻繁使用正是此深層弧線的表面折射。Charles Rosen 指出，第一樂章呈示部副主題以 A♭ 大調（而非 f 小調的關係大調 A♭ = III）呈現，是貝多芬刻意製造「調性色彩置換」的手法，使整個呈示部保持持續的調性張力而非傳統的對比穩定。Maynard Solomon 在《貝多芬》傳記（1977）中結合心理傳記角度，論證此曲創作期間貝多芬的情感危機（與約瑟芬·布倫斯維克的關係破裂）在音樂語彙的激烈程度中留下痕跡，但此詮釋路線在方法論上備受學界保留。"
   },
   {
-    "id": "piano-sonata-no-29-hammerklavier",
+    "id": "beethoven-piano-sonata-no-29-hammerklavier",
     "composerId": "beethoven",
     "title": "《降 B 大調第二十九號鋼琴奏鳴曲「漢馬克拉維」》 Piano Sonata No. 29 in B-flat major, Op. 106 \"Hammerklavier\"",
     "year": 1818,
@@ -392,7 +392,7 @@
     "scholarly_analysis": "Heinrich Schenker 於 1913 年發表的詳細分析被視為申克分析方法成熟期的代表作，他論證終樂章賦格雖表面極度不協和，深層仍受 B♭ 大調的調性引力控制，是「對位法在調性框架內的極限測試」。William Kinderman 在《貝多芬》（1995）中指出，第三樂章 Adagio sostenuto 是貝多芬所有作品中篇幅最長的慢板樂章，其「無限延遲的終止式」（infinitely deferred cadence）策略在晚期風格中具有典範地位。Joseph Kerman 認為終樂章賦格的引子（Largo）是音樂史上最奇特的「調性探索序曲」之一，以近乎隨機的轉調過程（經過 B 小調、降 G 大調等遠關係調）達到一種「有目的的迷失」效果。"
   },
   {
-    "id": "fur-elise",
+    "id": "beethoven-fur-elise",
     "composerId": "beethoven",
     "title": "《給愛麗絲》 Bagatelle in A minor, WoO 59 \"Für Elise\"",
     "year": 1810,
@@ -416,7 +416,7 @@
     "cultural_note": "對台灣許多聽眾而言，這首作品最直接的入口不是音樂會，而是日常生活中的垃圾車旋律。也正因如此，《給愛麗絲》常成為不少人第一次在毫無門檻的情況下辨識並記住的古典音樂作品。"
   },
   {
-    "id": "diabelli-variations",
+    "id": "beethoven-diabelli-variations",
     "composerId": "beethoven",
     "title": "《迪亞貝利變奏曲》 Diabelli Variations, Op. 120",
     "year": 1823,
@@ -440,7 +440,7 @@
     "scholarly_analysis": "William Kinderman 在《貝多芬的迪亞貝利變奏曲》（1987）中論證三十三段變奏構成一個「隱性敘事弧線」：從嘲諷主題的陳腐（第1–10段）、深入探索其結構潛能（第11–25段），到最後以莊嚴小步舞曲（Minuet, Var. 33）超越主題本身。Alfred Brendel 在《音樂思考》（1977）中以演奏者視角提出，本曲是以「幽默」（Humor in the Viennese Classical sense）作為深層統一原則，此幽默不是喜劇性的表面效果，而是對音樂慣例的持續「距離化」（distanciation）。申克派學者 Carl Schachter 則分析了主題本身看似簡單的和聲語法如何蘊含可供無限延伸的深層結構潛力，解釋了貝多芬何以能從如此「平庸」的素材中提煉出如此複雜的變奏群。"
   },
   {
-    "id": "fidelio",
+    "id": "beethoven-fidelio",
     "composerId": "beethoven",
     "title": "《費德里歐》 Fidelio, Op. 72",
     "year": 1814,
@@ -464,7 +464,7 @@
     "scholarly_analysis": "Paul Robinson 在《歌劇與觀念》（1985）中將本劇定位為「救援歌劇」（rescue opera）類型的高峰，指出其政治寓意在拿破崙戰爭時期具有直接的歷史語境，但貝多芬刻意將「拯救者」從國家官員改為妻子個人，使政治解放被轉化為私人倫理勝利。Michael Tusa 在對 1805 至 1814 年三個版本的比較研究中，詳細追蹤了貝多芬如何在戲劇性與音樂自律性之間持續調整——例如女主角 Leonore 的詠嘆調「Abscheulicher」在各版本中的調性中心與動機寫法均有顯著差異。Joseph Kerman 在其歌劇研究中坦率指出，此劇在戲劇語法上不如德國後繼者（如韋伯、瓦格納）流暢，但其「非戲劇性的宏大道德誠實」恰好是其獨特貢獻。"
   },
   {
-    "id": "missa-solemnis",
+    "id": "beethoven-missa-solemnis",
     "composerId": "beethoven",
     "title": "《D 大調莊嚴彌撒》 Missa solemnis in D major, Op. 123",
     "year": 1823,
@@ -488,7 +488,7 @@
     "scholarly_analysis": "Joseph Kerman 在《沉思貝多芬》（1967）中論證本曲超越了傳統彌撒的禮拜功能，成為「一個人面對信仰問題的個人精神格鬥記錄」，並指出貝多芬對各段落拉丁文的親筆翻譯草稿顯示他以異常個人化的方式理解每個文本字詞。Warren Kirkendale 在《貝多芬莊嚴彌撒中的修辭》（1979）中以文藝復興修辭學（ars rhetorica）分析本曲結構，論證 Credo 的賦格寫法遵循了古典「論辯發展」（dispositio）的修辭模式。Agnus Dei 中的軍樂插段被 Scott Burnham 詮釋為貝多芬在和平祈禱中強行引入「外部世界的暴力現實」，是一種「崇高的不協調」（sublime incongruity），打破了傳統彌撒的超然性格。"
   },
   {
-    "id": "string-quartet-op-131",
+    "id": "beethoven-string-quartet-op-131",
     "composerId": "beethoven",
     "title": "《升 c 小調第十四號弦樂四重奏》 String Quartet No. 14 in C-sharp minor, Op. 131",
     "year": 1826,
@@ -512,7 +512,7 @@
     "scholarly_analysis": "Joseph Kerman 在《貝多芬弦樂四重奏》（1967）中將本曲的七樂章結構描述為「不對稱的弧線」（asymmetrical arch），其中 C♯ 小調的賦格（第一樂章）與 D♭ 大調的慢板（第四樂章，即 C♯ 大調的異名同音調）構成「遠距離的調性鏡像」。Robert Winter 在手稿研究中發現，七樂章的連接並非最初的設計，而是貝多芬在修訂過程中逐步確立的，顯示其結構邏輯在創作過程中持續演化。Daniel Chua 在《絕對音樂與其他虛構》（1999）中以本曲為例論證「晚期風格」（late style）不能簡單等同於「精神超越」：第七樂章的粗暴與混亂打破了任何圓滿解決的期待，是貝多芬刻意拒絕「昇華敘事」的姿態。"
   },
   {
-    "id": "grosse-fuge-op-133",
+    "id": "beethoven-grosse-fuge-op-133",
     "composerId": "beethoven",
     "title": "《大賦格》 Große Fuge, Op. 133",
     "year": 1826,

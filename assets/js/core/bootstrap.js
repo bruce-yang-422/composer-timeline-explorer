@@ -8,6 +8,12 @@ import { renderVisualizationView } from "../components/visualization-view.js";
 import { renderPreviewPanel } from "../components/preview-panel.js";
 import { renderContextPanel } from "../components/context-panel.js";
 
+function normalizeLegacyWorkId(workId, composerId) {
+  if (!workId || !composerId) return workId ?? null;
+  if (workId.startsWith(`${composerId}-`)) return workId;
+  return `${composerId}-${workId}`;
+}
+
 export async function bootstrapApp() {
   const [
     composers,
@@ -36,14 +42,26 @@ export async function bootstrapApp() {
     (composer) => composer.id === appConfig.defaultComposerId
   ) ?? composers[0];
 
+  const legacySelectedWorkId = normalizeLegacyWorkId(persisted?.selectedWorkId, currentComposer?.id);
   const validSelectedWork = works.find(
     (work) => work.id === persisted?.selectedWorkId && work.composerId === currentComposer?.id
+  ) ?? works.find(
+    (work) => work.id === legacySelectedWorkId && work.composerId === currentComposer?.id
   ) ?? null;
   const validSelectedEvent = events.find(
     (event) => event.id === persisted?.selectedEventId && event.composerId === currentComposer?.id
   ) ?? null;
   const persistedChapterIndex = Number.isInteger(persisted?.selectedChapterIndex)
     ? persisted.selectedChapterIndex
+    : null;
+  const mediaSourceCount = validSelectedWork?.media
+    ? 1 + (Array.isArray(validSelectedWork.media.alternateRecordings) ? validSelectedWork.media.alternateRecordings.length : 0)
+    : 0;
+  const persistedMediaSourceIndex = Number.isInteger(persisted?.selectedMediaSourceIndex)
+    ? persisted.selectedMediaSourceIndex
+    : null;
+  const validSelectedMediaSourceIndex = mediaSourceCount
+    ? Math.min(Math.max(persistedMediaSourceIndex ?? 0, 0), mediaSourceCount - 1)
     : null;
   const validChapterIndex = validSelectedWork?.media?.chapters?.length
     ? Math.min(Math.max(persistedChapterIndex ?? 0, 0), validSelectedWork.media.chapters.length - 1)
@@ -61,6 +79,7 @@ export async function bootstrapApp() {
     selectedProfileId: showProfile ? (currentComposer?.id ?? null) : null,
     selectedWorkId: validSelectedWork?.id ?? null,
     selectedChapterIndex: validChapterIndex,
+    selectedMediaSourceIndex: validSelectedMediaSourceIndex,
     selectedEventId: validSelectedEvent?.id ?? null,
     selectedContextId: persisted?.selectedContextId ?? null
   });

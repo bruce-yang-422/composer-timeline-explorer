@@ -60,11 +60,11 @@
 ### 4. Beethoven 資料
 - `composers.json` 已包含 Beethoven 主資料
 - `composers.json` 已加入 `portrait`
-- `works.json` 已擴充為代表作集合
-- `works.json` 已補齊九大交響曲
-- `events.json` 已整理為可展示的生平時間線
-- `events.json` 已加入 `timelineTitle`
-- `works.json` / `events.json` 已加入 `sources`
+- `works/*.json` 已擴充為代表作集合
+- `works/*.json` 已補齊九大交響曲
+- `events/*.json` 已整理為可展示的生平時間線
+- `events/*.json` 已加入 `timelineTitle`
+- `works/*.json` / `events/*.json` 已加入 `sources`
 - `works` / `events` 已加入 `age`
 - `composer` 已加入 `ageAtDeath`
 

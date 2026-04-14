@@ -1,0 +1,322 @@
+[
+  {
+    "id": "remenyi-touring-and-hungarian-style-1850",
+    "composerId": "brahms",
+    "year": 1850,
+    "age": 17,
+    "type": "career",
+    "title": "與雷梅尼巡演並吸收匈牙利風格 Touring with Reményi",
+    "timelineTitle": "雷梅尼巡演與匈牙利風格",
+    "summary": "1850 年前後與匈牙利小提琴家 Eduard Reményi 的巡演，讓 Brahms 深入接觸羅姆與匈牙利風格語彙，成為他日後節奏與色彩的重要來源。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ]
+  },
+  {
+    "id": "schumann-meeting-1853",
+    "composerId": "brahms",
+    "year": 1853,
+    "age": 20,
+    "type": "career",
+    "title": "結識舒曼夫婦 Meet the Schumanns",
+    "timelineTitle": "結識舒曼夫婦",
+    "summary": "1853 年在杜塞道夫結識 Robert 與 Clara Schumann；Robert 旋即在《Neue Bahnen》中熱情推介這位年輕作曲家，讓 Brahms 迅速進入德語音樂圈的核心視野。",
+    "sources": [
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Maturity-and-fame"
+      },
+      {
+        "label": "Brahms-Institut Kurzbiografie",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      },
+      {
+        "label": "Schumann-Portal 1853",
+        "url": "https://www.schumann-portal.de/Amsterdam_1853.html"
+      }
+    ]
+  },
+  {
+    "id": "schumann-circle-1854",
+    "composerId": "brahms",
+    "year": 1854,
+    "age": 21,
+    "type": "personal",
+    "title": "舒曼危機與克拉拉的長期關係 Schumann Crisis and Clara",
+    "timelineTitle": "舒曼危機與克拉拉",
+    "summary": "1854 年 Robert Schumann 病情惡化並被送入療養院後，Brahms 持續協助 Clara 與孩子們；這段互相扶持的關係，後來成為理解 Brahms 私人生活與創作情感的重要線索。",
+    "sources": [
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Maturity-and-fame"
+      },
+      {
+        "label": "Britannica Robert Schumann",
+        "url": "https://www.britannica.com/biography/Robert-Schumann"
+      },
+      {
+        "label": "Britannica Clara Schumann",
+        "url": "https://www.britannica.com/biography/Clara-Schumann"
+      }
+    ]
+  },
+  {
+    "id": "anti-new-german-school-manifesto-1860",
+    "composerId": "brahms",
+    "year": 1860,
+    "age": 27,
+    "type": "career",
+    "title": "簽署反新德意志樂派宣言 Signed the Anti-New German School Manifesto",
+    "timelineTitle": "反新德意志樂派宣言",
+    "summary": "1860 年 Brahms 與 Joachim 等人簽署公開宣言，反對李斯特與華格納陣營的創作路線，也讓他在十九世紀音樂論戰中站上保守派核心位置。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ]
+  },
+  {
+    "id": "vienna-settlement-and-historicist-outlook-1863",
+    "composerId": "brahms",
+    "year": 1863,
+    "age": 30,
+    "type": "career",
+    "title": "移居維也納與歷史主義視野 Move to Vienna",
+    "timelineTitle": "移居維也納",
+    "summary": "1863 年後 Brahms 逐步將重心移往維也納，並在合唱與早期音樂研究中建立更強的歷史主義視野，為後續安魂曲與交響曲奠基。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      }
+    ]
+  },
+  {
+    "id": "first-symphony-draft-1862",
+    "composerId": "brahms",
+    "year": 1862,
+    "age": 29,
+    "type": "creative_shift",
+    "title": "第一號交響曲草稿進入可見階段 First Symphony Draft",
+    "timelineTitle": "第一號交響曲草稿",
+    "summary": "1862 年 Brahms 將第一號交響曲的早期草稿寄給 Clara Schumann 與 Joseph Joachim 檢閱，顯示這部作品已從長期構思進入具體成形的階段。",
+    "sources": [
+      {
+        "label": "Brahms first symphony research doc",
+        "url": "docs/Brahms/brahms_first_symphony_deep_research.md"
+      },
+      {
+        "label": "LA Phil Brahms Symphony No. 1",
+        "url": "https://www.laphil.com/musicdb/pieces/3903/symphony-no-1-in-c-minor-op-68"
+      }
+    ]
+  },
+  {
+    "id": "haydn-variations-1873",
+    "composerId": "brahms",
+    "year": 1873,
+    "age": 40,
+    "type": "creative_shift",
+    "title": "《海頓主題變奏曲》成為管弦實驗場 Haydn Variations",
+    "timelineTitle": "海頓主題變奏曲",
+    "summary": "1873 年的《海頓主題變奏曲》讓 Brahms 把變奏寫作、配器實驗與古典形式重構結合在一起，也成為他大型管弦作品能力的重要證明。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      }
+    ]
+  },
+  {
+    "id": "alphorn-postcard-1868",
+    "composerId": "brahms",
+    "year": 1868,
+    "age": 35,
+    "type": "creative_shift",
+    "title": "阿爾卑斯號角主題浮現 Alphorn Postcard",
+    "timelineTitle": "阿爾卑斯號角主題浮現",
+    "summary": "1868 年 Brahms 在瑞士旅行時將一段阿爾卑斯號角旋律寫成明信片寄給 Clara，這段素材後來成為第四樂章由陰影邁向光明的關鍵動機。",
+    "sources": [
+      {
+        "label": "Brahms first symphony research doc",
+        "url": "docs/Brahms/brahms_first_symphony_deep_research.md"
+      },
+      {
+        "label": "Britannica Symphony No. 1 in C Minor, Op. 68",
+        "url": "https://www.britannica.com/topic/Symphony-No-1-in-C-Minor-Op-68"
+      },
+      {
+        "label": "LA Phil Brahms Symphony No. 1",
+        "url": "https://www.laphil.com/musicdb/pieces/3903/symphony-no-1-in-c-minor-op-68"
+      }
+    ]
+  },
+  {
+    "id": "violin-concerto-premiere-1878",
+    "composerId": "brahms",
+    "year": 1878,
+    "age": 45,
+    "type": "career",
+    "title": "《D 大調小提琴協奏曲》首演 Violin Concerto Premiere",
+    "timelineTitle": "小提琴協奏曲首演",
+    "summary": "1878 年《D 大調小提琴協奏曲》首演，題獻給 Joseph Joachim；它把獨奏與樂團的關係從炫技競爭轉向更深層的交響式對話。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ]
+  },
+  {
+    "id": "piano-concerto-no-2-premiere-1881",
+    "composerId": "brahms",
+    "year": 1881,
+    "age": 48,
+    "type": "career",
+    "title": "第二號鋼琴協奏曲首演 Second Piano Concerto Premiere",
+    "timelineTitle": "第二號鋼琴協奏曲首演",
+    "summary": "1881 年《B♭大調第二號鋼琴協奏曲》首演，四樂章架構與交響化寫作使它成為 Brahms 盛年時期最宏大的協奏曲作品之一。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Johannes Brahms",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms/Aims-and-achievements"
+      }
+    ]
+  },
+  {
+    "id": "muhlfeld-and-late-chamber-works-1891",
+    "composerId": "brahms",
+    "year": 1891,
+    "age": 58,
+    "type": "creative_shift",
+    "title": "繆費爾德啟發晚期室內樂 Mühlfeld and Late Chamber Works",
+    "timelineTitle": "繆費爾德與晚期室內樂",
+    "summary": "1891 年聽見單簧管演奏家 Richard Mühlfeld 的表現後，Brahms 重新打開創作熱情，寫下單簧管三重奏、五重奏與兩首奏鳴曲等晚期名作。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Chamber Music Society Johannes Brahms",
+        "url": "https://www.chambermusicsociety.org/about-the-music/composers/johannes-brahms"
+      }
+    ]
+  },
+  {
+    "id": "clara-death-and-four-serious-songs-1896",
+    "composerId": "brahms",
+    "year": 1896,
+    "age": 63,
+    "type": "health",
+    "title": "克拉拉逝世與《四首嚴肅的歌》 Clara's Death and Vier ernste Gesänge",
+    "timelineTitle": "克拉拉逝世",
+    "summary": "1896 年 Clara Schumann 逝世後，Brahms 寫下《四首嚴肅的歌》，將晚年的悲痛、信仰與死亡凝視化為最私密的聲音記錄之一。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Britannica Clara Schumann",
+        "url": "https://www.britannica.com/biography/Clara-Schumann"
+      }
+    ]
+  },
+  {
+    "id": "brahms-death-1897",
+    "composerId": "brahms",
+    "year": 1897,
+    "age": 63,
+    "type": "health",
+    "title": "維也納逝世 Death in Vienna",
+    "timelineTitle": "維也納逝世",
+    "summary": "1897 年 4 月 3 日 Brahms 逝世於維也納，象徵古典浪漫主義傳統在十九世紀末的一個重要篇章正式告終。",
+    "sources": [
+      {
+        "label": "Brahms historical context research doc",
+        "url": "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut biography",
+        "url": "https://www.brahms-institut.de/index.php?cID=162"
+      }
+    ]
+  },
+  {
+    "id": "symphony-completed-and-premiered-1876",
+    "composerId": "brahms",
+    "year": 1876,
+    "age": 43,
+    "type": "career",
+    "title": "完成並在卡爾斯魯厄首演 Completed and Premiered in Karlsruhe",
+    "timelineTitle": "完成並首演第一號交響曲",
+    "summary": "1876 年夏天 Brahms 在巴登-巴登附近完成這部交響曲，並於 11 月 4 日在卡爾斯魯厄首演，由 Otto Dessoff 指揮，正式宣告他成為重量級交響曲作曲家。",
+    "sources": [
+      {
+        "label": "Brahms first symphony research doc",
+        "url": "docs/Brahms/brahms_first_symphony_deep_research.md"
+      },
+      {
+        "label": "Britannica Symphony No. 1 in C Minor, Op. 68",
+        "url": "https://www.britannica.com/topic/Symphony-No-1-in-C-Minor-Op-68"
+      },
+      {
+        "label": "Brahms-Institut archival entry",
+        "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_werkekatalog/op_068.html"
+      }
+    ]
+  },
+  {
+    "id": "publication-and-reception-1877",
+    "composerId": "brahms",
+    "year": 1877,
+    "age": 44,
+    "type": "career",
+    "title": "出版與「貝多芬第十號」反應 Publication and Beethoven's Tenth",
+    "timelineTitle": "出版與「貝多芬第十號」反應",
+    "summary": "1877 年交由 Simrock 出版後，《第一號交響曲》在德語樂壇迅速累積聲望；Hans von Bülow 將它稱為「貝多芬的第十號交響曲」，也讓 Brahms 與 Beethoven 傳統的關係成為接受史焦點。",
+    "sources": [
+      {
+        "label": "Brahms first symphony research doc",
+        "url": "docs/Brahms/brahms_first_symphony_deep_research.md"
+      },
+      {
+        "label": "Brahms-Institut archival entry",
+        "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_werkekatalog/op_068.html"
+      },
+      {
+        "label": "Carnegie Hall Brahms Symphony Cycle",
+        "url": "https://www.carnegiehall.org/Explore/Articles/2023/10/06/Brahms-Symphony-Cycle"
+      }
+    ]
+  }
+]

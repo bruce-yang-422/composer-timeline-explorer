@@ -122,6 +122,44 @@
     ]
   },
   {
+    "id": "brahms",
+    "name": "布拉姆斯 Johannes Brahms",
+    "slug": "johannes-brahms",
+    "fullName": "約翰內斯・布拉姆斯 Johannes Brahms",
+    "birth": 1833,
+    "death": 1897,
+    "ageAtDeath": 63,
+    "deathAgeLabel": "享年 63 歲",
+    "birthPlace": "漢堡 Hamburg",
+    "primaryLocation": "維也納 Vienna",
+    "nationality": "德國 German",
+    "era": "浪漫時期 Romantic",
+    "periods": [
+      "romantic"
+    ],
+    "tags": [
+      "交響曲 Symphony",
+      "室內樂 Chamber Music",
+      "合唱與清唱劇 Choral and Oratorio",
+      "鋼琴作品 Piano Works",
+      "古典傳統 Classical Tradition",
+      "舒曼圈 Schumann Circle"
+    ],
+    "portrait": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/JohannesBrahms_%28cropped%29.jpg/250px-JohannesBrahms_%28cropped%29.jpg",
+      "alt": "Johannes Brahms portrait photographed by C. Brasch in Berlin",
+      "caption": "C. Brasch 於柏林拍攝的約翰尼斯・布拉姆斯肖像，公有領域。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JohannesBrahms_(cropped).jpg"
+    },
+    "summary": "布拉姆斯是十九世紀德語音樂世界最重要的交響與室內樂作曲家之一，以古典形式、浪漫和聲與嚴密動機發展的結合，奠定了保守中帶有革命性的歷史地位。",
+    "intro": "他出生於漢堡的平民音樂家庭，早年在港口城市的演出與鋼琴訓練中累積了扎實的對位與實作能力，後來又透過與 Eduard Reményi、Joseph Joachim 的往來擴展了視野。\n\n1853 年在杜塞道夫結識 Robert 與 Clara Schumann 後，他迅速被推入德語樂壇核心，Robert 的〈新路〉使他背負起「貝多芬繼承者」的歷史期待，而 Clara 則成為他一生最重要的音樂知己與作品審視者之一。後世最常談起的「八卦」，也正是他與年長 14 歲的 Clara 長達數十年的書信往來與若即若離的情感牽連；兩人雖未結婚，卻在創作判斷、情感支持與彼此人生選擇上留下極深影響，讓 Brahms 終身未婚的事實始終伴隨浪漫傳記式的詮釋。\n\n1863 年後布拉姆斯長期定居維也納，逐步以《德意志安魂曲》、四首交響曲、協奏曲、室內樂、鋼琴作品與大量藝術歌曲建立聲譽；他對早期音樂的研究、對歷史主義的敏銳意識，以及對動機發展與古典形式的持續鍛造，使他的晚期作品同時保有內省、厚度與高度結構控制，成為十九世紀德語音樂中最具持續影響力的核心人物之一。",
+    "sourceDocs": [
+      "docs/romantic_period_academic_research_report.md",
+      "docs/Brahms/brahms_historical_context_musical_legacy_and_period_positioning_deep_research.md",
+      "docs/Brahms/brahms_first_symphony_deep_research.md"
+    ]
+  },
+  {
     "id": "paganini",
     "name": "帕格尼尼 Niccolò Paganini",
     "slug": "niccolo-paganini",

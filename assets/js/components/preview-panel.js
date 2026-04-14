@@ -39,9 +39,150 @@ function buildYoutubeTimeUrl(url, seconds) {
   return appendQueryParam(url, "t", seconds);
 }
 
+let youtubeApiPromise = null;
+let activeMediaPlayer = null;
+let latestMediaRenderToken = 0;
+
+function destroyActiveMediaPlayer() {
+  if (activeMediaPlayer?.destroy) {
+    try {
+      activeMediaPlayer.destroy();
+    } catch {
+      // ignore teardown failures
+    }
+  }
+  activeMediaPlayer = null;
+}
+
+function buildMediaSources(selectedWork) {
+  const primarySource = selectedWork.media
+    ? [{ ...selectedWork.media, label: selectedWork.media.label ?? "主來源", isPrimary: true }]
+    : [];
+  const alternateSources = Array.isArray(selectedWork.media?.alternateRecordings)
+    ? selectedWork.media.alternateRecordings.map((source, index) => ({
+        ...source,
+        label: source.label ?? `備用來源 ${index + 1}`,
+        isPrimary: false
+      }))
+    : [];
+
+  return [...primarySource, ...alternateSources];
+}
+
+function isEmbeddableMediaSource(source) {
+  return Boolean(source?.youtubeId && source?.embedUrl && source?.embeddable !== false);
+}
+
+function resolveMediaSourceIndex(mediaSources, preferredIndex) {
+  if (!mediaSources.length) return null;
+  const normalizedPreferredIndex = Number.isInteger(preferredIndex)
+    ? Math.min(Math.max(preferredIndex, 0), mediaSources.length - 1)
+    : 0;
+
+  const forwardSearch = Array.from({ length: mediaSources.length }, (_, index) => (normalizedPreferredIndex + index) % mediaSources.length);
+  const playableIndex = forwardSearch.find(index => isEmbeddableMediaSource(mediaSources[index]));
+  return playableIndex ?? null;
+}
+
+function findNextPlayableMediaSourceIndex(mediaSources, currentIndex) {
+  if (!mediaSources.length || !Number.isInteger(currentIndex)) return null;
+  for (let nextIndex = currentIndex + 1; nextIndex < mediaSources.length; nextIndex += 1) {
+    if (isEmbeddableMediaSource(mediaSources[nextIndex])) return nextIndex;
+  }
+  return null;
+}
+
+function getMediaSourceTitle(source, fallbackTitle) {
+  return source?.sourceTitle ?? source?.label ?? fallbackTitle ?? "影音來源";
+}
+
+function loadYouTubeIframeApi() {
+  if (typeof window === "undefined") return Promise.resolve(null);
+  if (window.YT?.Player) return Promise.resolve(window.YT);
+  if (youtubeApiPromise) return youtubeApiPromise;
+
+  youtubeApiPromise = new Promise((resolve) => {
+    const previousReady = window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady = () => {
+      if (typeof previousReady === "function") previousReady();
+      resolve(window.YT ?? null);
+    };
+
+    const existing = document.querySelector('script[data-youtube-iframe-api="true"]');
+    if (!existing) {
+      const script = document.createElement("script");
+      script.src = "https://www.youtube.com/iframe_api";
+      script.async = true;
+      script.dataset.youtubeIframeApi = "true";
+      script.onerror = () => resolve(null);
+      document.head.appendChild(script);
+    }
+  });
+
+  return youtubeApiPromise;
+}
+
+function renderFallbackIframe(host, source, startSeconds) {
+  host.innerHTML = `
+    <iframe
+      src="${startSeconds !== null ? buildStartUrl(source.embedUrl, startSeconds) : source.embedUrl}"
+      title="${getMediaSourceTitle(source)}"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="width:100%;height:100%;border:0"
+    ></iframe>
+  `;
+}
+
+async function mountMediaPlayer({ hostId, source, startSeconds, onError, token }) {
+  if (token !== latestMediaRenderToken) return;
+  const host = document.getElementById(hostId);
+  if (!host) return;
+
+  if (!isEmbeddableMediaSource(source)) {
+    renderFallbackIframe(host, source, startSeconds);
+    return;
+  }
+
+  const YT = await loadYouTubeIframeApi();
+  if (token !== latestMediaRenderToken) return;
+
+  if (!YT?.Player) {
+    renderFallbackIframe(host, source, startSeconds);
+    return;
+  }
+
+  destroyActiveMediaPlayer();
+  host.innerHTML = "";
+  activeMediaPlayer = new YT.Player(hostId, {
+    videoId: source.youtubeId,
+    playerVars: {
+      autoplay: 0,
+      rel: 0,
+      modestbranding: 1,
+      playsinline: 1,
+      ...(Number.isFinite(startSeconds) && startSeconds > 0 ? { start: startSeconds } : {})
+    },
+    events: {
+      onReady: (event) => {
+        if (Number.isFinite(startSeconds) && startSeconds > 0) {
+          event.target.seekTo(startSeconds, true);
+        }
+      },
+      onError: () => {
+        if (typeof onError === "function") onError();
+      }
+    }
+  });
+}
+
 export function renderPreviewPanel(model, rerender) {
   const root = document.querySelector("#preview-panel");
   if (!root) return;
+
+  destroyActiveMediaPlayer();
 
   if (model.state.selectedProfileId) {
     const composer = model.composers.find(c => c.id === model.state.selectedProfileId);
@@ -57,7 +198,7 @@ export function renderPreviewPanel(model, rerender) {
               <p class="data-card-meta">網站導覽</p>
               <h3 style="font-family:var(--font-display);font-size:1.125rem;line-height:1.4;color:var(--color-ink)">${composer.fullName}</h3>
               <p style="font-size:0.875rem;line-height:1.8;color:var(--color-muted)">${composer.summary}</p>
-              <p style="font-size:0.875rem;line-height:1.8;color:var(--color-ink)">${composer.intro}</p>
+              <p style="font-size:0.875rem;line-height:1.8;color:var(--color-ink);white-space:pre-line">${composer.intro}</p>
               ${tags}
             </div>
 
@@ -94,13 +235,6 @@ export function renderPreviewPanel(model, rerender) {
         <article style="display:flex;flex-direction:column;gap:1rem">
           ${portraitBlock}
 
-          <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
-            <p class="data-card-meta">${composer.birth}–${composer.death} · ${composer.deathAgeLabel ?? ""}</p>
-            <h3 style="font-family:var(--font-display);font-size:1.0625rem;line-height:1.45;color:var(--color-ink)">${composer.fullName ?? composer.name}</h3>
-            <p style="font-size:0.875rem;line-height:1.8;color:var(--color-muted)">${composer.summary}</p>
-            ${composer.intro ? `<p style="font-size:0.875rem;line-height:1.8;color:var(--color-ink)">${composer.intro}</p>` : ""}
-          </div>
-
           <div class="data-card" style="display:flex;flex-direction:column;gap:0.5rem">
             <p class="data-card-meta">個人資料</p>
             <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">出生地：${composer.birthPlace ?? "—"}</p>
@@ -108,6 +242,13 @@ export function renderPreviewPanel(model, rerender) {
             <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">國籍：${composer.nationality ?? "—"}</p>
             <p style="font-size:0.875rem;line-height:1.75;color:var(--color-ink)">時代位置：${composer.era ?? "—"}</p>
             ${tags}
+          </div>
+
+          <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
+            <p class="data-card-meta">${composer.birth}–${composer.death} · ${composer.deathAgeLabel ?? ""}</p>
+            <h3 style="font-family:var(--font-display);font-size:1.0625rem;line-height:1.45;color:var(--color-ink)">${composer.fullName ?? composer.name}</h3>
+            <p style="font-size:0.875rem;line-height:1.8;color:var(--color-muted)">${composer.summary}</p>
+            ${composer.intro ? `<p style="font-size:0.875rem;line-height:1.8;color:var(--color-ink);white-space:pre-line">${composer.intro}</p>` : ""}
           </div>
         </article>
       `);
@@ -134,8 +275,10 @@ export function renderPreviewPanel(model, rerender) {
   }
 
   // ── Work detail view ────────────────────────────────────────────────────
-  const selectedWork = model.works.find(w => w.id === model.state.selectedWorkId)
-    ?? model.works.find(w => w.composerId === model.state.selectedComposerId);
+  const selectedWork = model.works.find(w =>
+    w.id === model.state.selectedWorkId &&
+    w.composerId === model.state.selectedComposerId
+  ) ?? model.works.find(w => w.composerId === model.state.selectedComposerId);
 
   if (!selectedWork) {
     setHtml(root, `<p class="note-box">請從時間軸點選作品或生平事件。</p>`);
@@ -145,49 +288,81 @@ export function renderPreviewPanel(model, rerender) {
   const typeLabel   = model.mappings.workTypeLabels[selectedWork.type] ?? selectedWork.type;
   const periodMap   = { early: "早期", middle: "中期", late: "晚期" };
   const periodLabel = periodMap[selectedWork.period] ?? selectedWork.period;
-  const chapters = Array.isArray(selectedWork.media?.chapters) ? selectedWork.media.chapters : [];
-  const canEmbedMedia = Boolean(selectedWork.media?.youtubeId && selectedWork.media?.embeddable !== false && selectedWork.media?.embedUrl);
+  const mediaSources = buildMediaSources(selectedWork);
+  const selectedMediaSourceIndex = mediaSources.length
+    ? Math.min(Math.max(model.state.selectedMediaSourceIndex ?? 0, 0), mediaSources.length - 1)
+    : null;
+  const activeMediaSourceIndex = resolveMediaSourceIndex(mediaSources, selectedMediaSourceIndex ?? 0);
+  const activeMediaSource = activeMediaSourceIndex !== null ? mediaSources[activeMediaSourceIndex] : null;
+  const chapters = Array.isArray(activeMediaSource?.chapters) ? activeMediaSource.chapters : [];
+  const canEmbedMedia = Boolean(activeMediaSource && isEmbeddableMediaSource(activeMediaSource));
   const chapterIndex = chapters.length
     ? Math.min(Math.max(model.state.selectedChapterIndex ?? 0, 0), chapters.length - 1)
     : null;
   const activeChapter = chapterIndex === null ? null : chapters[chapterIndex];
   const activeChapterSeconds = activeChapter ? parseTimestampToSeconds(activeChapter.start) : null;
-  const activeEmbedUrl = activeChapterSeconds !== null
-    ? buildStartUrl(selectedWork.media?.embedUrl, activeChapterSeconds)
-    : selectedWork.media?.embedUrl;
+  const sourceLabel = activeMediaSource
+    ? `${activeMediaSourceIndex === 0 ? "主來源" : "備用來源"} · ${getMediaSourceTitle(activeMediaSource, selectedWork.title)}`
+    : "";
+  const playerHostId = `media-player-${selectedWork.id}`;
 
   // --- Media block ---
   let mediaBlock = "";
 
   if (canEmbedMedia) {
+    const mediaSourceButtons = mediaSources.length > 1 ? `
+      <div style="display:flex;flex-wrap:wrap;gap:0.375rem">
+        ${mediaSources.map((source, index) => `
+          <button
+            type="button"
+            data-media-source-index="${index}"
+            class="filter-chip${index === activeMediaSourceIndex ? " is-on" : ""}"
+            style="padding:0.22rem 0.55rem"
+          >${index === 0 ? "主來源" : source.label}</button>
+        `).join("")}
+      </div>
+    ` : "";
+
     mediaBlock = `
       <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
         <p class="data-card-meta">影音</p>
         <div style="display:flex;flex-direction:column;gap:0.5rem">
+          ${mediaSourceButtons}
           <div class="video-frame">
-            <iframe
-              src="${activeEmbedUrl}"
-              title="${selectedWork.media.sourceTitle}"
-              loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+            <div id="${playerHostId}" style="width:100%;height:100%"></div>
           </div>
-          ${selectedWork.media.sourceTitle ? `<p class="data-card-meta">${selectedWork.media.sourceTitle}</p>` : ""}
-          ${selectedWork.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${selectedWork.performers}</p>` : ""}
-          <p style="font-size:0.8rem"><a href="${selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a></p>
+          ${sourceLabel ? `<p class="data-card-meta">${sourceLabel}</p>` : ""}
+          ${activeMediaSource?.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${activeMediaSource.performers}</p>` : ""}
+          ${mediaSources.length > 1 ? `<p style="font-size:0.75rem;line-height:1.6;color:var(--color-muted)">若主來源失效，系統會自動切換到下一個可用來源。</p>` : ""}
+          ${activeMediaSource?.youtubeUrl ? `<p style="font-size:0.8rem"><a href="${activeMediaSource.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a></p>` : ""}
         </div>
       </div>
     `;
-  } else if (selectedWork.media?.youtubeUrl) {
+  } else if (activeMediaSource?.youtubeUrl || mediaSources.some(source => source.youtubeUrl)) {
+    const fallbackSource = activeMediaSource ?? mediaSources.find(source => source.youtubeUrl);
+    const mediaSourceButtons = mediaSources.length > 1 ? `
+      <div style="display:flex;flex-wrap:wrap;gap:0.375rem">
+        ${mediaSources.map((source, index) => `
+          <button
+            type="button"
+            data-media-source-index="${index}"
+            class="filter-chip${index === activeMediaSourceIndex ? " is-on" : ""}"
+            style="padding:0.22rem 0.55rem"
+          >${index === 0 ? "主來源" : source.label}</button>
+        `).join("")}
+      </div>
+    ` : "";
+
     mediaBlock = `
       <div class="data-card" style="display:flex;flex-direction:column;gap:0.625rem">
         <p class="data-card-meta">影音</p>
-        <div class="note-box" style="display:flex;flex-direction:column;gap:0.5rem">
-          <p class="data-card-meta">此影片需前往 YouTube 原站觀看</p>
-          ${selectedWork.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${selectedWork.performers}</p>` : ""}
-          <a class="button-link" href="${selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a>
+        <div style="display:flex;flex-direction:column;gap:0.5rem">
+          ${mediaSourceButtons}
+          <div class="note-box" style="display:flex;flex-direction:column;gap:0.5rem">
+            <p class="data-card-meta">此來源暫不支援內嵌播放，請改用 YouTube 原站</p>
+            ${fallbackSource?.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${fallbackSource.performers}</p>` : ""}
+            ${fallbackSource?.youtubeUrl ? `<a class="button-link" href="${fallbackSource.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a>` : ""}
+          </div>
         </div>
       </div>
     `;
@@ -220,8 +395,8 @@ export function renderPreviewPanel(model, rerender) {
             `;
           }
 
-          const fallbackUrl = selectedWork.media?.youtubeUrl
-            ? buildYoutubeTimeUrl(selectedWork.media.youtubeUrl, seconds ?? 0)
+          const fallbackUrl = activeMediaSource?.youtubeUrl
+            ? buildYoutubeTimeUrl(activeMediaSource.youtubeUrl, seconds ?? 0)
             : "#";
 
           return `
@@ -240,10 +415,10 @@ export function renderPreviewPanel(model, rerender) {
           `;
         }).join("")}
       </div>
-      ${selectedWork.media?.youtubeUrl ? `
+      ${activeMediaSource?.youtubeUrl ? `
         <p style="font-size:0.8rem;line-height:1.6;color:var(--color-muted)">
           若播放器載入或定位異常，請改用
-          <a href="${activeChapterSeconds !== null ? buildYoutubeTimeUrl(selectedWork.media.youtubeUrl, activeChapterSeconds) : selectedWork.media.youtubeUrl}" target="_blank" rel="noreferrer">YouTube 對應章節</a>
+          <a href="${activeChapterSeconds !== null ? buildYoutubeTimeUrl(activeMediaSource.youtubeUrl, activeChapterSeconds) : activeMediaSource.youtubeUrl}" target="_blank" rel="noreferrer">YouTube 對應章節</a>
         </p>
       ` : ""}
     </div>
@@ -291,6 +466,33 @@ export function renderPreviewPanel(model, rerender) {
 
   </article>
   `);
+
+  const renderToken = ++latestMediaRenderToken;
+
+  if (mediaSources.length && activeMediaSource) {
+    mountMediaPlayer({
+      hostId: playerHostId,
+      source: activeMediaSource,
+      startSeconds: activeChapterSeconds,
+      token: renderToken,
+      onError: () => {
+        const nextIndex = findNextPlayableMediaSourceIndex(mediaSources, activeMediaSourceIndex ?? -1);
+        if (nextIndex === null || nextIndex === activeMediaSourceIndex) return;
+        destroyActiveMediaPlayer();
+        setState({ selectedMediaSourceIndex: nextIndex });
+        rerender();
+      }
+    });
+  }
+
+  root.querySelectorAll("[data-media-source-index]").forEach((el) => {
+    el.addEventListener("click", () => {
+      setState({
+        selectedMediaSourceIndex: Number(el.dataset.mediaSourceIndex)
+      });
+      rerender();
+    });
+  });
 
   if (rerender && chapters.length) {
     root.querySelectorAll("[data-chapter-index]").forEach((el) => {

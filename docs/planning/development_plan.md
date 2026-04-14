@@ -40,7 +40,7 @@ Timeline of Music
 
 ### 架構特性
 - 所有資料以本地 JSON 管理
-- 前端啟動時一次載入 composers / works / events / contexts / mappings
+- 前端啟動時一次載入 composers / works/* / events/* / contexts/all / mappings
 - 以 shared state 驅動畫面更新
 - 目前主要透過 `bootstrap.js` 與各 component 組合頁面
 
@@ -62,9 +62,14 @@ Timeline of Music
 ├── /data
 │   ├── /content
 │   │   ├── composers.json
-│   │   ├── works.json
-│   │   ├── events.json
-│   │   └── contexts.json
+│   │   ├── /works
+│   │   │   ├── beethoven.json
+│   │   │   └── ...
+│   │   ├── /events
+│   │   │   ├── beethoven.json
+│   │   │   └── ...
+│   │   └── /contexts
+│   │       └── all.json
 │   └── /mappings
 │       ├── period_colors.json
 │       └── work_type_labels.json
@@ -80,18 +85,18 @@ Timeline of Music
 
 ### 已建立的資料類型
 - `composers.json`
-- `works.json`
-- `events.json`
-- `contexts.json`
+- `works/*.json`
+- `events/*.json`
+- `contexts/all.json`
 - `work_type_labels.json`
 - `period_colors.json`
 
 ### 已完成的資料特性
 - Beethoven 主資料已補完整
 - `composers.json` 已加入個人資料、`tags` 與 `portrait`
-- `works.json` 已加入代表作集合，且已補齊九大交響曲
-- `events.json` 已加入 `timelineTitle`
-- `works.json` / `events.json` 已加入 `sources`
+- `works/*.json` 已加入代表作集合，且已補齊九大交響曲
+- `events/*.json` 已加入 `timelineTitle`
+- `works/*.json` / `events/*.json` 已加入 `sources`
 - `works` / `events` 已加入 `age`
 - `composer` 已加入 `ageAtDeath`
 - 部分作品已支援媒體欄位與 fallback 顯示邏輯

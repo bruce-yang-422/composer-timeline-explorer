@@ -71,7 +71,7 @@ export function renderTimelineView(model, rerender) {
     filterRoot.querySelectorAll("[data-intro-composer]").forEach(el => {
       el.addEventListener("click", () => {
         const newId = el.dataset.introComposer;
-        setState({ selectedComposerId: newId, selectedWorkId: null, selectedChapterIndex: null, selectedProfileId: newId, selectedEventId: null });
+        setState({ selectedComposerId: newId, selectedWorkId: null, selectedChapterIndex: null, selectedMediaSourceIndex: null, selectedProfileId: newId, selectedEventId: null });
         rerender();
       });
     });
@@ -90,7 +90,6 @@ export function renderTimelineView(model, rerender) {
 
   // Combine and sort all items by year
   const items = [
-    ...(profileItem ? [profileItem] : []),
     ...events.map(e => ({ ...e, _kind: "event" })),
     ...filteredWorks.map(w => ({ ...w, _kind: "work" })),
   ].sort((a, b) => a.year - b.year);
@@ -127,6 +126,20 @@ export function renderTimelineView(model, rerender) {
 
   // ── Layout A: zigzag (events + works) ───────────────────────────────────
   function renderZigzag() {
+    const profileCard = profileItem ? `
+      <div style="margin-bottom:0.85rem">
+        <button type="button" data-profile-id="${profileItem.id}"
+          style="width:100%;padding:0.5rem 0.6rem;border:1px solid rgba(108,90,69,0.28);border-right:4px solid ${selectedProfileId === profileItem.id ? "#1C3D60" : "#6C5A45"};border-radius:0.55rem;background:${selectedProfileId === profileItem.id ? "linear-gradient(135deg, #EEF3FA 0%, #E5ECF5 100%)" : "linear-gradient(135deg, #F7F1E7 0%, #EFE7DB 100%)"};box-shadow:${selectedProfileId === profileItem.id ? "0 10px 24px rgba(28,61,96,0.10)" : "0 8px 18px rgba(108,90,69,0.08)"};display:flex;flex-direction:column;gap:0.24rem;cursor:pointer;transition:background 0.1s;text-align:right;position:relative;overflow:hidden">
+          <div style="display:flex;justify-content:flex-end">
+            <span style="display:inline-flex;align-items:center;padding:0.14rem 0.42rem;border-radius:999px;background:${selectedProfileId === profileItem.id ? "#DCE6F3" : "#E7D8C3"};color:${selectedProfileId === profileItem.id ? "#1C3D60" : "#6C4C2B"};font-size:0.58rem;font-weight:700;letter-spacing:0.08em">作曲家檔案</span>
+          </div>
+          <p style="font-size:0.63rem;font-weight:600;color:var(--color-muted);white-space:nowrap">${composer.birth}–${composer.death} · ${composer.birthPlace ?? "作曲家"}</p>
+          <h3 style="font-size:0.8rem;line-height:1.3;color:var(--color-ink);font-weight:700;text-align:right">${profileItem.timelineTitle}</h3>
+          <p style="font-size:0.66rem;line-height:1.4;color:var(--color-muted);font-family:var(--font-display);text-align:right">${composer.name}</p>
+        </button>
+      </div>
+    ` : "";
+
     const rows = items.map(item => {
       const isProfile  = item._kind === "profile";
       const isEvent    = item._kind === "event";
@@ -139,28 +152,6 @@ export function renderTimelineView(model, rerender) {
       const dot = isProfile
         ? `<div style="display:flex;justify-content:center;padding-top:0.42rem"><div style="width:10px;height:10px;background:${dotColor};border:2px solid white;box-shadow:0 0 0 1.5px ${dotColor};transform:rotate(45deg);flex-shrink:0"></div></div>`
         : `<div style="display:flex;justify-content:center;padding-top:0.45rem"><div style="width:9px;height:9px;border-radius:50%;background:${dotColor};border:2px solid white;box-shadow:0 0 0 1.5px ${dotColor};flex-shrink:0"></div></div>`;
-
-      if (isProfile) {
-        const borderColor = isSelected ? "#1C3D60" : "#6C5A45";
-        const bg          = isSelected
-          ? "linear-gradient(135deg, #EEF3FA 0%, #E5ECF5 100%)"
-          : "linear-gradient(135deg, #F7F1E7 0%, #EFE7DB 100%)";
-        const badgeBg     = isSelected ? "#DCE6F3" : "#E7D8C3";
-        const badgeColor  = isSelected ? "#1C3D60" : "#6C4C2B";
-        return `<div style="display:contents">
-          <button type="button" data-profile-id="${item.id}"
-            style="width:100%;padding:0.5rem 0.6rem;border:1px solid rgba(108,90,69,0.28);border-right:4px solid ${borderColor};border-radius:0.55rem;background:${bg};box-shadow:${isSelected ? "0 10px 24px rgba(28,61,96,0.10)" : "0 8px 18px rgba(108,90,69,0.08)"};display:flex;flex-direction:column;gap:0.24rem;cursor:pointer;transition:background 0.1s;text-align:right;position:relative;overflow:hidden">
-            <div style="display:flex;justify-content:flex-end">
-              <span style="display:inline-flex;align-items:center;padding:0.14rem 0.42rem;border-radius:999px;background:${badgeBg};color:${badgeColor};font-size:0.58rem;font-weight:700;letter-spacing:0.08em">作曲家檔案</span>
-            </div>
-            <p style="font-size:0.63rem;font-weight:600;color:var(--color-muted);white-space:nowrap">${composer.birth}–${composer.death} · ${composer.birthPlace ?? "作曲家"}</p>
-            <h3 style="font-size:0.8rem;line-height:1.3;color:var(--color-ink);font-weight:700;text-align:right">${item.timelineTitle}</h3>
-            <p style="font-size:0.66rem;line-height:1.4;color:var(--color-muted);font-family:var(--font-display);text-align:right">${composer.name}</p>
-          </button>
-          ${dot}
-          <div></div>
-        </div>`;
-      }
 
       if (isEvent) {
         const borderColor = isSelected ? "#1C3D60" : "#A09585";
@@ -192,19 +183,30 @@ export function renderTimelineView(model, rerender) {
 
     const empty = `<div style="grid-column:1/-1"><p class="note-box">目前篩選條件下無結果。</p></div>`;
     return `
-      <div style="position:relative">
-        <div style="position:absolute;left:50%;top:0;bottom:0;width:1.5px;background:var(--color-border-light);transform:translateX(-50%);z-index:0" aria-hidden="true"></div>
-        <div style="display:grid;grid-template-columns:1fr 18px 1fr;gap:0.45rem 0;align-items:start;position:relative;z-index:1">
-          <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-muted);text-align:right;padding-bottom:0.25rem">生平記事</div>
-          <div></div>
-          <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-muted);padding-bottom:0.25rem">作品</div>
-          ${rows || empty}
+      <div style="display:flex;flex-direction:column;gap:0.75rem">
+        ${profileCard}
+        <div style="position:relative">
+          <div style="position:absolute;left:50%;top:0;bottom:0;width:1.5px;background:var(--color-border-light);transform:translateX(-50%);z-index:0" aria-hidden="true"></div>
+          <div style="display:grid;grid-template-columns:1fr 18px 1fr;gap:0.45rem 0;align-items:start;position:relative;z-index:1">
+            <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-muted);text-align:right;padding-bottom:0.25rem">生平記事</div>
+            <div></div>
+            <div style="font-size:0.62rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-muted);padding-bottom:0.25rem">作品</div>
+            ${rows || empty}
+          </div>
         </div>
       </div>`;
   }
 
   // ── Layout B: single-column works only ──────────────────────────────────
   function renderWorksOnly() {
+    const profileCard = profileItem ? `
+      <div class="data-card" style="display:flex;flex-direction:column;gap:0.45rem;margin-bottom:0.75rem">
+        <p class="data-card-meta">作曲家檔案</p>
+        <h3 style="font-family:var(--font-display);font-size:1rem;line-height:1.35;color:var(--color-ink)">${composer.name}</h3>
+        <p style="font-size:0.78rem;line-height:1.65;color:var(--color-muted)">${composer.birth}–${composer.death} · ${composer.birthPlace ?? "作曲家"}</p>
+      </div>
+    ` : "";
+
     const rows = filteredWorks.map(w => {
       const isActive  = w.id === selectedWorkId;
       const dotColor  = isActive ? "#1C3D60" : "#4E7FAE";
@@ -224,7 +226,7 @@ export function renderTimelineView(model, rerender) {
           </button>
         </div>`;
     }).join("");
-    return rows || `<p class="note-box">目前篩選條件下無結果。</p>`;
+    return `${profileCard}${rows || `<p class="note-box">目前篩選條件下無結果。</p>`}`;
   }
 
   if (filters) {
@@ -243,7 +245,7 @@ export function renderTimelineView(model, rerender) {
 
   root.querySelectorAll("[data-profile-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedProfileId: el.dataset.profileId, selectedEventId: null, selectedWorkId: null, selectedChapterIndex: null });
+      setState({ selectedProfileId: el.dataset.profileId, selectedEventId: null, selectedWorkId: null, selectedChapterIndex: null, selectedMediaSourceIndex: null });
       rerender();
     });
   });
@@ -251,7 +253,7 @@ export function renderTimelineView(model, rerender) {
   // Event delegation — works (inside scroll area)
   root.querySelectorAll("[data-work-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedWorkId: el.dataset.workId, selectedChapterIndex: 0, selectedEventId: null, selectedProfileId: null });
+      setState({ selectedWorkId: el.dataset.workId, selectedChapterIndex: 0, selectedMediaSourceIndex: 0, selectedEventId: null, selectedProfileId: null });
       rerender();
     });
   });
@@ -259,7 +261,7 @@ export function renderTimelineView(model, rerender) {
   // Event delegation — life events (inside scroll area)
   root.querySelectorAll("[data-event-id]").forEach(el => {
     el.addEventListener("click", () => {
-      setState({ selectedEventId: el.dataset.eventId, selectedWorkId: null, selectedChapterIndex: null, selectedProfileId: null });
+      setState({ selectedEventId: el.dataset.eventId, selectedWorkId: null, selectedChapterIndex: null, selectedMediaSourceIndex: null, selectedProfileId: null });
       rerender();
     });
   });
