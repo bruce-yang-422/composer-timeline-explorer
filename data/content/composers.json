@@ -52,7 +52,8 @@
     "summary": "韋瓦第是巴洛克時期最具代表性的義大利作曲家之一，以協奏曲形式的標準化、《四季》、威尼斯的商業劇場語境與鮮明的小提琴寫作著稱。",
     "intro": "他長年服務威尼斯慈悲醫院與歌劇市場，身兼神父、小提琴家、教師與劇院經理；從《和諧的靈感》到《四季》與《榮耀頌》，他把器樂協奏、標題音樂與戲劇性推向歐洲核心。",
     "sourceDocs": [
-      "docs/Vivaldi/韋瓦第生平歷史背景與音樂風格全面解析.md"
+      "docs/Vivaldi/vivaldi_life_historical_background_and_music_style_comprehensive_analysis.md",
+      "docs/Vivaldi/vivaldi_venetian_institutions_commercial_stage_and_baroque_concerto_grammar_deep_research.md"
     ]
   },
   {
@@ -198,9 +199,9 @@
     "summary": "柴可夫斯基是十九世紀浪漫主義時期最具國際影響力的俄羅斯作曲家之一，成功融合西方交響結構、俄羅斯民族元素與極度強烈的個人情感表達。",
     "intro": "他受聖彼得堡音樂學院的正規訓練，卻不局限於學院派框架；在交響曲、芭蕾與歌劇領域寫下《天鵝湖》《睡美人》《胡桃鉗》《尤金・奧涅金》與《第六號交響曲「悲愴」》等里程碑作品。",
     "sourceDocs": [
-      "docs/柴可夫斯基音樂解析與地位.md",
-      "docs/柴可夫斯基多面向整合分析.md",
-      "docs/Tchaikovsky/柴可夫斯基帝俄晚期音樂風格與歷史定位研究.md"
+      "docs/Tchaikovsky/tchaikovsky_music_analysis_and_status.md",
+      "docs/Tchaikovsky/tchaikovsky_multi_faceted_integrated_analysis.md",
+      "docs/Tchaikovsky/tchaikovsky_late_imperial_music_style_and_historical_positioning_research.md"
     ]
   },
   {
@@ -231,7 +232,7 @@
     "summary": "普契尼是十九世紀末至二十世紀初最重要的歌劇作曲家之一，以強烈劇場感、旋律魅力、真實主義戲劇與晚期現代性實驗著稱。",
     "intro": "從《群妖傳》與《埃德加》到《波希米亞人》《托斯卡》《蝴蝶夫人》《西部女郎》《三部曲》與《杜蘭朵》，他把義大利歌劇推向兼具市場力量與電影化敘事感的世紀之交形式。",
     "sourceDocs": [
-      "docs/Puccini/普契尼音樂與時代深度研究.md"
+      "docs/Puccini/puccini_music_and_era_deep_research.md"
     ]
   },
   {
@@ -262,8 +263,8 @@
     "summary": "拉赫曼尼諾夫是俄羅斯晚期浪漫主義與白銀時代文化的重要代表人物，音樂以長呼吸旋律、鐘聲和聲、東正教聖詠、末日經母題與流亡後的晚期現代性張力著稱。",
     "intro": "他從帝俄晚期的莊園聲景出發，透過《升C小調前奏曲》、《第二鋼琴協奏曲》、《鐘》、《徹夜禱》、《第四號鋼琴協奏曲》與《交響舞曲》等作品，把個人創傷、宗教聲響與流亡經驗熔鑄為二十世紀最具辨識度的俄羅斯音樂之一。",
     "sourceDocs": [
-      "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md",
-      "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      "docs/Rachmaninoff/rachmaninoff_concerto_deep_analysis.md",
+      "docs/Rachmaninoff/rachmaninoff_music_style_deep_research.md"
     ]
   }
 ]
