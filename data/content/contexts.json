@@ -108,6 +108,15 @@
     "summary": "除了大型交響與歌劇，浪漫時期也高度發展藝術歌曲與鋼琴特性小品，讓私密、片刻性與內在獨白成為核心表現形式。"
   },
   {
+    "id": "chopin-nocturne-style-evolution",
+    "start": 1827,
+    "end": 1846,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "蕭邦夜曲風格的三階段演變 Three-Stage Evolution of Chopin's Nocturnes",
+    "summary": "從早期對 John Field 與沙龍夜曲的繼承，到中期以貝利尼式長線條、戲劇對比與半音和聲擴張夜曲邊界，再到晚期融入對位、隱性復調與形式鬆動，蕭邦夜曲展現出浪漫鋼琴抒情語言的完整成熟路徑。"
+  },
+  {
     "id": "nationalism-and-folk-revival",
     "start": 1815,
     "end": 1890,
@@ -124,6 +133,15 @@
     "type": "musical_trend",
     "title": "半音化與調性擴張 Chromaticism and Expanded Tonality",
     "summary": "作曲家愈來愈頻繁使用遠關係轉調、變化和弦與延遲解決，讓調性系統變得更模糊、更具渴望感與心理張力。"
+  },
+  {
+    "id": "late-nocturne-counterpoint-and-pleyel-acoustics",
+    "start": 1839,
+    "end": 1846,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "晚期夜曲的對位與普萊耶爾聲學 Late Nocturnes, Counterpoint, and Pleyel Acoustics",
+    "summary": "在晚期夜曲中，蕭邦把巴赫式對位、隱性復調、裝飾音結構化與普萊耶爾鋼琴的細膩聲學特性結合起來，讓鋼琴的聲音層次、踏板共鳴與線條模糊化成為作品結構的一部分。"
   },
   {
     "id": "revolutions-and-political-romanticism",
@@ -198,6 +216,24 @@
     "summary": "在晚期帝俄的音樂生活中，私人贊助仍深刻影響作曲家的工作條件；穩定的經濟支持能使作曲家脫離教職與行政壓力，將時間集中於大型作品創作。"
   },
   {
+    "id": "imperial-russian-official-nationalism",
+    "start": 1881,
+    "end": 1893,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "官方民族主義與帝俄文化贊助 Official Nationalism and Imperial Cultural Patronage",
+    "summary": "亞歷山大三世統治下的帝俄文化政策強調以本土藝術彰顯帝國正統與威望；柴可夫斯基兼具西方形式訓練與俄羅斯情感語彙，因此特別符合這種官方審美需求。"
+  },
+  {
+    "id": "tchaikovsky-fate-motif-and-psychological-sublimation",
+    "start": 1877,
+    "end": 1893,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "宿命主題與心理昇華 Fate Motif and Psychological Sublimation",
+    "summary": "從第四、第五到第六號交響曲，柴可夫斯基逐步把外在命運壓力轉化為內化的音樂語言，讓下行音階、銅管宣告與絕望終曲成為個人心理的象徵。"
+  },
+  {
     "id": "international-recognition-of-russian-music",
     "start": 1891,
     "end": 1893,
@@ -214,6 +250,15 @@
     "type": "musical_trend",
     "title": "世紀之交的俄羅斯晚期浪漫主義 Late Russian Romanticism at the Turn of the Century",
     "summary": "在十九世紀末至二十世紀初的變革期，部分作曲家已轉向更激進的新語彙，但拉赫曼尼諾夫仍將俄羅斯晚期浪漫主義的抒情性、調性重心與宏大情感敘事推向高峰。"
+  },
+  {
+    "id": "rachmaninoff-second-concerto-creative-recovery",
+    "start": 1897,
+    "end": 1901,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "第二鋼琴協奏曲與創作復原 The Second Piano Concerto and Creative Recovery",
+    "summary": "《第一交響曲》失敗後的抑鬱、尼古拉・達爾醫生的催眠治療與《第二鋼琴協奏曲》的完成，構成拉赫曼尼諾夫從創作癱瘓走向重生的核心敘事。"
   },
   {
     "id": "russian-orthodox-bell-symbolism",
@@ -241,5 +286,41 @@
     "type": "cultural",
     "title": "心理治療與創作復原 Psychology and Creative Recovery",
     "summary": "十九世紀末的藝術家心理危機已開始與現代醫學和心理暗示治療相交會；拉赫曼尼諾夫在《第一交響曲》失敗後接受尼古拉・達爾的治療，成為創作復原與心理救贖的重要案例。"
+  },
+  {
+    "id": "rachmaninoff-silver-age-aesthetic-worldview",
+    "start": 1890,
+    "end": 1917,
+    "scope": "external_context",
+    "type": "cultural",
+    "title": "白銀時代與拉赫曼尼諾夫的審美世界 Silver Age and Rachmaninoff's Aesthetic Worldview",
+    "summary": "十九世紀末至十月革命前的俄羅斯白銀時代強調象徵主義、宗教感、末日情緒與藝術互文；拉赫曼尼諾夫的音樂正是在這種文化氣候中形成其憂鬱、詩意與歷史感交織的聲音面貌。"
+  },
+  {
+    "id": "rachmaninoff-znamenny-chant-melodic-nucleus",
+    "start": 1890,
+    "end": 1943,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "茲納緬尼聖詠與旋律動機核 Znamenny Chant and Melodic Nucleus",
+    "summary": "拉赫曼尼諾夫常以狹窄音域的級進旋律作為動機核，再透過長線條變奏與半音和聲延展成宏大旋律；這種寫法與俄羅斯東正教茲納緬尼聖詠的聲腔記憶密切相關。"
+  },
+  {
+    "id": "rachmaninoff-bell-sonority-and-aliquot-complexes",
+    "start": 1890,
+    "end": 1943,
+    "scope": "music_internal",
+    "type": "musical_trend",
+    "title": "鐘聲和聲與泛音列複合體 Bell Sonority and Aliquot Complexes",
+    "summary": "他經常以厚重音群、三全音、不協和層疊與旋律化和弦模擬俄羅斯鐘聲的泛音列；《第二鋼琴協奏曲》、《鐘》與《徹夜禱》都能聽見這種由聲學感知轉化而來的和聲語法。"
+  },
+  {
+    "id": "rachmaninoff-dies-irae-and-catharsis",
+    "start": 1890,
+    "end": 1943,
+    "scope": "music_internal",
+    "type": "cultural",
+    "title": "末日經動機與悲劇性淨化 Dies Irae and Catharsis",
+    "summary": "《末日經》動機在拉赫曼尼諾夫的多部作品中反覆出現，從交響曲、合唱交響曲到晚期管弦作品都不斷回到死亡與救贖的對話，最後常以壯闊的終章達成悲劇性的淨化。"
   }
 ]

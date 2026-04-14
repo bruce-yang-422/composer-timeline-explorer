@@ -563,6 +563,120 @@
     "scholarly_analysis": "文件整理了多種蕭邦親筆與傳抄的變體版本，顯示此曲並非單一固定文本，而是一首帶有演奏傳統流動性的作品。關於裝飾音起音、顫音進入點與低音配置的討論，也反映出學界如何透過版本研究重建十九世紀鋼琴語法。"
   },
   {
+    "id": "nocturne-op-15-no-2",
+    "composerId": "chopin",
+    "title": "《升 F 大調夜曲》 Nocturne in F-sharp major, Op. 15 No. 2",
+    "year": 1836,
+    "age": 26,
+    "type": "nocturne",
+    "period": "middle",
+    "summary": "中期夜曲的代表之一，以優雅的 bel canto 長線條、明顯的段落對比與更戲劇化的中段，展現夜曲從沙龍抒情走向微型戲劇的關鍵轉折。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/蕭邦夜曲風格演變研究.md"
+      }
+    ],
+    "listening_guide": "可以把外段當成一段近乎歌劇咏歎的獨白來聽，重點在旋律如何被裝飾卻不失呼吸感；真正的轉折則在中段，音樂突然拉開情緒張力，讓原本安靜的夜色轉為內在戲劇。",
+    "analysis": "這首作品很清楚地顯示蕭邦如何把 Field 式夜曲的安靜輪廓，改寫成更具戲劇性與抒情深度的個人語言。外層的優雅與中段的對比，使夜曲不再只是靜態氛圍，而是具有明確情感推進的微型敘事。",
+    "scholarly_analysis": "研究文件將中期夜曲視為蕭邦風格成熟的核心階段，而 Op. 15 No. 2 正好說明這一點：它保留夜曲的私密性，卻以更明確的對比與更豐富的和聲，將體裁的表現範圍顯著擴張。"
+  },
+  {
+    "id": "nocturne-op-27-no-2",
+    "composerId": "chopin",
+    "title": "《降 D 大調夜曲》 Nocturne in D-flat major, Op. 27 No. 2",
+    "year": 1836,
+    "age": 26,
+    "type": "nocturne",
+    "period": "middle",
+    "summary": "以極其華美的旋律線、遠關係轉調與近乎無重力的和聲色彩著稱，是蕭邦中期夜曲中最具夢境感與調性遊移感的作品之一。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/蕭邦夜曲風格演變研究.md"
+      }
+    ],
+    "listening_guide": "這首作品的重點不只在旋律是否優美，而在它如何不斷把你帶離預期的調性中心。聆聽時可留意和聲如何像水面反光一樣不斷偏移，讓整首曲子保有持續懸浮的氣息。",
+    "analysis": "Op. 27 No. 2 是夜曲和聲語言擴張的典型案例。蕭邦透過細膩的半音進行、遠距離轉調與柔性的句法，讓作品在表面上保持抒情，在結構上卻充滿微妙的不穩定與心理漂移。",
+    "scholarly_analysis": "就風格史來看，這首夜曲說明蕭邦已不滿足於單純的旋律美感，而是把和聲本身變成情感與空間感的塑形工具。夜曲在這裡不再只是夜晚的抒情，而是一種對時間、記憶與遙遠感的音樂化處理。"
+  },
+  {
+    "id": "nocturne-op-37-no-1",
+    "composerId": "chopin",
+    "title": "《G 小調夜曲》 Nocturne in G minor, Op. 37 No. 1",
+    "year": 1839,
+    "age": 29,
+    "type": "nocturne",
+    "period": "middle",
+    "summary": "帶有聖詠般氣質與內在莊嚴感的夜曲，顯示蕭邦已能在夜曲體裁中融入更深層的宗教性與複調思維。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/蕭邦夜曲風格演變研究.md"
+      }
+    ],
+    "listening_guide": "外層的旋律非常克制，但真正值得注意的是中間段落的和聲厚度與聖詠式的呼吸。這首曲子的美，不是表面的華麗，而是那種像低聲祈禱般的安靜深度。",
+    "analysis": "Op. 37 No. 1 代表夜曲開始吸收更明顯的宗教音樂語彙，讓原本屬於沙龍的體裁具備近似教堂聖詠的莊重。這種寫法也顯示蕭邦晚中期的夜曲已不只是旋律作品，而是聲部關係與音色平衡的精密設計。",
+    "scholarly_analysis": "文件所談的晚中期夜曲，特別強調隱性復調與情感克制的成熟。這首作品正是例子之一：它以低調外觀承載高度內在化的抒情，使夜曲從感傷小品邁向更哲思、更安靜的表達層次。"
+  },
+  {
+    "id": "nocturne-op-48-no-1",
+    "composerId": "chopin",
+    "title": "《C 小調夜曲》 Nocturne in C minor, Op. 48 No. 1",
+    "year": 1841,
+    "age": 31,
+    "type": "nocturne",
+    "period": "late",
+    "summary": "晚期夜曲中最具史詩感的作品之一，以莊嚴行進、聖詠式段落與爆發性的終段，將夜曲推向近乎敘事曲與交響化的尺度。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/蕭邦夜曲風格演變研究.md"
+      }
+    ],
+    "listening_guide": "這首作品最震撼之處，在於它不是從輕聲細語開始，而像從陰影中踏出一列緩慢隊伍。聆聽時可特別留意中段聖詠式段落如何累積張力，以及最後的爆發如何把整首曲子推到遠遠超過夜曲體裁原本邊界的地方。",
+    "analysis": "Op. 48 No. 1 幾乎把夜曲變成了一種濃縮的悲劇敘事。它不再只是夜色中的抒情，而是將民族記憶、內在悲傷與結構推進合而為一，形成比早期夜曲更宏大的情感架構。",
+    "scholarly_analysis": "這首作品常被視為蕭邦夜曲晚期的樞紐，因為它把微型體裁提升到近似大型敘事音樂的高度。研究文件對晚期夜曲的描述，在這首作品中尤其清楚：夜曲可以承載的不只是情緒，而是整個歷史與心理的重量。"
+  },
+  {
+    "id": "nocturne-op-55-no-2",
+    "composerId": "chopin",
+    "title": "《降 E 大調夜曲》 Nocturne in E-flat major, Op. 55 No. 2",
+    "year": 1844,
+    "age": 34,
+    "type": "nocturne",
+    "period": "late",
+    "summary": "晚期夜曲的典型代表之一，左手與內聲部的獨立性大幅提高，讓對位與隱性復調成為作品不可分割的一部分。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/蕭邦夜曲風格演變研究.md"
+      }
+    ],
+    "listening_guide": "聆聽這首曲子時，可以刻意分辨左手不只是伴奏，而是擁有自己的歌唱線條。當兩手的聲部像在彼此對話時，作品的真正深度就會浮現出來。",
+    "analysis": "這首夜曲顯示蕭邦已經徹底超越『旋律加伴奏』的單聲部思維。聲部之間的互動、延遲解決與內聲部歌唱，使樂曲在外表平靜之下，實際上充滿精細的對位網絡。",
+    "scholarly_analysis": "研究文件把晚期夜曲視為巴赫式思維重新進入浪漫抒情語言的結果，而 Op. 55 No. 2 正是這種轉變的明顯證據。它讓夜曲不只是優美，更是一種高度智性化的聲音書寫。"
+  },
+  {
+    "id": "nocturne-op-62-no-1",
+    "composerId": "chopin",
+    "title": "《B 大調夜曲》 Nocturne in B major, Op. 62 No. 1",
+    "year": 1846,
+    "age": 36,
+    "type": "nocturne",
+    "period": "late",
+    "summary": "蕭邦晚期夜曲中最精緻也最內斂的篇章之一，將裝飾音、顫音與聲部層次完全結構化，呈現近乎透明卻高度複雜的聲響世界。",
+    "sources": [
+      {
+        "label": "蕭邦夜曲風格演變研究",
+        "url": "docs/chopin/蕭邦夜曲風格演變研究.md"
+      }
+    ],
+    "listening_guide": "這首曲子的美感在於表面幾乎輕盈無重，但每個細節都在持續變形。可特別注意顫音與裝飾音不是附加在旋律外面，而像是旋律本身正在微微呼吸、閃爍與消散。",
+    "analysis": "Op. 62 No. 1 讓夜曲進一步走向『聲音本身即結構』的寫作方式。裝飾音不再只是炫麗的外層，而是構成音樂運動、空間深度與情感曖昧性的核心元素。",
+    "scholarly_analysis": "文件指出，晚期夜曲的關鍵是模糊邊界：旋律、和聲、踏板與音色在這裡互相滲透。這首作品把那種透明而病態的精緻感推到極致，也預示了後來更重視色彩與氛圍的鋼琴寫作。"
+  },
+  {
     "id": "etude-op-10-no-3",
     "composerId": "chopin",
     "title": "《E 大調第三號練習曲》 Etude in E major, Op. 10 No. 3",
@@ -992,12 +1106,124 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
       }
     ],
     "listening_guide": "這首協奏曲最適合從整體精神路徑去聽：第一樂章由如鐘聲般沉重的和弦啟動，第二樂章轉入內省與夢境式抒情，第三樂章則以壯麗的凱旋完成解決。文件也特別強調，從 c 小調到最終 C 大調的調性路徑，正象徵靈魂由黑暗走向勝利。",
     "analysis": "文件將本曲描述為結構與情感高度平衡的傑作。它在形式上遵循三樂章協奏曲傳統，卻以鐘聲動機、主題循環與嚴密對位建立更有機的整體性；同時，鋼琴與樂團之間並非單純對抗，而是深度交融，讓鋼琴成為交響紋理的核心靈魂。",
     "scholarly_analysis": "依照文件的分析，這部作品的重要性首先在於它將個人心理重生轉化為可聽見的結構敘事，其次在於它把俄羅斯晚期浪漫語言推到極致卻不失嚴密架構。鐘聲象徵、長線條旋律、三度鏈轉調與厚重中低音配器，共同形成一種既保守又高度個人化的合成風格，也解釋了為何它在現代主義浪潮中仍保有強大生命力。",
     "cultural_note": "文件指出，這首協奏曲後來在電影與流行文化中被廣泛引用，例如《短暫的相遇》、《All by Myself》與《Full Moon and Empty Arms》，使它成為少數同時深入音樂廳、電影與流行歌曲世界的古典作品。"
+  },
+  {
+    "id": "prelude-op-3-no-2-c-sharp-minor",
+    "composerId": "rachmaninoff",
+    "title": "《升C小調前奏曲》 Prelude in C-sharp minor, Op. 3 No. 2",
+    "year": 1892,
+    "age": 19,
+    "type": "prelude",
+    "period": "early",
+    "summary": "拉赫曼尼諾夫早期成名作之一，沉重的和弦與下行低音讓它迅速成為標誌性的鋼琴小品，也預示他日後對鐘聲式音響與宏大抒情的偏好。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "symphony-no-2-e-minor",
+    "composerId": "rachmaninoff",
+    "title": "《e 小調第二號交響曲》 Symphony No. 2 in E minor, Op. 27",
+    "year": 1906,
+    "age": 33,
+    "type": "symphony",
+    "period": "middle",
+    "summary": "創作於帝俄黃金時期的成熟交響曲，旋律綿長、規模宏大，常被視為拉赫曼尼諾夫將抒情性與嚴密結構融合到高峰的代表作之一。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "the-bells-op-35",
+    "composerId": "rachmaninoff",
+    "title": "《鐘》 The Bells, Op. 35",
+    "year": 1913,
+    "age": 40,
+    "type": "orchestral",
+    "period": "middle",
+    "summary": "以愛倫・坡詩作與巴爾蒙特俄文譯本為基礎的合唱交響作品，將鐘聲、宿命與死亡意象凝縮為拉赫曼尼諾夫最具象徵性的聲響敘事之一。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "all-night-vigil-op-37",
+    "composerId": "rachmaninoff",
+    "title": "《徹夜禱》 All-Night Vigil, Op. 37",
+    "year": 1915,
+    "age": 42,
+    "type": "sacred_vocal",
+    "period": "middle",
+    "summary": "十五個樂章的無伴奏人聲合唱巨作，以東正教聖詠與模仿式創作展現拉赫曼尼諾夫對俄羅斯宗教聲響的深度掌握。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "piano-concerto-no-4-g-minor",
+    "composerId": "rachmaninoff",
+    "title": "《g 小調第四號鋼琴協奏曲》 Piano Concerto No. 4 in G minor, Op. 40",
+    "year": 1926,
+    "age": 53,
+    "type": "piano_concerto",
+    "period": "late",
+    "summary": "流亡時期最具爭議的協奏曲之一，經歷多次刪改與修訂，語法較前作更稜角化、碎片化，也更能看見他面對現代性壓力時的猶疑與妥協。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "rhapsody-on-a-theme-of-paganini-op-43",
+    "composerId": "rachmaninoff",
+    "title": "《帕格尼尼主題狂想曲》 Rhapsody on a Theme of Paganini, Op. 43",
+    "year": 1934,
+    "age": 61,
+    "type": "variation_set",
+    "period": "late",
+    "summary": "以變奏曲結構重述帕格尼尼主題的晚期代表作之一，常與《末日經》母題、炫技鋼琴與戲劇性對比連在一起閱讀。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "symphonic-dances-op-45",
+    "composerId": "rachmaninoff",
+    "title": "《交響舞曲》 Symphonic Dances, Op. 45",
+    "year": 1940,
+    "age": 67,
+    "type": "orchestral",
+    "period": "late",
+    "summary": "拉赫曼尼諾夫生前最後一部大型管弦樂作品，將流亡感、回憶與末世意象編織成一部帶有自我回望性質的晚期總結。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
   }
 ]

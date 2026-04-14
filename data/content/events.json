@@ -575,7 +575,7 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
       }
     ]
   },
@@ -591,7 +591,7 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
       }
     ]
   },
@@ -607,7 +607,7 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
       }
     ]
   },
@@ -623,7 +623,7 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
       }
     ]
   },
@@ -639,7 +639,23 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "concerto-no-2-premiere-1901",
+    "composerId": "rachmaninoff",
+    "year": 1901,
+    "age": 28,
+    "type": "career",
+    "title": "《第二鋼琴協奏曲》首演 Concerto No. 2 Premiere",
+    "timelineTitle": "《第二鋼琴協奏曲》首演",
+    "summary": "1901 年，《第二鋼琴協奏曲》首演問世；文件將它視為拉赫曼尼諾夫從創作癱瘓與抑鬱中重返舞台的決定性時刻，也使這部作品成為晚期浪漫主義最具持久生命力的鋼琴協奏曲之一。",
+    "sources": [
+      {
+        "label": "拉赫曼尼諾夫協奏曲深度解析",
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
       }
     ]
   },
@@ -655,7 +671,103 @@
     "sources": [
       {
         "label": "拉赫曼尼諾夫協奏曲深度解析",
-        "url": "docs/拉赫曼尼諾夫協奏曲深度解析.md"
+        "url": "docs/Rachmaninoff/拉赫曼尼諾夫協奏曲深度解析.md"
+      }
+    ]
+  },
+  {
+    "id": "prelude-op3-no2-breakthrough-1892",
+    "composerId": "rachmaninoff",
+    "year": 1892,
+    "age": 19,
+    "type": "career",
+    "title": "《升C小調前奏曲》一舉成名 Prelude Breakthrough",
+    "timelineTitle": "《升C小調前奏曲》成名",
+    "summary": "1892 年的《升C小調前奏曲》迅速讓年輕的拉赫曼尼諾夫進入公眾視野，也奠定了他之後以鐘聲式和聲與濃烈抒情聞名的早期形象。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "move-to-dresden-1906",
+    "composerId": "rachmaninoff",
+    "year": 1906,
+    "age": 33,
+    "type": "career",
+    "title": "移居德勒斯登專注作曲 Moves to Dresden",
+    "timelineTitle": "移居德勒斯登",
+    "summary": "1906 年移居德勒斯登後，他得以脫離莫斯科的行政與演出壓力，進一步完成《第二號交響曲》、《鐘》與《徹夜禱》等成熟時期的重要作品。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "the-bells-premiere-1913",
+    "composerId": "rachmaninoff",
+    "year": 1913,
+    "age": 40,
+    "type": "career",
+    "title": "《鐘》完成並成為象徵主義代表 The Bells",
+    "timelineTitle": "《鐘》",
+    "summary": "《鐘》將愛倫・坡詩作、巴爾蒙特譯本與拉赫曼尼諾夫的鐘聲語彙結合在一起，成為他白銀時代審美最鮮明的代表之一。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "all-night-vigil-premiere-1915",
+    "composerId": "rachmaninoff",
+    "year": 1915,
+    "age": 42,
+    "type": "career",
+    "title": "《徹夜禱》首演 All-Night Vigil Premiere",
+    "timelineTitle": "《徹夜禱》首演",
+    "summary": "1915 年首演的《徹夜禱》把東正教聖詠與模仿式寫作推到極致，顯示他在帝俄末期對宗教聲響的深層回應。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "piano-concerto-no-4-premiere-1927",
+    "composerId": "rachmaninoff",
+    "year": 1927,
+    "age": 54,
+    "type": "career",
+    "title": "《第四號鋼琴協奏曲》首演失利 Fourth Concerto Premiere",
+    "timelineTitle": "《第四號鋼琴協奏曲》首演",
+    "summary": "《第四號鋼琴協奏曲》在流亡時期首演反應不佳，後續又經多次修訂，反映他在現代主義壓力與自我期待之間的拉扯。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
+      }
+    ]
+  },
+  {
+    "id": "symphonic-dances-premiere-1940",
+    "composerId": "rachmaninoff",
+    "year": 1940,
+    "age": 67,
+    "type": "career",
+    "title": "《交響舞曲》問世 Symphonic Dances Premiere",
+    "timelineTitle": "《交響舞曲》",
+    "summary": "1940 年的《交響舞曲》作為他生前最後一部大型管弦樂作品，將流亡、回憶與死亡凝視收束成晚期總結。",
+    "sources": [
+      {
+        "label": "拉赫瑪尼諾夫音樂風格深度研究",
+        "url": "docs/Rachmaninoff/拉赫瑪尼諾夫音樂風格深度研究.md"
       }
     ]
   }
