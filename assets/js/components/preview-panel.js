@@ -56,12 +56,12 @@ function destroyActiveMediaPlayer() {
 
 function buildMediaSources(selectedWork) {
   const primarySource = selectedWork.media
-    ? [{ ...selectedWork.media, label: selectedWork.media.label ?? "主來源", isPrimary: true }]
+    ? [{ ...selectedWork.media, label: "Video 1", isPrimary: true }]
     : [];
   const alternateSources = Array.isArray(selectedWork.media?.alternateRecordings)
     ? selectedWork.media.alternateRecordings.map((source, index) => ({
         ...source,
-        label: source.label ?? `備用來源 ${index + 1}`,
+        label: `Video ${index + 2}`,
         isPrimary: false
       }))
     : [];
@@ -302,7 +302,7 @@ export function renderPreviewPanel(model, rerender) {
   const activeChapter = chapterIndex === null ? null : chapters[chapterIndex];
   const activeChapterSeconds = activeChapter ? parseTimestampToSeconds(activeChapter.start) : null;
   const sourceLabel = activeMediaSource
-    ? `${activeMediaSourceIndex === 0 ? "主來源" : "備用來源"} · ${getMediaSourceTitle(activeMediaSource, selectedWork.title)}`
+    ? `${activeMediaSource.label ?? `Video ${activeMediaSourceIndex + 1}`} · ${getMediaSourceTitle(activeMediaSource, selectedWork.title)}`
     : "";
   const playerHostId = `media-player-${selectedWork.id}`;
 
@@ -318,7 +318,7 @@ export function renderPreviewPanel(model, rerender) {
             data-media-source-index="${index}"
             class="filter-chip${index === activeMediaSourceIndex ? " is-on" : ""}"
             style="padding:0.22rem 0.55rem"
-          >${index === 0 ? "主來源" : source.label}</button>
+          >${source.label ?? `Video ${index + 1}`}</button>
         `).join("")}
       </div>
     ` : "";
@@ -333,7 +333,6 @@ export function renderPreviewPanel(model, rerender) {
           </div>
           ${sourceLabel ? `<p class="data-card-meta">${sourceLabel}</p>` : ""}
           ${activeMediaSource?.performers ? `<p style="font-size:0.8rem;color:var(--color-muted)">${activeMediaSource.performers}</p>` : ""}
-          ${mediaSources.length > 1 ? `<p style="font-size:0.75rem;line-height:1.6;color:var(--color-muted)">若主來源失效，系統會自動切換到下一個可用來源。</p>` : ""}
           ${activeMediaSource?.youtubeUrl ? `<p style="font-size:0.8rem"><a href="${activeMediaSource.youtubeUrl}" target="_blank" rel="noreferrer">在 YouTube 上觀看</a></p>` : ""}
         </div>
       </div>
@@ -348,7 +347,7 @@ export function renderPreviewPanel(model, rerender) {
             data-media-source-index="${index}"
             class="filter-chip${index === activeMediaSourceIndex ? " is-on" : ""}"
             style="padding:0.22rem 0.55rem"
-          >${index === 0 ? "主來源" : source.label}</button>
+          >${source.label ?? `Video ${index + 1}`}</button>
         `).join("")}
       </div>
     ` : "";
